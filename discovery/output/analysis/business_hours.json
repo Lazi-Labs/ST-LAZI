@@ -1,0 +1,116 @@
+{
+  "endpointName": "business_hours",
+  "recordCount": 1,
+  "fields": [
+    {
+      "path": "saturday",
+      "types": [
+        "array"
+      ],
+      "nullable": false,
+      "isArray": true,
+      "isObject": false,
+      "sampleValues": [],
+      "occurrenceCount": 1,
+      "totalRecords": 1
+    },
+    {
+      "path": "saturday[].fromHour",
+      "types": [
+        "number"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        8
+      ],
+      "occurrenceCount": 1,
+      "totalRecords": 1,
+      "minValue": 8,
+      "maxValue": 8
+    },
+    {
+      "path": "saturday[].toHour",
+      "types": [
+        "number"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        10
+      ],
+      "occurrenceCount": 1,
+      "totalRecords": 1,
+      "minValue": 10,
+      "maxValue": 10
+    },
+    {
+      "path": "sunday",
+      "types": [
+        "array"
+      ],
+      "nullable": false,
+      "isArray": true,
+      "isObject": false,
+      "sampleValues": [],
+      "occurrenceCount": 1,
+      "totalRecords": 1
+    },
+    {
+      "path": "weekdays",
+      "types": [
+        "array"
+      ],
+      "nullable": false,
+      "isArray": true,
+      "isObject": false,
+      "sampleValues": [],
+      "occurrenceCount": 1,
+      "totalRecords": 1
+    },
+    {
+      "path": "weekdays[].fromHour",
+      "types": [
+        "number"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        8,
+        10,
+        12,
+        14
+      ],
+      "occurrenceCount": 4,
+      "totalRecords": 1,
+      "minValue": 8,
+      "maxValue": 14
+    },
+    {
+      "path": "weekdays[].toHour",
+      "types": [
+        "number"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        10,
+        12,
+        14,
+        16
+      ],
+      "occurrenceCount": 4,
+      "totalRecords": 1,
+      "minValue": 10,
+      "maxValue": 16
+    }
+  ],
+  "rootStructure": "object",
+  "timestampFields": [],
+  "relationshipFields": [],
+  "analyzedAt": "2026-01-21T14:16:42.954Z"
+}

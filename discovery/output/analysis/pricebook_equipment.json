@@ -1,0 +1,1306 @@
+{
+  "endpointName": "pricebook_equipment",
+  "recordCount": 100,
+  "fields": [
+    {
+      "path": "account",
+      "types": [
+        "string"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        "INCOME-Sales"
+      ],
+      "occurrenceCount": 100,
+      "totalRecords": 100,
+      "minLength": 12,
+      "maxLength": 12
+    },
+    {
+      "path": "active",
+      "types": [
+        "boolean"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        true
+      ],
+      "occurrenceCount": 100,
+      "totalRecords": 100
+    },
+    {
+      "path": "addOnMemberPrice",
+      "types": [
+        "number"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        1292.52,
+        641.15,
+        2351.81,
+        2797.27,
+        611.6
+      ],
+      "occurrenceCount": 100,
+      "totalRecords": 100,
+      "minValue": 0,
+      "maxValue": 6445.84
+    },
+    {
+      "path": "addOnPrice",
+      "types": [
+        "number"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        1364.32,
+        676.77,
+        2482.46,
+        2952.68,
+        645.58
+      ],
+      "occurrenceCount": 100,
+      "totalRecords": 100,
+      "minValue": 0,
+      "maxValue": 6803.94
+    },
+    {
+      "path": "assetAccount",
+      "types": [
+        "null"
+      ],
+      "nullable": true,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [],
+      "occurrenceCount": 100,
+      "totalRecords": 100
+    },
+    {
+      "path": "assets",
+      "types": [
+        "array"
+      ],
+      "nullable": false,
+      "isArray": true,
+      "isObject": false,
+      "sampleValues": [],
+      "occurrenceCount": 100,
+      "totalRecords": 100
+    },
+    {
+      "path": "assets[].alias",
+      "types": [
+        "null",
+        "string"
+      ],
+      "nullable": true,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        "Intellicenter"
+      ],
+      "occurrenceCount": 113,
+      "totalRecords": 100,
+      "minLength": 13,
+      "maxLength": 13
+    },
+    {
+      "path": "assets[].fileName",
+      "types": [
+        "string",
+        "null"
+      ],
+      "nullable": true,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        "c05cb0cf-1ece-4c2e-a9aa-17c613ed9010.jpeg",
+        "aedab503-71d6-4e7d-b052-9f992e3d6833.jpg",
+        "e9544e7c-a35f-431b-94b1-b619e7b1ac40.png",
+        "COM-30-0446-bro.pdf",
+        "5fdb9617-5e34-4bb6-b963-903889b5b7b2.png"
+      ],
+      "occurrenceCount": 113,
+      "totalRecords": 100,
+      "minLength": 19,
+      "maxLength": 55
+    },
+    {
+      "path": "assets[].isDefault",
+      "types": [
+        "boolean"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        true,
+        false
+      ],
+      "occurrenceCount": 113,
+      "totalRecords": 100
+    },
+    {
+      "path": "assets[].type",
+      "types": [
+        "string"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        "Image",
+        "Attachment",
+        "Video"
+      ],
+      "occurrenceCount": 113,
+      "totalRecords": 100,
+      "minLength": 5,
+      "maxLength": 10
+    },
+    {
+      "path": "assets[].url",
+      "types": [
+        "string"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        "Images/Equipment/c05cb0cf-1ece-4c2e-a9aa-17c613ed9010.jpeg",
+        "Images/Equipment/aedab503-71d6-4e7d-b052-9f992e3d6833.jpg",
+        "Images/Equipment/e9544e7c-a35f-431b-94b1-b619e7b1ac40.png",
+        "Pricebook/Attachments/Equipment/c1574d5b-37f0-443a-a678-335dad7031c2.pdf",
+        "Images/Equipment/5fdb9617-5e34-4bb6-b963-903889b5b7b2.png"
+      ],
+      "occurrenceCount": 113,
+      "totalRecords": 100,
+      "minLength": 43,
+      "maxLength": 72
+    },
+    {
+      "path": "bonus",
+      "types": [
+        "number"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        0
+      ],
+      "occurrenceCount": 100,
+      "totalRecords": 100,
+      "minValue": 0,
+      "maxValue": 0
+    },
+    {
+      "path": "budgetCostCode",
+      "types": [
+        "null"
+      ],
+      "nullable": true,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [],
+      "occurrenceCount": 100,
+      "totalRecords": 100
+    },
+    {
+      "path": "budgetCostType",
+      "types": [
+        "null"
+      ],
+      "nullable": true,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [],
+      "occurrenceCount": 100,
+      "totalRecords": 100
+    },
+    {
+      "path": "categories",
+      "types": [
+        "array"
+      ],
+      "nullable": false,
+      "isArray": true,
+      "isObject": false,
+      "sampleValues": [],
+      "occurrenceCount": 100,
+      "totalRecords": 100
+    },
+    {
+      "path": "code",
+      "types": [
+        "string"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        "HAY-LGT-LPCUS22100-EQ",
+        "PEN-LGT-620425-EQ",
+        "PEN-AUT-523624-EQ",
+        "PEN-AUT-523448-EQ",
+        "HAY-LGT-CL320-100-EQ"
+      ],
+      "occurrenceCount": 100,
+      "totalRecords": 100,
+      "minLength": 14,
+      "maxLength": 23
+    },
+    {
+      "path": "commissionBonus",
+      "types": [
+        "number"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        0
+      ],
+      "occurrenceCount": 100,
+      "totalRecords": 100,
+      "minValue": 0,
+      "maxValue": 0
+    },
+    {
+      "path": "cost",
+      "types": [
+        "number"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        914.73,
+        453.75,
+        1664.41,
+        1979.67,
+        432.84
+      ],
+      "occurrenceCount": 100,
+      "totalRecords": 100,
+      "minValue": 0,
+      "maxValue": 4561.81
+    },
+    {
+      "path": "costOfSaleAccount",
+      "types": [
+        "string"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        "SUPPLIES & MATERIALS – COGS:Installed Equipment (COGS)"
+      ],
+      "occurrenceCount": 100,
+      "totalRecords": 100,
+      "minLength": 54,
+      "maxLength": 54
+    },
+    {
+      "path": "createdOn",
+      "types": [
+        "string"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        "2024-05-24T01:38:44.6901559Z",
+        "2024-05-24T01:31:48.4554278Z",
+        "2024-05-26T19:48:54.1431054Z",
+        "2024-05-26T19:51:11.003665Z",
+        "2024-05-26T20:08:02.8222552Z"
+      ],
+      "occurrenceCount": 100,
+      "totalRecords": 100,
+      "minLength": 27,
+      "maxLength": 28
+    },
+    {
+      "path": "crossSaleGroup",
+      "types": [
+        "null"
+      ],
+      "nullable": true,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [],
+      "occurrenceCount": 100,
+      "totalRecords": 100
+    },
+    {
+      "path": "defaultAssetUrl",
+      "types": [
+        "string",
+        "null"
+      ],
+      "nullable": true,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        "Images/Equipment/c05cb0cf-1ece-4c2e-a9aa-17c613ed9010.jpeg",
+        "Images/Equipment/aedab503-71d6-4e7d-b052-9f992e3d6833.jpg",
+        "Images/Equipment/e9544e7c-a35f-431b-94b1-b619e7b1ac40.png",
+        "Images/Equipment/5fdb9617-5e34-4bb6-b963-903889b5b7b2.png",
+        "Images/Equipment/b086d573-dda4-4942-86a1-72f5a9ff44fd.png"
+      ],
+      "occurrenceCount": 100,
+      "totalRecords": 100,
+      "minLength": 57,
+      "maxLength": 58
+    },
+    {
+      "path": "description",
+      "types": [
+        "string"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        "OEM Hayward Universal ColorLogic Multi-Color LED Pool Light 12V w/ 100' Cord for underwater illumination and ambiance.",
+        "OEM Pentair Microbrite Color LED Light with 100 Cord 12V 14W for underwater illumination and ambiance.",
+        "OEM Pentair IntelliCenter Lite Pool/Spa Power Center with 2 CVA24 Standard Valve Actuators for complete pool and spa automation.",
+        "OEM Pentair IntelliCenter Load Center System with i5P Personality Kit & without SCG for complete pool and spa automation.",
+        "OEM Hayward ColorLogic 320 LED Light with 100' Cord 12V for underwater illumination and ambiance."
+      ],
+      "occurrenceCount": 100,
+      "totalRecords": 100,
+      "minLength": 23,
+      "maxLength": 132
+    },
+    {
+      "path": "dimensions",
+      "types": [
+        "object"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": true,
+      "sampleValues": [],
+      "occurrenceCount": 100,
+      "totalRecords": 100
+    },
+    {
+      "path": "dimensions.depth",
+      "types": [
+        "number"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        0
+      ],
+      "occurrenceCount": 100,
+      "totalRecords": 100,
+      "minValue": 0,
+      "maxValue": 0
+    },
+    {
+      "path": "dimensions.height",
+      "types": [
+        "number"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        0
+      ],
+      "occurrenceCount": 100,
+      "totalRecords": 100,
+      "minValue": 0,
+      "maxValue": 0
+    },
+    {
+      "path": "dimensions.width",
+      "types": [
+        "number"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        0
+      ],
+      "occurrenceCount": 100,
+      "totalRecords": 100,
+      "minValue": 0,
+      "maxValue": 0
+    },
+    {
+      "path": "displayInAmount",
+      "types": [
+        "boolean"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        false
+      ],
+      "occurrenceCount": 100,
+      "totalRecords": 100
+    },
+    {
+      "path": "displayName",
+      "types": [
+        "string"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        "Hayward Universal ColorLogic Multi-Color LED Pool Light 12V w/ 100' Cord",
+        "Pentair Microbrite Color LED Light with 100 Cord 12V 14W",
+        "Pentair IntelliCenter Lite Pool/Spa Power Center with 2 CVA24 Standard Valve Actuators",
+        "Pentair IntelliCenter Load Center System with i5P Personality Kit & without SCG",
+        "HaywardColorLogic 320 LED Light with 100' Cord 12V"
+      ],
+      "occurrenceCount": 100,
+      "totalRecords": 100,
+      "minLength": 21,
+      "maxLength": 86
+    },
+    {
+      "path": "equipmentMaterials",
+      "types": [
+        "array"
+      ],
+      "nullable": false,
+      "isArray": true,
+      "isObject": false,
+      "sampleValues": [],
+      "occurrenceCount": 100,
+      "totalRecords": 100
+    },
+    {
+      "path": "equipmentMaterials[].quantity",
+      "types": [
+        "number"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        1,
+        4,
+        8
+      ],
+      "occurrenceCount": 7,
+      "totalRecords": 100,
+      "minValue": 1,
+      "maxValue": 8
+    },
+    {
+      "path": "equipmentMaterials[].skuId",
+      "types": [
+        "number"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        53205034,
+        53511815,
+        69114,
+        53310726,
+        68994
+      ],
+      "occurrenceCount": 7,
+      "totalRecords": 100,
+      "minValue": 20189,
+      "maxValue": 53511815
+    },
+    {
+      "path": "externalData",
+      "types": [
+        "array"
+      ],
+      "nullable": false,
+      "isArray": true,
+      "isObject": false,
+      "sampleValues": [],
+      "occurrenceCount": 100,
+      "totalRecords": 100
+    },
+    {
+      "path": "externalId",
+      "types": [
+        "null"
+      ],
+      "nullable": true,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [],
+      "occurrenceCount": 100,
+      "totalRecords": 100
+    },
+    {
+      "path": "generalLedgerAccountId",
+      "types": [
+        "number"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        41352
+      ],
+      "occurrenceCount": 100,
+      "totalRecords": 100,
+      "minValue": 41352,
+      "maxValue": 41352
+    },
+    {
+      "path": "hours",
+      "types": [
+        "number"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        0
+      ],
+      "occurrenceCount": 100,
+      "totalRecords": 100,
+      "minValue": 0,
+      "maxValue": 0
+    },
+    {
+      "path": "id",
+      "types": [
+        "number"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        9474,
+        10113,
+        12331,
+        12579,
+        12704
+      ],
+      "occurrenceCount": 100,
+      "totalRecords": 100,
+      "minValue": 9474,
+      "maxValue": 55236752
+    },
+    {
+      "path": "isConfigurableEquipment",
+      "types": [
+        "boolean"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        false
+      ],
+      "occurrenceCount": 100,
+      "totalRecords": 100
+    },
+    {
+      "path": "isInventory",
+      "types": [
+        "boolean"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        false
+      ],
+      "occurrenceCount": 100,
+      "totalRecords": 100
+    },
+    {
+      "path": "manufacturer",
+      "types": [
+        "string",
+        "null"
+      ],
+      "nullable": true,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        "Hayward",
+        "Pentair",
+        "Gulf Stream",
+        "Jandy",
+        "PureChlor"
+      ],
+      "occurrenceCount": 100,
+      "totalRecords": 100,
+      "minLength": 5,
+      "maxLength": 14
+    },
+    {
+      "path": "manufacturerWarranty",
+      "types": [
+        "object"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": true,
+      "sampleValues": [],
+      "occurrenceCount": 100,
+      "totalRecords": 100
+    },
+    {
+      "path": "manufacturerWarranty.description",
+      "types": [
+        "string"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        "3 Years Parts and Labor",
+        "7 Years Full Parts, 2 Years Labor. Limited Parts Years 8-10",
+        "3 Years Parts, 1 Year Field Labor",
+        "2 Years Parts and Labor. Heat exchanger: Limited Lifetime",
+        "1 Year Parts and Labor"
+      ],
+      "occurrenceCount": 100,
+      "totalRecords": 100,
+      "minLength": 22,
+      "maxLength": 65
+    },
+    {
+      "path": "manufacturerWarranty.duration",
+      "types": [
+        "number"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        3,
+        7,
+        2,
+        1
+      ],
+      "occurrenceCount": 100,
+      "totalRecords": 100,
+      "minValue": 1,
+      "maxValue": 7
+    },
+    {
+      "path": "memberPrice",
+      "types": [
+        "number"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        1292.52,
+        641.15,
+        2351.81,
+        2797.27,
+        611.6
+      ],
+      "occurrenceCount": 100,
+      "totalRecords": 100,
+      "minValue": 0,
+      "maxValue": 6445.84
+    },
+    {
+      "path": "model",
+      "types": [
+        "string",
+        "null"
+      ],
+      "nullable": true,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        "LPCUS22100",
+        "620425",
+        "523624",
+        "523448",
+        "LACUS11100"
+      ],
+      "occurrenceCount": 100,
+      "totalRecords": 100,
+      "minLength": 5,
+      "maxLength": 15
+    },
+    {
+      "path": "modifiedOn",
+      "types": [
+        "string"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        "2026-01-18T23:03:24.4571379Z",
+        "2026-01-18T23:03:24.4881042Z",
+        "2026-01-18T23:03:24.4889858Z",
+        "2026-01-18T23:03:24.489598Z",
+        "2026-01-18T23:03:24.4903256Z"
+      ],
+      "occurrenceCount": 100,
+      "totalRecords": 100,
+      "minLength": 27,
+      "maxLength": 28
+    },
+    {
+      "path": "otherVendors",
+      "types": [
+        "array"
+      ],
+      "nullable": false,
+      "isArray": true,
+      "isObject": false,
+      "sampleValues": [],
+      "occurrenceCount": 100,
+      "totalRecords": 100
+    },
+    {
+      "path": "otherVendors[].active",
+      "types": [
+        "boolean"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        true,
+        false
+      ],
+      "occurrenceCount": 1258,
+      "totalRecords": 100
+    },
+    {
+      "path": "otherVendors[].cost",
+      "types": [
+        "number"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        914.73,
+        0,
+        401.52,
+        453.75,
+        1664.41
+      ],
+      "occurrenceCount": 1258,
+      "totalRecords": 100,
+      "minValue": 0,
+      "maxValue": 4561.81
+    },
+    {
+      "path": "otherVendors[].id",
+      "types": [
+        "number"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        9477,
+        9481,
+        9482,
+        9483,
+        9484
+      ],
+      "occurrenceCount": 1258,
+      "totalRecords": 100,
+      "minValue": 9477,
+      "maxValue": 60719111
+    },
+    {
+      "path": "otherVendors[].memo",
+      "types": [
+        "string",
+        "null"
+      ],
+      "nullable": true,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        "Color Logic",
+        "620425",
+        "LACUS11100",
+        "JLU4C24W100",
+        "620426"
+      ],
+      "occurrenceCount": 1258,
+      "totalRecords": 100,
+      "minLength": 5,
+      "maxLength": 12
+    },
+    {
+      "path": "otherVendors[].otherSubAccounts",
+      "types": [
+        "array"
+      ],
+      "nullable": false,
+      "isArray": true,
+      "isObject": false,
+      "sampleValues": [],
+      "occurrenceCount": 1258,
+      "totalRecords": 100
+    },
+    {
+      "path": "otherVendors[].primarySubAccount",
+      "types": [
+        "null"
+      ],
+      "nullable": true,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [],
+      "occurrenceCount": 1258,
+      "totalRecords": 100
+    },
+    {
+      "path": "otherVendors[].vendorId",
+      "types": [
+        "number"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        9858,
+        10124,
+        6793,
+        8833,
+        8577
+      ],
+      "occurrenceCount": 1258,
+      "totalRecords": 100,
+      "minValue": 578,
+      "maxValue": 60611334
+    },
+    {
+      "path": "otherVendors[].vendorName",
+      "types": [
+        "string"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        "SCP",
+        "Amazon",
+        "Big Horn Supply",
+        "CED",
+        "City Electric "
+      ],
+      "occurrenceCount": 1258,
+      "totalRecords": 100,
+      "minLength": 3,
+      "maxLength": 37
+    },
+    {
+      "path": "otherVendors[].vendorPart",
+      "types": [
+        "string",
+        "null"
+      ],
+      "nullable": true,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        "HAY-30-1013",
+        "AMP-30-1310",
+        "COM-30-0446",
+        "COM-30-04444",
+        "HAY-30-6158"
+      ],
+      "occurrenceCount": 1258,
+      "totalRecords": 100,
+      "minLength": 5,
+      "maxLength": 15
+    },
+    {
+      "path": "paysCommission",
+      "types": [
+        "boolean"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        false
+      ],
+      "occurrenceCount": 100,
+      "totalRecords": 100
+    },
+    {
+      "path": "price",
+      "types": [
+        "number"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        1436.13,
+        712.39,
+        2613.12,
+        3108.08,
+        679.56
+      ],
+      "occurrenceCount": 100,
+      "totalRecords": 100,
+      "minValue": 0,
+      "maxValue": 7162.04
+    },
+    {
+      "path": "primaryVendor",
+      "types": [
+        "object"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": true,
+      "sampleValues": [],
+      "occurrenceCount": 100,
+      "totalRecords": 100
+    },
+    {
+      "path": "primaryVendor.active",
+      "types": [
+        "boolean"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        true
+      ],
+      "occurrenceCount": 100,
+      "totalRecords": 100
+    },
+    {
+      "path": "primaryVendor.cost",
+      "types": [
+        "number"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        914.73,
+        453.75,
+        1664.41,
+        1979.67,
+        432.84
+      ],
+      "occurrenceCount": 100,
+      "totalRecords": 100,
+      "minValue": 0,
+      "maxValue": 4561.81
+    },
+    {
+      "path": "primaryVendor.id",
+      "types": [
+        "number"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        9477,
+        10122,
+        12335,
+        12583,
+        12707
+      ],
+      "occurrenceCount": 100,
+      "totalRecords": 100,
+      "minValue": 9477,
+      "maxValue": 55236754
+    },
+    {
+      "path": "primaryVendor.memo",
+      "types": [
+        "string",
+        "null"
+      ],
+      "nullable": true,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        "Color Logic",
+        "620425",
+        "LACUS11100",
+        "JLU4C24W100",
+        "620426"
+      ],
+      "occurrenceCount": 100,
+      "totalRecords": 100,
+      "minLength": 5,
+      "maxLength": 12
+    },
+    {
+      "path": "primaryVendor.otherSubAccounts",
+      "types": [
+        "array"
+      ],
+      "nullable": false,
+      "isArray": true,
+      "isObject": false,
+      "sampleValues": [],
+      "occurrenceCount": 100,
+      "totalRecords": 100
+    },
+    {
+      "path": "primaryVendor.primarySubAccount",
+      "types": [
+        "null"
+      ],
+      "nullable": true,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [],
+      "occurrenceCount": 100,
+      "totalRecords": 100
+    },
+    {
+      "path": "primaryVendor.vendorId",
+      "types": [
+        "number"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        9858,
+        32139,
+        581
+      ],
+      "occurrenceCount": 100,
+      "totalRecords": 100,
+      "minValue": 581,
+      "maxValue": 32139
+    },
+    {
+      "path": "primaryVendor.vendorName",
+      "types": [
+        "string"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        "SCP",
+        "Gulf Stream Heat Pumps",
+        "Default Replenishment Vendor"
+      ],
+      "occurrenceCount": 100,
+      "totalRecords": 100,
+      "minLength": 3,
+      "maxLength": 28
+    },
+    {
+      "path": "primaryVendor.vendorPart",
+      "types": [
+        "string",
+        "null"
+      ],
+      "nullable": true,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        "HAY-30-1013",
+        "AMP-30-1310",
+        "COM-30-0446",
+        "COM-30-04444",
+        "HAY-30-6158"
+      ],
+      "occurrenceCount": 100,
+      "totalRecords": 100,
+      "minLength": 5,
+      "maxLength": 15
+    },
+    {
+      "path": "recommendations",
+      "types": [
+        "array"
+      ],
+      "nullable": false,
+      "isArray": true,
+      "isObject": false,
+      "sampleValues": [],
+      "occurrenceCount": 100,
+      "totalRecords": 100
+    },
+    {
+      "path": "serviceProviderWarranty",
+      "types": [
+        "object"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": true,
+      "sampleValues": [],
+      "occurrenceCount": 100,
+      "totalRecords": 100
+    },
+    {
+      "path": "serviceProviderWarranty.description",
+      "types": [
+        "string"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        "1 Year Parts & Labor"
+      ],
+      "occurrenceCount": 100,
+      "totalRecords": 100,
+      "minLength": 20,
+      "maxLength": 20
+    },
+    {
+      "path": "serviceProviderWarranty.duration",
+      "types": [
+        "number"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        1
+      ],
+      "occurrenceCount": 100,
+      "totalRecords": 100,
+      "minValue": 1,
+      "maxValue": 1
+    },
+    {
+      "path": "source",
+      "types": [
+        "null"
+      ],
+      "nullable": true,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [],
+      "occurrenceCount": 100,
+      "totalRecords": 100
+    },
+    {
+      "path": "taxable",
+      "types": [
+        "boolean"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        false
+      ],
+      "occurrenceCount": 100,
+      "totalRecords": 100
+    },
+    {
+      "path": "typeId",
+      "types": [
+        "number",
+        "null"
+      ],
+      "nullable": true,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        53204378,
+        13247,
+        12477,
+        69645,
+        69521
+      ],
+      "occurrenceCount": 100,
+      "totalRecords": 100,
+      "minValue": 12477,
+      "maxValue": 53204537
+    },
+    {
+      "path": "unitOfMeasure",
+      "types": [
+        "string",
+        "null"
+      ],
+      "nullable": true,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        "EA"
+      ],
+      "occurrenceCount": 100,
+      "totalRecords": 100,
+      "minLength": 2,
+      "maxLength": 2
+    },
+    {
+      "path": "upgrades",
+      "types": [
+        "array"
+      ],
+      "nullable": false,
+      "isArray": true,
+      "isObject": false,
+      "sampleValues": [],
+      "occurrenceCount": 100,
+      "totalRecords": 100
+    },
+    {
+      "path": "variationsOrConfigurableEquipment",
+      "types": [
+        "array"
+      ],
+      "nullable": false,
+      "isArray": true,
+      "isObject": false,
+      "sampleValues": [],
+      "occurrenceCount": 100,
+      "totalRecords": 100
+    }
+  ],
+  "rootStructure": "paginated",
+  "paginationFields": [
+    "page",
+    "pageSize",
+    "hasMore",
+    "totalCount"
+  ],
+  "idField": "id",
+  "timestampFields": [
+    "createdOn",
+    "modifiedOn"
+  ],
+  "relationshipFields": [
+    "externalId",
+    "generalLedgerAccountId",
+    "typeId"
+  ],
+  "analyzedAt": "2026-01-21T14:16:43.016Z"
+}

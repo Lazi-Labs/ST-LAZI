@@ -1,0 +1,460 @@
+{
+  "endpointName": "estimate_items",
+  "recordCount": 100,
+  "fields": [
+    {
+      "path": "budgetCodeId",
+      "types": [
+        "null"
+      ],
+      "nullable": true,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [],
+      "occurrenceCount": 100,
+      "totalRecords": 100
+    },
+    {
+      "path": "chargeable",
+      "types": [
+        "null",
+        "boolean"
+      ],
+      "nullable": true,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        false
+      ],
+      "occurrenceCount": 100,
+      "totalRecords": 100
+    },
+    {
+      "path": "createdOn",
+      "types": [
+        "string"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        "2024-07-08T18:32:41.087Z",
+        "2024-07-08T18:32:41.088Z",
+        "2024-07-08T18:32:41.089Z",
+        "2024-07-08T18:32:41.09Z",
+        "2024-07-08T18:32:41.091Z"
+      ],
+      "occurrenceCount": 100,
+      "totalRecords": 100,
+      "minLength": 22,
+      "maxLength": 24
+    },
+    {
+      "path": "description",
+      "types": [
+        "string"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        "Intermatic Panel - 300W Transformer & Timer Mech<br/><ul><li>Includes Standard Pump Hook Up</li></ul>",
+        "Up to 60FT Piped<br/><br/>30 AMP Dedicated Circuit: #10 THHN Piped in conduit.",
+        "Wire Up Chlorinator",
+        "Standard 2POL20 GFCI Pump Breaker - to meet code requirements",
+        "Standard 1POL20 GFCI Light Breaker - to meet code requirements"
+      ],
+      "occurrenceCount": 100,
+      "totalRecords": 100,
+      "minLength": 1,
+      "maxLength": 933
+    },
+    {
+      "path": "id",
+      "types": [
+        "number"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        73386,
+        73389,
+        73392,
+        73396,
+        73399
+      ],
+      "occurrenceCount": 100,
+      "totalRecords": 100,
+      "minValue": 73386,
+      "maxValue": 2025107
+    },
+    {
+      "path": "invoiceItemId",
+      "types": [
+        "null"
+      ],
+      "nullable": true,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [],
+      "occurrenceCount": 100,
+      "totalRecords": 100
+    },
+    {
+      "path": "itemGroupName",
+      "types": [
+        "null"
+      ],
+      "nullable": true,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [],
+      "occurrenceCount": 100,
+      "totalRecords": 100
+    },
+    {
+      "path": "itemGroupRootId",
+      "types": [
+        "null"
+      ],
+      "nullable": true,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [],
+      "occurrenceCount": 100,
+      "totalRecords": 100
+    },
+    {
+      "path": "membershipTypeId",
+      "types": [
+        "null"
+      ],
+      "nullable": true,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [],
+      "occurrenceCount": 100,
+      "totalRecords": 100
+    },
+    {
+      "path": "modifiedOn",
+      "types": [
+        "string"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        "2024-07-08T18:32:41.087Z",
+        "2024-07-08T18:32:41.088Z",
+        "2024-07-08T18:32:41.089Z",
+        "2024-07-08T18:32:41.09Z",
+        "2024-07-08T18:32:41.091Z"
+      ],
+      "occurrenceCount": 100,
+      "totalRecords": 100,
+      "minLength": 22,
+      "maxLength": 28
+    },
+    {
+      "path": "qty",
+      "types": [
+        "number"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        1,
+        7,
+        10,
+        2,
+        15
+      ],
+      "occurrenceCount": 100,
+      "totalRecords": 100,
+      "minValue": 1,
+      "maxValue": 70
+    },
+    {
+      "path": "sku",
+      "types": [
+        "object"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": true,
+      "sampleValues": [],
+      "occurrenceCount": 100,
+      "totalRecords": 100
+    },
+    {
+      "path": "sku.displayName",
+      "types": [
+        "string"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        "INTERMATIC PANEL - Package w/ 1 Pump Hook Up (PB)",
+        "30AMP Home Run (PB)",
+        "CHLORINATOR - Electrical Hook Up (PB)",
+        "GFCI Pump Breaker",
+        "GFCI Light Breaker 1"
+      ],
+      "occurrenceCount": 100,
+      "totalRecords": 100,
+      "minLength": 6,
+      "maxLength": 49
+    },
+    {
+      "path": "sku.generalLedgerAccountId",
+      "types": [
+        "number"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        40708,
+        41352
+      ],
+      "occurrenceCount": 100,
+      "totalRecords": 100,
+      "minValue": 40708,
+      "maxValue": 41352
+    },
+    {
+      "path": "sku.generalLedgerAccountName",
+      "types": [
+        "string"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        "Services income",
+        "INCOME-Sales"
+      ],
+      "occurrenceCount": 100,
+      "totalRecords": 100,
+      "minLength": 12,
+      "maxLength": 15
+    },
+    {
+      "path": "sku.id",
+      "types": [
+        "number"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        12258,
+        13384,
+        12461,
+        12954,
+        12676
+      ],
+      "occurrenceCount": 100,
+      "totalRecords": 100,
+      "minValue": 6785,
+      "maxValue": 41481
+    },
+    {
+      "path": "sku.modifiedOn",
+      "types": [
+        "string"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        "2026-01-14T03:40:10.1743281Z",
+        "2026-01-14T03:40:10.2361887Z",
+        "2026-01-14T03:40:10.2161102Z",
+        "2024-11-16T10:58:13.9740606Z",
+        "2025-07-30T16:38:47.6055462Z"
+      ],
+      "occurrenceCount": 100,
+      "totalRecords": 100,
+      "minLength": 27,
+      "maxLength": 28
+    },
+    {
+      "path": "sku.name",
+      "types": [
+        "string"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        "PB-INTMT-PKG-1PUMP",
+        "PB-HR-30A",
+        "PB-CHLOR-ELE-HU",
+        "POL-00233",
+        "GFCI LIGHT BREAKER 1"
+      ],
+      "occurrenceCount": 100,
+      "totalRecords": 100,
+      "minLength": 5,
+      "maxLength": 20
+    },
+    {
+      "path": "sku.soldHours",
+      "types": [
+        "number"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        1,
+        2,
+        0.5,
+        0.15,
+        1.25
+      ],
+      "occurrenceCount": 100,
+      "totalRecords": 100,
+      "minValue": 0,
+      "maxValue": 2
+    },
+    {
+      "path": "sku.type",
+      "types": [
+        "string"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        "Service",
+        "Material"
+      ],
+      "occurrenceCount": 100,
+      "totalRecords": 100,
+      "minLength": 7,
+      "maxLength": 8
+    },
+    {
+      "path": "skuAccount",
+      "types": [
+        "string"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        "Services income",
+        "INCOME-Sales"
+      ],
+      "occurrenceCount": 100,
+      "totalRecords": 100,
+      "minLength": 12,
+      "maxLength": 15
+    },
+    {
+      "path": "total",
+      "types": [
+        "number"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        825,
+        600,
+        175,
+        200,
+        150
+      ],
+      "occurrenceCount": 100,
+      "totalRecords": 100,
+      "minValue": 0,
+      "maxValue": 1050
+    },
+    {
+      "path": "totalCost",
+      "types": [
+        "number"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        0,
+        244,
+        0.59,
+        2.31,
+        0.4
+      ],
+      "occurrenceCount": 100,
+      "totalRecords": 100,
+      "minValue": 0,
+      "maxValue": 244
+    },
+    {
+      "path": "unitCost",
+      "types": [
+        "number"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        0,
+        244,
+        0.59,
+        0.33,
+        0.4
+      ],
+      "occurrenceCount": 100,
+      "totalRecords": 100,
+      "minValue": 0,
+      "maxValue": 244
+    },
+    {
+      "path": "unitRate",
+      "types": [
+        "number"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        825,
+        600,
+        175,
+        200,
+        150
+      ],
+      "occurrenceCount": 100,
+      "totalRecords": 100,
+      "minValue": 0,
+      "maxValue": 1050
+    }
+  ],
+  "rootStructure": "paginated",
+  "paginationFields": [
+    "page",
+    "pageSize",
+    "hasMore",
+    "totalCount"
+  ],
+  "idField": "id",
+  "timestampFields": [
+    "createdOn",
+    "modifiedOn"
+  ],
+  "relationshipFields": [
+    "budgetCodeId",
+    "invoiceItemId",
+    "itemGroupRootId",
+    "membershipTypeId"
+  ],
+  "analyzedAt": "2026-01-21T14:16:42.963Z"
+}

@@ -1,0 +1,159 @@
+{
+  "endpointName": "forms",
+  "recordCount": 1,
+  "fields": [
+    {
+      "path": "active",
+      "types": [
+        "boolean"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        true
+      ],
+      "occurrenceCount": 1,
+      "totalRecords": 1
+    },
+    {
+      "path": "createdById",
+      "types": [
+        "number"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        0
+      ],
+      "occurrenceCount": 1,
+      "totalRecords": 1,
+      "minValue": 0,
+      "maxValue": 0
+    },
+    {
+      "path": "createdOn",
+      "types": [
+        "string"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        "2025-12-10T02:33:44.874428Z"
+      ],
+      "occurrenceCount": 1,
+      "totalRecords": 1,
+      "minLength": 27,
+      "maxLength": 27
+    },
+    {
+      "path": "hasConditionalLogic",
+      "types": [
+        "boolean"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        false
+      ],
+      "occurrenceCount": 1,
+      "totalRecords": 1
+    },
+    {
+      "path": "hasTriggers",
+      "types": [
+        "boolean"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        false
+      ],
+      "occurrenceCount": 1,
+      "totalRecords": 1
+    },
+    {
+      "path": "id",
+      "types": [
+        "number"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        316
+      ],
+      "occurrenceCount": 1,
+      "totalRecords": 1,
+      "minValue": 316,
+      "maxValue": 316
+    },
+    {
+      "path": "modifiedOn",
+      "types": [
+        "string"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        "2025-12-14T23:08:28.216017Z"
+      ],
+      "occurrenceCount": 1,
+      "totalRecords": 1,
+      "minLength": 27,
+      "maxLength": 27
+    },
+    {
+      "path": "name",
+      "types": [
+        "string"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        "DAILY END-OF-DAY PROCEDURE"
+      ],
+      "occurrenceCount": 1,
+      "totalRecords": 1,
+      "minLength": 26,
+      "maxLength": 26
+    },
+    {
+      "path": "published",
+      "types": [
+        "boolean"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        true
+      ],
+      "occurrenceCount": 1,
+      "totalRecords": 1
+    }
+  ],
+  "rootStructure": "paginated",
+  "paginationFields": [
+    "page",
+    "pageSize",
+    "hasMore",
+    "totalCount"
+  ],
+  "idField": "id",
+  "timestampFields": [
+    "createdById",
+    "createdOn",
+    "modifiedOn"
+  ],
+  "relationshipFields": [
+    "createdById"
+  ],
+  "analyzedAt": "2026-01-21T14:16:42.967Z"
+}

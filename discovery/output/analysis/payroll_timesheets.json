@@ -1,0 +1,241 @@
+{
+  "endpointName": "payroll_timesheets",
+  "recordCount": 100,
+  "fields": [
+    {
+      "path": "active",
+      "types": [
+        "boolean"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        true
+      ],
+      "occurrenceCount": 100,
+      "totalRecords": 100
+    },
+    {
+      "path": "appointmentId",
+      "types": [
+        "number"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        2023554,
+        2024174,
+        70962,
+        2028109,
+        2024143
+      ],
+      "occurrenceCount": 100,
+      "totalRecords": 100,
+      "minValue": 70962,
+      "maxValue": 53036434
+    },
+    {
+      "path": "arrivedOn",
+      "types": [
+        "string"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        "2024-07-08T18:32:00Z",
+        "2024-07-09T13:20:00Z",
+        "2024-07-09T14:03:00Z",
+        "2024-07-09T17:35:00Z",
+        "2024-07-09T18:33:00Z"
+      ],
+      "occurrenceCount": 100,
+      "totalRecords": 100,
+      "minLength": 20,
+      "maxLength": 20
+    },
+    {
+      "path": "canceledOn",
+      "types": [
+        "null",
+        "string"
+      ],
+      "nullable": true,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        "2024-07-11T23:29:00Z",
+        "2024-07-19T12:06:00Z"
+      ],
+      "occurrenceCount": 100,
+      "totalRecords": 100,
+      "minLength": 20,
+      "maxLength": 20
+    },
+    {
+      "path": "createdOn",
+      "types": [
+        "string"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        "2024-07-08T18:32:24.5350687Z",
+        "2024-07-09T12:55:36.4870972Z",
+        "2024-07-09T13:39:12.4418744Z",
+        "2024-07-09T17:35:39.7148223Z",
+        "2024-07-09T16:02:32.4039971Z"
+      ],
+      "occurrenceCount": 100,
+      "totalRecords": 100,
+      "minLength": 26,
+      "maxLength": 28
+    },
+    {
+      "path": "dispatchedOn",
+      "types": [
+        "string"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        "2024-07-08T18:32:00Z",
+        "2024-07-09T12:55:00Z",
+        "2024-07-09T13:39:00Z",
+        "2024-07-09T17:35:00Z",
+        "2024-07-09T16:02:00Z"
+      ],
+      "occurrenceCount": 100,
+      "totalRecords": 100,
+      "minLength": 20,
+      "maxLength": 20
+    },
+    {
+      "path": "doneOn",
+      "types": [
+        "string",
+        "null"
+      ],
+      "nullable": true,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        "2024-07-08T19:01:00Z",
+        "2024-07-09T13:28:00Z",
+        "2024-07-09T14:51:00Z",
+        "2024-07-09T18:59:00Z",
+        "2024-07-09T21:32:00Z"
+      ],
+      "occurrenceCount": 100,
+      "totalRecords": 100,
+      "minLength": 20,
+      "maxLength": 20
+    },
+    {
+      "path": "id",
+      "types": [
+        "number"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        73739,
+        2028224,
+        2028236,
+        5912116,
+        5912238
+      ],
+      "occurrenceCount": 100,
+      "totalRecords": 100,
+      "minValue": 73739,
+      "maxValue": 53042474
+    },
+    {
+      "path": "jobId",
+      "types": [
+        "number"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        2023553,
+        2024173,
+        70961,
+        2028108,
+        2024142
+      ],
+      "occurrenceCount": 100,
+      "totalRecords": 100,
+      "minValue": 70961,
+      "maxValue": 53036433
+    },
+    {
+      "path": "modifiedOn",
+      "types": [
+        "string"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        "2024-07-08T19:01:27.4391511Z",
+        "2024-07-09T13:28:24.3481272Z",
+        "2024-07-09T14:51:41.1938493Z",
+        "2024-07-09T18:59:55.0501229Z",
+        "2024-07-09T21:32:32.8921107Z"
+      ],
+      "occurrenceCount": 100,
+      "totalRecords": 100,
+      "minLength": 26,
+      "maxLength": 28
+    },
+    {
+      "path": "technicianId",
+      "types": [
+        "number"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        4482,
+        12417,
+        55810,
+        14721,
+        14465
+      ],
+      "occurrenceCount": 100,
+      "totalRecords": 100,
+      "minValue": 4482,
+      "maxValue": 2024197
+    }
+  ],
+  "rootStructure": "paginated",
+  "paginationFields": [
+    "page",
+    "pageSize",
+    "hasMore",
+    "totalCount"
+  ],
+  "idField": "id",
+  "timestampFields": [
+    "arrivedOn",
+    "canceledOn",
+    "createdOn",
+    "dispatchedOn",
+    "doneOn",
+    "modifiedOn"
+  ],
+  "relationshipFields": [
+    "appointmentId",
+    "jobId",
+    "technicianId"
+  ],
+  "analyzedAt": "2026-01-21T14:16:42.994Z"
+}

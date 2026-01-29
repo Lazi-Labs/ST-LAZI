@@ -1,0 +1,949 @@
+{
+  "endpointName": "estimates",
+  "recordCount": 100,
+  "fields": [
+    {
+      "path": "active",
+      "types": [
+        "boolean"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        true
+      ],
+      "occurrenceCount": 100,
+      "totalRecords": 100
+    },
+    {
+      "path": "budgetCodeId",
+      "types": [
+        "null"
+      ],
+      "nullable": true,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [],
+      "occurrenceCount": 100,
+      "totalRecords": 100
+    },
+    {
+      "path": "businessUnitId",
+      "types": [
+        "number"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        1314,
+        4622,
+        1310,
+        1316
+      ],
+      "occurrenceCount": 100,
+      "totalRecords": 100,
+      "minValue": 1310,
+      "maxValue": 4622
+    },
+    {
+      "path": "businessUnitName",
+      "types": [
+        "string"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        "Electrical - Sales",
+        "Pool - Sales",
+        "Electric-Sales",
+        "Imported Default Businessunit"
+      ],
+      "occurrenceCount": 100,
+      "totalRecords": 100,
+      "minLength": 12,
+      "maxLength": 29
+    },
+    {
+      "path": "createdOn",
+      "types": [
+        "string"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        "2024-07-08T18:39:27.605Z",
+        "2024-07-08T18:51:36.632Z",
+        "2024-07-09T13:06:05.3383127Z",
+        "2024-07-09T15:53:27.384Z",
+        "2024-07-09T18:55:56.028Z"
+      ],
+      "occurrenceCount": 100,
+      "totalRecords": 100,
+      "minLength": 20,
+      "maxLength": 28
+    },
+    {
+      "path": "customerId",
+      "types": [
+        "number"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        1185115,
+        5911620,
+        2024188,
+        73905,
+        1184966
+      ],
+      "occurrenceCount": 100,
+      "totalRecords": 100,
+      "minValue": 73905,
+      "maxValue": 14984408
+    },
+    {
+      "path": "externalLinks",
+      "types": [
+        "array"
+      ],
+      "nullable": false,
+      "isArray": true,
+      "isObject": false,
+      "sampleValues": [],
+      "occurrenceCount": 100,
+      "totalRecords": 100
+    },
+    {
+      "path": "id",
+      "types": [
+        "number"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        2025854,
+        2025878,
+        2028100,
+        5912110,
+        5912185
+      ],
+      "occurrenceCount": 100,
+      "totalRecords": 100,
+      "minValue": 2025854,
+      "maxValue": 36014820
+    },
+    {
+      "path": "isChangeOrder",
+      "types": [
+        "boolean"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        false
+      ],
+      "occurrenceCount": 100,
+      "totalRecords": 100
+    },
+    {
+      "path": "isRecommended",
+      "types": [
+        "boolean"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        false,
+        true
+      ],
+      "occurrenceCount": 100,
+      "totalRecords": 100
+    },
+    {
+      "path": "items",
+      "types": [
+        "array"
+      ],
+      "nullable": false,
+      "isArray": true,
+      "isObject": false,
+      "sampleValues": [],
+      "occurrenceCount": 100,
+      "totalRecords": 100
+    },
+    {
+      "path": "items[].budgetCodeId",
+      "types": [
+        "null"
+      ],
+      "nullable": true,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [],
+      "occurrenceCount": 218,
+      "totalRecords": 100
+    },
+    {
+      "path": "items[].chargeable",
+      "types": [
+        "null",
+        "boolean"
+      ],
+      "nullable": true,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        false
+      ],
+      "occurrenceCount": 218,
+      "totalRecords": 100
+    },
+    {
+      "path": "items[].createdOn",
+      "types": [
+        "string"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        "2024-07-08T18:40:08.339Z",
+        "2024-07-08T18:40:42.455Z",
+        "2024-07-09T13:06:18.0198053Z",
+        "2024-07-09T18:49:40.25Z",
+        "2024-07-09T18:49:41.9999088Z"
+      ],
+      "occurrenceCount": 218,
+      "totalRecords": 100,
+      "minLength": 20,
+      "maxLength": 28
+    },
+    {
+      "path": "items[].description",
+      "types": [
+        "string"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        "Diagnostic Charge (Non-Refundable)<br/><ul><li>Up to 10 minutes line of site inspection of plumbing, electrical and mechanical issues.</li><li>Includes professional diagnostic with recommendations</li></ul>",
+        "Tech - Edit Item Description",
+        "Lead Electrical Labor",
+        "<div>Install and Replace 10\" Pool Light for commercial pool.&nbsp;</div><div><br></div><div>Includes up to 30 minutes of pulling light through unobstructed conduit.&nbsp;</div><div><br></div><div>316 stainless steel housing ensures durability and corrosion resistance. The new upgraded feature of the inner rubber ring design ensures tight sealing effectiveness, protecting the LEDs away from water. The submersible pool light is IP68 waterproof, and certified for outdoor and long-time underwater use.<br></div><div><br></div><div>&nbsp;1-year warranty on parts and labor included<br></div>",
+        "&nbsp;The LED pool light is designed to fit seamlessly into 10-inch large embedded niches of inground pools, or replace existing Pentair12V pool lights. The underwater pool light operates on 12V AC, so a transformer is needed for the connection. This makes it a safe lighting option for swimming pools and spas."
+      ],
+      "occurrenceCount": 218,
+      "totalRecords": 100,
+      "minLength": 1,
+      "maxLength": 815
+    },
+    {
+      "path": "items[].id",
+      "types": [
+        "number"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        2025860,
+        2025865,
+        2027971,
+        5912124,
+        5912125
+      ],
+      "occurrenceCount": 218,
+      "totalRecords": 100,
+      "minValue": 2025860,
+      "maxValue": 36015224
+    },
+    {
+      "path": "items[].invoiceItemId",
+      "types": [
+        "number",
+        "null"
+      ],
+      "nullable": true,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        2026478,
+        2026483,
+        52993807,
+        52993822,
+        52993812
+      ],
+      "occurrenceCount": 218,
+      "totalRecords": 100,
+      "minValue": 2026478,
+      "maxValue": 54110607
+    },
+    {
+      "path": "items[].itemGroupName",
+      "types": [
+        "null"
+      ],
+      "nullable": true,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [],
+      "occurrenceCount": 218,
+      "totalRecords": 100
+    },
+    {
+      "path": "items[].itemGroupRootId",
+      "types": [
+        "null"
+      ],
+      "nullable": true,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [],
+      "occurrenceCount": 218,
+      "totalRecords": 100
+    },
+    {
+      "path": "items[].membershipTypeId",
+      "types": [
+        "null"
+      ],
+      "nullable": true,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [],
+      "occurrenceCount": 218,
+      "totalRecords": 100
+    },
+    {
+      "path": "items[].modifiedOn",
+      "types": [
+        "string"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        "2024-07-08T23:06:41.0482523Z",
+        "2024-07-08T23:06:41.5977933Z",
+        "2024-07-09T13:06:29.2859144Z",
+        "2024-07-09T18:49:43.3966913Z",
+        "2024-07-09T18:49:41.9999088Z"
+      ],
+      "occurrenceCount": 218,
+      "totalRecords": 100,
+      "minLength": 23,
+      "maxLength": 28
+    },
+    {
+      "path": "items[].qty",
+      "types": [
+        "number"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        1,
+        5,
+        4,
+        2,
+        30
+      ],
+      "occurrenceCount": 218,
+      "totalRecords": 100,
+      "minValue": 1,
+      "maxValue": 90
+    },
+    {
+      "path": "items[].sku",
+      "types": [
+        "object"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": true,
+      "sampleValues": [],
+      "occurrenceCount": 218,
+      "totalRecords": 100
+    },
+    {
+      "path": "items[].sku.displayName",
+      "types": [
+        "string"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        "`",
+        "Troubleshoot",
+        "Lead Pool Electrician Labor",
+        "Replace 8\" or 10\" Pool Light",
+        "12V AC Pool Lights for Inground Pool, 10 inch Underwater Pool Light"
+      ],
+      "occurrenceCount": 218,
+      "totalRecords": 100,
+      "minLength": 1,
+      "maxLength": 80
+    },
+    {
+      "path": "items[].sku.generalLedgerAccountId",
+      "types": [
+        "number"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        41352,
+        40708
+      ],
+      "occurrenceCount": 218,
+      "totalRecords": 100,
+      "minValue": 40708,
+      "maxValue": 41352
+    },
+    {
+      "path": "items[].sku.generalLedgerAccountName",
+      "types": [
+        "string"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        "INCOME-Sales",
+        "Services income"
+      ],
+      "occurrenceCount": 218,
+      "totalRecords": 100,
+      "minLength": 12,
+      "maxLength": 15
+    },
+    {
+      "path": "items[].sku.id",
+      "types": [
+        "number"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        25603,
+        25624,
+        71026,
+        26154,
+        5912765
+      ],
+      "occurrenceCount": 218,
+      "totalRecords": 100,
+      "minValue": 4584,
+      "maxValue": 7870531
+    },
+    {
+      "path": "items[].sku.modifiedOn",
+      "types": [
+        "string"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        "2024-11-16T10:58:14.1994728Z",
+        "2025-07-07T11:33:23.2827562Z",
+        "2026-01-14T03:40:10.9943299Z",
+        "2025-03-28T16:02:30.5671063Z",
+        "2025-12-04T01:41:02.3943281Z"
+      ],
+      "occurrenceCount": 218,
+      "totalRecords": 100,
+      "minLength": 27,
+      "maxLength": 28
+    },
+    {
+      "path": "items[].sku.name",
+      "types": [
+        "string"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        "ADM-0006",
+        "TTI-005-00.50",
+        "LEAD-POOL ELECTRICIAN",
+        "POL-LIGHT-10\"",
+        "POOL-LIGHT-001"
+      ],
+      "occurrenceCount": 218,
+      "totalRecords": 100,
+      "minLength": 5,
+      "maxLength": 24
+    },
+    {
+      "path": "items[].sku.soldHours",
+      "types": [
+        "number"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        0.5,
+        0,
+        1,
+        0.42,
+        3.5
+      ],
+      "occurrenceCount": 218,
+      "totalRecords": 100,
+      "minValue": 0,
+      "maxValue": 3.5
+    },
+    {
+      "path": "items[].sku.type",
+      "types": [
+        "string"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        "Service",
+        "Material"
+      ],
+      "occurrenceCount": 218,
+      "totalRecords": 100,
+      "minLength": 7,
+      "maxLength": 8
+    },
+    {
+      "path": "items[].skuAccount",
+      "types": [
+        "string"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        "INCOME-Sales",
+        "Services income"
+      ],
+      "occurrenceCount": 218,
+      "totalRecords": 100,
+      "minLength": 12,
+      "maxLength": 15
+    },
+    {
+      "path": "items[].total",
+      "types": [
+        "number"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        95,
+        0,
+        930,
+        270,
+        -95
+      ],
+      "occurrenceCount": 218,
+      "totalRecords": 100,
+      "minValue": -95,
+      "maxValue": 23380
+    },
+    {
+      "path": "items[].totalCost",
+      "types": [
+        "number"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        0,
+        235,
+        220,
+        7.58,
+        20.5
+      ],
+      "occurrenceCount": 218,
+      "totalRecords": 100,
+      "minValue": 0,
+      "maxValue": 440
+    },
+    {
+      "path": "items[].unitCost",
+      "types": [
+        "number"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        0,
+        47,
+        220,
+        7.58,
+        20.5
+      ],
+      "occurrenceCount": 218,
+      "totalRecords": 100,
+      "minValue": 0,
+      "maxValue": 244
+    },
+    {
+      "path": "items[].unitRate",
+      "types": [
+        "number"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        95,
+        0,
+        930,
+        270,
+        -95
+      ],
+      "occurrenceCount": 218,
+      "totalRecords": 100,
+      "minValue": -95,
+      "maxValue": 23380
+    },
+    {
+      "path": "jobId",
+      "types": [
+        "number",
+        "null"
+      ],
+      "nullable": true,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        2023553,
+        2028108,
+        5912465,
+        2024142,
+        2024173
+      ],
+      "occurrenceCount": 100,
+      "totalRecords": 100,
+      "minValue": 70961,
+      "maxValue": 7865776
+    },
+    {
+      "path": "jobNumber",
+      "types": [
+        "string"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        "2023553",
+        "",
+        "2028108",
+        "5912465",
+        "2024142"
+      ],
+      "occurrenceCount": 100,
+      "totalRecords": 100,
+      "minLength": 0,
+      "maxLength": 7
+    },
+    {
+      "path": "locationId",
+      "types": [
+        "number"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        1185965,
+        5911625,
+        2024193,
+        73909,
+        2023610
+      ],
+      "occurrenceCount": 100,
+      "totalRecords": 100,
+      "minValue": 73909,
+      "maxValue": 14984434
+    },
+    {
+      "path": "modifiedOn",
+      "types": [
+        "string"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        "2025-04-29T04:16:29.3684558Z",
+        "2025-04-29T04:16:29.3684579Z",
+        "2025-04-29T04:16:29.3684599Z",
+        "2025-04-29T04:16:29.3684638Z",
+        "2025-04-29T04:16:29.3684658Z"
+      ],
+      "occurrenceCount": 100,
+      "totalRecords": 100,
+      "minLength": 27,
+      "maxLength": 28
+    },
+    {
+      "path": "name",
+      "types": [
+        "string"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        "Pool equipment\n",
+        "Automation - Gas Heater & Blower",
+        "House Remodel",
+        "Pool Light Replacement ",
+        "2 Pool Light Replacements"
+      ],
+      "occurrenceCount": 100,
+      "totalRecords": 100,
+      "minLength": 11,
+      "maxLength": 41
+    },
+    {
+      "path": "projectId",
+      "types": [
+        "number"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        0,
+        52993834,
+        52967103,
+        53035151
+      ],
+      "occurrenceCount": 100,
+      "totalRecords": 100,
+      "minValue": 0,
+      "maxValue": 53035151
+    },
+    {
+      "path": "proposalTagName",
+      "types": [
+        "null",
+        "string"
+      ],
+      "nullable": true,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        "Pool Electrical",
+        "Generator Power Inlet Box",
+        "Essential",
+        "Option 1"
+      ],
+      "occurrenceCount": 100,
+      "totalRecords": 100,
+      "minLength": 8,
+      "maxLength": 25
+    },
+    {
+      "path": "reviewStatus",
+      "types": [
+        "string"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        "None"
+      ],
+      "occurrenceCount": 100,
+      "totalRecords": 100,
+      "minLength": 4,
+      "maxLength": 4
+    },
+    {
+      "path": "soldBy",
+      "types": [
+        "number",
+        "null"
+      ],
+      "nullable": true,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        4482,
+        12417,
+        26
+      ],
+      "occurrenceCount": 100,
+      "totalRecords": 100,
+      "minValue": 26,
+      "maxValue": 12417
+    },
+    {
+      "path": "soldOn",
+      "types": [
+        "string",
+        "null"
+      ],
+      "nullable": true,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        "2024-07-08T18:50:06.4647755Z",
+        "2024-07-08T18:55:53.1399525Z",
+        "2024-07-15T19:24:04.522861Z",
+        "2024-07-11T20:37:50.1664696Z",
+        "2024-07-19T20:53:24.3559001Z"
+      ],
+      "occurrenceCount": 100,
+      "totalRecords": 100,
+      "minLength": 20,
+      "maxLength": 28
+    },
+    {
+      "path": "status",
+      "types": [
+        "object"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": true,
+      "sampleValues": [],
+      "occurrenceCount": 100,
+      "totalRecords": 100
+    },
+    {
+      "path": "status.name",
+      "types": [
+        "string"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        "Sold",
+        "Open",
+        "Dismissed"
+      ],
+      "occurrenceCount": 100,
+      "totalRecords": 100,
+      "minLength": 4,
+      "maxLength": 9
+    },
+    {
+      "path": "status.value",
+      "types": [
+        "number"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        1,
+        0,
+        2
+      ],
+      "occurrenceCount": 100,
+      "totalRecords": 100,
+      "minValue": 0,
+      "maxValue": 2
+    },
+    {
+      "path": "subtotal",
+      "types": [
+        "number"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        95,
+        0,
+        1105,
+        2035,
+        1510
+      ],
+      "occurrenceCount": 100,
+      "totalRecords": 100,
+      "minValue": 0,
+      "maxValue": 23380
+    },
+    {
+      "path": "summary",
+      "types": [
+        "string"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        "",
+        "Includes removal of existing light niche and re sealing new light to prevent future leaks",
+        "Provides up to $8,000 in equipment protection",
+        "Install new sd qo 200 Amp 42 circuit panel with whole house surge\n\n",
+        "Pentair Master Temp Gas Heater Hook Up\n\n"
+      ],
+      "occurrenceCount": 100,
+      "totalRecords": 100,
+      "minLength": 0,
+      "maxLength": 614
+    },
+    {
+      "path": "tax",
+      "types": [
+        "number"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        0
+      ],
+      "occurrenceCount": 100,
+      "totalRecords": 100,
+      "minValue": 0,
+      "maxValue": 0
+    }
+  ],
+  "rootStructure": "paginated",
+  "paginationFields": [
+    "page",
+    "pageSize",
+    "hasMore",
+    "totalCount"
+  ],
+  "idField": "id",
+  "timestampFields": [
+    "createdOn",
+    "modifiedOn",
+    "soldOn"
+  ],
+  "relationshipFields": [
+    "budgetCodeId",
+    "businessUnitId",
+    "customerId",
+    "jobId",
+    "locationId",
+    "projectId"
+  ],
+  "analyzedAt": "2026-01-21T14:16:42.967Z"
+}

@@ -1,0 +1,152 @@
+{
+  "endpointName": "activity_codes",
+  "recordCount": 9,
+  "fields": [
+    {
+      "path": "active",
+      "types": [
+        "boolean"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        true
+      ],
+      "occurrenceCount": 9,
+      "totalRecords": 9
+    },
+    {
+      "path": "code",
+      "types": [
+        "string"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        "OT-ST",
+        "HR-ST",
+        "BON-ST",
+        "SAL-ST",
+        "RE-ST"
+      ],
+      "occurrenceCount": 9,
+      "totalRecords": 9,
+      "minLength": 5,
+      "maxLength": 10
+    },
+    {
+      "path": "createdOn",
+      "types": [
+        "string"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        "2024-05-25T04:32:55.3766054Z",
+        "2024-06-09T02:16:16.4223851Z",
+        "2024-06-09T02:17:45.4022456Z",
+        "2024-06-12T12:48:23.1411159Z",
+        "2024-06-12T12:49:37.0834453Z"
+      ],
+      "occurrenceCount": 9,
+      "totalRecords": 9,
+      "minLength": 28,
+      "maxLength": 28
+    },
+    {
+      "path": "earningCategory",
+      "types": [
+        "string"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        "Timesheet",
+        "Commission",
+        "Reimbursement"
+      ],
+      "occurrenceCount": 9,
+      "totalRecords": 9,
+      "minLength": 9,
+      "maxLength": 13
+    },
+    {
+      "path": "id",
+      "types": [
+        "number"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        12034,
+        32647,
+        32648,
+        36609,
+        36610
+      ],
+      "occurrenceCount": 9,
+      "totalRecords": 9,
+      "minValue": 12034,
+      "maxValue": 55361681
+    },
+    {
+      "path": "modifiedOn",
+      "types": [
+        "string"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        "2024-06-09T02:17:23.7697481Z",
+        "2024-06-09T02:16:16.4223851Z",
+        "2024-06-09T02:17:45.4022456Z",
+        "2024-06-12T12:49:03.1608837Z",
+        "2024-06-12T12:49:37.0834453Z"
+      ],
+      "occurrenceCount": 9,
+      "totalRecords": 9,
+      "minLength": 28,
+      "maxLength": 28
+    },
+    {
+      "path": "name",
+      "types": [
+        "string"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        "Overtime",
+        "Hourly Standard",
+        "BONUS",
+        "Salary",
+        "Reimbursements"
+      ],
+      "occurrenceCount": 9,
+      "totalRecords": 9,
+      "minLength": 5,
+      "maxLength": 19
+    }
+  ],
+  "rootStructure": "paginated",
+  "paginationFields": [
+    "page",
+    "pageSize",
+    "hasMore",
+    "totalCount"
+  ],
+  "idField": "id",
+  "timestampFields": [
+    "createdOn",
+    "modifiedOn"
+  ],
+  "relationshipFields": [],
+  "analyzedAt": "2026-01-21T14:16:42.935Z"
+}

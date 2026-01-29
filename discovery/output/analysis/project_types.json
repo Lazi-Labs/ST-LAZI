@@ -1,0 +1,98 @@
+{
+  "endpointName": "project_types",
+  "recordCount": 6,
+  "fields": [
+    {
+      "path": "createdById",
+      "types": [
+        "null",
+        "number"
+      ],
+      "nullable": true,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        26
+      ],
+      "occurrenceCount": 6,
+      "totalRecords": 6,
+      "minValue": 26,
+      "maxValue": 26
+    },
+    {
+      "path": "description",
+      "types": [
+        "string"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        "For projects that are in bid status",
+        "For service projects that do not need project tracking features",
+        "For install projects that do not need project tracking features",
+        "For projects that use project invoices and not application for payments",
+        "For projects that use application for payments instead of project invoices"
+      ],
+      "occurrenceCount": 6,
+      "totalRecords": 6,
+      "minLength": 0,
+      "maxLength": 74
+    },
+    {
+      "path": "id",
+      "types": [
+        "number"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        1182,
+        1183,
+        1184,
+        1185,
+        1186
+      ],
+      "occurrenceCount": 6,
+      "totalRecords": 6,
+      "minValue": 1182,
+      "maxValue": 61280
+    },
+    {
+      "path": "name",
+      "types": [
+        "string"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        "Sales",
+        "Service",
+        "Install",
+        "Progress Billing**",
+        "Progress Billing with Application for Payment"
+      ],
+      "occurrenceCount": 6,
+      "totalRecords": 6,
+      "minLength": 5,
+      "maxLength": 45
+    }
+  ],
+  "rootStructure": "paginated",
+  "paginationFields": [
+    "page",
+    "pageSize",
+    "hasMore",
+    "totalCount"
+  ],
+  "idField": "id",
+  "timestampFields": [
+    "createdById"
+  ],
+  "relationshipFields": [
+    "createdById"
+  ],
+  "analyzedAt": "2026-01-21T14:16:43.030Z"
+}

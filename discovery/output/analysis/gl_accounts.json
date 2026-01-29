@@ -1,0 +1,260 @@
+{
+  "endpointName": "gl_accounts",
+  "recordCount": 38,
+  "fields": [
+    {
+      "path": "active",
+      "types": [
+        "boolean"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        true
+      ],
+      "occurrenceCount": 38,
+      "totalRecords": 38
+    },
+    {
+      "path": "createdOn",
+      "types": [
+        "string"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        "2024-05-21T21:05:27.6618041Z",
+        "2024-05-21T21:05:27.7139228Z",
+        "2024-05-21T21:05:27.7290913Z",
+        "2024-05-21T21:05:27.739481Z",
+        "2024-05-21T21:05:27.7444474Z"
+      ],
+      "occurrenceCount": 38,
+      "totalRecords": 38,
+      "minLength": 26,
+      "maxLength": 28
+    },
+    {
+      "path": "defaultAccountType",
+      "types": [
+        "string",
+        "null"
+      ],
+      "nullable": true,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        "CheckingAccount",
+        "UndepositedFunds",
+        "AccountsReceivable",
+        "AccountsPayable",
+        "CustomerRefundsPayable"
+      ],
+      "occurrenceCount": 38,
+      "totalRecords": 38,
+      "minLength": 15,
+      "maxLength": 28
+    },
+    {
+      "path": "description",
+      "types": [
+        "string",
+        "null"
+      ],
+      "nullable": true,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        "Will be used as the primary account for all deposits.",
+        "Will be used as the offsetting account for all payments and deposits.",
+        "Will be used as the offsetting account for all invoice charges and payments.",
+        "Will be used as the offsetting account for all bills, credits, returns, and bill payments.",
+        "Will be used as the account for the “Check” refund method."
+      ],
+      "occurrenceCount": 38,
+      "totalRecords": 38,
+      "minLength": 0,
+      "maxLength": 102
+    },
+    {
+      "path": "id",
+      "types": [
+        "number"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        63,
+        65,
+        67,
+        71,
+        73
+      ],
+      "occurrenceCount": 38,
+      "totalRecords": 38,
+      "minValue": 63,
+      "maxValue": 61682950
+    },
+    {
+      "path": "isIntacctBankAccount",
+      "types": [
+        "boolean"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        false
+      ],
+      "occurrenceCount": 38,
+      "totalRecords": 38
+    },
+    {
+      "path": "isIntacctGroup",
+      "types": [
+        "boolean"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        false
+      ],
+      "occurrenceCount": 38,
+      "totalRecords": 38
+    },
+    {
+      "path": "modifiedOn",
+      "types": [
+        "string"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        "2025-11-03T23:03:39.3429205Z",
+        "2025-11-03T23:22:35.2550003Z",
+        "2025-11-03T17:15:48.2377371Z",
+        "2025-11-03T03:28:13.1264966Z",
+        "2025-11-04T00:18:28.1368412Z"
+      ],
+      "occurrenceCount": 38,
+      "totalRecords": 38,
+      "minLength": 26,
+      "maxLength": 28
+    },
+    {
+      "path": "name",
+      "types": [
+        "string"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        "Operating Checking (9713)",
+        "Undeposited Funds",
+        "Accounts Receivable (A/R)",
+        "Accounts Payable",
+        "Customer Refunds Payable"
+      ],
+      "occurrenceCount": 38,
+      "totalRecords": 38,
+      "minLength": 8,
+      "maxLength": 66
+    },
+    {
+      "path": "number",
+      "types": [
+        "string"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        "1000",
+        "1200",
+        "1100",
+        "2010",
+        "2150"
+      ],
+      "occurrenceCount": 38,
+      "totalRecords": 38,
+      "minLength": 4,
+      "maxLength": 4
+    },
+    {
+      "path": "source",
+      "types": [
+        "string"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        "Undefined",
+        "ManuallyCreated"
+      ],
+      "occurrenceCount": 38,
+      "totalRecords": 38,
+      "minLength": 9,
+      "maxLength": 15
+    },
+    {
+      "path": "subtype",
+      "types": [
+        "string"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        "Bank",
+        "Other Current Asset",
+        "Accounts Receivable",
+        "Accounts Payable",
+        "Current Liability"
+      ],
+      "occurrenceCount": 38,
+      "totalRecords": 38,
+      "minLength": 4,
+      "maxLength": 20
+    },
+    {
+      "path": "type",
+      "types": [
+        "string"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        "Asset",
+        "Liability",
+        "Expense",
+        "Income"
+      ],
+      "occurrenceCount": 38,
+      "totalRecords": 38,
+      "minLength": 5,
+      "maxLength": 9
+    }
+  ],
+  "rootStructure": "paginated",
+  "paginationFields": [
+    "page",
+    "pageSize",
+    "hasMore",
+    "totalCount"
+  ],
+  "idField": "id",
+  "timestampFields": [
+    "createdOn",
+    "modifiedOn"
+  ],
+  "relationshipFields": [],
+  "analyzedAt": "2026-01-21T14:16:42.968Z"
+}

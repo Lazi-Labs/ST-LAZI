@@ -1,0 +1,1174 @@
+openapi: 3.0.3
+info:
+  title: LAZI ST-Ingestion API
+  description: |
+    Internal API for accessing ServiceTitan data synced to the LAZI platform.
+    
+    This API provides read access to master tables (synced from ServiceTitan)
+    and write access via the mutation queue (changes pushed back to ServiceTitan).
+    
+    ## Authentication
+    All endpoints require an API key passed in the `x-api-key` header.
+    
+    ## Rate Limiting
+    - 100 requests per minute per API key
+    - 1000 requests per hour per API key
+    
+    ## Pagination
+    All list endpoints support pagination via `limit` and `offset` query parameters.
+    Maximum limit is 1000 records per request.
+  version: 1.0.0
+  contact:
+    name: LAZI Support
+    email: support@lazilabs.com
+
+servers:
+  - url: http://localhost:3001/api
+    description: Local development
+  - url: https://st-ingestion.lazilabs.com/api
+    description: Production
+
+tags:
+  - name: Health
+    description: System health and monitoring
+  - name: Pricebook
+    description: Pricebook services, materials, equipment, categories
+  - name: Customers
+    description: Customer records
+  - name: Jobs
+    description: Job and appointment records
+  - name: Mutations
+    description: Queue changes to push to ServiceTitan
+  - name: Audit
+    description: Change history and audit trail
+
+paths:
+  /health:
+    get:
+      tags: [Health]
+      summary: System health check
+      description: Returns overall system health status including sync freshness, pending mutations, and error rates.
+      responses:
+        '200':
+          description: System is healthy or degraded
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/HealthResponse'
+        '503':
+          description: System is critical
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/HealthResponse'
+
+  /health/sync:
+    get:
+      tags: [Health]
+      summary: Sync status by endpoint
+      description: Returns sync statistics for each ServiceTitan endpoint.
+      responses:
+        '200':
+          description: Success
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/SyncStatusResponse'
+
+  /health/tables:
+    get:
+      tags: [Health]
+      summary: Table sizes
+      description: Returns size and row count for all data tables.
+      responses:
+        '200':
+          description: Success
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/TableSizesResponse'
+
+  /v1/pricebook/services:
+    get:
+      tags: [Pricebook]
+      summary: List pricebook services
+      description: Returns paginated list of pricebook services synced from ServiceTitan.
+      parameters:
+        - $ref: '#/components/parameters/limit'
+        - $ref: '#/components/parameters/offset'
+        - $ref: '#/components/parameters/search'
+        - $ref: '#/components/parameters/active_only'
+        - $ref: '#/components/parameters/updated_after'
+        - name: category_id
+          in: query
+          schema:
+            type: integer
+          description: Filter by category ID
+        - name: business_unit_id
+          in: query
+          schema:
+            type: integer
+          description: Filter by business unit ID
+      responses:
+        '200':
+          description: Success
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ServiceListResponse'
+
+  /v1/pricebook/services/{id}:
+    get:
+      tags: [Pricebook]
+      summary: Get service by ID
+      parameters:
+        - name: id
+          in: path
+          required: true
+          schema:
+            type: integer
+          description: ServiceTitan service ID
+      responses:
+        '200':
+          description: Success
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ServiceResponse'
+        '404':
+          description: Service not found
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ErrorResponse'
+
+  /v1/pricebook/materials:
+    get:
+      tags: [Pricebook]
+      summary: List pricebook materials
+      parameters:
+        - $ref: '#/components/parameters/limit'
+        - $ref: '#/components/parameters/offset'
+        - $ref: '#/components/parameters/search'
+        - $ref: '#/components/parameters/active_only'
+        - name: category_id
+          in: query
+          schema:
+            type: integer
+      responses:
+        '200':
+          description: Success
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/MaterialListResponse'
+
+  /v1/pricebook/materials/{id}:
+    get:
+      tags: [Pricebook]
+      summary: Get material by ID
+      parameters:
+        - name: id
+          in: path
+          required: true
+          schema:
+            type: integer
+      responses:
+        '200':
+          description: Success
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/MaterialResponse'
+        '404':
+          description: Material not found
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ErrorResponse'
+
+  /v1/pricebook/equipment:
+    get:
+      tags: [Pricebook]
+      summary: List pricebook equipment
+      parameters:
+        - $ref: '#/components/parameters/limit'
+        - $ref: '#/components/parameters/offset'
+        - $ref: '#/components/parameters/search'
+        - $ref: '#/components/parameters/active_only'
+        - name: category_id
+          in: query
+          schema:
+            type: integer
+      responses:
+        '200':
+          description: Success
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/EquipmentListResponse'
+
+  /v1/pricebook/equipment/{id}:
+    get:
+      tags: [Pricebook]
+      summary: Get equipment by ID
+      parameters:
+        - name: id
+          in: path
+          required: true
+          schema:
+            type: integer
+      responses:
+        '200':
+          description: Success
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/EquipmentResponse'
+        '404':
+          description: Equipment not found
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ErrorResponse'
+
+  /v1/pricebook/categories:
+    get:
+      tags: [Pricebook]
+      summary: List pricebook categories
+      parameters:
+        - $ref: '#/components/parameters/limit'
+        - $ref: '#/components/parameters/offset'
+        - $ref: '#/components/parameters/search'
+      responses:
+        '200':
+          description: Success
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/CategoryListResponse'
+
+  /v1/pricebook/categories/{id}:
+    get:
+      tags: [Pricebook]
+      summary: Get category by ID
+      parameters:
+        - name: id
+          in: path
+          required: true
+          schema:
+            type: integer
+      responses:
+        '200':
+          description: Success
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/CategoryResponse'
+        '404':
+          description: Category not found
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ErrorResponse'
+
+  /v1/customers:
+    get:
+      tags: [Customers]
+      summary: List customers
+      parameters:
+        - $ref: '#/components/parameters/limit'
+        - $ref: '#/components/parameters/offset'
+        - $ref: '#/components/parameters/search'
+        - $ref: '#/components/parameters/active_only'
+        - name: type
+          in: query
+          schema:
+            type: string
+            enum: [Residential, Commercial]
+      responses:
+        '200':
+          description: Success
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/CustomerListResponse'
+
+  /v1/customers/{id}:
+    get:
+      tags: [Customers]
+      summary: Get customer by ID
+      parameters:
+        - name: id
+          in: path
+          required: true
+          schema:
+            type: integer
+      responses:
+        '200':
+          description: Success
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/CustomerResponse'
+        '404':
+          description: Customer not found
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ErrorResponse'
+
+  /v1/jobs:
+    get:
+      tags: [Jobs]
+      summary: List jobs
+      parameters:
+        - $ref: '#/components/parameters/limit'
+        - $ref: '#/components/parameters/offset'
+        - $ref: '#/components/parameters/search'
+        - name: customer_id
+          in: query
+          schema:
+            type: integer
+        - name: job_status
+          in: query
+          schema:
+            type: string
+        - name: business_unit_id
+          in: query
+          schema:
+            type: integer
+      responses:
+        '200':
+          description: Success
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/JobListResponse'
+
+  /v1/jobs/{id}:
+    get:
+      tags: [Jobs]
+      summary: Get job by ID
+      parameters:
+        - name: id
+          in: path
+          required: true
+          schema:
+            type: integer
+      responses:
+        '200':
+          description: Success
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/JobResponse'
+        '404':
+          description: Job not found
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ErrorResponse'
+
+  /v1/jobs/appointments/list:
+    get:
+      tags: [Jobs]
+      summary: List appointments
+      parameters:
+        - $ref: '#/components/parameters/limit'
+        - $ref: '#/components/parameters/offset'
+        - name: job_id
+          in: query
+          schema:
+            type: integer
+        - name: technician_id
+          in: query
+          schema:
+            type: integer
+        - name: status
+          in: query
+          schema:
+            type: string
+      responses:
+        '200':
+          description: Success
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/AppointmentListResponse'
+
+  /v1/mutations:
+    get:
+      tags: [Mutations]
+      summary: List mutations
+      description: Returns paginated list of mutations in the queue.
+      parameters:
+        - $ref: '#/components/parameters/limit'
+        - $ref: '#/components/parameters/offset'
+        - name: status
+          in: query
+          schema:
+            type: string
+            enum: [pending, processing, completed, failed, conflict, dlq]
+        - name: entity_type
+          in: query
+          schema:
+            type: string
+      responses:
+        '200':
+          description: Success
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/MutationListResponse'
+
+    post:
+      tags: [Mutations]
+      summary: Create mutation
+      description: |
+        Queue a change to be pushed to ServiceTitan.
+        
+        The mutation will be processed by the outbound worker and sent to the
+        ServiceTitan API. Use the returned mutation ID to track status.
+        
+        Mutations are idempotent - submitting the same payload multiple times
+        will return the same mutation.
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/CreateMutationRequest'
+            examples:
+              updatePrice:
+                summary: Update service price
+                value:
+                  entity_type: pricebook_services
+                  entity_id: 12345
+                  operation: update
+                  payload:
+                    price: 149.99
+              createCustomer:
+                summary: Create customer
+                value:
+                  entity_type: customers
+                  entity_id: 0
+                  operation: create
+                  payload:
+                    name: "John Smith"
+                    type: "Residential"
+                    email: "john@example.com"
+      responses:
+        '201':
+          description: Mutation created
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/MutationResponse'
+        '400':
+          description: Invalid request
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ErrorResponse'
+
+  /v1/mutations/{id}:
+    get:
+      tags: [Mutations]
+      summary: Get mutation status
+      parameters:
+        - name: id
+          in: path
+          required: true
+          schema:
+            type: string
+            format: uuid
+      responses:
+        '200':
+          description: Success
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/MutationResponse'
+        '404':
+          description: Mutation not found
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ErrorResponse'
+
+  /v1/audit:
+    get:
+      tags: [Audit]
+      summary: Recent changes
+      description: Returns recent audit log entries (last 7 days).
+      parameters:
+        - $ref: '#/components/parameters/limit'
+        - $ref: '#/components/parameters/offset'
+        - name: table
+          in: query
+          schema:
+            type: string
+          description: Filter by table (e.g., pricebook_services)
+        - name: record_id
+          in: query
+          schema:
+            type: string
+          description: Filter by record ID
+        - name: actor_type
+          in: query
+          schema:
+            type: string
+            enum: [user, sync_worker, outbound_worker, api, system]
+      responses:
+        '200':
+          description: Success
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/AuditListResponse'
+
+  /v1/audit/record/{table}/{id}:
+    get:
+      tags: [Audit]
+      summary: Record history
+      description: Returns complete change history for a specific record.
+      parameters:
+        - name: table
+          in: path
+          required: true
+          schema:
+            type: string
+          description: Table name (e.g., pricebook_services)
+        - name: id
+          in: path
+          required: true
+          schema:
+            type: string
+          description: Record ID
+      responses:
+        '200':
+          description: Success
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/RecordHistoryResponse'
+
+  /v1/audit/summary:
+    get:
+      tags: [Audit]
+      summary: Daily summary
+      description: Returns aggregated change counts by day, table, and actor type.
+      responses:
+        '200':
+          description: Success
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/AuditSummaryResponse'
+
+components:
+  parameters:
+    limit:
+      name: limit
+      in: query
+      schema:
+        type: integer
+        default: 100
+        maximum: 1000
+      description: Maximum records to return (max 1000)
+
+    offset:
+      name: offset
+      in: query
+      schema:
+        type: integer
+        default: 0
+      description: Number of records to skip
+
+    search:
+      name: search
+      in: query
+      schema:
+        type: string
+      description: Search term (searches name, code, description)
+
+    active_only:
+      name: active_only
+      in: query
+      schema:
+        type: boolean
+      description: Only return active records
+
+    updated_after:
+      name: updated_after
+      in: query
+      schema:
+        type: string
+        format: date-time
+      description: Only return records synced after this timestamp
+
+  schemas:
+    ErrorResponse:
+      type: object
+      required: [error]
+      properties:
+        error:
+          type: string
+          example: "Resource not found"
+
+    ListMeta:
+      type: object
+      required: [total, limit, offset, has_more]
+      properties:
+        total:
+          type: integer
+          example: 2332
+        limit:
+          type: integer
+          example: 100
+        offset:
+          type: integer
+          example: 0
+        has_more:
+          type: boolean
+          example: true
+        last_sync:
+          type: string
+          format: date-time
+          example: "2026-01-21T18:30:00Z"
+
+    HealthCheck:
+      type: object
+      properties:
+        check_name:
+          type: string
+          example: "sync_freshness"
+        status:
+          type: string
+          enum: [healthy, degraded, critical, info]
+        last_value:
+          type: string
+          example: "2026-01-21T18:30:00Z"
+        description:
+          type: string
+
+    HealthResponse:
+      type: object
+      properties:
+        status:
+          type: string
+          enum: [healthy, degraded, critical]
+        timestamp:
+          type: string
+          format: date-time
+        version:
+          type: string
+        checks:
+          type: array
+          items:
+            $ref: '#/components/schemas/HealthCheck'
+        info:
+          type: array
+          items:
+            $ref: '#/components/schemas/HealthCheck'
+
+    SyncStatusResponse:
+      type: object
+      properties:
+        timestamp:
+          type: string
+          format: date-time
+        endpoints:
+          type: array
+          items:
+            type: object
+            properties:
+              endpoint:
+                type: string
+              successful_syncs:
+                type: integer
+              failed_syncs:
+                type: integer
+              last_success:
+                type: string
+                format: date-time
+              records_synced_24h:
+                type: integer
+
+    TableSizesResponse:
+      type: object
+      properties:
+        timestamp:
+          type: string
+          format: date-time
+        tables:
+          type: array
+          items:
+            type: object
+            properties:
+              schema:
+                type: string
+              table_name:
+                type: string
+              total_size:
+                type: string
+              row_count:
+                type: integer
+
+    Service:
+      type: object
+      properties:
+        id:
+          type: integer
+          example: 12345
+        st_id:
+          type: integer
+          example: 12345
+        display_name:
+          type: string
+          example: "Pool Cleaning Service"
+        code:
+          type: string
+          example: "POOL-CLEAN-001"
+        description:
+          type: string
+        price:
+          type: number
+          format: decimal
+          example: 149.99
+        cost:
+          type: number
+          format: decimal
+        member_price:
+          type: number
+          format: decimal
+        active:
+          type: boolean
+        category_id:
+          type: integer
+        business_unit_id:
+          type: integer
+        synced_at:
+          type: string
+          format: date-time
+
+    ServiceListResponse:
+      type: object
+      properties:
+        data:
+          type: array
+          items:
+            $ref: '#/components/schemas/Service'
+        meta:
+          $ref: '#/components/schemas/ListMeta'
+
+    ServiceResponse:
+      type: object
+      properties:
+        data:
+          $ref: '#/components/schemas/Service'
+
+    Material:
+      type: object
+      properties:
+        id:
+          type: integer
+        st_id:
+          type: integer
+        display_name:
+          type: string
+        code:
+          type: string
+        price:
+          type: number
+          format: decimal
+        cost:
+          type: number
+          format: decimal
+        active:
+          type: boolean
+        category_id:
+          type: integer
+        synced_at:
+          type: string
+          format: date-time
+
+    MaterialListResponse:
+      type: object
+      properties:
+        data:
+          type: array
+          items:
+            $ref: '#/components/schemas/Material'
+        meta:
+          $ref: '#/components/schemas/ListMeta'
+
+    MaterialResponse:
+      type: object
+      properties:
+        data:
+          $ref: '#/components/schemas/Material'
+
+    Equipment:
+      type: object
+      properties:
+        id:
+          type: integer
+        st_id:
+          type: integer
+        display_name:
+          type: string
+        code:
+          type: string
+        price:
+          type: number
+          format: decimal
+        active:
+          type: boolean
+        category_id:
+          type: integer
+        synced_at:
+          type: string
+          format: date-time
+
+    EquipmentListResponse:
+      type: object
+      properties:
+        data:
+          type: array
+          items:
+            $ref: '#/components/schemas/Equipment'
+        meta:
+          $ref: '#/components/schemas/ListMeta'
+
+    EquipmentResponse:
+      type: object
+      properties:
+        data:
+          $ref: '#/components/schemas/Equipment'
+
+    Category:
+      type: object
+      properties:
+        id:
+          type: integer
+        st_id:
+          type: integer
+        name:
+          type: string
+        active:
+          type: boolean
+        synced_at:
+          type: string
+          format: date-time
+
+    CategoryListResponse:
+      type: object
+      properties:
+        data:
+          type: array
+          items:
+            $ref: '#/components/schemas/Category'
+        meta:
+          $ref: '#/components/schemas/ListMeta'
+
+    CategoryResponse:
+      type: object
+      properties:
+        data:
+          $ref: '#/components/schemas/Category'
+
+    Customer:
+      type: object
+      properties:
+        id:
+          type: integer
+        st_id:
+          type: integer
+        name:
+          type: string
+        type:
+          type: string
+          enum: [Residential, Commercial]
+        email:
+          type: string
+        phone:
+          type: string
+        active:
+          type: boolean
+        synced_at:
+          type: string
+          format: date-time
+
+    CustomerListResponse:
+      type: object
+      properties:
+        data:
+          type: array
+          items:
+            $ref: '#/components/schemas/Customer'
+        meta:
+          $ref: '#/components/schemas/ListMeta'
+
+    CustomerResponse:
+      type: object
+      properties:
+        data:
+          $ref: '#/components/schemas/Customer'
+
+    Job:
+      type: object
+      properties:
+        id:
+          type: integer
+        st_id:
+          type: integer
+        number:
+          type: string
+        customer_id:
+          type: integer
+        location_id:
+          type: integer
+        job_type_id:
+          type: integer
+        business_unit_id:
+          type: integer
+        job_status:
+          type: string
+        summary:
+          type: string
+        synced_at:
+          type: string
+          format: date-time
+
+    JobListResponse:
+      type: object
+      properties:
+        data:
+          type: array
+          items:
+            $ref: '#/components/schemas/Job'
+        meta:
+          $ref: '#/components/schemas/ListMeta'
+
+    JobResponse:
+      type: object
+      properties:
+        data:
+          $ref: '#/components/schemas/Job'
+
+    Appointment:
+      type: object
+      properties:
+        id:
+          type: integer
+        st_id:
+          type: integer
+        job_id:
+          type: integer
+        technician_id:
+          type: integer
+        status:
+          type: string
+        start:
+          type: string
+          format: date-time
+        end:
+          type: string
+          format: date-time
+        synced_at:
+          type: string
+          format: date-time
+
+    AppointmentListResponse:
+      type: object
+      properties:
+        data:
+          type: array
+          items:
+            $ref: '#/components/schemas/Appointment'
+        meta:
+          $ref: '#/components/schemas/ListMeta'
+
+    Mutation:
+      type: object
+      properties:
+        id:
+          type: string
+          format: uuid
+        entity_type:
+          type: string
+          example: "pricebook_services"
+        entity_id:
+          type: string
+          example: "12345"
+        operation:
+          type: string
+          enum: [create, update, delete]
+        status:
+          type: string
+          enum: [pending, processing, completed, failed, conflict, dlq]
+        payload:
+          type: object
+        error_message:
+          type: string
+        retry_count:
+          type: integer
+        idempotency_key:
+          type: string
+        initiated_at:
+          type: string
+          format: date-time
+        completed_at:
+          type: string
+          format: date-time
+
+    MutationListResponse:
+      type: object
+      properties:
+        data:
+          type: array
+          items:
+            $ref: '#/components/schemas/Mutation'
+        meta:
+          $ref: '#/components/schemas/ListMeta'
+
+    MutationResponse:
+      type: object
+      properties:
+        data:
+          $ref: '#/components/schemas/Mutation'
+        message:
+          type: string
+
+    CreateMutationRequest:
+      type: object
+      required: [entity_type, entity_id, operation, payload]
+      properties:
+        entity_type:
+          type: string
+          description: Type of entity (e.g., pricebook_services, customers)
+          example: "pricebook_services"
+        entity_id:
+          type: integer
+          description: ServiceTitan entity ID (0 for create operations)
+          example: 12345
+        operation:
+          type: string
+          enum: [create, update, delete]
+          description: Operation to perform
+        payload:
+          type: object
+          description: Data to send to ServiceTitan
+          example:
+            price: 149.99
+        initiated_by:
+          type: string
+          description: User or system identifier
+          example: "user-123"
+
+    AuditEntry:
+      type: object
+      properties:
+        timestamp:
+          type: string
+          format: date-time
+        schema_name:
+          type: string
+        table_name:
+          type: string
+        operation:
+          type: string
+          enum: [INSERT, UPDATE, DELETE]
+        record_id:
+          type: string
+        changed_fields:
+          type: array
+          items:
+            type: string
+        actor_type:
+          type: string
+        actor_id:
+          type: string
+        mutation_id:
+          type: string
+          format: uuid
+        sync_batch_id:
+          type: string
+          format: uuid
+
+    AuditListResponse:
+      type: object
+      properties:
+        data:
+          type: array
+          items:
+            $ref: '#/components/schemas/AuditEntry'
+
+    RecordHistoryResponse:
+      type: object
+      properties:
+        record:
+          type: object
+          properties:
+            schema:
+              type: string
+            table:
+              type: string
+            id:
+              type: string
+        data:
+          type: array
+          items:
+            type: object
+            properties:
+              timestamp:
+                type: string
+                format: date-time
+              operation:
+                type: string
+              changed_fields:
+                type: array
+                items:
+                  type: string
+              old_data:
+                type: object
+              new_data:
+                type: object
+              actor_type:
+                type: string
+              actor_id:
+                type: string
+
+    AuditSummaryResponse:
+      type: object
+      properties:
+        data:
+          type: array
+          items:
+            type: object
+            properties:
+              day:
+                type: string
+                format: date
+              schema_name:
+                type: string
+              table_name:
+                type: string
+              operation:
+                type: string
+              actor_type:
+                type: string
+              change_count:
+                type: integer
+
+  securitySchemes:
+    ApiKeyAuth:
+      type: apiKey
+      in: header
+      name: x-api-key
+      description: API key for authentication
+
+security:
+  - ApiKeyAuth: []

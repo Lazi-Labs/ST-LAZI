@@ -1,0 +1,322 @@
+{
+  "endpointName": "appointments",
+  "recordCount": 100,
+  "fields": [
+    {
+      "path": "active",
+      "types": [
+        "boolean"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        true
+      ],
+      "occurrenceCount": 100,
+      "totalRecords": 100
+    },
+    {
+      "path": "appointmentNumber",
+      "types": [
+        "string"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        "70636-1",
+        "70961-1",
+        "1044667923-1",
+        "1040350850-1",
+        "1041447157-1"
+      ],
+      "occurrenceCount": 100,
+      "totalRecords": 100,
+      "minLength": 7,
+      "maxLength": 12
+    },
+    {
+      "path": "arrivalWindowEnd",
+      "types": [
+        "string"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        "2024-07-09T18:00:00Z",
+        "2024-07-09T14:00:00Z",
+        "2024-06-08T14:00:00Z",
+        "2024-04-02T14:30:00Z",
+        "2024-04-15T16:30:00Z"
+      ],
+      "occurrenceCount": 100,
+      "totalRecords": 100,
+      "minLength": 20,
+      "maxLength": 20
+    },
+    {
+      "path": "arrivalWindowStart",
+      "types": [
+        "string"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        "2024-07-09T16:00:00Z",
+        "2024-07-09T12:00:00Z",
+        "2024-06-08T12:00:00Z",
+        "2024-04-02T12:30:00Z",
+        "2024-04-15T14:30:00Z"
+      ],
+      "occurrenceCount": 100,
+      "totalRecords": 100,
+      "minLength": 20,
+      "maxLength": 20
+    },
+    {
+      "path": "createdById",
+      "types": [
+        "number"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        26,
+        4617,
+        0
+      ],
+      "occurrenceCount": 100,
+      "totalRecords": 100,
+      "minValue": 0,
+      "maxValue": 4617
+    },
+    {
+      "path": "createdOn",
+      "types": [
+        "string"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        "2024-07-08T15:13:31.9394887Z",
+        "2024-07-08T18:09:07.1301534Z",
+        "2024-05-31T19:41:00Z",
+        "2024-03-26T19:37:00Z",
+        "2024-04-12T20:47:00Z"
+      ],
+      "occurrenceCount": 100,
+      "totalRecords": 100,
+      "minLength": 20,
+      "maxLength": 28
+    },
+    {
+      "path": "customerId",
+      "types": [
+        "number"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        2023488,
+        1184649,
+        1184652,
+        1184662,
+        1184747
+      ],
+      "occurrenceCount": 100,
+      "totalRecords": 100,
+      "minValue": 1184517,
+      "maxValue": 2023488
+    },
+    {
+      "path": "end",
+      "types": [
+        "string"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        "2024-07-09T18:00:00Z",
+        "2024-07-09T15:00:00Z",
+        "2024-06-08T14:00:00Z",
+        "2024-04-02T14:30:00Z",
+        "2024-04-15T16:30:00Z"
+      ],
+      "occurrenceCount": 100,
+      "totalRecords": 100,
+      "minLength": 20,
+      "maxLength": 20
+    },
+    {
+      "path": "id",
+      "types": [
+        "number"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        70637,
+        70962,
+        1462359,
+        1462360,
+        1462361
+      ],
+      "occurrenceCount": 100,
+      "totalRecords": 100,
+      "minValue": 70637,
+      "maxValue": 1462456
+    },
+    {
+      "path": "isConfirmed",
+      "types": [
+        "boolean"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        false,
+        true
+      ],
+      "occurrenceCount": 100,
+      "totalRecords": 100
+    },
+    {
+      "path": "jobId",
+      "types": [
+        "number"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        70636,
+        70961,
+        1187722,
+        1187723,
+        1187724
+      ],
+      "occurrenceCount": 100,
+      "totalRecords": 100,
+      "minValue": 70636,
+      "maxValue": 1187819
+    },
+    {
+      "path": "modifiedOn",
+      "types": [
+        "string"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        "2024-07-08T15:19:49.5914574Z",
+        "2024-07-09T21:55:54.6182179Z",
+        "2024-07-08T14:46:52Z",
+        "2024-09-25T16:14:54.3078165Z"
+      ],
+      "occurrenceCount": 100,
+      "totalRecords": 100,
+      "minLength": 20,
+      "maxLength": 28
+    },
+    {
+      "path": "specialInstructions",
+      "types": [
+        "string"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        ""
+      ],
+      "occurrenceCount": 100,
+      "totalRecords": 100,
+      "minLength": 0,
+      "maxLength": 0
+    },
+    {
+      "path": "start",
+      "types": [
+        "string"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        "2024-07-09T16:00:00Z",
+        "2024-07-09T13:00:00Z",
+        "2024-06-08T12:00:00Z",
+        "2024-04-02T12:30:00Z",
+        "2024-04-15T14:30:00Z"
+      ],
+      "occurrenceCount": 100,
+      "totalRecords": 100,
+      "minLength": 20,
+      "maxLength": 20
+    },
+    {
+      "path": "status",
+      "types": [
+        "string"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        "Canceled",
+        "Done"
+      ],
+      "occurrenceCount": 100,
+      "totalRecords": 100,
+      "minLength": 4,
+      "maxLength": 8
+    },
+    {
+      "path": "unused",
+      "types": [
+        "boolean"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        false
+      ],
+      "occurrenceCount": 100,
+      "totalRecords": 100
+    }
+  ],
+  "rootStructure": "paginated",
+  "paginationFields": [
+    "page",
+    "pageSize",
+    "hasMore",
+    "totalCount"
+  ],
+  "idField": "id",
+  "timestampFields": [
+    "arrivalWindowEnd",
+    "arrivalWindowStart",
+    "createdById",
+    "createdOn",
+    "end",
+    "modifiedOn",
+    "start"
+  ],
+  "relationshipFields": [
+    "createdById",
+    "customerId",
+    "jobId"
+  ],
+  "analyzedAt": "2026-01-21T14:16:42.953Z"
+}

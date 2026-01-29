@@ -1,0 +1,230 @@
+{
+  "endpointName": "zones",
+  "recordCount": 12,
+  "fields": [
+    {
+      "path": "active",
+      "types": [
+        "boolean"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        true
+      ],
+      "occurrenceCount": 12,
+      "totalRecords": 12
+    },
+    {
+      "path": "businessUnits",
+      "types": [
+        "array"
+      ],
+      "nullable": false,
+      "isArray": true,
+      "isObject": false,
+      "sampleValues": [],
+      "occurrenceCount": 12,
+      "totalRecords": 12
+    },
+    {
+      "path": "cities",
+      "types": [
+        "array"
+      ],
+      "nullable": false,
+      "isArray": true,
+      "isObject": false,
+      "sampleValues": [],
+      "occurrenceCount": 12,
+      "totalRecords": 12
+    },
+    {
+      "path": "createdBy",
+      "types": [
+        "number"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        4617,
+        26,
+        54809353,
+        54861065
+      ],
+      "occurrenceCount": 12,
+      "totalRecords": 12,
+      "minValue": 26,
+      "maxValue": 54861065
+    },
+    {
+      "path": "createdOn",
+      "types": [
+        "string"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        "2024-07-08T16:49:50.4844766Z",
+        "2024-11-23T14:39:48.3296811Z",
+        "2024-11-23T14:24:51.1888533Z",
+        "2024-12-04T12:21:18.4228699Z",
+        "2024-12-04T14:13:26.0020055Z"
+      ],
+      "occurrenceCount": 12,
+      "totalRecords": 12,
+      "minLength": 27,
+      "maxLength": 28
+    },
+    {
+      "path": "id",
+      "types": [
+        "number"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        2024141,
+        54887710,
+        54888336,
+        54963510,
+        54963533
+      ],
+      "occurrenceCount": 12,
+      "totalRecords": 12,
+      "minValue": 2024141,
+      "maxValue": 54979591
+    },
+    {
+      "path": "locnNumbers",
+      "types": [
+        "array"
+      ],
+      "nullable": false,
+      "isArray": true,
+      "isObject": false,
+      "sampleValues": [],
+      "occurrenceCount": 12,
+      "totalRecords": 12
+    },
+    {
+      "path": "modifiedOn",
+      "types": [
+        "string"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        "2025-03-16T21:34:45.6675436Z",
+        "2025-03-16T21:36:05.6143007Z"
+      ],
+      "occurrenceCount": 12,
+      "totalRecords": 12,
+      "minLength": 28,
+      "maxLength": 28
+    },
+    {
+      "path": "name",
+      "types": [
+        "string"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        "South Pinellas - Service Zone",
+        "Pool Install Zone - Pasco (North)",
+        "NORTH Pinellas - Service Zone",
+        "South West Pinellas - Service Zone",
+        "North EAST Pinellas - Service Zone"
+      ],
+      "occurrenceCount": 12,
+      "totalRecords": 12,
+      "minLength": 19,
+      "maxLength": 38
+    },
+    {
+      "path": "serviceDays",
+      "types": [
+        "array"
+      ],
+      "nullable": false,
+      "isArray": true,
+      "isObject": false,
+      "sampleValues": [],
+      "occurrenceCount": 12,
+      "totalRecords": 12
+    },
+    {
+      "path": "serviceDaysEnabled",
+      "types": [
+        "boolean"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        false,
+        true
+      ],
+      "occurrenceCount": 12,
+      "totalRecords": 12
+    },
+    {
+      "path": "technicians",
+      "types": [
+        "array"
+      ],
+      "nullable": false,
+      "isArray": true,
+      "isObject": false,
+      "sampleValues": [],
+      "occurrenceCount": 12,
+      "totalRecords": 12
+    },
+    {
+      "path": "territoryNumbers",
+      "types": [
+        "array"
+      ],
+      "nullable": false,
+      "isArray": true,
+      "isObject": false,
+      "sampleValues": [],
+      "occurrenceCount": 12,
+      "totalRecords": 12
+    },
+    {
+      "path": "zips",
+      "types": [
+        "array"
+      ],
+      "nullable": false,
+      "isArray": true,
+      "isObject": false,
+      "sampleValues": [],
+      "occurrenceCount": 12,
+      "totalRecords": 12
+    }
+  ],
+  "rootStructure": "paginated",
+  "paginationFields": [
+    "page",
+    "pageSize",
+    "hasMore",
+    "totalCount"
+  ],
+  "idField": "id",
+  "timestampFields": [
+    "createdBy",
+    "createdOn",
+    "modifiedOn"
+  ],
+  "relationshipFields": [],
+  "analyzedAt": "2026-01-21T14:16:43.051Z"
+}

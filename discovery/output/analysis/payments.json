@@ -1,0 +1,733 @@
+{
+  "endpointName": "payments",
+  "recordCount": 100,
+  "fields": [
+    {
+      "path": "active",
+      "types": [
+        "boolean"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        true
+      ],
+      "occurrenceCount": 100,
+      "totalRecords": 100
+    },
+    {
+      "path": "appliedTo",
+      "types": [
+        "array"
+      ],
+      "nullable": false,
+      "isArray": true,
+      "isObject": false,
+      "sampleValues": [],
+      "occurrenceCount": 100,
+      "totalRecords": 100
+    },
+    {
+      "path": "appliedTo[].appliedAmount",
+      "types": [
+        "string"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        "95.00",
+        "1948.99",
+        "0.00",
+        "1950.00",
+        "3190.00"
+      ],
+      "occurrenceCount": 99,
+      "totalRecords": 100,
+      "minLength": 4,
+      "maxLength": 8
+    },
+    {
+      "path": "appliedTo[].appliedBy",
+      "types": [
+        "string",
+        "null"
+      ],
+      "nullable": true,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        "Hunterf1"
+      ],
+      "occurrenceCount": 99,
+      "totalRecords": 100,
+      "minLength": 8,
+      "maxLength": 8
+    },
+    {
+      "path": "appliedTo[].appliedId",
+      "types": [
+        "number"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        5911886,
+        7866799,
+        7866798,
+        7866813,
+        7866812
+      ],
+      "occurrenceCount": 99,
+      "totalRecords": 100,
+      "minValue": 5911886,
+      "maxValue": 7867530
+    },
+    {
+      "path": "appliedTo[].appliedOn",
+      "types": [
+        "string"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        "2024-07-09T18:03:46.155789Z",
+        "2024-07-10T16:39:11.4529168Z",
+        "2024-07-10T16:39:11.4309239Z",
+        "2024-07-10T16:39:12.1504452Z",
+        "2024-07-10T16:39:12.2973663Z"
+      ],
+      "occurrenceCount": 99,
+      "totalRecords": 100,
+      "minLength": 26,
+      "maxLength": 28
+    },
+    {
+      "path": "appliedTo[].appliedTo",
+      "types": [
+        "number"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        2028111,
+        1188439,
+        1188670,
+        1188440,
+        1188561
+      ],
+      "occurrenceCount": 99,
+      "totalRecords": 100,
+      "minValue": 1188438,
+      "maxValue": 2028111
+    },
+    {
+      "path": "appliedTo[].appliedToReferenceNumber",
+      "types": [
+        "string"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        "2028108",
+        "1019",
+        "1037",
+        "1085",
+        "1025"
+      ],
+      "occurrenceCount": 99,
+      "totalRecords": 100,
+      "minLength": 4,
+      "maxLength": 7
+    },
+    {
+      "path": "authCode",
+      "types": [
+        "string",
+        "null"
+      ],
+      "nullable": true,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        "05472G"
+      ],
+      "occurrenceCount": 100,
+      "totalRecords": 100,
+      "minLength": 6,
+      "maxLength": 6
+    },
+    {
+      "path": "batch",
+      "types": [
+        "object",
+        "null"
+      ],
+      "nullable": true,
+      "isArray": false,
+      "isObject": true,
+      "sampleValues": [],
+      "occurrenceCount": 100,
+      "totalRecords": 100
+    },
+    {
+      "path": "batch.id",
+      "types": [
+        "number"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        5919047
+      ],
+      "occurrenceCount": 1,
+      "totalRecords": 100,
+      "minValue": 5919047,
+      "maxValue": 5919047
+    },
+    {
+      "path": "batch.name",
+      "types": [
+        "string"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        "AutoBatch_TSYS_Settlement_8475_7/10/2024"
+      ],
+      "occurrenceCount": 1,
+      "totalRecords": 100,
+      "minLength": 40,
+      "maxLength": 40
+    },
+    {
+      "path": "batch.number",
+      "types": [
+        "string"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        "1"
+      ],
+      "occurrenceCount": 1,
+      "totalRecords": 100,
+      "minLength": 1,
+      "maxLength": 1
+    },
+    {
+      "path": "businessUnit",
+      "types": [
+        "object"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": true,
+      "sampleValues": [],
+      "occurrenceCount": 100,
+      "totalRecords": 100
+    },
+    {
+      "path": "businessUnit.id",
+      "types": [
+        "number"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        4622,
+        1316
+      ],
+      "occurrenceCount": 100,
+      "totalRecords": 100,
+      "minValue": 1316,
+      "maxValue": 4622
+    },
+    {
+      "path": "businessUnit.name",
+      "types": [
+        "string"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        "Pool - Sales",
+        "Imported Default Businessunit"
+      ],
+      "occurrenceCount": 100,
+      "totalRecords": 100,
+      "minLength": 12,
+      "maxLength": 29
+    },
+    {
+      "path": "checkNumber",
+      "types": [
+        "null"
+      ],
+      "nullable": true,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [],
+      "occurrenceCount": 100,
+      "totalRecords": 100
+    },
+    {
+      "path": "createdBy",
+      "types": [
+        "string",
+        "null"
+      ],
+      "nullable": true,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        "Hunterf1"
+      ],
+      "occurrenceCount": 100,
+      "totalRecords": 100,
+      "minLength": 8,
+      "maxLength": 8
+    },
+    {
+      "path": "createdOn",
+      "types": [
+        "string"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        "2024-07-09T18:03:46.0645818Z",
+        "2024-07-10T16:39:11.3074061Z",
+        "2024-07-10T16:39:11.3625718Z",
+        "2024-07-10T16:39:12.1087956Z",
+        "2024-07-10T16:39:12.1115122Z"
+      ],
+      "occurrenceCount": 100,
+      "totalRecords": 100,
+      "minLength": 27,
+      "maxLength": 28
+    },
+    {
+      "path": "customer",
+      "types": [
+        "object"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": true,
+      "sampleValues": [],
+      "occurrenceCount": 100,
+      "totalRecords": 100
+    },
+    {
+      "path": "customer.id",
+      "types": [
+        "number"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        5911620,
+        1184662,
+        1184966,
+        1184754,
+        1185188
+      ],
+      "occurrenceCount": 100,
+      "totalRecords": 100,
+      "minValue": 1184517,
+      "maxValue": 5911620
+    },
+    {
+      "path": "customer.name",
+      "types": [
+        "string"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        "La Costa Brava - Bob Morin",
+        "Denisha",
+        "Pool Perfection - main",
+        "Islandway Pools",
+        "Island Way Pools"
+      ],
+      "occurrenceCount": 100,
+      "totalRecords": 100,
+      "minLength": 6,
+      "maxLength": 29
+    },
+    {
+      "path": "customFields",
+      "types": [
+        "null"
+      ],
+      "nullable": true,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [],
+      "occurrenceCount": 100,
+      "totalRecords": 100
+    },
+    {
+      "path": "date",
+      "types": [
+        "string"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        "2024-07-09T18:03:46.0329183Z",
+        "2024-04-03T00:00:00Z",
+        "2024-04-10T00:00:00Z",
+        "2024-04-29T00:00:00Z",
+        "2024-04-05T00:00:00Z"
+      ],
+      "occurrenceCount": 100,
+      "totalRecords": 100,
+      "minLength": 20,
+      "maxLength": 28
+    },
+    {
+      "path": "deposit",
+      "types": [
+        "object",
+        "null"
+      ],
+      "nullable": true,
+      "isArray": false,
+      "isObject": true,
+      "sampleValues": [],
+      "occurrenceCount": 100,
+      "totalRecords": 100
+    },
+    {
+      "path": "deposit.id",
+      "types": [
+        "number"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        5919406
+      ],
+      "occurrenceCount": 1,
+      "totalRecords": 100,
+      "minValue": 5919406,
+      "maxValue": 5919406
+    },
+    {
+      "path": "deposit.name",
+      "types": [
+        "string"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        "AutoBatch_TSYS_Settlement_8475_7/10/2024"
+      ],
+      "occurrenceCount": 1,
+      "totalRecords": 100,
+      "minLength": 40,
+      "maxLength": 40
+    },
+    {
+      "path": "generalLedgerAccount",
+      "types": [
+        "object",
+        "null"
+      ],
+      "nullable": true,
+      "isArray": false,
+      "isObject": true,
+      "sampleValues": [],
+      "occurrenceCount": 100,
+      "totalRecords": 100
+    },
+    {
+      "path": "generalLedgerAccount.detailType",
+      "types": [
+        "string"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        "Asset"
+      ],
+      "occurrenceCount": 1,
+      "totalRecords": 100,
+      "minLength": 5,
+      "maxLength": 5
+    },
+    {
+      "path": "generalLedgerAccount.id",
+      "types": [
+        "number"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        65
+      ],
+      "occurrenceCount": 1,
+      "totalRecords": 100,
+      "minValue": 65,
+      "maxValue": 65
+    },
+    {
+      "path": "generalLedgerAccount.name",
+      "types": [
+        "string"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        "Undeposited Funds"
+      ],
+      "occurrenceCount": 1,
+      "totalRecords": 100,
+      "minLength": 17,
+      "maxLength": 17
+    },
+    {
+      "path": "generalLedgerAccount.number",
+      "types": [
+        "string"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        "1200"
+      ],
+      "occurrenceCount": 1,
+      "totalRecords": 100,
+      "minLength": 4,
+      "maxLength": 4
+    },
+    {
+      "path": "generalLedgerAccount.type",
+      "types": [
+        "string"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        "Other Current Asset"
+      ],
+      "occurrenceCount": 1,
+      "totalRecords": 100,
+      "minLength": 19,
+      "maxLength": 19
+    },
+    {
+      "path": "id",
+      "types": [
+        "number"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        5911884,
+        7866794,
+        7866795,
+        7866808,
+        7866809
+      ],
+      "occurrenceCount": 100,
+      "totalRecords": 100,
+      "minValue": 5911884,
+      "maxValue": 7867528
+    },
+    {
+      "path": "memo",
+      "types": [
+        "string"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        " ",
+        "Invoice_1019",
+        "Invoice_1037",
+        "Invoice_1085",
+        "Invoice_1025"
+      ],
+      "occurrenceCount": 100,
+      "totalRecords": 100,
+      "minLength": 1,
+      "maxLength": 12
+    },
+    {
+      "path": "modifiedOn",
+      "types": [
+        "string"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        "2024-07-18T15:16:03.9408832Z",
+        "2024-07-10T16:39:11.8795014Z",
+        "2025-02-17T21:12:34.5768556Z",
+        "2024-07-10T16:39:12.2265937Z",
+        "2024-07-10T16:39:12.2741043Z"
+      ],
+      "occurrenceCount": 100,
+      "totalRecords": 100,
+      "minLength": 26,
+      "maxLength": 28
+    },
+    {
+      "path": "referenceNumber",
+      "types": [
+        "null"
+      ],
+      "nullable": true,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [],
+      "occurrenceCount": 100,
+      "totalRecords": 100
+    },
+    {
+      "path": "refundedPaymentId",
+      "types": [
+        "null"
+      ],
+      "nullable": true,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [],
+      "occurrenceCount": 100,
+      "totalRecords": 100
+    },
+    {
+      "path": "syncStatus",
+      "types": [
+        "string"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        "Exported"
+      ],
+      "occurrenceCount": 100,
+      "totalRecords": 100,
+      "minLength": 8,
+      "maxLength": 8
+    },
+    {
+      "path": "total",
+      "types": [
+        "string"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        "95.00",
+        "1948.99",
+        "0.00",
+        "1950.00",
+        "3190.00"
+      ],
+      "occurrenceCount": 100,
+      "totalRecords": 100,
+      "minLength": 4,
+      "maxLength": 8
+    },
+    {
+      "path": "type",
+      "types": [
+        "string"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        "Visa",
+        "Applied Payment for AR"
+      ],
+      "occurrenceCount": 100,
+      "totalRecords": 100,
+      "minLength": 4,
+      "maxLength": 22
+    },
+    {
+      "path": "typeId",
+      "types": [
+        "string"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        "1403",
+        "1409"
+      ],
+      "occurrenceCount": 100,
+      "totalRecords": 100,
+      "minLength": 4,
+      "maxLength": 4
+    },
+    {
+      "path": "unappliedAmount",
+      "types": [
+        "string"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        "0.00"
+      ],
+      "occurrenceCount": 100,
+      "totalRecords": 100,
+      "minLength": 4,
+      "maxLength": 4
+    }
+  ],
+  "rootStructure": "paginated",
+  "paginationFields": [
+    "page",
+    "pageSize",
+    "hasMore",
+    "totalCount"
+  ],
+  "idField": "id",
+  "timestampFields": [
+    "createdBy",
+    "createdOn",
+    "date",
+    "modifiedOn"
+  ],
+  "relationshipFields": [
+    "refundedPaymentId",
+    "typeId"
+  ],
+  "analyzedAt": "2026-01-21T14:16:42.994Z"
+}

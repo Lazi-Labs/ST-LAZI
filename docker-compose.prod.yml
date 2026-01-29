@@ -1,0 +1,111 @@
+# ===========================================
+# LAZI ST Ingestion - Production Deployment
+# ===========================================
+# Deploy with: docker-compose -f docker-compose.prod.yml up -d
+
+version: '3.8'
+
+services:
+  # ===========================================
+  # API & Main Service
+  # ===========================================
+  lazi-st-ingestion:
+    image: lazi-st-ingestion:latest
+    build:
+      context: .
+      dockerfile: Dockerfile
+    restart: unless-stopped
+    env_file:
+      - .env
+    networks:
+      - lazi-network
+      - traefik-network
+    labels:
+      - "traefik.enable=true"
+      - "traefik.http.routers.st-ingestion.rule=Host(`st-ingestion.lazilabs.com`)"
+      - "traefik.http.routers.st-ingestion.entrypoints=websecure"
+      - "traefik.http.routers.st-ingestion.tls.certresolver=letsencrypt"
+      - "traefik.http.services.st-ingestion.loadbalancer.server.port=3100"
+      # Optional: Restrict to internal IPs only
+      # - "traefik.http.middlewares.st-ingestion-ip.ipwhitelist.sourcerange=10.0.0.0/8,172.16.0.0/12"
+      # - "traefik.http.routers.st-ingestion.middlewares=st-ingestion-ip"
+    healthcheck:
+      test: ["CMD", "wget", "--no-verbose", "--tries=1", "--spider", "http://localhost:3100/health"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 10s
+    deploy:
+      resources:
+        limits:
+          cpus: '1'
+          memory: 512M
+        reservations:
+          cpus: '0.25'
+          memory: 256M
+
+  # ===========================================
+  # Sync Worker
+  # ===========================================
+  lazi-st-ingestion-sync:
+    image: lazi-st-ingestion:latest
+    command: ["node", "dist/workers/sync/index.js"]
+    restart: unless-stopped
+    env_file:
+      - .env
+    networks:
+      - lazi-network
+    deploy:
+      resources:
+        limits:
+          cpus: '2'
+          memory: 1G
+        reservations:
+          cpus: '0.5'
+          memory: 512M
+
+  # ===========================================
+  # Outbound Worker
+  # ===========================================
+  lazi-st-ingestion-outbound:
+    image: lazi-st-ingestion:latest
+    command: ["node", "dist/workers/outbound/index.js"]
+    restart: unless-stopped
+    env_file:
+      - .env
+    networks:
+      - lazi-network
+    deploy:
+      resources:
+        limits:
+          cpus: '0.5'
+          memory: 256M
+        reservations:
+          cpus: '0.1'
+          memory: 128M
+
+  # ===========================================
+  # Redis
+  # ===========================================
+  lazi-st-ingestion-redis:
+    image: redis:7-alpine
+    restart: unless-stopped
+    volumes:
+      - redis-data:/data
+    networks:
+      - lazi-network
+    command: redis-server --appendonly yes
+    healthcheck:
+      test: ["CMD", "redis-cli", "ping"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+networks:
+  lazi-network:
+    external: true
+  traefik-network:
+    external: true
+
+volumes:
+  redis-data:

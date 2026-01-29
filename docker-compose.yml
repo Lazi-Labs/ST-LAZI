@@ -1,0 +1,33 @@
+services:
+  st-api:
+    build: .
+    container_name: lazi-st-api
+    restart: unless-stopped
+    environment:
+      - NODE_ENV=production
+      - PORT=3005
+    env_file:
+      - .env
+    ports:
+      - "3005:3005"
+    command: npm run start
+
+  st-sync-scheduled:
+    build: .
+    container_name: lazi-st-sync
+    restart: unless-stopped
+    environment:
+      - NODE_ENV=production
+    env_file:
+      - .env
+    command: npm run sync:scheduled
+
+  st-outbound:
+    build: .
+    container_name: lazi-st-outbound
+    restart: unless-stopped
+    environment:
+      - NODE_ENV=production
+    env_file:
+      - .env
+    command: npm run outbound

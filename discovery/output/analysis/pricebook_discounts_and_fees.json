@@ -1,0 +1,439 @@
+{
+  "endpointName": "pricebook_discounts_and_fees",
+  "recordCount": 7,
+  "fields": [
+    {
+      "path": "account",
+      "types": [
+        "string"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        "Discounts / Refunds Given",
+        "INCOME-Sales"
+      ],
+      "occurrenceCount": 7,
+      "totalRecords": 7,
+      "minLength": 12,
+      "maxLength": 25
+    },
+    {
+      "path": "active",
+      "types": [
+        "boolean"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        true
+      ],
+      "occurrenceCount": 7,
+      "totalRecords": 7
+    },
+    {
+      "path": "amount",
+      "types": [
+        "number"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        0.05,
+        0.15,
+        0.1,
+        200,
+        0.03
+      ],
+      "occurrenceCount": 7,
+      "totalRecords": 7,
+      "minValue": 0.03,
+      "maxValue": 200
+    },
+    {
+      "path": "amountType",
+      "types": [
+        "string"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        "Percentage",
+        "Fixed"
+      ],
+      "occurrenceCount": 7,
+      "totalRecords": 7,
+      "minLength": 5,
+      "maxLength": 10
+    },
+    {
+      "path": "assets",
+      "types": [
+        "array"
+      ],
+      "nullable": false,
+      "isArray": true,
+      "isObject": false,
+      "sampleValues": [],
+      "occurrenceCount": 7,
+      "totalRecords": 7
+    },
+    {
+      "path": "assets[].alias",
+      "types": [
+        "null"
+      ],
+      "nullable": true,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [],
+      "occurrenceCount": 3,
+      "totalRecords": 7
+    },
+    {
+      "path": "assets[].fileName",
+      "types": [
+        "string"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        "6858221c-2f60-4eb7-bc50-c1f673cb466b.jpeg",
+        "a3fa67a0-b517-4f43-8ce4-3de46eb3c8a5.png",
+        "e3c976e9-3097-4dd7-b401-9d4ca48c6a00.jpeg"
+      ],
+      "occurrenceCount": 3,
+      "totalRecords": 7,
+      "minLength": 40,
+      "maxLength": 41
+    },
+    {
+      "path": "assets[].isDefault",
+      "types": [
+        "boolean"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        false
+      ],
+      "occurrenceCount": 3,
+      "totalRecords": 7
+    },
+    {
+      "path": "assets[].type",
+      "types": [
+        "string"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        "Image"
+      ],
+      "occurrenceCount": 3,
+      "totalRecords": 7,
+      "minLength": 5,
+      "maxLength": 5
+    },
+    {
+      "path": "assets[].url",
+      "types": [
+        "string"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        "Images/PriceModifier/6858221c-2f60-4eb7-bc50-c1f673cb466b.jpeg",
+        "Images/PriceModifier/a3fa67a0-b517-4f43-8ce4-3de46eb3c8a5.png",
+        "Images/PriceModifier/e3c976e9-3097-4dd7-b401-9d4ca48c6a00.jpeg"
+      ],
+      "occurrenceCount": 3,
+      "totalRecords": 7,
+      "minLength": 61,
+      "maxLength": 62
+    },
+    {
+      "path": "bonus",
+      "types": [
+        "number"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        0
+      ],
+      "occurrenceCount": 7,
+      "totalRecords": 7,
+      "minValue": 0,
+      "maxValue": 0
+    },
+    {
+      "path": "budgetCostCode",
+      "types": [
+        "null"
+      ],
+      "nullable": true,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [],
+      "occurrenceCount": 7,
+      "totalRecords": 7
+    },
+    {
+      "path": "budgetCostType",
+      "types": [
+        "null"
+      ],
+      "nullable": true,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [],
+      "occurrenceCount": 7,
+      "totalRecords": 7
+    },
+    {
+      "path": "categories",
+      "types": [
+        "array"
+      ],
+      "nullable": false,
+      "isArray": true,
+      "isObject": false,
+      "sampleValues": [],
+      "occurrenceCount": 7,
+      "totalRecords": 7
+    },
+    {
+      "path": "code",
+      "types": [
+        "string"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        "DISCOUNT-0010",
+        "DISCOUNT-0030",
+        "DISCOUNT-0020",
+        "Summer-Special",
+        "MILLITARY"
+      ],
+      "occurrenceCount": 7,
+      "totalRecords": 7,
+      "minLength": 9,
+      "maxLength": 14
+    },
+    {
+      "path": "commissionBonus",
+      "types": [
+        "number"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        0
+      ],
+      "occurrenceCount": 7,
+      "totalRecords": 7,
+      "minValue": 0,
+      "maxValue": 0
+    },
+    {
+      "path": "crossSaleGroup",
+      "types": [
+        "null"
+      ],
+      "nullable": true,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [],
+      "occurrenceCount": 7,
+      "totalRecords": 7
+    },
+    {
+      "path": "description",
+      "types": [
+        "string"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        "We appreciate your business and want to offer you a discount on our standard services",
+        "Customer Discount 15% Off",
+        "10% off you entire service",
+        "Summer discount gas heater free installation.",
+        "Thank you for your service"
+      ],
+      "occurrenceCount": 7,
+      "totalRecords": 7,
+      "minLength": 21,
+      "maxLength": 85
+    },
+    {
+      "path": "displayName",
+      "types": [
+        "string"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        "Customer Discount 5% Off",
+        "Customer Discount 15% Off",
+        "Customer Discount 10% Off",
+        "Gas Heater Special",
+        "Military Discount"
+      ],
+      "occurrenceCount": 7,
+      "totalRecords": 7,
+      "minLength": 17,
+      "maxLength": 29
+    },
+    {
+      "path": "excludeFromPayroll",
+      "types": [
+        "boolean"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        false
+      ],
+      "occurrenceCount": 7,
+      "totalRecords": 7
+    },
+    {
+      "path": "externalData",
+      "types": [
+        "array"
+      ],
+      "nullable": false,
+      "isArray": true,
+      "isObject": false,
+      "sampleValues": [],
+      "occurrenceCount": 7,
+      "totalRecords": 7
+    },
+    {
+      "path": "hours",
+      "types": [
+        "number"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        0
+      ],
+      "occurrenceCount": 7,
+      "totalRecords": 7,
+      "minValue": 0,
+      "maxValue": 0
+    },
+    {
+      "path": "id",
+      "types": [
+        "number"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        53012629,
+        53287945,
+        53297559,
+        58076423,
+        59130290
+      ],
+      "occurrenceCount": 7,
+      "totalRecords": 7,
+      "minValue": 53012629,
+      "maxValue": 62661278
+    },
+    {
+      "path": "limit",
+      "types": [
+        "number"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        0,
+        250
+      ],
+      "occurrenceCount": 7,
+      "totalRecords": 7,
+      "minValue": 0,
+      "maxValue": 250
+    },
+    {
+      "path": "paysCommission",
+      "types": [
+        "boolean"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        false
+      ],
+      "occurrenceCount": 7,
+      "totalRecords": 7
+    },
+    {
+      "path": "taxable",
+      "types": [
+        "boolean"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        false
+      ],
+      "occurrenceCount": 7,
+      "totalRecords": 7
+    },
+    {
+      "path": "type",
+      "types": [
+        "string"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        "Discount",
+        "Fee"
+      ],
+      "occurrenceCount": 7,
+      "totalRecords": 7,
+      "minLength": 3,
+      "maxLength": 8
+    }
+  ],
+  "rootStructure": "paginated",
+  "paginationFields": [
+    "page",
+    "pageSize",
+    "hasMore",
+    "totalCount"
+  ],
+  "idField": "id",
+  "timestampFields": [],
+  "relationshipFields": [],
+  "analyzedAt": "2026-01-21T14:16:43.006Z"
+}

@@ -1,0 +1,175 @@
+{
+  "endpointName": "trucks",
+  "recordCount": 12,
+  "fields": [
+    {
+      "path": "active",
+      "types": [
+        "boolean"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        true
+      ],
+      "occurrenceCount": 12,
+      "totalRecords": 12
+    },
+    {
+      "path": "createdOn",
+      "types": [
+        "string"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        "2025-07-23T15:30:21.4362329Z",
+        "2025-07-23T15:29:47.9958296Z",
+        "2025-07-23T15:29:31.8214293Z",
+        "2025-07-23T15:29:07.9762008Z",
+        "2025-06-30T17:16:11.0314572Z"
+      ],
+      "occurrenceCount": 12,
+      "totalRecords": 12,
+      "minLength": 27,
+      "maxLength": 28
+    },
+    {
+      "path": "externalData",
+      "types": [
+        "null"
+      ],
+      "nullable": true,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [],
+      "occurrenceCount": 12,
+      "totalRecords": 12
+    },
+    {
+      "path": "id",
+      "types": [
+        "number"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        59284486,
+        59278475,
+        59275430,
+        59283463,
+        58944519
+      ],
+      "occurrenceCount": 12,
+      "totalRecords": 12,
+      "minValue": 57586182,
+      "maxValue": 59347847
+    },
+    {
+      "path": "memo",
+      "types": [
+        "string",
+        "null"
+      ],
+      "nullable": true,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        ""
+      ],
+      "occurrenceCount": 12,
+      "totalRecords": 12,
+      "minLength": 0,
+      "maxLength": 0
+    },
+    {
+      "path": "modifiedOn",
+      "types": [
+        "string"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        "2025-09-22T11:48:01.5435614Z",
+        "2025-07-23T15:29:48.1030513Z",
+        "2025-07-23T15:29:31.8657684Z",
+        "2026-01-06T15:22:29.4054035Z",
+        "2025-11-03T17:39:45.3978987Z"
+      ],
+      "occurrenceCount": 12,
+      "totalRecords": 12,
+      "minLength": 26,
+      "maxLength": 28
+    },
+    {
+      "path": "name",
+      "types": [
+        "string"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        "Transit #08 - Mark",
+        "Transit #07 - Unnassigned",
+        "Transit #06 - Kurt",
+        "Transit #05 - Unnassigned",
+        "Transit #04 - Dylan"
+      ],
+      "occurrenceCount": 12,
+      "totalRecords": 12,
+      "minLength": 13,
+      "maxLength": 33
+    },
+    {
+      "path": "technicianIds",
+      "types": [
+        "array"
+      ],
+      "nullable": false,
+      "isArray": true,
+      "isObject": false,
+      "sampleValues": [],
+      "occurrenceCount": 12,
+      "totalRecords": 12
+    },
+    {
+      "path": "warehouseId",
+      "types": [
+        "number"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        248,
+        5762,
+        57346054
+      ],
+      "occurrenceCount": 12,
+      "totalRecords": 12,
+      "minValue": 248,
+      "maxValue": 57346054
+    }
+  ],
+  "rootStructure": "paginated",
+  "paginationFields": [
+    "page",
+    "pageSize",
+    "hasMore",
+    "totalCount"
+  ],
+  "idField": "id",
+  "timestampFields": [
+    "createdOn",
+    "modifiedOn"
+  ],
+  "relationshipFields": [
+    "warehouseId"
+  ],
+  "analyzedAt": "2026-01-21T14:16:43.050Z"
+}

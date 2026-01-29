@@ -1,0 +1,1102 @@
+{
+  "endpointName": "returns",
+  "recordCount": 42,
+  "fields": [
+    {
+      "path": "active",
+      "types": [
+        "boolean"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        true
+      ],
+      "occurrenceCount": 42,
+      "totalRecords": 42
+    },
+    {
+      "path": "batch",
+      "types": [
+        "object"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": true,
+      "sampleValues": [],
+      "occurrenceCount": 42,
+      "totalRecords": 42
+    },
+    {
+      "path": "batch.id",
+      "types": [
+        "number"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        61651574,
+        55114397,
+        54881345
+      ],
+      "occurrenceCount": 42,
+      "totalRecords": 42,
+      "minValue": 54881345,
+      "maxValue": 61651574
+    },
+    {
+      "path": "batch.name",
+      "types": [
+        "string"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        "Bypass",
+        "12/16 Bills",
+        "PO 11.22.24"
+      ],
+      "occurrenceCount": 42,
+      "totalRecords": 42,
+      "minLength": 6,
+      "maxLength": 11
+    },
+    {
+      "path": "batch.number",
+      "types": [
+        "string"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        "813",
+        "343",
+        "317"
+      ],
+      "occurrenceCount": 42,
+      "totalRecords": 42,
+      "minLength": 3,
+      "maxLength": 3
+    },
+    {
+      "path": "batchId",
+      "types": [
+        "number"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        61651574,
+        55114397,
+        54881345
+      ],
+      "occurrenceCount": 42,
+      "totalRecords": 42,
+      "minValue": 54881345,
+      "maxValue": 61651574
+    },
+    {
+      "path": "budgetCodeId",
+      "types": [
+        "null"
+      ],
+      "nullable": true,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [],
+      "occurrenceCount": 42,
+      "totalRecords": 42
+    },
+    {
+      "path": "businessUnitId",
+      "types": [
+        "number"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        4623,
+        1308,
+        54670601,
+        25197
+      ],
+      "occurrenceCount": 42,
+      "totalRecords": 42,
+      "minValue": 1308,
+      "maxValue": 54670601
+    },
+    {
+      "path": "canceledById",
+      "types": [
+        "null"
+      ],
+      "nullable": true,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [],
+      "occurrenceCount": 42,
+      "totalRecords": 42
+    },
+    {
+      "path": "canceledReason",
+      "types": [
+        "null"
+      ],
+      "nullable": true,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [],
+      "occurrenceCount": 42,
+      "totalRecords": 42
+    },
+    {
+      "path": "createdById",
+      "types": [
+        "number"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        4613
+      ],
+      "occurrenceCount": 42,
+      "totalRecords": 42,
+      "minValue": 4613,
+      "maxValue": 4613
+    },
+    {
+      "path": "createdOn",
+      "types": [
+        "string"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        "2025-10-07T13:03:31.4449761Z",
+        "2025-09-25T12:34:22.7737681Z",
+        "2025-08-21T14:21:49.9488291Z",
+        "2025-08-21T14:23:00.1724092Z",
+        "2025-07-30T14:25:52.0803285Z"
+      ],
+      "occurrenceCount": 42,
+      "totalRecords": 42,
+      "minLength": 27,
+      "maxLength": 28
+    },
+    {
+      "path": "creditReceivedOn",
+      "types": [
+        "string"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        "2025-10-07T00:00:00Z",
+        "2025-09-25T00:00:00Z",
+        "2025-08-21T00:00:00Z",
+        "2025-07-30T00:00:00Z",
+        "2025-06-13T00:00:00Z"
+      ],
+      "occurrenceCount": 42,
+      "totalRecords": 42,
+      "minLength": 20,
+      "maxLength": 20
+    },
+    {
+      "path": "customFields",
+      "types": [
+        "null"
+      ],
+      "nullable": true,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [],
+      "occurrenceCount": 42,
+      "totalRecords": 42
+    },
+    {
+      "path": "dateCanceled",
+      "types": [
+        "null"
+      ],
+      "nullable": true,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [],
+      "occurrenceCount": 42,
+      "totalRecords": 42
+    },
+    {
+      "path": "externalData",
+      "types": [
+        "null"
+      ],
+      "nullable": true,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [],
+      "occurrenceCount": 42,
+      "totalRecords": 42
+    },
+    {
+      "path": "id",
+      "types": [
+        "number"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        60942604,
+        60692870,
+        60199835,
+        60197130,
+        59383249
+      ],
+      "occurrenceCount": 42,
+      "totalRecords": 42,
+      "minValue": 52989833,
+      "maxValue": 60942604
+    },
+    {
+      "path": "inventoryLocationId",
+      "types": [
+        "number",
+        "null"
+      ],
+      "nullable": true,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        248,
+        5762,
+        57586182,
+        55014292,
+        4483
+      ],
+      "occurrenceCount": 42,
+      "totalRecords": 42,
+      "minValue": 137,
+      "maxValue": 57586182
+    },
+    {
+      "path": "items",
+      "types": [
+        "array"
+      ],
+      "nullable": false,
+      "isArray": true,
+      "isObject": false,
+      "sampleValues": [],
+      "occurrenceCount": 42,
+      "totalRecords": 42
+    },
+    {
+      "path": "items[].active",
+      "types": [
+        "boolean"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        true
+      ],
+      "occurrenceCount": 97,
+      "totalRecords": 42
+    },
+    {
+      "path": "items[].assetAccount",
+      "types": [
+        "null",
+        "object"
+      ],
+      "nullable": true,
+      "isArray": false,
+      "isObject": true,
+      "sampleValues": [],
+      "occurrenceCount": 97,
+      "totalRecords": 42
+    },
+    {
+      "path": "items[].assetAccount.detailType",
+      "types": [
+        "string"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        "Asset"
+      ],
+      "occurrenceCount": 1,
+      "totalRecords": 42,
+      "minLength": 5,
+      "maxLength": 5
+    },
+    {
+      "path": "items[].assetAccount.name",
+      "types": [
+        "string"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        "Inventory – Materials & Equipment"
+      ],
+      "occurrenceCount": 1,
+      "totalRecords": 42,
+      "minLength": 33,
+      "maxLength": 33
+    },
+    {
+      "path": "items[].assetAccount.number",
+      "types": [
+        "string"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        "1300"
+      ],
+      "occurrenceCount": 1,
+      "totalRecords": 42,
+      "minLength": 4,
+      "maxLength": 4
+    },
+    {
+      "path": "items[].assetAccount.type",
+      "types": [
+        "string"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        "Other Current Asset"
+      ],
+      "occurrenceCount": 1,
+      "totalRecords": 42,
+      "minLength": 19,
+      "maxLength": 19
+    },
+    {
+      "path": "items[].budgetCodeId",
+      "types": [
+        "null"
+      ],
+      "nullable": true,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [],
+      "occurrenceCount": 97,
+      "totalRecords": 42
+    },
+    {
+      "path": "items[].code",
+      "types": [
+        "string"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        "PEN-AUT-CVA24-EQ",
+        "SIE-230",
+        "SIE-120",
+        "SIE-220-I",
+        "SIE-250-I"
+      ],
+      "occurrenceCount": 97,
+      "totalRecords": 42,
+      "minLength": 6,
+      "maxLength": 21
+    },
+    {
+      "path": "items[].cost",
+      "types": [
+        "number"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        229.87,
+        13.98,
+        5.98,
+        0.5617,
+        0.2766
+      ],
+      "occurrenceCount": 97,
+      "totalRecords": 42,
+      "minValue": 0.2766,
+      "maxValue": 6579.77
+    },
+    {
+      "path": "items[].costOfSaleAccount",
+      "types": [
+        "object"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": true,
+      "sampleValues": [],
+      "occurrenceCount": 97,
+      "totalRecords": 42
+    },
+    {
+      "path": "items[].costOfSaleAccount.detailType",
+      "types": [
+        "string"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        "Expense"
+      ],
+      "occurrenceCount": 97,
+      "totalRecords": 42,
+      "minLength": 7,
+      "maxLength": 7
+    },
+    {
+      "path": "items[].costOfSaleAccount.name",
+      "types": [
+        "string"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        "SUPPLIES & MATERIALS – COGS:Installed Equipment (COGS)",
+        "SUPPLIES & MATERIALS – COGS:Materials & Parts (COGS)",
+        "Deactive 4"
+      ],
+      "occurrenceCount": 97,
+      "totalRecords": 42,
+      "minLength": 10,
+      "maxLength": 54
+    },
+    {
+      "path": "items[].costOfSaleAccount.number",
+      "types": [
+        "string"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        "5110",
+        "5100"
+      ],
+      "occurrenceCount": 97,
+      "totalRecords": 42,
+      "minLength": 4,
+      "maxLength": 4
+    },
+    {
+      "path": "items[].costOfSaleAccount.type",
+      "types": [
+        "string"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        "Cost of Goods Sold"
+      ],
+      "occurrenceCount": 97,
+      "totalRecords": 42,
+      "minLength": 18,
+      "maxLength": 18
+    },
+    {
+      "path": "items[].createdById",
+      "types": [
+        "number"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        4613
+      ],
+      "occurrenceCount": 97,
+      "totalRecords": 42,
+      "minValue": 4613,
+      "maxValue": 4613
+    },
+    {
+      "path": "items[].createdOn",
+      "types": [
+        "string"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        "2025-10-07T13:03:31.477729Z",
+        "2025-09-25T12:34:22.8183309Z",
+        "2025-09-25T12:34:22.976775Z",
+        "2025-09-25T12:34:23.0412227Z",
+        "2025-09-25T12:34:23.1004425Z"
+      ],
+      "occurrenceCount": 97,
+      "totalRecords": 42,
+      "minLength": 26,
+      "maxLength": 28
+    },
+    {
+      "path": "items[].description",
+      "types": [
+        "string"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        "CVA24 Valve Actuator for 3-Port Valve",
+        "Siemens 2P 30A Breaker",
+        "Siemens 1P 20A Breaker",
+        "Siemens 2P 20A Breaker",
+        "Siemens 2P 50A Breaker"
+      ],
+      "occurrenceCount": 97,
+      "totalRecords": 42,
+      "minLength": 0,
+      "maxLength": 267
+    },
+    {
+      "path": "items[].generalLedgerAccount",
+      "types": [
+        "object"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": true,
+      "sampleValues": [],
+      "occurrenceCount": 97,
+      "totalRecords": 42
+    },
+    {
+      "path": "items[].generalLedgerAccount.detailType",
+      "types": [
+        "string"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        "Income"
+      ],
+      "occurrenceCount": 97,
+      "totalRecords": 42,
+      "minLength": 6,
+      "maxLength": 6
+    },
+    {
+      "path": "items[].generalLedgerAccount.name",
+      "types": [
+        "string"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        "INCOME-Sales"
+      ],
+      "occurrenceCount": 97,
+      "totalRecords": 42,
+      "minLength": 12,
+      "maxLength": 12
+    },
+    {
+      "path": "items[].generalLedgerAccount.number",
+      "types": [
+        "string"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        "4000"
+      ],
+      "occurrenceCount": 97,
+      "totalRecords": 42,
+      "minLength": 4,
+      "maxLength": 4
+    },
+    {
+      "path": "items[].generalLedgerAccount.type",
+      "types": [
+        "string"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        "Income"
+      ],
+      "occurrenceCount": 97,
+      "totalRecords": 42,
+      "minLength": 6,
+      "maxLength": 6
+    },
+    {
+      "path": "items[].id",
+      "types": [
+        "number"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        60942605,
+        60692871,
+        60692872,
+        60692873,
+        60692874
+      ],
+      "occurrenceCount": 97,
+      "totalRecords": 42,
+      "minValue": 52989834,
+      "maxValue": 60942605
+    },
+    {
+      "path": "items[].modifiedOn",
+      "types": [
+        "string"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        "2025-10-07T13:03:31.5788089Z",
+        "2025-09-25T12:34:22.9684621Z",
+        "2025-09-25T12:34:23.0339522Z",
+        "2025-09-25T12:34:23.0924927Z",
+        "2025-09-25T12:34:23.1107752Z"
+      ],
+      "occurrenceCount": 97,
+      "totalRecords": 42,
+      "minLength": 26,
+      "maxLength": 28
+    },
+    {
+      "path": "items[].name",
+      "types": [
+        "string"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        "Pentair 24V Valve Actuator",
+        "Siemens 230",
+        "Siemens 120",
+        "Siemens 220",
+        "Siemens 250"
+      ],
+      "occurrenceCount": 97,
+      "totalRecords": 42,
+      "minLength": 6,
+      "maxLength": 126
+    },
+    {
+      "path": "items[].quantity",
+      "types": [
+        "number"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        4,
+        2,
+        7,
+        9,
+        25
+      ],
+      "occurrenceCount": 97,
+      "totalRecords": 42,
+      "minValue": 1,
+      "maxValue": 150
+    },
+    {
+      "path": "items[].receiptItemId",
+      "types": [
+        "null"
+      ],
+      "nullable": true,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [],
+      "occurrenceCount": 97,
+      "totalRecords": 42
+    },
+    {
+      "path": "items[].serialNumbers",
+      "types": [
+        "null"
+      ],
+      "nullable": true,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [],
+      "occurrenceCount": 97,
+      "totalRecords": 42
+    },
+    {
+      "path": "items[].skuId",
+      "types": [
+        "number"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        54933791,
+        9353,
+        9347,
+        56874383,
+        56879515
+      ],
+      "occurrenceCount": 97,
+      "totalRecords": 42,
+      "minValue": 9347,
+      "maxValue": 57446918
+    },
+    {
+      "path": "jobId",
+      "types": [
+        "number",
+        "null"
+      ],
+      "nullable": true,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        60720906,
+        57873858,
+        57441143,
+        55074954,
+        55353296
+      ],
+      "occurrenceCount": 42,
+      "totalRecords": 42,
+      "minValue": 5911600,
+      "maxValue": 60720906
+    },
+    {
+      "path": "memo",
+      "types": [
+        "null",
+        "string"
+      ],
+      "nullable": true,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        "CITY CREDIT # WB1/049695",
+        "ORIGINAL PO#53582093 ",
+        "ORIGINAL PO#53427092",
+        "RETURNING TO SCP MONDAY 8/19/26 \nORDERING REPLACEMENT FOR JOB ",
+        "Processing this return and moving GE Panel to 52972947-Tucholski"
+      ],
+      "occurrenceCount": 42,
+      "totalRecords": 42,
+      "minLength": 20,
+      "maxLength": 64
+    },
+    {
+      "path": "modifiedOn",
+      "types": [
+        "string"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        "2025-11-02T01:10:53.8590196Z",
+        "2024-12-18T07:26:43.7755849Z",
+        "2024-12-06T20:16:10.7524053Z"
+      ],
+      "occurrenceCount": 42,
+      "totalRecords": 42,
+      "minLength": 28,
+      "maxLength": 28
+    },
+    {
+      "path": "number",
+      "types": [
+        "string"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        "44",
+        "43",
+        "41",
+        "42",
+        "40"
+      ],
+      "occurrenceCount": 42,
+      "totalRecords": 42,
+      "minLength": 1,
+      "maxLength": 2
+    },
+    {
+      "path": "projectId",
+      "types": [
+        "number",
+        "null"
+      ],
+      "nullable": true,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        60703372,
+        59332486,
+        57879611,
+        57435306,
+        55063100
+      ],
+      "occurrenceCount": 42,
+      "totalRecords": 42,
+      "minValue": 53239840,
+      "maxValue": 60703372
+    },
+    {
+      "path": "purchaseOrderId",
+      "types": [
+        "null",
+        "number"
+      ],
+      "nullable": true,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        60293259,
+        59384198,
+        58023559,
+        55379718,
+        53541230
+      ],
+      "occurrenceCount": 42,
+      "totalRecords": 42,
+      "minValue": 52988166,
+      "maxValue": 60293259
+    },
+    {
+      "path": "referenceNumber",
+      "types": [
+        "string"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        "55961238",
+        "213762",
+        "1104-1099970",
+        "1104-1099943",
+        "009632"
+      ],
+      "occurrenceCount": 42,
+      "totalRecords": 42,
+      "minLength": 6,
+      "maxLength": 19
+    },
+    {
+      "path": "returnAmount",
+      "types": [
+        "number"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        983.84,
+        337.06,
+        119.52,
+        11.24,
+        1079.15
+      ],
+      "occurrenceCount": 42,
+      "totalRecords": 42,
+      "minValue": 11.04,
+      "maxValue": 7024.56
+    },
+    {
+      "path": "returnDate",
+      "types": [
+        "string"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        "2025-10-06T00:00:00Z",
+        "2025-09-25T00:00:00Z",
+        "2025-08-21T00:00:00Z",
+        "2025-07-30T00:00:00Z",
+        "2025-06-13T00:00:00Z"
+      ],
+      "occurrenceCount": 42,
+      "totalRecords": 42,
+      "minLength": 20,
+      "maxLength": 20
+    },
+    {
+      "path": "returnedOn",
+      "types": [
+        "string"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        "2025-10-07T00:00:00Z",
+        "2025-09-25T00:00:00Z",
+        "2025-08-21T00:00:00Z",
+        "2025-07-30T00:00:00Z",
+        "2025-06-13T00:00:00Z"
+      ],
+      "occurrenceCount": 42,
+      "totalRecords": 42,
+      "minLength": 20,
+      "maxLength": 20
+    },
+    {
+      "path": "shippingAmount",
+      "types": [
+        "number"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        0
+      ],
+      "occurrenceCount": 42,
+      "totalRecords": 42,
+      "minValue": 0,
+      "maxValue": 0
+    },
+    {
+      "path": "status",
+      "types": [
+        "string"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        "CreditReceived"
+      ],
+      "occurrenceCount": 42,
+      "totalRecords": 42,
+      "minLength": 14,
+      "maxLength": 14
+    },
+    {
+      "path": "syncStatus",
+      "types": [
+        "string"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        "Exported"
+      ],
+      "occurrenceCount": 42,
+      "totalRecords": 42,
+      "minLength": 8,
+      "maxLength": 8
+    },
+    {
+      "path": "taxAmount",
+      "types": [
+        "number"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        64.36,
+        22.05,
+        7.82,
+        0.74,
+        70.6
+      ],
+      "occurrenceCount": 42,
+      "totalRecords": 42,
+      "minValue": 0,
+      "maxValue": 444.79
+    },
+    {
+      "path": "vendorId",
+      "types": [
+        "number"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        9858,
+        8577,
+        8833,
+        578,
+        8705
+      ],
+      "occurrenceCount": 42,
+      "totalRecords": 42,
+      "minValue": 578,
+      "maxValue": 10124
+    }
+  ],
+  "rootStructure": "paginated",
+  "paginationFields": [
+    "page",
+    "pageSize",
+    "hasMore",
+    "totalCount"
+  ],
+  "idField": "id",
+  "timestampFields": [
+    "createdById",
+    "createdOn",
+    "creditReceivedOn",
+    "dateCanceled",
+    "modifiedOn",
+    "returnDate",
+    "returnedOn"
+  ],
+  "relationshipFields": [
+    "batchId",
+    "budgetCodeId",
+    "businessUnitId",
+    "canceledById",
+    "createdById",
+    "inventoryLocationId",
+    "jobId",
+    "projectId",
+    "purchaseOrderId",
+    "vendorId"
+  ],
+  "analyzedAt": "2026-01-21T14:16:43.043Z"
+}

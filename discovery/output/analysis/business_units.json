@@ -1,0 +1,716 @@
+{
+  "endpointName": "business_units",
+  "recordCount": 4,
+  "fields": [
+    {
+      "path": "accountCode",
+      "types": [
+        "null"
+      ],
+      "nullable": true,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [],
+      "occurrenceCount": 4,
+      "totalRecords": 4
+    },
+    {
+      "path": "acknowledgementParagraph",
+      "types": [
+        "string"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        "Parties to this Agreement\n\nI acknowledge that the work described in our agreement is complete and meets my satisfaction. I confirm that the charges have been explained, and I agree to pay in full according to the terms set forth in the contract. I understand that all materials and equipment remain the property of Perfect Catch until payment is made in full. I have reviewed and accept the conditions of this contract, including warranties, limitations of liability, and any additional obligations outlined therein.\n\nGeneral Agreement on Repair\n\nCustomer has read and understands the terms outlined in the Invoice contained in the preceding pages of this document. Customer understands that these terms and conditions apply to the Invoice and its terms as part of this complete Agreement. All charges listed on the Invoice were fully explained to Customer. If the Invoice contains Change Orders, Customer specifically agrees to the additional charges contained therein. Customer represents that he/she/it has the authority to order the above work and to comply with the terms of this Agreement. Customer agrees that all work and material delivered to the premises, whether fixed to the property or not, is to be considered the property of Perfect Catch until Customer has paid in full. Customer agrees that Perfect Catch shall have access to its materials at all reasonable times until Customer has paid in full. All excess materials not incorporated into the work performed shall be considered property of Perfect Catch, and the Company may remove any materials if Customer fails to pay any amount due under this Agreement. Customer agrees that Perfect Catch will retain title to any equipment or material furnished until Customer renders final & complete payment. Customer agrees that if they fail to make timely payment, Perfect Catch shall have the right to remove all materials and equipment furnished and Perfect Catch will be held harmless for any damages to Customer or his/her/its property resulting from the removal thereof.\n\n\nPerfect Catch has outlined the scope of work performed in our contract. The total amount due is {AuthorizedAmount}\n",
+        "Parties to this Agreement\n\nI acknowledge that the work described in our agreement is complete and meets my satisfaction. I confirm that the charges have been explained, and I agree to pay in full according to the terms set forth in the contract. I understand that all materials and equipment remain the property of Perfect Catch until payment is made in full. I have reviewed and accept the conditions of this contract, including warranties, limitations of liability, and any additional obligations outlined therein.\n\nGeneral Agreement on Repair\n\nCustomer has read and understands the terms outlined in Invoice contained in the preceding pages of this document.\nCustomer understands that these terms and conditions apply the Invoice and its terms as part of this complete\nAgreement. All charges listed on the Invoice were fully explained to Customer. If the Invoice contains Change Orders,\nCustomer specifically agrees to the additional charges contained therein. Customer represents that he/she/it has the\nauthority to order the above work and to comply with the terms of this Agreement. Customer agrees that all work and\nmaterial delivered to the premises, whether fixed to the property or not, is to be considered the property of YR\nService Co until Customer has paid in full. Customer agrees that YR Service Co shall have access to its materials\nat all reasonable times until Customer has paid in full. All excess materials not incorporated into the work\nperformed shall be considered property of YR Service Co, and the Company may remove any materials if Customer\nfails to pay any amount due under this Agreement. Customer agrees that YR Service Co will retain title to any\nequipment or material furnished until Customer renders final & complete payment. Customer agrees that if they fail\nto make timely payment, YR Service Co shall have the right to remove all materials and equipment furnished and YR\nService Co will be held harmless for any damages to Customer or his/her/its property resulting from the removal\nthereof.\n\n1)\tPayment: Owner expressly agrees that the term \"Payment Upon Completion\", or similar language describing the same general idea, means that all monies due and payable to contractor on demand when the job is substantially complete or substantially performed. In order to withhold any money, the Owner must present to the contractor a written list of the work he is withholding funds for and include a signed statement that is the complete list of all work to be done, providing the work is part of the contract. Owners’ failure to tender payment to a performing Contractor or Subcontractor may subject the Owner's property to applicable liens by the Contractor or Subcontractor in order to enforce payment. All coupons must be presented prior to signed contract or before commencement of job. Coupons and discounts cannot be combined with any other promotions, offers or with the use of payment with Credit Cards. Credit Card processing fee: 3% of the amount being charged.\n*Note Customer is to advise contractor that they will be paying with a credit card prior to submittal of invoice. \n\n2)\tFinancing: If the owner fails or refuses to deliver upon demand of the Contractor the instruments required for financing, the full amount of the balance shall become due and payable upon substantial completion or at the Option of the Contractor. Such a failure or refusal shall constitute a breach of contract. In the event that this contract is to be paid in installments, the contractor shall have the right to arrange for financing through any person or corporation legally authorized to do such financing, in which case the Owner agrees to execute all instruments required by such agency or Contractor upon demand of the Contractor or agency.\n\n3)\tFor those customers who have an open account established with our company, the terms are NET 30 Days.  A monthly service charge of 2.0% or the maximum amount allowed by law shall be assessed on all accounts that become past due. No services shall be rendered for any customers with a past due account. You agree to pay all reasonable collection costs.\n\n4)\tAttorney's Fees: If the owner defaults in payment as provided for in this Contract, Perfect Catch shall be entitled to all attorneys’ fees and costs associated with efforts to collect payment. This includes but is not limited to fees and costs, including pre-litigation collection fees and costs, as well as all fees and costs incurred in any suit filed by Perfect Catch, including bankruptcy, arbitration, and any appellate proceedings. If Perfect Catch receives a money judgement, Perfect Catch shall likewise be entitled to recover fees and costs associated with collection of any money judgement or foreclosure judgment.\n\n\nPerfect Catch has outlined the scope of work performed in our contract. The total amount due is {AuthorizedAmount}\n",
+        "Parties to this Agreement\n\nI acknowledge that the work described in our agreement is complete and meets my satisfaction. I confirm that the charges have been explained, and I agree to pay in full according to the terms set forth in the contract. I understand that all materials and equipment remain the property of Perfect Catch until payment is made in full. I have reviewed and accept the conditions of this contract, including warranties, limitations of liability, and any additional obligations outlined therein.\n\nPerfect Catch has outlined the scope of work performed in our contract. The total amount due is {AuthorizedAmount}\n"
+      ],
+      "occurrenceCount": 4,
+      "totalRecords": 4,
+      "minLength": 633,
+      "maxLength": 4872
+    },
+    {
+      "path": "active",
+      "types": [
+        "boolean"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        true
+      ],
+      "occurrenceCount": 4,
+      "totalRecords": 4
+    },
+    {
+      "path": "address",
+      "types": [
+        "object"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": true,
+      "sampleValues": [],
+      "occurrenceCount": 4,
+      "totalRecords": 4
+    },
+    {
+      "path": "address.city",
+      "types": [
+        "string"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        "Largo"
+      ],
+      "occurrenceCount": 4,
+      "totalRecords": 4,
+      "minLength": 5,
+      "maxLength": 5
+    },
+    {
+      "path": "address.country",
+      "types": [
+        "string"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        "United States"
+      ],
+      "occurrenceCount": 4,
+      "totalRecords": 4,
+      "minLength": 13,
+      "maxLength": 13
+    },
+    {
+      "path": "address.isManualCoordinates",
+      "types": [
+        "boolean"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        false
+      ],
+      "occurrenceCount": 4,
+      "totalRecords": 4
+    },
+    {
+      "path": "address.isMilitary",
+      "types": [
+        "boolean"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        false
+      ],
+      "occurrenceCount": 4,
+      "totalRecords": 4
+    },
+    {
+      "path": "address.latitude",
+      "types": [
+        "null"
+      ],
+      "nullable": true,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [],
+      "occurrenceCount": 4,
+      "totalRecords": 4
+    },
+    {
+      "path": "address.longitude",
+      "types": [
+        "null"
+      ],
+      "nullable": true,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [],
+      "occurrenceCount": 4,
+      "totalRecords": 4
+    },
+    {
+      "path": "address.state",
+      "types": [
+        "string"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        "FL"
+      ],
+      "occurrenceCount": 4,
+      "totalRecords": 4,
+      "minLength": 2,
+      "maxLength": 2
+    },
+    {
+      "path": "address.street",
+      "types": [
+        "string"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        "13932 Walsingham Rd"
+      ],
+      "occurrenceCount": 4,
+      "totalRecords": 4,
+      "minLength": 19,
+      "maxLength": 19
+    },
+    {
+      "path": "address.unit",
+      "types": [
+        "null"
+      ],
+      "nullable": true,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [],
+      "occurrenceCount": 4,
+      "totalRecords": 4
+    },
+    {
+      "path": "address.zip",
+      "types": [
+        "string"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        "33774"
+      ],
+      "occurrenceCount": 4,
+      "totalRecords": 4,
+      "minLength": 5,
+      "maxLength": 5
+    },
+    {
+      "path": "authorizationParagraph",
+      "types": [
+        "string"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        "{CustomerName} you are authorizing  {Total}: and will be initiate an legal agreement with the following {Terms}: {Total} will be due on {PaymentDueDate}\n\nWork to be performed at {ServiceLocationName}:\n\n{ServiceLocationAddress}: \n\n{PaymentDueDate}",
+        "{CustomerName} you are authorizing  {Total}: and will be initiate an legal agreement with the following {Terms}: {Total} will be due on {PaymentDueDate}\n\nWork to be performed at {ServiceLocationName}:\n\n{ServiceLocationAddress}: \n\n{PaymentDueDate}\nWork to be performed at {ServiceLocationName}:\n\n{ServiceLocationAddress}: \n\n{PaymentDueDate}"
+      ],
+      "occurrenceCount": 4,
+      "totalRecords": 4,
+      "minLength": 246,
+      "maxLength": 339
+    },
+    {
+      "path": "conceptCode",
+      "types": [
+        "string"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        "NotSet"
+      ],
+      "occurrenceCount": 4,
+      "totalRecords": 4,
+      "minLength": 6,
+      "maxLength": 6
+    },
+    {
+      "path": "corporateContractNumber",
+      "types": [
+        "null"
+      ],
+      "nullable": true,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [],
+      "occurrenceCount": 4,
+      "totalRecords": 4
+    },
+    {
+      "path": "createdOn",
+      "types": [
+        "string"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        "2024-05-21T21:05:44.004099Z",
+        "2024-05-22T00:46:06.0778687Z",
+        "2024-06-02T21:22:04.8744902Z",
+        "2024-11-06T22:47:20.4899493Z"
+      ],
+      "occurrenceCount": 4,
+      "totalRecords": 4,
+      "minLength": 27,
+      "maxLength": 28
+    },
+    {
+      "path": "currency",
+      "types": [
+        "string"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        "USD"
+      ],
+      "occurrenceCount": 4,
+      "totalRecords": 4,
+      "minLength": 3,
+      "maxLength": 3
+    },
+    {
+      "path": "defaultTaxRate",
+      "types": [
+        "number"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        0
+      ],
+      "occurrenceCount": 4,
+      "totalRecords": 4,
+      "minValue": 0,
+      "maxValue": 0
+    },
+    {
+      "path": "division",
+      "types": [
+        "object"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": true,
+      "sampleValues": [],
+      "occurrenceCount": 4,
+      "totalRecords": 4
+    },
+    {
+      "path": "division.id",
+      "types": [
+        "number"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        1313,
+        1307
+      ],
+      "occurrenceCount": 4,
+      "totalRecords": 4,
+      "minValue": 1307,
+      "maxValue": 1313
+    },
+    {
+      "path": "division.name",
+      "types": [
+        "string"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        "Install",
+        "Service"
+      ],
+      "occurrenceCount": 4,
+      "totalRecords": 4,
+      "minLength": 7,
+      "maxLength": 7
+    },
+    {
+      "path": "email",
+      "types": [
+        "string"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        "office@callperfectcatch.com"
+      ],
+      "occurrenceCount": 4,
+      "totalRecords": 4,
+      "minLength": 27,
+      "maxLength": 27
+    },
+    {
+      "path": "externalData",
+      "types": [
+        "null"
+      ],
+      "nullable": true,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [],
+      "occurrenceCount": 4,
+      "totalRecords": 4
+    },
+    {
+      "path": "franchiseId",
+      "types": [
+        "null"
+      ],
+      "nullable": true,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [],
+      "occurrenceCount": 4,
+      "totalRecords": 4
+    },
+    {
+      "path": "id",
+      "types": [
+        "number"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        1308,
+        4623,
+        26143,
+        54670601
+      ],
+      "occurrenceCount": 4,
+      "totalRecords": 4,
+      "minValue": 1308,
+      "maxValue": 54670601
+    },
+    {
+      "path": "invoiceHeader",
+      "types": [
+        "string"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        "Perfect Catch\n13932 Walsingham Road\nLargo, FL, 33774\n727-316-5206"
+      ],
+      "occurrenceCount": 4,
+      "totalRecords": 4,
+      "minLength": 65,
+      "maxLength": 65
+    },
+    {
+      "path": "invoiceMessage",
+      "types": [
+        "string"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        "Thank you for choosing Perfect Catch"
+      ],
+      "occurrenceCount": 4,
+      "totalRecords": 4,
+      "minLength": 36,
+      "maxLength": 36
+    },
+    {
+      "path": "materialSku",
+      "types": [
+        "null"
+      ],
+      "nullable": true,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [],
+      "occurrenceCount": 4,
+      "totalRecords": 4
+    },
+    {
+      "path": "modifiedOn",
+      "types": [
+        "string"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        "2026-01-21T12:03:58.8267889Z",
+        "2026-01-21T12:03:58.8268215Z",
+        "2026-01-21T12:03:58.8268378Z",
+        "2026-01-21T12:03:58.826965Z"
+      ],
+      "occurrenceCount": 4,
+      "totalRecords": 4,
+      "minLength": 27,
+      "maxLength": 28
+    },
+    {
+      "path": "name",
+      "types": [
+        "string"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        "Electrical - Install",
+        "Pool - Install",
+        "Pool - Service",
+        "Electrical - Service"
+      ],
+      "occurrenceCount": 4,
+      "totalRecords": 4,
+      "minLength": 14,
+      "maxLength": 20
+    },
+    {
+      "path": "officialName",
+      "types": [
+        "string"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        "Perfect Catch Electric",
+        "Perfect Catch Pools"
+      ],
+      "occurrenceCount": 4,
+      "totalRecords": 4,
+      "minLength": 19,
+      "maxLength": 22
+    },
+    {
+      "path": "phoneNumber",
+      "types": [
+        "string"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        "7273165206",
+        "(727) 316-5206"
+      ],
+      "occurrenceCount": 4,
+      "totalRecords": 4,
+      "minLength": 10,
+      "maxLength": 14
+    },
+    {
+      "path": "quickbooksClass",
+      "types": [
+        "string"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        "Electrical - Install",
+        "Pool - Install",
+        "Pool - Service",
+        "Electrical - Service"
+      ],
+      "occurrenceCount": 4,
+      "totalRecords": 4,
+      "minLength": 14,
+      "maxLength": 20
+    },
+    {
+      "path": "tagTypeIds",
+      "types": [
+        "array"
+      ],
+      "nullable": false,
+      "isArray": true,
+      "isObject": false,
+      "sampleValues": [],
+      "occurrenceCount": 4,
+      "totalRecords": 4
+    },
+    {
+      "path": "tenant",
+      "types": [
+        "object"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": true,
+      "sampleValues": [],
+      "occurrenceCount": 4,
+      "totalRecords": 4
+    },
+    {
+      "path": "tenant.accountCode",
+      "types": [
+        "null"
+      ],
+      "nullable": true,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [],
+      "occurrenceCount": 4,
+      "totalRecords": 4
+    },
+    {
+      "path": "tenant.conceptCode",
+      "types": [
+        "string"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        "NotSet"
+      ],
+      "occurrenceCount": 4,
+      "totalRecords": 4,
+      "minLength": 6,
+      "maxLength": 6
+    },
+    {
+      "path": "tenant.franchiseId",
+      "types": [
+        "null"
+      ],
+      "nullable": true,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [],
+      "occurrenceCount": 4,
+      "totalRecords": 4
+    },
+    {
+      "path": "tenant.id",
+      "types": [
+        "number"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        3222348440
+      ],
+      "occurrenceCount": 4,
+      "totalRecords": 4,
+      "minValue": 3222348440,
+      "maxValue": 3222348440
+    },
+    {
+      "path": "tenant.modifiedOn",
+      "types": [
+        "string"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        "2025-12-12T06:44:14.4506503Z"
+      ],
+      "occurrenceCount": 4,
+      "totalRecords": 4,
+      "minLength": 28,
+      "maxLength": 28
+    },
+    {
+      "path": "tenant.name",
+      "types": [
+        "string"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        "yrdevelopmentgroup1llc"
+      ],
+      "occurrenceCount": 4,
+      "totalRecords": 4,
+      "minLength": 22,
+      "maxLength": 22
+    },
+    {
+      "path": "trade",
+      "types": [
+        "object"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": true,
+      "sampleValues": [],
+      "occurrenceCount": 4,
+      "totalRecords": 4
+    },
+    {
+      "path": "trade.id",
+      "types": [
+        "number"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        1301,
+        4621
+      ],
+      "occurrenceCount": 4,
+      "totalRecords": 4,
+      "minValue": 1301,
+      "maxValue": 4621
+    },
+    {
+      "path": "trade.name",
+      "types": [
+        "string"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        "Electrical",
+        "Pool"
+      ],
+      "occurrenceCount": 4,
+      "totalRecords": 4,
+      "minLength": 4,
+      "maxLength": 10
+    }
+  ],
+  "rootStructure": "paginated",
+  "paginationFields": [
+    "page",
+    "pageSize",
+    "hasMore",
+    "totalCount"
+  ],
+  "idField": "id",
+  "timestampFields": [
+    "createdOn",
+    "modifiedOn"
+  ],
+  "relationshipFields": [
+    "franchiseId"
+  ],
+  "analyzedAt": "2026-01-21T14:16:42.955Z"
+}

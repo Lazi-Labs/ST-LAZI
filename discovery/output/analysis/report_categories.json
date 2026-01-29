@@ -1,0 +1,57 @@
+{
+  "endpointName": "report_categories",
+  "recordCount": 12,
+  "fields": [
+    {
+      "path": "id",
+      "types": [
+        "string"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        "marketing",
+        "operations",
+        "accounting",
+        "technician",
+        "sold-by"
+      ],
+      "occurrenceCount": 12,
+      "totalRecords": 12,
+      "minLength": 5,
+      "maxLength": 23
+    },
+    {
+      "path": "name",
+      "types": [
+        "string"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        "Marketing",
+        "Operations",
+        "Accounting",
+        "Technician",
+        "Sold By"
+      ],
+      "occurrenceCount": 12,
+      "totalRecords": 12,
+      "minLength": 5,
+      "maxLength": 23
+    }
+  ],
+  "rootStructure": "paginated",
+  "paginationFields": [
+    "page",
+    "pageSize",
+    "hasMore",
+    "totalCount"
+  ],
+  "idField": "id",
+  "timestampFields": [],
+  "relationshipFields": [],
+  "analyzedAt": "2026-01-21T14:16:43.041Z"
+}

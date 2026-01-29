@@ -1,0 +1,99 @@
+{
+  "endpointName": "arrival_windows",
+  "recordCount": 5,
+  "fields": [
+    {
+      "path": "active",
+      "types": [
+        "boolean"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        true
+      ],
+      "occurrenceCount": 5,
+      "totalRecords": 5
+    },
+    {
+      "path": "businessUnitIds",
+      "types": [
+        "array"
+      ],
+      "nullable": false,
+      "isArray": true,
+      "isObject": false,
+      "sampleValues": [],
+      "occurrenceCount": 5,
+      "totalRecords": 5
+    },
+    {
+      "path": "duration",
+      "types": [
+        "string"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        "02:00:00"
+      ],
+      "occurrenceCount": 5,
+      "totalRecords": 5,
+      "minLength": 8,
+      "maxLength": 8
+    },
+    {
+      "path": "id",
+      "types": [
+        "number"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        1464,
+        1465,
+        1467,
+        60082188,
+        60084751
+      ],
+      "occurrenceCount": 5,
+      "totalRecords": 5,
+      "minValue": 1464,
+      "maxValue": 60084751
+    },
+    {
+      "path": "start",
+      "types": [
+        "string"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        "13:00:00",
+        "08:00:00",
+        "11:00:00",
+        "07:00:00",
+        "09:00:00"
+      ],
+      "occurrenceCount": 5,
+      "totalRecords": 5,
+      "minLength": 8,
+      "maxLength": 8
+    }
+  ],
+  "rootStructure": "paginated",
+  "paginationFields": [
+    "page",
+    "pageSize",
+    "hasMore",
+    "totalCount"
+  ],
+  "idField": "id",
+  "timestampFields": [],
+  "relationshipFields": [],
+  "analyzedAt": "2026-01-21T14:16:42.954Z"
+}

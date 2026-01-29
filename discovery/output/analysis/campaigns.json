@@ -1,0 +1,281 @@
+{
+  "endpointName": "campaigns",
+  "recordCount": 12,
+  "fields": [
+    {
+      "path": "active",
+      "types": [
+        "boolean"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        true
+      ],
+      "occurrenceCount": 12,
+      "totalRecords": 12
+    },
+    {
+      "path": "businessUnit",
+      "types": [
+        "null"
+      ],
+      "nullable": true,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [],
+      "occurrenceCount": 12,
+      "totalRecords": 12
+    },
+    {
+      "path": "campaignPhoneNumbers",
+      "types": [
+        "array"
+      ],
+      "nullable": false,
+      "isArray": true,
+      "isObject": false,
+      "sampleValues": [],
+      "occurrenceCount": 12,
+      "totalRecords": 12
+    },
+    {
+      "path": "category",
+      "types": [
+        "object"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": true,
+      "sampleValues": [],
+      "occurrenceCount": 12,
+      "totalRecords": 12
+    },
+    {
+      "path": "category.active",
+      "types": [
+        "boolean"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        true,
+        false
+      ],
+      "occurrenceCount": 12,
+      "totalRecords": 12
+    },
+    {
+      "path": "category.id",
+      "types": [
+        "number"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        61117958,
+        61117830,
+        53697158,
+        61117702,
+        61117574
+      ],
+      "occurrenceCount": 12,
+      "totalRecords": 12,
+      "minValue": 53697158,
+      "maxValue": 61117958
+    },
+    {
+      "path": "category.name",
+      "types": [
+        "string"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        "Primary Digital Channels",
+        "Partner / Referral Sources",
+        "Online Leads",
+        "Automation & Conversion Sources",
+        "Offline & Brand Channels"
+      ],
+      "occurrenceCount": 12,
+      "totalRecords": 12,
+      "minLength": 12,
+      "maxLength": 31
+    },
+    {
+      "path": "createdOn",
+      "types": [
+        "string"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        "2024-05-21T21:05:49.8969244Z",
+        "2024-05-21T21:05:50.8770921Z",
+        "2024-05-21T21:05:51.5623613Z",
+        "0001-01-01T00:00:00Z",
+        "2024-07-28T20:51:57.7134716Z"
+      ],
+      "occurrenceCount": 12,
+      "totalRecords": 12,
+      "minLength": 20,
+      "maxLength": 28
+    },
+    {
+      "path": "id",
+      "types": [
+        "number"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        1436,
+        1440,
+        1443,
+        1187716,
+        53122589
+      ],
+      "occurrenceCount": 12,
+      "totalRecords": 12,
+      "minValue": 1436,
+      "maxValue": 61130138
+    },
+    {
+      "path": "isDefaultCampaign",
+      "types": [
+        "boolean",
+        "null"
+      ],
+      "nullable": true,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        false
+      ],
+      "occurrenceCount": 12,
+      "totalRecords": 12
+    },
+    {
+      "path": "medium",
+      "types": [
+        "null",
+        "string"
+      ],
+      "nullable": true,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        "GMB",
+        "CPC"
+      ],
+      "occurrenceCount": 12,
+      "totalRecords": 12,
+      "minLength": 3,
+      "maxLength": 3
+    },
+    {
+      "path": "modifiedOn",
+      "types": [
+        "string"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        "2025-10-19T02:12:28.5990741Z",
+        "2025-10-19T02:16:21.3914257Z",
+        "2025-10-19T02:25:17.8518304Z",
+        "2025-10-19T02:16:31.2361305Z",
+        "2025-10-19T02:14:34.8093937Z"
+      ],
+      "occurrenceCount": 12,
+      "totalRecords": 12,
+      "minLength": 27,
+      "maxLength": 28
+    },
+    {
+      "path": "name",
+      "types": [
+        "string"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        "Google Local Service Adds",
+        "Existing Customer",
+        "PPC ",
+        "Jades Cell",
+        "Google Business Page"
+      ],
+      "occurrenceCount": 12,
+      "totalRecords": 12,
+      "minLength": 4,
+      "maxLength": 25
+    },
+    {
+      "path": "otherMedium",
+      "types": [
+        "null"
+      ],
+      "nullable": true,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [],
+      "occurrenceCount": 12,
+      "totalRecords": 12
+    },
+    {
+      "path": "otherSource",
+      "types": [
+        "null"
+      ],
+      "nullable": true,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [],
+      "occurrenceCount": 12,
+      "totalRecords": 12
+    },
+    {
+      "path": "source",
+      "types": [
+        "null",
+        "string"
+      ],
+      "nullable": true,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        "Google",
+        "Yelp",
+        "Event"
+      ],
+      "occurrenceCount": 12,
+      "totalRecords": 12,
+      "minLength": 4,
+      "maxLength": 6
+    }
+  ],
+  "rootStructure": "paginated",
+  "paginationFields": [
+    "page",
+    "pageSize",
+    "hasMore",
+    "totalCount"
+  ],
+  "idField": "id",
+  "timestampFields": [
+    "createdOn",
+    "modifiedOn"
+  ],
+  "relationshipFields": [],
+  "analyzedAt": "2026-01-21T14:16:42.958Z"
+}

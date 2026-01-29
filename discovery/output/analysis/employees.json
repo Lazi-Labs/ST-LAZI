@@ -1,0 +1,320 @@
+{
+  "endpointName": "employees",
+  "recordCount": 4,
+  "fields": [
+    {
+      "path": "aadUserId",
+      "types": [
+        "null"
+      ],
+      "nullable": true,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [],
+      "occurrenceCount": 4,
+      "totalRecords": 4
+    },
+    {
+      "path": "accountLocked",
+      "types": [
+        "boolean"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        false
+      ],
+      "occurrenceCount": 4,
+      "totalRecords": 4
+    },
+    {
+      "path": "active",
+      "types": [
+        "boolean"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        true
+      ],
+      "occurrenceCount": 4,
+      "totalRecords": 4
+    },
+    {
+      "path": "businessUnitId",
+      "types": [
+        "null"
+      ],
+      "nullable": true,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [],
+      "occurrenceCount": 4,
+      "totalRecords": 4
+    },
+    {
+      "path": "createdOn",
+      "types": [
+        "string"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        "2024-05-21T21:05:19.1328242Z",
+        "2024-05-21T21:05:24.8818369Z",
+        "2024-05-21T23:16:12.0444634Z",
+        "2024-06-18T22:48:45.8048199Z"
+      ],
+      "occurrenceCount": 4,
+      "totalRecords": 4,
+      "minLength": 28,
+      "maxLength": 28
+    },
+    {
+      "path": "customFields",
+      "types": [
+        "array"
+      ],
+      "nullable": false,
+      "isArray": true,
+      "isObject": false,
+      "sampleValues": [],
+      "occurrenceCount": 4,
+      "totalRecords": 4
+    },
+    {
+      "path": "email",
+      "types": [
+        "null",
+        "string"
+      ],
+      "nullable": true,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        "yanni@callperfectcatch.com",
+        "vendela@callperfectcatch.com",
+        "Jade@callperfectcatch.com"
+      ],
+      "occurrenceCount": 4,
+      "totalRecords": 4,
+      "minLength": 25,
+      "maxLength": 28
+    },
+    {
+      "path": "id",
+      "types": [
+        "number"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        23,
+        26,
+        4609,
+        49793
+      ],
+      "occurrenceCount": 4,
+      "totalRecords": 4,
+      "minValue": 23,
+      "maxValue": 49793
+    },
+    {
+      "path": "loginName",
+      "types": [
+        "string"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        "yrdevelopmentgroup1llc",
+        "yannir2024",
+        "vendelaconley",
+        "Jadesch"
+      ],
+      "occurrenceCount": 4,
+      "totalRecords": 4,
+      "minLength": 7,
+      "maxLength": 22
+    },
+    {
+      "path": "modifiedOn",
+      "types": [
+        "string"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        "2025-11-12T06:24:22.2731382Z",
+        "2025-11-12T06:24:20.1970255Z",
+        "2025-11-12T06:24:20.2343265Z",
+        "2025-11-12T06:24:20.2517723Z"
+      ],
+      "occurrenceCount": 4,
+      "totalRecords": 4,
+      "minLength": 28,
+      "maxLength": 28
+    },
+    {
+      "path": "name",
+      "types": [
+        "string"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        "yrdevelopmentgroup1llc",
+        "Yanni Ramos",
+        "Vendela Conley",
+        "Jade Schweiberger"
+      ],
+      "occurrenceCount": 4,
+      "totalRecords": 4,
+      "minLength": 11,
+      "maxLength": 22
+    },
+    {
+      "path": "permissions",
+      "types": [
+        "array"
+      ],
+      "nullable": false,
+      "isArray": true,
+      "isObject": false,
+      "sampleValues": [],
+      "occurrenceCount": 4,
+      "totalRecords": 4
+    },
+    {
+      "path": "permissions[].id",
+      "types": [
+        "number"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        10,
+        11,
+        12,
+        13,
+        14
+      ],
+      "occurrenceCount": 80,
+      "totalRecords": 4,
+      "minValue": 10,
+      "maxValue": 29
+    },
+    {
+      "path": "permissions[].value",
+      "types": [
+        "string"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        "View Alerts",
+        "Edit Alerts",
+        "View Customer",
+        "Edit Customer",
+        "View/Email Customer Statements"
+      ],
+      "occurrenceCount": 80,
+      "totalRecords": 4,
+      "minLength": 11,
+      "maxLength": 42
+    },
+    {
+      "path": "phoneNumber",
+      "types": [
+        "string",
+        "null"
+      ],
+      "nullable": true,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        "7274304710",
+        "7276000107"
+      ],
+      "occurrenceCount": 4,
+      "totalRecords": 4,
+      "minLength": 10,
+      "maxLength": 10
+    },
+    {
+      "path": "role",
+      "types": [
+        "string"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        "Owner",
+        "Admin"
+      ],
+      "occurrenceCount": 4,
+      "totalRecords": 4,
+      "minLength": 5,
+      "maxLength": 5
+    },
+    {
+      "path": "roleIds",
+      "types": [
+        "array"
+      ],
+      "nullable": false,
+      "isArray": true,
+      "isObject": false,
+      "sampleValues": [],
+      "occurrenceCount": 4,
+      "totalRecords": 4
+    },
+    {
+      "path": "userId",
+      "types": [
+        "number"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        23,
+        26,
+        4609,
+        49793
+      ],
+      "occurrenceCount": 4,
+      "totalRecords": 4,
+      "minValue": 23,
+      "maxValue": 49793
+    }
+  ],
+  "rootStructure": "paginated",
+  "paginationFields": [
+    "page",
+    "pageSize",
+    "hasMore",
+    "totalCount"
+  ],
+  "idField": "id",
+  "timestampFields": [
+    "createdOn",
+    "modifiedOn"
+  ],
+  "relationshipFields": [
+    "aadUserId",
+    "businessUnitId",
+    "userId"
+  ],
+  "analyzedAt": "2026-01-21T14:16:42.961Z"
+}

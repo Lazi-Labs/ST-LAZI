@@ -1,0 +1,404 @@
+{
+  "endpointName": "projects",
+  "recordCount": 100,
+  "fields": [
+    {
+      "path": "actualCompletionDate",
+      "types": [
+        "null"
+      ],
+      "nullable": true,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [],
+      "occurrenceCount": 100,
+      "totalRecords": 100
+    },
+    {
+      "path": "businessUnitIds",
+      "types": [
+        "array"
+      ],
+      "nullable": false,
+      "isArray": true,
+      "isObject": false,
+      "sampleValues": [],
+      "occurrenceCount": 100,
+      "totalRecords": 100
+    },
+    {
+      "path": "createdOn",
+      "types": [
+        "string"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        "2024-07-10T17:54:19.4471957Z",
+        "2024-07-11T15:09:43.3087568Z",
+        "2024-07-11T15:01:35.7260251Z",
+        "2024-07-11T16:45:41.2436511Z",
+        "2024-07-11T20:36:23.7961403Z"
+      ],
+      "occurrenceCount": 100,
+      "totalRecords": 100,
+      "minLength": 26,
+      "maxLength": 28
+    },
+    {
+      "path": "customerId",
+      "types": [
+        "number"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        1185017,
+        1184949,
+        1184730,
+        1185209,
+        1185038
+      ],
+      "occurrenceCount": 100,
+      "totalRecords": 100,
+      "minValue": 1184543,
+      "maxValue": 53947785
+    },
+    {
+      "path": "customFields",
+      "types": [
+        "array"
+      ],
+      "nullable": false,
+      "isArray": true,
+      "isObject": false,
+      "sampleValues": [],
+      "occurrenceCount": 100,
+      "totalRecords": 100
+    },
+    {
+      "path": "externalData",
+      "types": [
+        "null"
+      ],
+      "nullable": true,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [],
+      "occurrenceCount": 100,
+      "totalRecords": 100
+    },
+    {
+      "path": "id",
+      "types": [
+        "number"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        7865802,
+        7872290,
+        7873777,
+        52965941,
+        52967103
+      ],
+      "occurrenceCount": 100,
+      "totalRecords": 100,
+      "minValue": 7865802,
+      "maxValue": 53976102
+    },
+    {
+      "path": "jobIds",
+      "types": [
+        "array"
+      ],
+      "nullable": false,
+      "isArray": true,
+      "isObject": false,
+      "sampleValues": [],
+      "occurrenceCount": 100,
+      "totalRecords": 100
+    },
+    {
+      "path": "locationId",
+      "types": [
+        "number"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        7866173,
+        7872634,
+        7872250,
+        52965734,
+        1186007
+      ],
+      "occurrenceCount": 100,
+      "totalRecords": 100,
+      "minValue": 73911,
+      "maxValue": 53947790
+    },
+    {
+      "path": "modifiedOn",
+      "types": [
+        "string"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        "2024-08-12T03:37:50.5860964Z",
+        "2024-09-02T02:23:43.8471638Z",
+        "2024-08-12T03:37:50.700072Z",
+        "2024-08-12T03:37:50.6909927Z",
+        "2024-08-12T03:37:50.7087481Z"
+      ],
+      "occurrenceCount": 100,
+      "totalRecords": 100,
+      "minLength": 26,
+      "maxLength": 28
+    },
+    {
+      "path": "name",
+      "types": [
+        "string",
+        "null"
+      ],
+      "nullable": true,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        "Olaughlin",
+        "PCS - DJ",
+        "PCS - Daniel",
+        "Kingman - Gulfstream",
+        "LIV-SCHMIDT"
+      ],
+      "occurrenceCount": 100,
+      "totalRecords": 100,
+      "minLength": 0,
+      "maxLength": 30
+    },
+    {
+      "path": "number",
+      "types": [
+        "string"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        "7865802",
+        "7872290",
+        "7873777",
+        "52965941",
+        "52967103"
+      ],
+      "occurrenceCount": 100,
+      "totalRecords": 100,
+      "minLength": 7,
+      "maxLength": 8
+    },
+    {
+      "path": "projectManagerIds",
+      "types": [
+        "array"
+      ],
+      "nullable": false,
+      "isArray": true,
+      "isObject": false,
+      "sampleValues": [],
+      "occurrenceCount": 100,
+      "totalRecords": 100
+    },
+    {
+      "path": "projectTypeId",
+      "types": [
+        "number",
+        "null"
+      ],
+      "nullable": true,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        61280,
+        1184,
+        1185,
+        1182,
+        1186
+      ],
+      "occurrenceCount": 100,
+      "totalRecords": 100,
+      "minValue": 1182,
+      "maxValue": 61280
+    },
+    {
+      "path": "startDate",
+      "types": [
+        "string",
+        "null"
+      ],
+      "nullable": true,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        "2024-07-11T00:00:00Z",
+        "2024-07-15T00:00:00Z",
+        "2024-07-12T00:00:00Z",
+        "2024-07-10T00:00:00Z",
+        "2024-06-29T00:00:00Z"
+      ],
+      "occurrenceCount": 100,
+      "totalRecords": 100,
+      "minLength": 20,
+      "maxLength": 20
+    },
+    {
+      "path": "status",
+      "types": [
+        "string",
+        "null"
+      ],
+      "nullable": true,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        "Completed",
+        "Canceled",
+        "Pending Scheduling",
+        "Bid",
+        "In Progress"
+      ],
+      "occurrenceCount": 100,
+      "totalRecords": 100,
+      "minLength": 3,
+      "maxLength": 18
+    },
+    {
+      "path": "statusId",
+      "types": [
+        "number",
+        "null"
+      ],
+      "nullable": true,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        218,
+        220,
+        215,
+        1181,
+        217
+      ],
+      "occurrenceCount": 100,
+      "totalRecords": 100,
+      "minValue": 215,
+      "maxValue": 1181
+    },
+    {
+      "path": "subStatus",
+      "types": [
+        "null",
+        "string"
+      ],
+      "nullable": true,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        "Pending Customer Confirmation",
+        "Estimate Won",
+        "Delayed"
+      ],
+      "occurrenceCount": 100,
+      "totalRecords": 100,
+      "minLength": 7,
+      "maxLength": 29
+    },
+    {
+      "path": "subStatusId",
+      "types": [
+        "null",
+        "number"
+      ],
+      "nullable": true,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        53515181,
+        53289592,
+        53289596
+      ],
+      "occurrenceCount": 100,
+      "totalRecords": 100,
+      "minValue": 53289592,
+      "maxValue": 53515181
+    },
+    {
+      "path": "summary",
+      "types": [
+        "null",
+        "string"
+      ],
+      "nullable": true,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        "Automation - Heat pump and gas heater install",
+        "",
+        "Pool Automation Electrical"
+      ],
+      "occurrenceCount": 100,
+      "totalRecords": 100,
+      "minLength": 0,
+      "maxLength": 45
+    },
+    {
+      "path": "targetCompletionDate",
+      "types": [
+        "null",
+        "string"
+      ],
+      "nullable": true,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        "2024-08-07T00:00:00Z",
+        "2024-07-12T00:00:00Z",
+        "2024-07-23T00:00:00Z",
+        "2024-08-02T00:00:00Z",
+        "2024-08-01T00:00:00Z"
+      ],
+      "occurrenceCount": 100,
+      "totalRecords": 100,
+      "minLength": 20,
+      "maxLength": 20
+    }
+  ],
+  "rootStructure": "paginated",
+  "paginationFields": [
+    "page",
+    "pageSize",
+    "hasMore",
+    "totalCount"
+  ],
+  "idField": "id",
+  "timestampFields": [
+    "actualCompletionDate",
+    "createdOn",
+    "modifiedOn",
+    "startDate",
+    "targetCompletionDate"
+  ],
+  "relationshipFields": [
+    "customerId",
+    "locationId",
+    "projectTypeId",
+    "statusId",
+    "subStatusId"
+  ],
+  "analyzedAt": "2026-01-21T14:16:43.031Z"
+}

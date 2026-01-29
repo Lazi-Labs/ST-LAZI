@@ -1,0 +1,218 @@
+{
+  "endpointName": "purchase_order_types",
+  "recordCount": 10,
+  "fields": [
+    {
+      "path": "active",
+      "types": [
+        "boolean"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        true
+      ],
+      "occurrenceCount": 10,
+      "totalRecords": 10
+    },
+    {
+      "path": "allowTechniciansToSendPo",
+      "types": [
+        "boolean"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        false,
+        true
+      ],
+      "occurrenceCount": 10,
+      "totalRecords": 10
+    },
+    {
+      "path": "automaticallyReceive",
+      "types": [
+        "boolean"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        false,
+        true
+      ],
+      "occurrenceCount": 10,
+      "totalRecords": 10
+    },
+    {
+      "path": "createdOn",
+      "types": [
+        "string"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        "2024-05-21T21:05:30.9689773Z",
+        "2024-10-20T03:07:01.856674Z",
+        "2024-05-21T21:05:30.9695657Z",
+        "2025-03-11T05:54:00.3248833Z",
+        "2024-05-21T21:05:30.9698637Z"
+      ],
+      "occurrenceCount": 10,
+      "totalRecords": 10,
+      "minLength": 27,
+      "maxLength": 28
+    },
+    {
+      "path": "defaultRequiredDateDaysOffset",
+      "types": [
+        "number"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        0
+      ],
+      "occurrenceCount": 10,
+      "totalRecords": 10,
+      "minValue": 0,
+      "maxValue": 0
+    },
+    {
+      "path": "displayToTechnician",
+      "types": [
+        "boolean"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        true,
+        false
+      ],
+      "occurrenceCount": 10,
+      "totalRecords": 10
+    },
+    {
+      "path": "excludeTaxFromJobCosting",
+      "types": [
+        "boolean"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        false
+      ],
+      "occurrenceCount": 10,
+      "totalRecords": 10
+    },
+    {
+      "path": "id",
+      "types": [
+        "number"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        169,
+        54058141,
+        170,
+        57432327,
+        175
+      ],
+      "occurrenceCount": 10,
+      "totalRecords": 10,
+      "minValue": 169,
+      "maxValue": 58326152
+    },
+    {
+      "path": "impactToTechnicianPayroll",
+      "types": [
+        "boolean"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        false
+      ],
+      "occurrenceCount": 10,
+      "totalRecords": 10
+    },
+    {
+      "path": "modifiedOn",
+      "types": [
+        "string"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        "2024-05-21T21:05:36.2803112Z",
+        "2024-10-20T03:07:01.856674Z",
+        "2025-03-11T05:54:00.3248833Z",
+        "2024-07-31T13:53:48.5068333Z",
+        "2025-03-11T05:54:00.3248949Z"
+      ],
+      "occurrenceCount": 10,
+      "totalRecords": 10,
+      "minLength": 27,
+      "maxLength": 28
+    },
+    {
+      "path": "name",
+      "types": [
+        "string"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        "Supply House Run",
+        "Subcontractor",
+        "Special Order",
+        "Service Requisition",
+        "Replenishment"
+      ],
+      "occurrenceCount": 10,
+      "totalRecords": 10,
+      "minLength": 9,
+      "maxLength": 19
+    },
+    {
+      "path": "skipWeekends",
+      "types": [
+        "boolean"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        true
+      ],
+      "occurrenceCount": 10,
+      "totalRecords": 10
+    }
+  ],
+  "rootStructure": "paginated",
+  "paginationFields": [
+    "page",
+    "pageSize",
+    "hasMore",
+    "totalCount"
+  ],
+  "idField": "id",
+  "timestampFields": [
+    "createdOn",
+    "defaultRequiredDateDaysOffset",
+    "modifiedOn"
+  ],
+  "relationshipFields": [],
+  "analyzedAt": "2026-01-21T14:16:43.032Z"
+}

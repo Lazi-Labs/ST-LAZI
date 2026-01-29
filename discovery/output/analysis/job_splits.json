@@ -1,0 +1,139 @@
+{
+  "endpointName": "job_splits",
+  "recordCount": 100,
+  "fields": [
+    {
+      "path": "createdOn",
+      "types": [
+        "string"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        "2024-07-08T15:13:32.879757Z",
+        "2024-07-08T18:09:08.126825Z",
+        "0001-01-01T00:00:00Z"
+      ],
+      "occurrenceCount": 100,
+      "totalRecords": 100,
+      "minLength": 20,
+      "maxLength": 27
+    },
+    {
+      "path": "id",
+      "types": [
+        "number"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        70649,
+        70974,
+        1190560,
+        1190561,
+        1190562
+      ],
+      "occurrenceCount": 100,
+      "totalRecords": 100,
+      "minValue": 70649,
+      "maxValue": 1190657
+    },
+    {
+      "path": "jobId",
+      "types": [
+        "number"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        70636,
+        70961,
+        1187722,
+        1187723,
+        1187724
+      ],
+      "occurrenceCount": 100,
+      "totalRecords": 100,
+      "minValue": 70636,
+      "maxValue": 1187775
+    },
+    {
+      "path": "modifiedOn",
+      "types": [
+        "string"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        "2024-07-08T15:13:33.0082226Z",
+        "2024-07-08T18:09:08.2690441Z",
+        "2024-07-08T14:46:49.9866667Z"
+      ],
+      "occurrenceCount": 100,
+      "totalRecords": 100,
+      "minLength": 28,
+      "maxLength": 28
+    },
+    {
+      "path": "split",
+      "types": [
+        "number"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        100,
+        33.3333,
+        50,
+        16.6667,
+        20
+      ],
+      "occurrenceCount": 100,
+      "totalRecords": 100,
+      "minValue": 16.6667,
+      "maxValue": 100
+    },
+    {
+      "path": "technicianId",
+      "types": [
+        "number"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        12417,
+        1190549,
+        1190553,
+        1190556,
+        1190554
+      ],
+      "occurrenceCount": 100,
+      "totalRecords": 100,
+      "minValue": 12417,
+      "maxValue": 1190557
+    }
+  ],
+  "rootStructure": "paginated",
+  "paginationFields": [
+    "page",
+    "pageSize",
+    "hasMore",
+    "totalCount"
+  ],
+  "idField": "id",
+  "timestampFields": [
+    "createdOn",
+    "modifiedOn"
+  ],
+  "relationshipFields": [
+    "jobId",
+    "technicianId"
+  ],
+  "analyzedAt": "2026-01-21T14:16:42.989Z"
+}

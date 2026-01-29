@@ -1,0 +1,243 @@
+{
+  "endpointName": "appointment_assignments",
+  "recordCount": 100,
+  "fields": [
+    {
+      "path": "active",
+      "types": [
+        "boolean"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        true
+      ],
+      "occurrenceCount": 100,
+      "totalRecords": 100
+    },
+    {
+      "path": "appointmentId",
+      "types": [
+        "number"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        70637,
+        70962,
+        1462359,
+        1462360,
+        1462361
+      ],
+      "occurrenceCount": 100,
+      "totalRecords": 100,
+      "minValue": 70637,
+      "maxValue": 1462412
+    },
+    {
+      "path": "assignedById",
+      "types": [
+        "number"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        26,
+        4617,
+        0
+      ],
+      "occurrenceCount": 100,
+      "totalRecords": 100,
+      "minValue": 0,
+      "maxValue": 4617
+    },
+    {
+      "path": "assignedOn",
+      "types": [
+        "string"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        "2024-07-08T15:13:32.9037569Z",
+        "2024-07-08T18:09:08.1753799Z",
+        "0001-01-01T00:00:00Z"
+      ],
+      "occurrenceCount": 100,
+      "totalRecords": 100,
+      "minLength": 20,
+      "maxLength": 28
+    },
+    {
+      "path": "createdOn",
+      "types": [
+        "string"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        "2024-07-08T15:13:32.9037569Z",
+        "2024-07-08T18:09:08.1753799Z",
+        "0001-01-01T00:00:00Z"
+      ],
+      "occurrenceCount": 100,
+      "totalRecords": 100,
+      "minLength": 20,
+      "maxLength": 28
+    },
+    {
+      "path": "id",
+      "types": [
+        "number"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        70650,
+        70975,
+        1762718,
+        1762719,
+        1762720
+      ],
+      "occurrenceCount": 100,
+      "totalRecords": 100,
+      "minValue": 70650,
+      "maxValue": 1762815
+    },
+    {
+      "path": "isPaused",
+      "types": [
+        "boolean"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        false
+      ],
+      "occurrenceCount": 100,
+      "totalRecords": 100
+    },
+    {
+      "path": "jobId",
+      "types": [
+        "number"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        70636,
+        70961,
+        1187722,
+        1187723,
+        1187724
+      ],
+      "occurrenceCount": 100,
+      "totalRecords": 100,
+      "minValue": 70636,
+      "maxValue": 1187775
+    },
+    {
+      "path": "modifiedOn",
+      "types": [
+        "string"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        "2024-07-08T15:13:32.9037569Z",
+        "2024-07-09T21:55:54.4721284Z",
+        "2024-07-08T14:46:49.9866667Z"
+      ],
+      "occurrenceCount": 100,
+      "totalRecords": 100,
+      "minLength": 28,
+      "maxLength": 28
+    },
+    {
+      "path": "status",
+      "types": [
+        "string"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        "Scheduled",
+        "Done"
+      ],
+      "occurrenceCount": 100,
+      "totalRecords": 100,
+      "minLength": 4,
+      "maxLength": 9
+    },
+    {
+      "path": "technicianId",
+      "types": [
+        "number"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        12417,
+        1190549,
+        1190553,
+        1190556,
+        1190554
+      ],
+      "occurrenceCount": 100,
+      "totalRecords": 100,
+      "minValue": 12417,
+      "maxValue": 1190557
+    },
+    {
+      "path": "technicianName",
+      "types": [
+        "string"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        "Jade Schweiberger",
+        "Marcus Avouris",
+        "Tristan Tasker",
+        "Oden Payton",
+        "Hunter Friend"
+      ],
+      "occurrenceCount": 100,
+      "totalRecords": 100,
+      "minLength": 11,
+      "maxLength": 17
+    }
+  ],
+  "rootStructure": "paginated",
+  "paginationFields": [
+    "page",
+    "pageSize",
+    "hasMore",
+    "totalCount"
+  ],
+  "idField": "id",
+  "timestampFields": [
+    "assignedOn",
+    "createdOn",
+    "modifiedOn"
+  ],
+  "relationshipFields": [
+    "appointmentId",
+    "assignedById",
+    "jobId",
+    "technicianId"
+  ],
+  "analyzedAt": "2026-01-21T14:16:42.952Z"
+}

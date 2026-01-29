@@ -1,0 +1,49 @@
+{
+  "endpointName": "pricebook_client_specific_pricing",
+  "recordCount": 7,
+  "fields": [
+    {
+      "path": "exceptions",
+      "types": [
+        "array"
+      ],
+      "nullable": false,
+      "isArray": true,
+      "isObject": false,
+      "sampleValues": [],
+      "occurrenceCount": 7,
+      "totalRecords": 7
+    },
+    {
+      "path": "id",
+      "types": [
+        "number"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        4596,
+        41501,
+        52968487,
+        54064297,
+        54774662
+      ],
+      "occurrenceCount": 7,
+      "totalRecords": 7,
+      "minValue": 4596,
+      "maxValue": 59014318
+    }
+  ],
+  "rootStructure": "paginated",
+  "paginationFields": [
+    "page",
+    "pageSize",
+    "hasMore",
+    "totalCount"
+  ],
+  "idField": "id",
+  "timestampFields": [],
+  "relationshipFields": [],
+  "analyzedAt": "2026-01-21T14:16:43.004Z"
+}

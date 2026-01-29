@@ -1,0 +1,787 @@
+{
+  "endpointName": "tasks",
+  "recordCount": 100,
+  "fields": [
+    {
+      "path": "active",
+      "types": [
+        "boolean"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        true
+      ],
+      "occurrenceCount": 100,
+      "totalRecords": 100
+    },
+    {
+      "path": "assignedToId",
+      "types": [
+        "number"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        26,
+        4609,
+        4613,
+        4617,
+        49793
+      ],
+      "occurrenceCount": 100,
+      "totalRecords": 100,
+      "minValue": 26,
+      "maxValue": 55695795
+    },
+    {
+      "path": "attachments",
+      "types": [
+        "array"
+      ],
+      "nullable": false,
+      "isArray": true,
+      "isObject": false,
+      "sampleValues": [],
+      "occurrenceCount": 100,
+      "totalRecords": 100
+    },
+    {
+      "path": "attachments[].count",
+      "types": [
+        "number"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        1
+      ],
+      "occurrenceCount": 3,
+      "totalRecords": 100,
+      "minValue": 1,
+      "maxValue": 1
+    },
+    {
+      "path": "attachments[].createdBy",
+      "types": [
+        "number"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        26,
+        4609,
+        4613
+      ],
+      "occurrenceCount": 3,
+      "totalRecords": 100,
+      "minValue": 26,
+      "maxValue": 4613
+    },
+    {
+      "path": "attachments[].createdOn",
+      "types": [
+        "string"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        "2024-08-13T14:36:24.0242429Z",
+        "2024-08-19T22:34:40.9298527Z",
+        "2024-12-10T12:55:14.1038237Z"
+      ],
+      "occurrenceCount": 3,
+      "totalRecords": 100,
+      "minLength": 28,
+      "maxLength": 28
+    },
+    {
+      "path": "attachments[].files",
+      "types": [
+        "array"
+      ],
+      "nullable": false,
+      "isArray": true,
+      "isObject": false,
+      "sampleValues": [],
+      "occurrenceCount": 3,
+      "totalRecords": 100
+    },
+    {
+      "path": "attachments[].files[].filename",
+      "types": [
+        "string"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        "FILE_3143.docx",
+        "1420_Bass_Blvd___Residential_Report-summary.pdf",
+        "The Home Depot - Order Confirmation.pdf"
+      ],
+      "occurrenceCount": 3,
+      "totalRecords": 100,
+      "minLength": 14,
+      "maxLength": 47
+    },
+    {
+      "path": "attachments[].files[].url",
+      "types": [
+        "string"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        "https://go.servicetitan.com/Attach/Job?name=ExternalFormsFolder%2fForm-htur1swn.w45.DOCX",
+        "https://go.servicetitan.com/Attach/Job?name=ExternalFormsFolder%2fForm-bdathp3i.vot.PDF",
+        "https://go.servicetitan.com/Attach/Job?name=ExternalFormsFolder%2fForm-3j5ldgle.kij.PDF"
+      ],
+      "occurrenceCount": 3,
+      "totalRecords": 100,
+      "minLength": 87,
+      "maxLength": 88
+    },
+    {
+      "path": "businessUnitId",
+      "types": [
+        "number"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        4623,
+        1308,
+        26143,
+        1314,
+        4622
+      ],
+      "occurrenceCount": 100,
+      "totalRecords": 100,
+      "minValue": 1308,
+      "maxValue": 54670601
+    },
+    {
+      "path": "closedOn",
+      "types": [
+        "string"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        "2024-07-28T02:58:31.6145007Z",
+        "2024-07-18T20:03:50.8151791Z",
+        "2024-07-12T17:23:11.4943395Z",
+        "2024-07-28T02:58:23.1591692Z",
+        "2024-07-28T02:58:09.8612608Z"
+      ],
+      "occurrenceCount": 100,
+      "totalRecords": 100,
+      "minLength": 26,
+      "maxLength": 28
+    },
+    {
+      "path": "comments",
+      "types": [
+        "array"
+      ],
+      "nullable": false,
+      "isArray": true,
+      "isObject": false,
+      "sampleValues": [],
+      "occurrenceCount": 100,
+      "totalRecords": 100
+    },
+    {
+      "path": "comments[].comment",
+      "types": [
+        "string"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        "Sent PO to SCP",
+        "SCP PO#53139094-001",
+        "IN STOCK @ LARGO BRANCH. READY FOR PICK UP ",
+        "LIGHT ORDERED FROM AMAZON. ARRIVING @ SHOP WED 8/14",
+        "100' GLORBRITE IN STOCK @ SHOP "
+      ],
+      "occurrenceCount": 18,
+      "totalRecords": 100,
+      "minLength": 14,
+      "maxLength": 197
+    },
+    {
+      "path": "comments[].createdOn",
+      "types": [
+        "string"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        "2024-07-12T17:20:23.8681628Z",
+        "2024-07-30T20:10:20.0977609Z",
+        "2024-07-30T20:10:39.4362229Z",
+        "2024-08-12T16:51:39.7971264Z",
+        "2024-09-03T14:22:12.155454Z"
+      ],
+      "occurrenceCount": 18,
+      "totalRecords": 100,
+      "minLength": 25,
+      "maxLength": 28
+    },
+    {
+      "path": "comments[].employeeId",
+      "types": [
+        "number"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        4613,
+        4609
+      ],
+      "occurrenceCount": 18,
+      "totalRecords": 100,
+      "minValue": 4609,
+      "maxValue": 4613
+    },
+    {
+      "path": "completeBy",
+      "types": [
+        "string",
+        "null"
+      ],
+      "nullable": true,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        "2024-07-12T00:00:00Z",
+        "2024-07-31T00:00:00Z",
+        "2024-08-12T00:00:00Z",
+        "2024-08-13T00:00:00Z",
+        "2024-08-14T00:00:00Z"
+      ],
+      "occurrenceCount": 100,
+      "totalRecords": 100,
+      "minLength": 20,
+      "maxLength": 20
+    },
+    {
+      "path": "createdOn",
+      "types": [
+        "string"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        "2024-07-11T22:57:35.5257129Z",
+        "2024-07-11T23:31:53.8399577Z",
+        "2024-07-12T15:39:11.6178089Z",
+        "2024-07-14T15:04:15.1003712Z",
+        "2024-07-24T19:37:11.7874631Z"
+      ],
+      "occurrenceCount": 100,
+      "totalRecords": 100,
+      "minLength": 26,
+      "maxLength": 28
+    },
+    {
+      "path": "customerId",
+      "types": [
+        "number",
+        "null"
+      ],
+      "nullable": true,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        1184730,
+        1184781,
+        1184773,
+        1184575,
+        53116447
+      ],
+      "occurrenceCount": 100,
+      "totalRecords": 100,
+      "minValue": 1184543,
+      "maxValue": 58315782
+    },
+    {
+      "path": "customerName",
+      "types": [
+        "string",
+        "null"
+      ],
+      "nullable": true,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        "Gulfstream Pools & Spas- Main",
+        "Joe kelly",
+        "jenkins",
+        "Brandon Connell",
+        "Darla Emary"
+      ],
+      "occurrenceCount": 100,
+      "totalRecords": 100,
+      "minLength": 3,
+      "maxLength": 30
+    },
+    {
+      "path": "description",
+      "types": [
+        "string",
+        "null"
+      ],
+      "nullable": true,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        "2Pol20 GFCI",
+        "Customer Not Happy need to order parts",
+        "Control Unit, add the material to SCP then send PO on scp. Need to call and ask see if they have this or my be quicker to order online. ",
+        "In service Fusion around $600",
+        "Bill gulfstream for additional visit "
+      ],
+      "occurrenceCount": 100,
+      "totalRecords": 100,
+      "minLength": 5,
+      "maxLength": 349
+    },
+    {
+      "path": "descriptionModifiedById",
+      "types": [
+        "number",
+        "null"
+      ],
+      "nullable": true,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        26,
+        4609,
+        53592074,
+        55695795,
+        57268742
+      ],
+      "occurrenceCount": 100,
+      "totalRecords": 100,
+      "minValue": 26,
+      "maxValue": 57268742
+    },
+    {
+      "path": "descriptionModifiedOn",
+      "types": [
+        "string",
+        "null"
+      ],
+      "nullable": true,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        "2024-07-11T22:57:35.526029Z",
+        "2024-07-11T23:31:53.8402797Z",
+        "2024-07-12T15:39:11.6181368Z",
+        "2024-07-14T15:04:15.1005671Z",
+        "2024-07-24T19:37:11.7878125Z"
+      ],
+      "occurrenceCount": 100,
+      "totalRecords": 100,
+      "minLength": 27,
+      "maxLength": 28
+    },
+    {
+      "path": "employeeTaskResolutionId",
+      "types": [
+        "number"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        52976303,
+        510,
+        52968161
+      ],
+      "occurrenceCount": 100,
+      "totalRecords": 100,
+      "minValue": 510,
+      "maxValue": 52976303
+    },
+    {
+      "path": "employeeTaskSourceId",
+      "types": [
+        "number"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        506,
+        505
+      ],
+      "occurrenceCount": 100,
+      "totalRecords": 100,
+      "minValue": 505,
+      "maxValue": 506
+    },
+    {
+      "path": "employeeTaskTypeId",
+      "types": [
+        "number"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        52967140,
+        507,
+        52982033,
+        53156358,
+        53309190
+      ],
+      "occurrenceCount": 100,
+      "totalRecords": 100,
+      "minValue": 507,
+      "maxValue": 54779014
+    },
+    {
+      "path": "id",
+      "types": [
+        "number"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        52967141,
+        52967151,
+        52976421,
+        52981392,
+        53089928
+      ],
+      "occurrenceCount": 100,
+      "totalRecords": 100,
+      "minValue": 52967141,
+      "maxValue": 58380081
+    },
+    {
+      "path": "involvedEmployeeIdList",
+      "types": [
+        "array"
+      ],
+      "nullable": false,
+      "isArray": true,
+      "isObject": false,
+      "sampleValues": [],
+      "occurrenceCount": 100,
+      "totalRecords": 100
+    },
+    {
+      "path": "isClosed",
+      "types": [
+        "boolean"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        true
+      ],
+      "occurrenceCount": 100,
+      "totalRecords": 100
+    },
+    {
+      "path": "jobId",
+      "types": [
+        "null",
+        "number"
+      ],
+      "nullable": true,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        7871814,
+        52967121,
+        7870944,
+        53139094,
+        53139612
+      ],
+      "occurrenceCount": 100,
+      "totalRecords": 100,
+      "minValue": 7870432,
+      "maxValue": 58379956
+    },
+    {
+      "path": "jobNumber",
+      "types": [
+        "null",
+        "string"
+      ],
+      "nullable": true,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        "7871814",
+        "52967121",
+        "7870944",
+        "53139094",
+        "53139612"
+      ],
+      "occurrenceCount": 100,
+      "totalRecords": 100,
+      "minLength": 7,
+      "maxLength": 8
+    },
+    {
+      "path": "modifiedOn",
+      "types": [
+        "string"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        "2024-07-11T22:57:35.526029Z",
+        "2024-07-11T23:31:53.8402797Z",
+        "2024-07-12T15:39:11.6181368Z",
+        "2024-07-14T15:04:15.1005671Z",
+        "2024-07-24T19:37:11.7878125Z"
+      ],
+      "occurrenceCount": 100,
+      "totalRecords": 100,
+      "minLength": 27,
+      "maxLength": 28
+    },
+    {
+      "path": "name",
+      "types": [
+        "string"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        "Need To Order Breaker",
+        "Order Parts",
+        "Order Part for Hunter",
+        "Input filna amount ",
+        "Add visit to bill - Rotondo/Pittman"
+      ],
+      "occurrenceCount": 100,
+      "totalRecords": 100,
+      "minLength": 9,
+      "maxLength": 67
+    },
+    {
+      "path": "priority",
+      "types": [
+        "string"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        "Normal",
+        "High",
+        "Low"
+      ],
+      "occurrenceCount": 100,
+      "totalRecords": 100,
+      "minLength": 3,
+      "maxLength": 6
+    },
+    {
+      "path": "projectId",
+      "types": [
+        "number",
+        "null"
+      ],
+      "nullable": true,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        52967103,
+        53139107,
+        53111269,
+        53297894,
+        53106976
+      ],
+      "occurrenceCount": 100,
+      "totalRecords": 100,
+      "minValue": 7865802,
+      "maxValue": 58385160
+    },
+    {
+      "path": "refundIssued",
+      "types": [
+        "null"
+      ],
+      "nullable": true,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [],
+      "occurrenceCount": 100,
+      "totalRecords": 100
+    },
+    {
+      "path": "reportedById",
+      "types": [
+        "number"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        26,
+        4609,
+        53592074,
+        55695795,
+        57268742
+      ],
+      "occurrenceCount": 100,
+      "totalRecords": 100,
+      "minValue": 26,
+      "maxValue": 57268742
+    },
+    {
+      "path": "reportedOn",
+      "types": [
+        "string"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        "2024-07-11T00:00:00Z",
+        "2024-07-12T00:00:00Z",
+        "2024-07-14T00:00:00Z",
+        "2024-07-24T00:00:00Z",
+        "2024-07-30T00:00:00Z"
+      ],
+      "occurrenceCount": 100,
+      "totalRecords": 100,
+      "minLength": 20,
+      "maxLength": 20
+    },
+    {
+      "path": "status",
+      "types": [
+        "string"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        "Completed"
+      ],
+      "occurrenceCount": 100,
+      "totalRecords": 100,
+      "minLength": 9,
+      "maxLength": 9
+    },
+    {
+      "path": "subTasksData",
+      "types": [
+        "object"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": true,
+      "sampleValues": [],
+      "occurrenceCount": 100,
+      "totalRecords": 100
+    },
+    {
+      "path": "subTasksData.count",
+      "types": [
+        "number"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        0
+      ],
+      "occurrenceCount": 100,
+      "totalRecords": 100,
+      "minValue": 0,
+      "maxValue": 0
+    },
+    {
+      "path": "subTasksData.subTasks",
+      "types": [
+        "array"
+      ],
+      "nullable": false,
+      "isArray": true,
+      "isObject": false,
+      "sampleValues": [],
+      "occurrenceCount": 100,
+      "totalRecords": 100
+    },
+    {
+      "path": "taskNumber",
+      "types": [
+        "number"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "occurrenceCount": 100,
+      "totalRecords": 100,
+      "minValue": 1,
+      "maxValue": 101
+    }
+  ],
+  "rootStructure": "paginated",
+  "paginationFields": [
+    "page",
+    "pageSize",
+    "hasMore",
+    "totalCount"
+  ],
+  "idField": "id",
+  "timestampFields": [
+    "closedOn",
+    "completeBy",
+    "createdOn",
+    "descriptionModifiedById",
+    "descriptionModifiedOn",
+    "modifiedOn",
+    "reportedOn"
+  ],
+  "relationshipFields": [
+    "assignedToId",
+    "businessUnitId",
+    "customerId",
+    "descriptionModifiedById",
+    "employeeTaskResolutionId",
+    "employeeTaskSourceId",
+    "employeeTaskTypeId",
+    "jobId",
+    "projectId",
+    "reportedById"
+  ],
+  "analyzedAt": "2026-01-21T14:16:43.045Z"
+}

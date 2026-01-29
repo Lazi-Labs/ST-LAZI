@@ -1,0 +1,384 @@
+{
+  "endpointName": "remittance_vendors",
+  "recordCount": 40,
+  "fields": [
+    {
+      "path": "active",
+      "types": [
+        "boolean"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        true
+      ],
+      "occurrenceCount": 40,
+      "totalRecords": 40
+    },
+    {
+      "path": "address",
+      "types": [
+        "object"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": true,
+      "sampleValues": [],
+      "occurrenceCount": 40,
+      "totalRecords": 40
+    },
+    {
+      "path": "address.city",
+      "types": [
+        "string",
+        "null"
+      ],
+      "nullable": true,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        "LARGO",
+        "Largo",
+        "Lutz",
+        "Clearwater ",
+        "Online"
+      ],
+      "occurrenceCount": 40,
+      "totalRecords": 40,
+      "minLength": 1,
+      "maxLength": 15
+    },
+    {
+      "path": "address.country",
+      "types": [
+        "string",
+        "null"
+      ],
+      "nullable": true,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        "United States",
+        "US",
+        "online",
+        "USA",
+        "-"
+      ],
+      "occurrenceCount": 40,
+      "totalRecords": 40,
+      "minLength": 1,
+      "maxLength": 13
+    },
+    {
+      "path": "address.state",
+      "types": [
+        "string",
+        "null"
+      ],
+      "nullable": true,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        "FL",
+        "Online",
+        "NC",
+        "FL ",
+        "-"
+      ],
+      "occurrenceCount": 40,
+      "totalRecords": 40,
+      "minLength": 1,
+      "maxLength": 7
+    },
+    {
+      "path": "address.street",
+      "types": [
+        "string",
+        "null"
+      ],
+      "nullable": true,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        "9205 128TH AVE N",
+        "2128 Coronet Drive",
+        "15486 N. Nebraska Ave",
+        "21415 US Hwy 19 N",
+        "9205 128th Avenue North"
+      ],
+      "occurrenceCount": 40,
+      "totalRecords": 40,
+      "minLength": 1,
+      "maxLength": 28
+    },
+    {
+      "path": "address.unit",
+      "types": [
+        "string",
+        "null"
+      ],
+      "nullable": true,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        "UNIT 1409",
+        "",
+        "BLDG 1409",
+        "Suite A ",
+        "2"
+      ],
+      "occurrenceCount": 40,
+      "totalRecords": 40,
+      "minLength": 0,
+      "maxLength": 9
+    },
+    {
+      "path": "address.zip",
+      "types": [
+        "string",
+        "null"
+      ],
+      "nullable": true,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        "33773",
+        "33770",
+        "33549",
+        "33765",
+        "Online"
+      ],
+      "occurrenceCount": 40,
+      "totalRecords": 40,
+      "minLength": 1,
+      "maxLength": 6
+    },
+    {
+      "path": "contactInfo",
+      "types": [
+        "object"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": true,
+      "sampleValues": [],
+      "occurrenceCount": 40,
+      "totalRecords": 40
+    },
+    {
+      "path": "contactInfo.email",
+      "types": [
+        "string",
+        "null"
+      ],
+      "nullable": true,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        "",
+        "justinb@amplighting.com",
+        "Corey@bluehornwholesale.com",
+        "services@boatliftwarehouse.com",
+        "devin.ortega@cedclearwater.com"
+      ],
+      "occurrenceCount": 40,
+      "totalRecords": 40,
+      "minLength": 0,
+      "maxLength": 33
+    },
+    {
+      "path": "contactInfo.fax",
+      "types": [
+        "null"
+      ],
+      "nullable": true,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [],
+      "occurrenceCount": 40,
+      "totalRecords": 40
+    },
+    {
+      "path": "contactInfo.firstName",
+      "types": [
+        "null"
+      ],
+      "nullable": true,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [],
+      "occurrenceCount": 40,
+      "totalRecords": 40
+    },
+    {
+      "path": "contactInfo.lastName",
+      "types": [
+        "null"
+      ],
+      "nullable": true,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [],
+      "occurrenceCount": 40,
+      "totalRecords": 40
+    },
+    {
+      "path": "contactInfo.phone",
+      "types": [
+        "null",
+        "string"
+      ],
+      "nullable": true,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        "8139783900",
+        "8774685438",
+        "7274460541",
+        "7274085105",
+        "5407215501"
+      ],
+      "occurrenceCount": 40,
+      "totalRecords": 40,
+      "minLength": 10,
+      "maxLength": 10
+    },
+    {
+      "path": "createdOn",
+      "types": [
+        "string"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        "2024-09-24T14:01:01.9140232Z",
+        "2024-05-24T01:36:17.2606147Z",
+        "2025-09-18T17:11:06.6337842Z",
+        "2024-07-12T15:43:05.8397847Z",
+        "2024-05-22T17:44:29.6376534Z"
+      ],
+      "occurrenceCount": 40,
+      "totalRecords": 40,
+      "minLength": 25,
+      "maxLength": 28
+    },
+    {
+      "path": "customerId",
+      "types": [
+        "null"
+      ],
+      "nullable": true,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [],
+      "occurrenceCount": 40,
+      "totalRecords": 40
+    },
+    {
+      "path": "id",
+      "types": [
+        "number"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        53731521,
+        10125,
+        60611336,
+        52973331,
+        6795
+      ],
+      "occurrenceCount": 40,
+      "totalRecords": 40,
+      "minValue": 154,
+      "maxValue": 61916807
+    },
+    {
+      "path": "isApproved",
+      "types": [
+        "boolean"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        false
+      ],
+      "occurrenceCount": 40,
+      "totalRecords": 40
+    },
+    {
+      "path": "isVerified",
+      "types": [
+        "boolean"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        false
+      ],
+      "occurrenceCount": 40,
+      "totalRecords": 40
+    },
+    {
+      "path": "modifiedOn",
+      "types": [
+        "string"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        "2024-09-24T14:01:01.9140232Z",
+        "2024-05-24T01:36:17.2606147Z",
+        "2025-09-18T17:11:06.6337842Z",
+        "2024-07-12T15:43:05.8397847Z",
+        "2024-05-22T17:44:29.6376534Z"
+      ],
+      "occurrenceCount": 40,
+      "totalRecords": 40,
+      "minLength": 25,
+      "maxLength": 28
+    },
+    {
+      "path": "name",
+      "types": [
+        "string"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        "ACE HARDWARE ",
+        "Amazon",
+        "AMP",
+        "Best Buy ",
+        "Big Horn Supply"
+      ],
+      "occurrenceCount": 40,
+      "totalRecords": 40,
+      "minLength": 3,
+      "maxLength": 29
+    }
+  ],
+  "rootStructure": "paginated",
+  "paginationFields": [
+    "page",
+    "pageSize",
+    "hasMore",
+    "totalCount"
+  ],
+  "idField": "id",
+  "timestampFields": [
+    "createdOn",
+    "modifiedOn"
+  ],
+  "relationshipFields": [
+    "customerId"
+  ],
+  "analyzedAt": "2026-01-21T14:16:43.041Z"
+}

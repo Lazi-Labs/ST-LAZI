@@ -61,8 +61,10 @@ export class CustomerContactsSync {
         FROM master.customers c
         LEFT JOIN master.customer_contacts cc ON cc.customer_id = c.st_id
         WHERE c.st_id IS NOT NULL
+        AND c.active = true
         AND (
-          c.updated_at > NOW() - INTERVAL '24 hours'
+          c.modified_on > NOW() - INTERVAL '24 hours'
+          OR c.synced_at > NOW() - INTERVAL '1 hour'
           OR cc.id IS NULL
         )
         ORDER BY c.st_id

@@ -1,0 +1,227 @@
+{
+  "endpointName": "timesheet_codes",
+  "recordCount": 14,
+  "fields": [
+    {
+      "path": "active",
+      "types": [
+        "boolean"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        true
+      ],
+      "occurrenceCount": 14,
+      "totalRecords": 14
+    },
+    {
+      "path": "applicableEmployeeType",
+      "types": [
+        "string"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        "All",
+        "Technician",
+        "Employee"
+      ],
+      "occurrenceCount": 14,
+      "totalRecords": 14,
+      "minLength": 3,
+      "maxLength": 10
+    },
+    {
+      "path": "code",
+      "types": [
+        "string"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        "ClockIO",
+        "Meal",
+        "Training",
+        "PTO",
+        "ShopTime"
+      ],
+      "occurrenceCount": 14,
+      "totalRecords": 14,
+      "minLength": 3,
+      "maxLength": 25
+    },
+    {
+      "path": "createdOn",
+      "types": [
+        "string"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        "2024-05-21T21:05:31.7777413Z",
+        "2024-05-21T21:05:31.7822311Z",
+        "2024-05-21T21:05:31.7822581Z",
+        "2024-05-21T21:05:31.7829396Z",
+        "2024-05-21T21:05:31.7829843Z"
+      ],
+      "occurrenceCount": 14,
+      "totalRecords": 14,
+      "minLength": 27,
+      "maxLength": 28
+    },
+    {
+      "path": "description",
+      "types": [
+        "null",
+        "string"
+      ],
+      "nullable": true,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        "Morning Meeting & Re-Stock Vehicles",
+        "Picking Up or Dropping off another Employee",
+        "Extended Driving",
+        "13932 Walsingham Rd, Largo, FL 33774"
+      ],
+      "occurrenceCount": 14,
+      "totalRecords": 14,
+      "minLength": 16,
+      "maxLength": 43
+    },
+    {
+      "path": "id",
+      "types": [
+        "number"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        252,
+        254,
+        255,
+        257,
+        258
+      ],
+      "occurrenceCount": 14,
+      "totalRecords": 14,
+      "minValue": 252,
+      "maxValue": 58050824
+    },
+    {
+      "path": "modifiedOn",
+      "types": [
+        "string"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        "2024-05-21T21:05:42.6358717Z",
+        "2024-07-21T21:23:39.9125654Z",
+        "2024-08-02T15:23:07.4623773Z",
+        "2024-10-20T03:00:17.3065056Z",
+        "2025-02-05T14:22:35.0021259Z"
+      ],
+      "occurrenceCount": 14,
+      "totalRecords": 14,
+      "minLength": 27,
+      "maxLength": 28
+    },
+    {
+      "path": "rateInfo",
+      "types": [
+        "object"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": true,
+      "sampleValues": [],
+      "occurrenceCount": 14,
+      "totalRecords": 14
+    },
+    {
+      "path": "rateInfo.customHourlyRate",
+      "types": [
+        "null"
+      ],
+      "nullable": true,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [],
+      "occurrenceCount": 14,
+      "totalRecords": 14
+    },
+    {
+      "path": "rateInfo.hourlyRate",
+      "types": [
+        "string"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        "EmployeeHourlyRate"
+      ],
+      "occurrenceCount": 14,
+      "totalRecords": 14,
+      "minLength": 18,
+      "maxLength": 18
+    },
+    {
+      "path": "rateInfo.rateMultiplier",
+      "types": [
+        "number"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        1
+      ],
+      "occurrenceCount": 14,
+      "totalRecords": 14,
+      "minValue": 1,
+      "maxValue": 1
+    },
+    {
+      "path": "type",
+      "types": [
+        "string"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        "ClockInOut",
+        "Unpaid",
+        "Paid",
+        "PaidTimeOff"
+      ],
+      "occurrenceCount": 14,
+      "totalRecords": 14,
+      "minLength": 4,
+      "maxLength": 11
+    }
+  ],
+  "rootStructure": "paginated",
+  "paginationFields": [
+    "page",
+    "pageSize",
+    "hasMore",
+    "totalCount"
+  ],
+  "idField": "id",
+  "timestampFields": [
+    "createdOn",
+    "modifiedOn"
+  ],
+  "relationshipFields": [],
+  "analyzedAt": "2026-01-21T14:16:43.049Z"
+}

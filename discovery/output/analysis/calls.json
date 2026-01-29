@@ -1,0 +1,766 @@
+{
+  "endpointName": "calls",
+  "recordCount": 100,
+  "fields": [
+    {
+      "path": "businessUnit",
+      "types": [
+        "null",
+        "object"
+      ],
+      "nullable": true,
+      "isArray": false,
+      "isObject": true,
+      "sampleValues": [],
+      "occurrenceCount": 100,
+      "totalRecords": 100
+    },
+    {
+      "path": "businessUnit.id",
+      "types": [
+        "number"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        4623,
+        1308,
+        25197
+      ],
+      "occurrenceCount": 9,
+      "totalRecords": 100,
+      "minValue": 1308,
+      "maxValue": 25197
+    },
+    {
+      "path": "businessUnit.name",
+      "types": [
+        "string"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        "Pool - Install",
+        "Electrical - Install",
+        "Electrical - test"
+      ],
+      "occurrenceCount": 9,
+      "totalRecords": 100,
+      "minLength": 14,
+      "maxLength": 20
+    },
+    {
+      "path": "id",
+      "types": [
+        "number"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        0,
+        7873788,
+        52993287,
+        53025037,
+        53036282
+      ],
+      "occurrenceCount": 100,
+      "totalRecords": 100,
+      "minValue": 0,
+      "maxValue": 53221126
+    },
+    {
+      "path": "jobNumber",
+      "types": [
+        "null",
+        "string"
+      ],
+      "nullable": true,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        "7873788",
+        "52993287",
+        "53025037",
+        "53036282",
+        "53160335"
+      ],
+      "occurrenceCount": 100,
+      "totalRecords": 100,
+      "minLength": 7,
+      "maxLength": 8
+    },
+    {
+      "path": "leadCall",
+      "types": [
+        "object"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": true,
+      "sampleValues": [],
+      "occurrenceCount": 100,
+      "totalRecords": 100
+    },
+    {
+      "path": "leadCall.active",
+      "types": [
+        "boolean"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        false,
+        true
+      ],
+      "occurrenceCount": 100,
+      "totalRecords": 100
+    },
+    {
+      "path": "leadCall.agent",
+      "types": [
+        "object",
+        "null"
+      ],
+      "nullable": true,
+      "isArray": false,
+      "isObject": true,
+      "sampleValues": [],
+      "occurrenceCount": 100,
+      "totalRecords": 100
+    },
+    {
+      "path": "leadCall.agent.externalId",
+      "types": [
+        "null"
+      ],
+      "nullable": true,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [],
+      "occurrenceCount": 28,
+      "totalRecords": 100
+    },
+    {
+      "path": "leadCall.agent.id",
+      "types": [
+        "number"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        26,
+        4617,
+        4482,
+        14721,
+        12161
+      ],
+      "occurrenceCount": 28,
+      "totalRecords": 100,
+      "minValue": 26,
+      "maxValue": 14721
+    },
+    {
+      "path": "leadCall.agent.name",
+      "types": [
+        "string"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        "Yanni Ramos",
+        "Nathalie Garcia",
+        "Hunter Friend",
+        "Ryan Thomas",
+        "Marcus Avouris"
+      ],
+      "occurrenceCount": 28,
+      "totalRecords": 100,
+      "minLength": 11,
+      "maxLength": 15
+    },
+    {
+      "path": "leadCall.callType",
+      "types": [
+        "null",
+        "string"
+      ],
+      "nullable": true,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        "Unbooked",
+        "Abandoned",
+        "NotLead",
+        "Booked"
+      ],
+      "occurrenceCount": 100,
+      "totalRecords": 100,
+      "minLength": 6,
+      "maxLength": 9
+    },
+    {
+      "path": "leadCall.campaign",
+      "types": [
+        "null",
+        "object"
+      ],
+      "nullable": true,
+      "isArray": false,
+      "isObject": true,
+      "sampleValues": [],
+      "occurrenceCount": 100,
+      "totalRecords": 100
+    },
+    {
+      "path": "leadCall.campaign.id",
+      "types": [
+        "number"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        1436,
+        53122589,
+        53122951
+      ],
+      "occurrenceCount": 28,
+      "totalRecords": 100,
+      "minValue": 1436,
+      "maxValue": 53122951
+    },
+    {
+      "path": "leadCall.campaign.name",
+      "types": [
+        "string"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        "Google Local Service Adds",
+        "Google Business Page",
+        "Facebook"
+      ],
+      "occurrenceCount": 28,
+      "totalRecords": 100,
+      "minLength": 8,
+      "maxLength": 25
+    },
+    {
+      "path": "leadCall.createdBy",
+      "types": [
+        "object",
+        "null"
+      ],
+      "nullable": true,
+      "isArray": false,
+      "isObject": true,
+      "sampleValues": [],
+      "occurrenceCount": 100,
+      "totalRecords": 100
+    },
+    {
+      "path": "leadCall.createdBy.id",
+      "types": [
+        "number"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        26,
+        4617,
+        4482,
+        14721,
+        12161
+      ],
+      "occurrenceCount": 17,
+      "totalRecords": 100,
+      "minValue": 26,
+      "maxValue": 14721
+    },
+    {
+      "path": "leadCall.createdBy.name",
+      "types": [
+        "string"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        "Yanni Ramos",
+        "Nathalie Garcia",
+        "Hunter Friend",
+        "Ryan Thomas",
+        "Marcus Avouris"
+      ],
+      "occurrenceCount": 17,
+      "totalRecords": 100,
+      "minLength": 11,
+      "maxLength": 15
+    },
+    {
+      "path": "leadCall.createdOn",
+      "types": [
+        "string"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        "2024-07-08T15:46:01.825067Z",
+        "2024-07-08T15:57:14.9407586Z",
+        "2024-07-08T15:57:23.1685554Z",
+        "2024-07-08T15:50:56.4860951Z",
+        "2024-07-11T17:00:42.8119086Z"
+      ],
+      "occurrenceCount": 100,
+      "totalRecords": 100,
+      "minLength": 26,
+      "maxLength": 28
+    },
+    {
+      "path": "leadCall.customer",
+      "types": [
+        "object",
+        "null"
+      ],
+      "nullable": true,
+      "isArray": false,
+      "isObject": true,
+      "sampleValues": [],
+      "occurrenceCount": 100,
+      "totalRecords": 100
+    },
+    {
+      "path": "leadCall.customer.id",
+      "types": [
+        "number"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        1184756,
+        1185089,
+        2023488,
+        1184949,
+        1184927
+      ],
+      "occurrenceCount": 51,
+      "totalRecords": 100,
+      "minValue": 1184636,
+      "maxValue": 53177479
+    },
+    {
+      "path": "leadCall.customer.name",
+      "types": [
+        "string"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        "jade",
+        "vendela conley",
+        "nathalie Garcia",
+        "PCS Pools - Main",
+        "Oasis Pavers & Pools- Main"
+      ],
+      "occurrenceCount": 51,
+      "totalRecords": 100,
+      "minLength": 4,
+      "maxLength": 26
+    },
+    {
+      "path": "leadCall.direction",
+      "types": [
+        "string"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        "Outbound",
+        "Inbound"
+      ],
+      "occurrenceCount": 100,
+      "totalRecords": 100,
+      "minLength": 7,
+      "maxLength": 8
+    },
+    {
+      "path": "leadCall.duration",
+      "types": [
+        "string"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        "00:00:14.6664382",
+        "00:00:10",
+        "00:00:32",
+        "00:00:07",
+        "00:00:21"
+      ],
+      "occurrenceCount": 100,
+      "totalRecords": 100,
+      "minLength": 8,
+      "maxLength": 16
+    },
+    {
+      "path": "leadCall.from",
+      "types": [
+        "string"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        "+17274304710",
+        "+17049053921",
+        "7049053921",
+        "+18136018475",
+        "+17274189675"
+      ],
+      "occurrenceCount": 100,
+      "totalRecords": 100,
+      "minLength": 10,
+      "maxLength": 12
+    },
+    {
+      "path": "leadCall.id",
+      "types": [
+        "number"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        2023744,
+        2023873,
+        2023875,
+        2024000,
+        52966022
+      ],
+      "occurrenceCount": 100,
+      "totalRecords": 100,
+      "minValue": 2023744,
+      "maxValue": 53214215
+    },
+    {
+      "path": "leadCall.modifiedOn",
+      "types": [
+        "string"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        "2024-07-08T15:46:16.4915253Z",
+        "2024-07-08T15:57:24.3896266Z",
+        "2024-07-08T15:57:23.2118214Z",
+        "2024-07-08T15:50:56.5333155Z",
+        "2024-07-18T19:26:32.5924566Z"
+      ],
+      "occurrenceCount": 100,
+      "totalRecords": 100,
+      "minLength": 26,
+      "maxLength": 28
+    },
+    {
+      "path": "leadCall.reason",
+      "types": [
+        "null",
+        "object"
+      ],
+      "nullable": true,
+      "isArray": false,
+      "isObject": true,
+      "sampleValues": [],
+      "occurrenceCount": 100,
+      "totalRecords": 100
+    },
+    {
+      "path": "leadCall.reason.active",
+      "types": [
+        "boolean"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        true
+      ],
+      "occurrenceCount": 6,
+      "totalRecords": 100
+    },
+    {
+      "path": "leadCall.reason.id",
+      "types": [
+        "number"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        31,
+        28,
+        36
+      ],
+      "occurrenceCount": 6,
+      "totalRecords": 100,
+      "minValue": 28,
+      "maxValue": 36
+    },
+    {
+      "path": "leadCall.reason.lead",
+      "types": [
+        "boolean"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        true,
+        false
+      ],
+      "occurrenceCount": 6,
+      "totalRecords": 100
+    },
+    {
+      "path": "leadCall.reason.name",
+      "types": [
+        "string"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        "ZZZZZZZDidn't want to pay dispatch fee",
+        "Cancel Appt",
+        "Wrong number"
+      ],
+      "occurrenceCount": 6,
+      "totalRecords": 100,
+      "minLength": 11,
+      "maxLength": 38
+    },
+    {
+      "path": "leadCall.receivedOn",
+      "types": [
+        "string"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        "2024-07-08T15:46:01.825067Z",
+        "2024-07-08T15:57:14.9407586Z",
+        "2024-07-08T15:57:23.1685554Z",
+        "2024-07-08T15:50:56.4860951Z",
+        "2024-07-11T17:00:42.8119086Z"
+      ],
+      "occurrenceCount": 100,
+      "totalRecords": 100,
+      "minLength": 26,
+      "maxLength": 28
+    },
+    {
+      "path": "leadCall.recordingUrl",
+      "types": [
+        "null",
+        "string"
+      ],
+      "nullable": true,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        "https://go.servicetitan.com/Call/CallRecording/2023873",
+        "https://go.servicetitan.com/Call/CallRecording/52966022",
+        "https://go.servicetitan.com/Call/CallRecording/52978310",
+        "https://go.servicetitan.com/Call/CallRecording/53120136",
+        "https://go.servicetitan.com/Call/CallRecording/53128070"
+      ],
+      "occurrenceCount": 100,
+      "totalRecords": 100,
+      "minLength": 54,
+      "maxLength": 55
+    },
+    {
+      "path": "leadCall.sid",
+      "types": [
+        "string"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        "CAb3ad278606c481b393ce3b8b58e010e6",
+        "CA2a3744d43e3532e9eec7c06286e6da82",
+        "CA84f7e2bee861afb5899cd35e431f1cdf",
+        "CA749f726021959ac97e6f7f4ca0cf8a95",
+        "CA029d00bf228a081545d4df4567586026"
+      ],
+      "occurrenceCount": 100,
+      "totalRecords": 100,
+      "minLength": 34,
+      "maxLength": 34
+    },
+    {
+      "path": "leadCall.tags",
+      "types": [
+        "array"
+      ],
+      "nullable": false,
+      "isArray": true,
+      "isObject": false,
+      "sampleValues": [],
+      "occurrenceCount": 100,
+      "totalRecords": 100
+    },
+    {
+      "path": "leadCall.to",
+      "types": [
+        "string"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        "8135416921",
+        "8136018475",
+        "7274304710",
+        "7273044959",
+        "8137771592"
+      ],
+      "occurrenceCount": 100,
+      "totalRecords": 100,
+      "minLength": 10,
+      "maxLength": 10
+    },
+    {
+      "path": "leadCall.voiceMailUrl",
+      "types": [
+        "null"
+      ],
+      "nullable": true,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [],
+      "occurrenceCount": 100,
+      "totalRecords": 100
+    },
+    {
+      "path": "projectId",
+      "types": [
+        "number"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        0,
+        7872290,
+        53025056
+      ],
+      "occurrenceCount": 100,
+      "totalRecords": 100,
+      "minValue": 0,
+      "maxValue": 53025056
+    },
+    {
+      "path": "type",
+      "types": [
+        "null",
+        "object"
+      ],
+      "nullable": true,
+      "isArray": false,
+      "isObject": true,
+      "sampleValues": [],
+      "occurrenceCount": 100,
+      "totalRecords": 100
+    },
+    {
+      "path": "type.id",
+      "types": [
+        "number"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        7872631,
+        34057,
+        41732,
+        41345,
+        33282
+      ],
+      "occurrenceCount": 9,
+      "totalRecords": 100,
+      "minValue": 33282,
+      "maxValue": 7872631
+    },
+    {
+      "path": "type.modifiedOn",
+      "types": [
+        "string"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        "2025-02-24T16:11:47.3129216Z",
+        "2025-01-22T02:15:13.6751177Z",
+        "2025-10-27T23:25:00.089117Z",
+        "2025-01-01T02:16:48.7049495Z"
+      ],
+      "occurrenceCount": 9,
+      "totalRecords": 100,
+      "minLength": 27,
+      "maxLength": 28
+    },
+    {
+      "path": "type.name",
+      "types": [
+        "string"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        "Pool Builder - Estimate",
+        "Pool - Install Half Day",
+        "Pool - Service: Heater Not Working",
+        "zzzz [E] Install Half Day",
+        "zzzzz [ES] Warranty"
+      ],
+      "occurrenceCount": 9,
+      "totalRecords": 100,
+      "minLength": 19,
+      "maxLength": 34
+    }
+  ],
+  "rootStructure": "paginated",
+  "paginationFields": [
+    "page",
+    "pageSize",
+    "hasMore",
+    "totalCount"
+  ],
+  "idField": "id",
+  "timestampFields": [],
+  "relationshipFields": [
+    "projectId"
+  ],
+  "analyzedAt": "2026-01-21T14:16:42.957Z"
+}

@@ -1,0 +1,15 @@
+{
+  "endpointName": "ap_credits",
+  "recordCount": 0,
+  "fields": [],
+  "rootStructure": "paginated",
+  "paginationFields": [
+    "page",
+    "pageSize",
+    "hasMore",
+    "totalCount"
+  ],
+  "timestampFields": [],
+  "relationshipFields": [],
+  "analyzedAt": "2026-01-21T14:16:42.949Z"
+}

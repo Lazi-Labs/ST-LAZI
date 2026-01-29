@@ -1,0 +1,1906 @@
+{
+  "endpointName": "invoices",
+  "recordCount": 100,
+  "fields": [
+    {
+      "path": "active",
+      "types": [
+        "boolean"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        true
+      ],
+      "occurrenceCount": 100,
+      "totalRecords": 100
+    },
+    {
+      "path": "adjustmentToId",
+      "types": [
+        "null"
+      ],
+      "nullable": true,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [],
+      "occurrenceCount": 100,
+      "totalRecords": 100
+    },
+    {
+      "path": "assignedTo",
+      "types": [
+        "null",
+        "object"
+      ],
+      "nullable": true,
+      "isArray": false,
+      "isObject": true,
+      "sampleValues": [],
+      "occurrenceCount": 100,
+      "totalRecords": 100
+    },
+    {
+      "path": "assignedTo.id",
+      "types": [
+        "number"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        26
+      ],
+      "occurrenceCount": 17,
+      "totalRecords": 100,
+      "minValue": 26,
+      "maxValue": 26
+    },
+    {
+      "path": "assignedTo.name",
+      "types": [
+        "string"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        "Yanni Ramos"
+      ],
+      "occurrenceCount": 17,
+      "totalRecords": 100,
+      "minLength": 11,
+      "maxLength": 11
+    },
+    {
+      "path": "balance",
+      "types": [
+        "string"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        "0.00"
+      ],
+      "occurrenceCount": 100,
+      "totalRecords": 100,
+      "minLength": 4,
+      "maxLength": 4
+    },
+    {
+      "path": "batch",
+      "types": [
+        "null"
+      ],
+      "nullable": true,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [],
+      "occurrenceCount": 100,
+      "totalRecords": 100
+    },
+    {
+      "path": "budgetCodeId",
+      "types": [
+        "null"
+      ],
+      "nullable": true,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [],
+      "occurrenceCount": 100,
+      "totalRecords": 100
+    },
+    {
+      "path": "businessUnit",
+      "types": [
+        "object"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": true,
+      "sampleValues": [],
+      "occurrenceCount": 100,
+      "totalRecords": 100
+    },
+    {
+      "path": "businessUnit.id",
+      "types": [
+        "number"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        1308,
+        1314,
+        1316
+      ],
+      "occurrenceCount": 100,
+      "totalRecords": 100,
+      "minValue": 1308,
+      "maxValue": 1316
+    },
+    {
+      "path": "businessUnit.name",
+      "types": [
+        "string"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        "Electrical - Install",
+        "Electrical - Sales",
+        "Imported Default Businessunit"
+      ],
+      "occurrenceCount": 100,
+      "totalRecords": 100,
+      "minLength": 18,
+      "maxLength": 29
+    },
+    {
+      "path": "commissionEligibilityDate",
+      "types": [
+        "null"
+      ],
+      "nullable": true,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [],
+      "occurrenceCount": 100,
+      "totalRecords": 100
+    },
+    {
+      "path": "createdBy",
+      "types": [
+        "string",
+        "null"
+      ],
+      "nullable": true,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        "yannir2024",
+        "NathalieYR"
+      ],
+      "occurrenceCount": 100,
+      "totalRecords": 100,
+      "minLength": 10,
+      "maxLength": 10
+    },
+    {
+      "path": "createdOn",
+      "types": [
+        "string"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        "2024-07-08T15:13:32.1092764Z",
+        "2024-07-08T18:09:07.3374457Z",
+        "2024-06-12T00:00:00Z",
+        "2024-04-03T00:00:00Z",
+        "2024-04-29T00:00:00Z"
+      ],
+      "occurrenceCount": 100,
+      "totalRecords": 100,
+      "minLength": 20,
+      "maxLength": 28
+    },
+    {
+      "path": "customer",
+      "types": [
+        "object"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": true,
+      "sampleValues": [],
+      "occurrenceCount": 100,
+      "totalRecords": 100
+    },
+    {
+      "path": "customer.id",
+      "types": [
+        "number"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        2023488,
+        1184649,
+        1184652,
+        1184662,
+        1184754
+      ],
+      "occurrenceCount": 100,
+      "totalRecords": 100,
+      "minValue": 1184517,
+      "maxValue": 2023488
+    },
+    {
+      "path": "customer.name",
+      "types": [
+        "string"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        "nathalie Garcia",
+        "Dave Lafleur",
+        "David Palmer",
+        "Denisha",
+        "Islandway Pools"
+      ],
+      "occurrenceCount": 100,
+      "totalRecords": 100,
+      "minLength": 6,
+      "maxLength": 29
+    },
+    {
+      "path": "customerAddress",
+      "types": [
+        "object"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": true,
+      "sampleValues": [],
+      "occurrenceCount": 100,
+      "totalRecords": 100
+    },
+    {
+      "path": "customerAddress.city",
+      "types": [
+        "string",
+        "null"
+      ],
+      "nullable": true,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        "Largo",
+        "New Port Richey",
+        "Clearwater Beach",
+        "Tampa",
+        "Clearwater"
+      ],
+      "occurrenceCount": 100,
+      "totalRecords": 100,
+      "minLength": 4,
+      "maxLength": 18
+    },
+    {
+      "path": "customerAddress.country",
+      "types": [
+        "string",
+        "null"
+      ],
+      "nullable": true,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        "USA",
+        "United States"
+      ],
+      "occurrenceCount": 100,
+      "totalRecords": 100,
+      "minLength": 3,
+      "maxLength": 13
+    },
+    {
+      "path": "customerAddress.state",
+      "types": [
+        "string",
+        "null"
+      ],
+      "nullable": true,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        "FL"
+      ],
+      "occurrenceCount": 100,
+      "totalRecords": 100,
+      "minLength": 2,
+      "maxLength": 2
+    },
+    {
+      "path": "customerAddress.street",
+      "types": [
+        "string"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        "2128 Coronet Drive",
+        "3553 Center Cir",
+        "8132 Capstone Ranch Dr",
+        "",
+        "110 Island Way"
+      ],
+      "occurrenceCount": 100,
+      "totalRecords": 100,
+      "minLength": 0,
+      "maxLength": 57
+    },
+    {
+      "path": "customerAddress.unit",
+      "types": [
+        "null",
+        "string"
+      ],
+      "nullable": true,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        ""
+      ],
+      "occurrenceCount": 100,
+      "totalRecords": 100,
+      "minLength": 0,
+      "maxLength": 0
+    },
+    {
+      "path": "customerAddress.zip",
+      "types": [
+        "string",
+        "null"
+      ],
+      "nullable": true,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        "33770",
+        "33774-1001",
+        "34655",
+        "33767-2216",
+        "33773"
+      ],
+      "occurrenceCount": 100,
+      "totalRecords": 100,
+      "minLength": 5,
+      "maxLength": 10
+    },
+    {
+      "path": "customFields",
+      "types": [
+        "null"
+      ],
+      "nullable": true,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [],
+      "occurrenceCount": 100,
+      "totalRecords": 100
+    },
+    {
+      "path": "depositedOn",
+      "types": [
+        "null"
+      ],
+      "nullable": true,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [],
+      "occurrenceCount": 100,
+      "totalRecords": 100
+    },
+    {
+      "path": "discountTotal",
+      "types": [
+        "string"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        "0.00"
+      ],
+      "occurrenceCount": 100,
+      "totalRecords": 100,
+      "minLength": 4,
+      "maxLength": 4
+    },
+    {
+      "path": "dueDate",
+      "types": [
+        "null",
+        "string"
+      ],
+      "nullable": true,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        "2024-07-16T00:00:00Z",
+        "2024-06-19T00:00:00Z",
+        "2024-04-10T00:00:00Z",
+        "2024-05-06T00:00:00Z",
+        "2024-04-04T00:00:00Z"
+      ],
+      "occurrenceCount": 100,
+      "totalRecords": 100,
+      "minLength": 20,
+      "maxLength": 20
+    },
+    {
+      "path": "employeeInfo",
+      "types": [
+        "object",
+        "null"
+      ],
+      "nullable": true,
+      "isArray": false,
+      "isObject": true,
+      "sampleValues": [],
+      "occurrenceCount": 100,
+      "totalRecords": 100
+    },
+    {
+      "path": "employeeInfo.id",
+      "types": [
+        "number"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        26,
+        4617
+      ],
+      "occurrenceCount": 2,
+      "totalRecords": 100,
+      "minValue": 26,
+      "maxValue": 4617
+    },
+    {
+      "path": "employeeInfo.modifiedOn",
+      "types": [
+        "string"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        "2025-11-12T06:24:20.1970255Z",
+        "2025-09-09T04:10:34.2014602Z"
+      ],
+      "occurrenceCount": 2,
+      "totalRecords": 100,
+      "minLength": 28,
+      "maxLength": 28
+    },
+    {
+      "path": "employeeInfo.name",
+      "types": [
+        "string"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        "yannir2024",
+        "NathalieYR"
+      ],
+      "occurrenceCount": 2,
+      "totalRecords": 100,
+      "minLength": 10,
+      "maxLength": 10
+    },
+    {
+      "path": "exportId",
+      "types": [
+        "null"
+      ],
+      "nullable": true,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [],
+      "occurrenceCount": 100,
+      "totalRecords": 100
+    },
+    {
+      "path": "id",
+      "types": [
+        "number"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        70639,
+        70964,
+        1188438,
+        1188439,
+        1188440
+      ],
+      "occurrenceCount": 100,
+      "totalRecords": 100,
+      "minValue": 70639,
+      "maxValue": 1188535
+    },
+    {
+      "path": "importId",
+      "types": [
+        "null",
+        "string"
+      ],
+      "nullable": true,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        "1044667923",
+        "1040350850",
+        "1041880867",
+        "1040289993",
+        "1043479337"
+      ],
+      "occurrenceCount": 100,
+      "totalRecords": 100,
+      "minLength": 10,
+      "maxLength": 10
+    },
+    {
+      "path": "invoiceConfiguration",
+      "types": [
+        "string"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        "JobInvoice"
+      ],
+      "occurrenceCount": 100,
+      "totalRecords": 100,
+      "minLength": 10,
+      "maxLength": 10
+    },
+    {
+      "path": "invoiceDate",
+      "types": [
+        "null",
+        "string"
+      ],
+      "nullable": true,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        "2024-07-09T00:00:00Z",
+        "2024-06-12T00:00:00Z",
+        "2024-04-03T00:00:00Z",
+        "2024-04-29T00:00:00Z",
+        "2024-03-28T00:00:00Z"
+      ],
+      "occurrenceCount": 100,
+      "totalRecords": 100,
+      "minLength": 20,
+      "maxLength": 20
+    },
+    {
+      "path": "invoiceType",
+      "types": [
+        "null"
+      ],
+      "nullable": true,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [],
+      "occurrenceCount": 100,
+      "totalRecords": 100
+    },
+    {
+      "path": "items",
+      "types": [
+        "null",
+        "array"
+      ],
+      "nullable": true,
+      "isArray": true,
+      "isObject": false,
+      "sampleValues": [],
+      "occurrenceCount": 100,
+      "totalRecords": 100
+    },
+    {
+      "path": "items[].addOn",
+      "types": [
+        "boolean"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        false
+      ],
+      "occurrenceCount": 555,
+      "totalRecords": 100
+    },
+    {
+      "path": "items[].assetAccount",
+      "types": [
+        "null"
+      ],
+      "nullable": true,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [],
+      "occurrenceCount": 555,
+      "totalRecords": 100
+    },
+    {
+      "path": "items[].budgetCodeId",
+      "types": [
+        "null"
+      ],
+      "nullable": true,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [],
+      "occurrenceCount": 555,
+      "totalRecords": 100
+    },
+    {
+      "path": "items[].businessUnit",
+      "types": [
+        "object"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": true,
+      "sampleValues": [],
+      "occurrenceCount": 555,
+      "totalRecords": 100
+    },
+    {
+      "path": "items[].businessUnit.id",
+      "types": [
+        "number"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        1316
+      ],
+      "occurrenceCount": 555,
+      "totalRecords": 100,
+      "minValue": 1316,
+      "maxValue": 1316
+    },
+    {
+      "path": "items[].businessUnit.name",
+      "types": [
+        "string"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        "Imported Default Businessunit"
+      ],
+      "occurrenceCount": 555,
+      "totalRecords": 100,
+      "minLength": 29,
+      "maxLength": 29
+    },
+    {
+      "path": "items[].cost",
+      "types": [
+        "string"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        "0.0000000000"
+      ],
+      "occurrenceCount": 555,
+      "totalRecords": 100,
+      "minLength": 12,
+      "maxLength": 12
+    },
+    {
+      "path": "items[].costOfSaleAccount",
+      "types": [
+        "null"
+      ],
+      "nullable": true,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [],
+      "occurrenceCount": 555,
+      "totalRecords": 100
+    },
+    {
+      "path": "items[].createdById",
+      "types": [
+        "null"
+      ],
+      "nullable": true,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [],
+      "occurrenceCount": 555,
+      "totalRecords": 100
+    },
+    {
+      "path": "items[].createdOn",
+      "types": [
+        "string"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        "0001-01-01T00:00:00Z"
+      ],
+      "occurrenceCount": 555,
+      "totalRecords": 100,
+      "minLength": 20,
+      "maxLength": 20
+    },
+    {
+      "path": "items[].description",
+      "types": [
+        "string"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        "Service Work",
+        "Default Task for invoice",
+        "T816359 - 200 AM...Parts Budget",
+        "T816359 - 200 AMP FLUSH MOUNT SQUARE D QO PANEL 42/52",
+        "#10 THHN"
+      ],
+      "occurrenceCount": 555,
+      "totalRecords": 100,
+      "minLength": 6,
+      "maxLength": 56
+    },
+    {
+      "path": "items[].displayInAmount",
+      "types": [
+        "null"
+      ],
+      "nullable": true,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [],
+      "occurrenceCount": 555,
+      "totalRecords": 100
+    },
+    {
+      "path": "items[].displayName",
+      "types": [
+        "string"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        "Imported Default Service"
+      ],
+      "occurrenceCount": 555,
+      "totalRecords": 100,
+      "minLength": 24,
+      "maxLength": 24
+    },
+    {
+      "path": "items[].estimateItemId",
+      "types": [
+        "null"
+      ],
+      "nullable": true,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [],
+      "occurrenceCount": 555,
+      "totalRecords": 100
+    },
+    {
+      "path": "items[].exportId",
+      "types": [
+        "null"
+      ],
+      "nullable": true,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [],
+      "occurrenceCount": 555,
+      "totalRecords": 100
+    },
+    {
+      "path": "items[].generalLedgerAccount",
+      "types": [
+        "object"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": true,
+      "sampleValues": [],
+      "occurrenceCount": 555,
+      "totalRecords": 100
+    },
+    {
+      "path": "items[].generalLedgerAccount.detailType",
+      "types": [
+        "string"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        "Incomedeactivated"
+      ],
+      "occurrenceCount": 555,
+      "totalRecords": 100,
+      "minLength": 17,
+      "maxLength": 17
+    },
+    {
+      "path": "items[].generalLedgerAccount.id",
+      "types": [
+        "number"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        83
+      ],
+      "occurrenceCount": 555,
+      "totalRecords": 100,
+      "minValue": 83,
+      "maxValue": 83
+    },
+    {
+      "path": "items[].generalLedgerAccount.name",
+      "types": [
+        "string"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        "Revenuedeactivated"
+      ],
+      "occurrenceCount": 555,
+      "totalRecords": 100,
+      "minLength": 18,
+      "maxLength": 18
+    },
+    {
+      "path": "items[].generalLedgerAccount.number",
+      "types": [
+        "string"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        "4000"
+      ],
+      "occurrenceCount": 555,
+      "totalRecords": 100,
+      "minLength": 4,
+      "maxLength": 4
+    },
+    {
+      "path": "items[].generalLedgerAccount.type",
+      "types": [
+        "string"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        "Incomedeactivated"
+      ],
+      "occurrenceCount": 555,
+      "totalRecords": 100,
+      "minLength": 17,
+      "maxLength": 17
+    },
+    {
+      "path": "items[].id",
+      "types": [
+        "number"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        1188803,
+        1188804,
+        1190518,
+        1188805,
+        1188806
+      ],
+      "occurrenceCount": 555,
+      "totalRecords": 100,
+      "minValue": 1188803,
+      "maxValue": 1190523
+    },
+    {
+      "path": "items[].importId",
+      "types": [
+        "string"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        "AR Setting - Invoice - 1206",
+        "AR Setting - Invoice - 1019",
+        "AR Setting - Invoice - 1085",
+        "AR Setting - Invoice - 1007",
+        "AR Setting - Invoice - 1155"
+      ],
+      "occurrenceCount": 555,
+      "totalRecords": 100,
+      "minLength": 27,
+      "maxLength": 27
+    },
+    {
+      "path": "items[].installedEquipmentId",
+      "types": [
+        "null"
+      ],
+      "nullable": true,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [],
+      "occurrenceCount": 555,
+      "totalRecords": 100
+    },
+    {
+      "path": "items[].inventory",
+      "types": [
+        "boolean"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        false
+      ],
+      "occurrenceCount": 555,
+      "totalRecords": 100
+    },
+    {
+      "path": "items[].inventoryLocation",
+      "types": [
+        "null"
+      ],
+      "nullable": true,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [],
+      "occurrenceCount": 555,
+      "totalRecords": 100
+    },
+    {
+      "path": "items[].inventoryLocationId",
+      "types": [
+        "null"
+      ],
+      "nullable": true,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [],
+      "occurrenceCount": 555,
+      "totalRecords": 100
+    },
+    {
+      "path": "items[].inventoryStatus",
+      "types": [
+        "string"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        "Pending"
+      ],
+      "occurrenceCount": 555,
+      "totalRecords": 100,
+      "minLength": 7,
+      "maxLength": 7
+    },
+    {
+      "path": "items[].itemGroup",
+      "types": [
+        "null"
+      ],
+      "nullable": true,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [],
+      "occurrenceCount": 555,
+      "totalRecords": 100
+    },
+    {
+      "path": "items[].memberPrice",
+      "types": [
+        "string"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        "0.00"
+      ],
+      "occurrenceCount": 555,
+      "totalRecords": 100,
+      "minLength": 4,
+      "maxLength": 4
+    },
+    {
+      "path": "items[].membershipTypeId",
+      "types": [
+        "number"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        0
+      ],
+      "occurrenceCount": 555,
+      "totalRecords": 100,
+      "minValue": 0,
+      "maxValue": 0
+    },
+    {
+      "path": "items[].modifiedOn",
+      "types": [
+        "string"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        "2024-07-08T14:46:49.3566667Z",
+        "2024-07-08T14:46:49.8566667Z"
+      ],
+      "occurrenceCount": 555,
+      "totalRecords": 100,
+      "minLength": 28,
+      "maxLength": 28
+    },
+    {
+      "path": "items[].order",
+      "types": [
+        "number"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        0
+      ],
+      "occurrenceCount": 555,
+      "totalRecords": 100,
+      "minValue": 0,
+      "maxValue": 0
+    },
+    {
+      "path": "items[].price",
+      "types": [
+        "string"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        "695.00",
+        "3200.00",
+        "-800.00",
+        "598.91",
+        "205.18"
+      ],
+      "occurrenceCount": 555,
+      "totalRecords": 100,
+      "minLength": 4,
+      "maxLength": 8
+    },
+    {
+      "path": "items[].quantity",
+      "types": [
+        "string"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        "1.0000000000000000000",
+        "6.5800000000000000711",
+        "80.0000000000000000000",
+        "160.0000000000000000000",
+        "4.0000000000000000000"
+      ],
+      "occurrenceCount": 555,
+      "totalRecords": 100,
+      "minLength": 21,
+      "maxLength": 23
+    },
+    {
+      "path": "items[].serviceDate",
+      "types": [
+        "null"
+      ],
+      "nullable": true,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [],
+      "occurrenceCount": 555,
+      "totalRecords": 100
+    },
+    {
+      "path": "items[].skuId",
+      "types": [
+        "number"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        174498
+      ],
+      "occurrenceCount": 555,
+      "totalRecords": 100,
+      "minValue": 174498,
+      "maxValue": 174498
+    },
+    {
+      "path": "items[].skuName",
+      "types": [
+        "string"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        "Imported Default Service"
+      ],
+      "occurrenceCount": 555,
+      "totalRecords": 100,
+      "minLength": 24,
+      "maxLength": 24
+    },
+    {
+      "path": "items[].soldHours",
+      "types": [
+        "null"
+      ],
+      "nullable": true,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [],
+      "occurrenceCount": 555,
+      "totalRecords": 100
+    },
+    {
+      "path": "items[].taxable",
+      "types": [
+        "boolean"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        false
+      ],
+      "occurrenceCount": 555,
+      "totalRecords": 100
+    },
+    {
+      "path": "items[].technicianId",
+      "types": [
+        "null"
+      ],
+      "nullable": true,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [],
+      "occurrenceCount": 555,
+      "totalRecords": 100
+    },
+    {
+      "path": "items[].total",
+      "types": [
+        "string"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        "695.00",
+        "3200.00",
+        "-800.00",
+        "598.91",
+        "1350.08"
+      ],
+      "occurrenceCount": 555,
+      "totalRecords": 100,
+      "minLength": 4,
+      "maxLength": 8
+    },
+    {
+      "path": "items[].totalCost",
+      "types": [
+        "string"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        "0.00"
+      ],
+      "occurrenceCount": 555,
+      "totalRecords": 100,
+      "minLength": 4,
+      "maxLength": 4
+    },
+    {
+      "path": "items[].type",
+      "types": [
+        "string"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        "Service"
+      ],
+      "occurrenceCount": 555,
+      "totalRecords": 100,
+      "minLength": 7,
+      "maxLength": 7
+    },
+    {
+      "path": "job",
+      "types": [
+        "object"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": true,
+      "sampleValues": [],
+      "occurrenceCount": 100,
+      "totalRecords": 100
+    },
+    {
+      "path": "job.id",
+      "types": [
+        "number"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        70636,
+        70961,
+        1187722,
+        1187723,
+        1187725
+      ],
+      "occurrenceCount": 100,
+      "totalRecords": 100,
+      "minValue": 70636,
+      "maxValue": 1187876
+    },
+    {
+      "path": "job.number",
+      "types": [
+        "string"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        "70636",
+        "70961",
+        "1044667923",
+        "1040350850",
+        "1041880867"
+      ],
+      "occurrenceCount": 100,
+      "totalRecords": 100,
+      "minLength": 5,
+      "maxLength": 10
+    },
+    {
+      "path": "job.type",
+      "types": [
+        "string"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        "ZZZZZZZZ ESTIMATE: Replace or Upgrade Panel",
+        "ZZZZZZZZStandard Service Estimates",
+        "Imported Default JobType"
+      ],
+      "occurrenceCount": 100,
+      "totalRecords": 100,
+      "minLength": 24,
+      "maxLength": 43
+    },
+    {
+      "path": "location",
+      "types": [
+        "object"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": true,
+      "sampleValues": [],
+      "occurrenceCount": 100,
+      "totalRecords": 100
+    },
+    {
+      "path": "location.id",
+      "types": [
+        "number"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        2023493,
+        73911,
+        1185283,
+        1185284,
+        1185286
+      ],
+      "occurrenceCount": 100,
+      "totalRecords": 100,
+      "minValue": 73911,
+      "maxValue": 2023493
+    },
+    {
+      "path": "location.name",
+      "types": [
+        "string"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        "nathalie Garcia",
+        "2nd Property",
+        "David Palmer",
+        "Denisha",
+        "Islandway Pools"
+      ],
+      "occurrenceCount": 100,
+      "totalRecords": 100,
+      "minLength": 4,
+      "maxLength": 28
+    },
+    {
+      "path": "locationAddress",
+      "types": [
+        "object"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": true,
+      "sampleValues": [],
+      "occurrenceCount": 100,
+      "totalRecords": 100
+    },
+    {
+      "path": "locationAddress.city",
+      "types": [
+        "string",
+        "null"
+      ],
+      "nullable": true,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        "Largo",
+        "Belleair Beach",
+        "Safety Harbor",
+        "New Port Richey",
+        "st pete"
+      ],
+      "occurrenceCount": 100,
+      "totalRecords": 100,
+      "minLength": 4,
+      "maxLength": 18
+    },
+    {
+      "path": "locationAddress.country",
+      "types": [
+        "string",
+        "null"
+      ],
+      "nullable": true,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        "USA",
+        "United States"
+      ],
+      "occurrenceCount": 100,
+      "totalRecords": 100,
+      "minLength": 3,
+      "maxLength": 13
+    },
+    {
+      "path": "locationAddress.state",
+      "types": [
+        "string",
+        "null"
+      ],
+      "nullable": true,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        "FL"
+      ],
+      "occurrenceCount": 100,
+      "totalRecords": 100,
+      "minLength": 2,
+      "maxLength": 2
+    },
+    {
+      "path": "locationAddress.street",
+      "types": [
+        "string"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        "2128 Coronet Drive",
+        "110 25th Street",
+        "807 Camelia Dr",
+        "981 Harbor Hill Dr",
+        "5508 Vermont Ave"
+      ],
+      "occurrenceCount": 100,
+      "totalRecords": 100,
+      "minLength": 0,
+      "maxLength": 57
+    },
+    {
+      "path": "locationAddress.unit",
+      "types": [
+        "null",
+        "string"
+      ],
+      "nullable": true,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        ""
+      ],
+      "occurrenceCount": 100,
+      "totalRecords": 100,
+      "minLength": 0,
+      "maxLength": 0
+    },
+    {
+      "path": "locationAddress.zip",
+      "types": [
+        "string",
+        "null"
+      ],
+      "nullable": true,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        "33770",
+        "33786",
+        "33770-4606",
+        "34695-4132",
+        "34652-1747"
+      ],
+      "occurrenceCount": 100,
+      "totalRecords": 100,
+      "minLength": 5,
+      "maxLength": 10
+    },
+    {
+      "path": "materialSkuId",
+      "types": [
+        "number"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        0
+      ],
+      "occurrenceCount": 100,
+      "totalRecords": 100,
+      "minValue": 0,
+      "maxValue": 0
+    },
+    {
+      "path": "membershipId",
+      "types": [
+        "null"
+      ],
+      "nullable": true,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [],
+      "occurrenceCount": 100,
+      "totalRecords": 100
+    },
+    {
+      "path": "modifiedOn",
+      "types": [
+        "string"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        "2024-07-08T15:13:32.2440468Z",
+        "2024-07-28T22:03:02.7266203Z",
+        "2024-08-02T16:12:32.0274688Z",
+        "2025-06-24T16:49:13.7959176Z",
+        "2024-07-10T16:39:12.2440201Z"
+      ],
+      "occurrenceCount": 100,
+      "totalRecords": 100,
+      "minLength": 26,
+      "maxLength": 28
+    },
+    {
+      "path": "paidOn",
+      "types": [
+        "null",
+        "string"
+      ],
+      "nullable": true,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        "2024-07-10T00:00:00Z",
+        "2024-04-03T00:00:00Z",
+        "2024-04-29T00:00:00Z",
+        "2024-03-28T00:00:00Z",
+        "2024-05-26T00:00:00Z"
+      ],
+      "occurrenceCount": 100,
+      "totalRecords": 100,
+      "minLength": 20,
+      "maxLength": 20
+    },
+    {
+      "path": "projectId",
+      "types": [
+        "null",
+        "number"
+      ],
+      "nullable": true,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        52993834
+      ],
+      "occurrenceCount": 100,
+      "totalRecords": 100,
+      "minValue": 52993834,
+      "maxValue": 52993834
+    },
+    {
+      "path": "referenceNumber",
+      "types": [
+        "string"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        "70636",
+        "70961",
+        "1206",
+        "1019",
+        "1085"
+      ],
+      "occurrenceCount": 100,
+      "totalRecords": 100,
+      "minLength": 4,
+      "maxLength": 5
+    },
+    {
+      "path": "reviewStatus",
+      "types": [
+        "string"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        "NeedsReview",
+        "Reviewed"
+      ],
+      "occurrenceCount": 100,
+      "totalRecords": 100,
+      "minLength": 8,
+      "maxLength": 11
+    },
+    {
+      "path": "royalty",
+      "types": [
+        "object"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": true,
+      "sampleValues": [],
+      "occurrenceCount": 100,
+      "totalRecords": 100
+    },
+    {
+      "path": "royalty.date",
+      "types": [
+        "null"
+      ],
+      "nullable": true,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [],
+      "occurrenceCount": 100,
+      "totalRecords": 100
+    },
+    {
+      "path": "royalty.memo",
+      "types": [
+        "null"
+      ],
+      "nullable": true,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [],
+      "occurrenceCount": 100,
+      "totalRecords": 100
+    },
+    {
+      "path": "royalty.sentOn",
+      "types": [
+        "null"
+      ],
+      "nullable": true,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [],
+      "occurrenceCount": 100,
+      "totalRecords": 100
+    },
+    {
+      "path": "royalty.status",
+      "types": [
+        "string"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        "Pending"
+      ],
+      "occurrenceCount": 100,
+      "totalRecords": 100,
+      "minLength": 7,
+      "maxLength": 7
+    },
+    {
+      "path": "salesTax",
+      "types": [
+        "string"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        "0.00"
+      ],
+      "occurrenceCount": 100,
+      "totalRecords": 100,
+      "minLength": 4,
+      "maxLength": 4
+    },
+    {
+      "path": "salesTaxCode",
+      "types": [
+        "null"
+      ],
+      "nullable": true,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [],
+      "occurrenceCount": 100,
+      "totalRecords": 100
+    },
+    {
+      "path": "sentStatus",
+      "types": [
+        "string"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        "NotSent",
+        "Sent"
+      ],
+      "occurrenceCount": 100,
+      "totalRecords": 100,
+      "minLength": 4,
+      "maxLength": 7
+    },
+    {
+      "path": "subTotal",
+      "types": [
+        "string"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        "0.00",
+        "3095.00",
+        "1948.99",
+        "1950.00",
+        "992.60"
+      ],
+      "occurrenceCount": 100,
+      "totalRecords": 100,
+      "minLength": 4,
+      "maxLength": 8
+    },
+    {
+      "path": "summary",
+      "types": [
+        "null",
+        "string"
+      ],
+      "nullable": true,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        "David PCS \nResidential Electrical. First thing 8AM.",
+        "Install new sd qo 200 Amp 42 circuit panel with whole house surge",
+        "Outdoor Kitchen Electrical Outlets",
+        "Heat Pump Circuit 80ft",
+        "Service Work"
+      ],
+      "occurrenceCount": 100,
+      "totalRecords": 100,
+      "minLength": 10,
+      "maxLength": 576
+    },
+    {
+      "path": "syncStatus",
+      "types": [
+        "string"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        "Pending",
+        "Exported"
+      ],
+      "occurrenceCount": 100,
+      "totalRecords": 100,
+      "minLength": 7,
+      "maxLength": 8
+    },
+    {
+      "path": "taxZoneId",
+      "types": [
+        "null"
+      ],
+      "nullable": true,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [],
+      "occurrenceCount": 100,
+      "totalRecords": 100
+    },
+    {
+      "path": "termName",
+      "types": [
+        "string"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        "NET 7"
+      ],
+      "occurrenceCount": 100,
+      "totalRecords": 100,
+      "minLength": 5,
+      "maxLength": 5
+    },
+    {
+      "path": "total",
+      "types": [
+        "string"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        "0.00",
+        "3095.00",
+        "1948.99",
+        "1950.00",
+        "992.60"
+      ],
+      "occurrenceCount": 100,
+      "totalRecords": 100,
+      "minLength": 4,
+      "maxLength": 8
+    }
+  ],
+  "rootStructure": "paginated",
+  "paginationFields": [
+    "page",
+    "pageSize",
+    "hasMore",
+    "totalCount"
+  ],
+  "idField": "id",
+  "timestampFields": [
+    "commissionEligibilityDate",
+    "createdBy",
+    "createdOn",
+    "dueDate",
+    "invoiceDate",
+    "modifiedOn",
+    "paidOn"
+  ],
+  "relationshipFields": [
+    "adjustmentToId",
+    "budgetCodeId",
+    "exportId",
+    "importId",
+    "materialSkuId",
+    "membershipId",
+    "projectId",
+    "taxZoneId"
+  ],
+  "analyzedAt": "2026-01-21T14:16:42.988Z"
+}

@@ -1,0 +1,1420 @@
+{
+  "endpointName": "pricebook_categories",
+  "recordCount": 10,
+  "fields": [
+    {
+      "path": "active",
+      "types": [
+        "boolean"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        true
+      ],
+      "occurrenceCount": 10,
+      "totalRecords": 10
+    },
+    {
+      "path": "businessUnitIds",
+      "types": [
+        "array"
+      ],
+      "nullable": false,
+      "isArray": true,
+      "isObject": false,
+      "sampleValues": [],
+      "occurrenceCount": 10,
+      "totalRecords": 10
+    },
+    {
+      "path": "categoryType",
+      "types": [
+        "string"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        "Services",
+        "Materials"
+      ],
+      "occurrenceCount": 10,
+      "totalRecords": 10,
+      "minLength": 8,
+      "maxLength": 9
+    },
+    {
+      "path": "description",
+      "types": [
+        "string",
+        "null"
+      ],
+      "nullable": true,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        "Null"
+      ],
+      "occurrenceCount": 10,
+      "totalRecords": 10,
+      "minLength": 4,
+      "maxLength": 4
+    },
+    {
+      "path": "externalId",
+      "types": [
+        "null"
+      ],
+      "nullable": true,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [],
+      "occurrenceCount": 10,
+      "totalRecords": 10
+    },
+    {
+      "path": "hideInMobile",
+      "types": [
+        "boolean"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        false
+      ],
+      "occurrenceCount": 10,
+      "totalRecords": 10
+    },
+    {
+      "path": "id",
+      "types": [
+        "number"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        6923,
+        24751,
+        53286068,
+        55265299,
+        55675918
+      ],
+      "occurrenceCount": 10,
+      "totalRecords": 10,
+      "minValue": 6923,
+      "maxValue": 62198933
+    },
+    {
+      "path": "image",
+      "types": [
+        "string",
+        "null"
+      ],
+      "nullable": true,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        "Images/Category/35b1baa5-1c2b-41fd-8d17-bce84e956680.jpg",
+        "Images/Category/2a0672e9-a6b0-4137-a31a-abf8ab8fa16b.jpg",
+        "Images/Category/a303c976-875e-41af-9cf3-799a547ef0cc.jpg",
+        "Images/Category/1aa7b2f1-ce3a-493c-8fc7-2a461c2e5faa.jpg",
+        "Images/Category/8aae07ec-0815-4df3-8928-24d926b680e9.jpg"
+      ],
+      "occurrenceCount": 10,
+      "totalRecords": 10,
+      "minLength": 56,
+      "maxLength": 56
+    },
+    {
+      "path": "name",
+      "types": [
+        "string"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        "Pool Builder",
+        "Admin",
+        "Gas",
+        "Perfect Catch",
+        "Pool"
+      ],
+      "occurrenceCount": 10,
+      "totalRecords": 10,
+      "minLength": 3,
+      "maxLength": 21
+    },
+    {
+      "path": "parentId",
+      "types": [
+        "null"
+      ],
+      "nullable": true,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [],
+      "occurrenceCount": 10,
+      "totalRecords": 10
+    },
+    {
+      "path": "position",
+      "types": [
+        "number"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        5,
+        11,
+        2,
+        8,
+        9
+      ],
+      "occurrenceCount": 10,
+      "totalRecords": 10,
+      "minValue": 2,
+      "maxValue": 11
+    },
+    {
+      "path": "skuImages",
+      "types": [
+        "array"
+      ],
+      "nullable": false,
+      "isArray": true,
+      "isObject": false,
+      "sampleValues": [],
+      "occurrenceCount": 10,
+      "totalRecords": 10
+    },
+    {
+      "path": "skuVideos",
+      "types": [
+        "array"
+      ],
+      "nullable": false,
+      "isArray": true,
+      "isObject": false,
+      "sampleValues": [],
+      "occurrenceCount": 10,
+      "totalRecords": 10
+    },
+    {
+      "path": "source",
+      "types": [
+        "null"
+      ],
+      "nullable": true,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [],
+      "occurrenceCount": 10,
+      "totalRecords": 10
+    },
+    {
+      "path": "subcategories",
+      "types": [
+        "array"
+      ],
+      "nullable": false,
+      "isArray": true,
+      "isObject": false,
+      "sampleValues": [],
+      "occurrenceCount": 10,
+      "totalRecords": 10
+    },
+    {
+      "path": "subcategories[].active",
+      "types": [
+        "boolean"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        true
+      ],
+      "occurrenceCount": 99,
+      "totalRecords": 10
+    },
+    {
+      "path": "subcategories[].businessUnitIds",
+      "types": [
+        "array"
+      ],
+      "nullable": false,
+      "isArray": true,
+      "isObject": false,
+      "sampleValues": [],
+      "occurrenceCount": 99,
+      "totalRecords": 10
+    },
+    {
+      "path": "subcategories[].categoryType",
+      "types": [
+        "string"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        "Services",
+        "Materials"
+      ],
+      "occurrenceCount": 99,
+      "totalRecords": 10,
+      "minLength": 8,
+      "maxLength": 9
+    },
+    {
+      "path": "subcategories[].description",
+      "types": [
+        "string",
+        "null"
+      ],
+      "nullable": true,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        "Null"
+      ],
+      "occurrenceCount": 99,
+      "totalRecords": 10,
+      "minLength": 4,
+      "maxLength": 4
+    },
+    {
+      "path": "subcategories[].externalId",
+      "types": [
+        "null"
+      ],
+      "nullable": true,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [],
+      "occurrenceCount": 99,
+      "totalRecords": 10
+    },
+    {
+      "path": "subcategories[].hideInMobile",
+      "types": [
+        "boolean"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        false
+      ],
+      "occurrenceCount": 99,
+      "totalRecords": 10
+    },
+    {
+      "path": "subcategories[].id",
+      "types": [
+        "number"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        53091521,
+        7297,
+        6799,
+        6800,
+        6924
+      ],
+      "occurrenceCount": 99,
+      "totalRecords": 10,
+      "minValue": 4543,
+      "maxValue": 62574096
+    },
+    {
+      "path": "subcategories[].image",
+      "types": [
+        "string",
+        "null"
+      ],
+      "nullable": true,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        "Images/Category/d9189175-33b6-4c59-aecf-7cf81632c744.jpg",
+        "Images/Category/9f3c960f-e95d-457d-b7e0-d9775c1f4d61.jpg",
+        "Images/Category/654484b8-4c28-49af-93ac-bcdedb7faaef.jpg",
+        "Images/Category/4a22c979-0352-4d66-b16d-bdc14bf01ab2.jpg",
+        "Images/Category/35603a27-336b-4968-95c5-cb98d33c8c42.jpg"
+      ],
+      "occurrenceCount": 99,
+      "totalRecords": 10,
+      "minLength": 56,
+      "maxLength": 56
+    },
+    {
+      "path": "subcategories[].name",
+      "types": [
+        "string"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        "Admin",
+        "Home Runs",
+        "Breakers",
+        "Equipment Panels",
+        "Equipment Hook Up"
+      ],
+      "occurrenceCount": 99,
+      "totalRecords": 10,
+      "minLength": 2,
+      "maxLength": 32
+    },
+    {
+      "path": "subcategories[].parentId",
+      "types": [
+        "number"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        6923,
+        24751,
+        53286068,
+        55675918,
+        59164955
+      ],
+      "occurrenceCount": 99,
+      "totalRecords": 10,
+      "minValue": 6923,
+      "maxValue": 61878292
+    },
+    {
+      "path": "subcategories[].position",
+      "types": [
+        "number"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "occurrenceCount": 99,
+      "totalRecords": 10,
+      "minValue": 1,
+      "maxValue": 20
+    },
+    {
+      "path": "subcategories[].skuImages",
+      "types": [
+        "array"
+      ],
+      "nullable": false,
+      "isArray": true,
+      "isObject": false,
+      "sampleValues": [],
+      "occurrenceCount": 99,
+      "totalRecords": 10
+    },
+    {
+      "path": "subcategories[].skuVideos",
+      "types": [
+        "array"
+      ],
+      "nullable": false,
+      "isArray": true,
+      "isObject": false,
+      "sampleValues": [],
+      "occurrenceCount": 99,
+      "totalRecords": 10
+    },
+    {
+      "path": "subcategories[].source",
+      "types": [
+        "null"
+      ],
+      "nullable": true,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [],
+      "occurrenceCount": 99,
+      "totalRecords": 10
+    },
+    {
+      "path": "subcategories[].subcategories",
+      "types": [
+        "array"
+      ],
+      "nullable": false,
+      "isArray": true,
+      "isObject": false,
+      "sampleValues": [],
+      "occurrenceCount": 99,
+      "totalRecords": 10
+    },
+    {
+      "path": "subcategories[].subcategories[].active",
+      "types": [
+        "boolean"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        true
+      ],
+      "occurrenceCount": 320,
+      "totalRecords": 10
+    },
+    {
+      "path": "subcategories[].subcategories[].businessUnitIds",
+      "types": [
+        "array"
+      ],
+      "nullable": false,
+      "isArray": true,
+      "isObject": false,
+      "sampleValues": [],
+      "occurrenceCount": 320,
+      "totalRecords": 10
+    },
+    {
+      "path": "subcategories[].subcategories[].categoryType",
+      "types": [
+        "string"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        "Services",
+        "Materials"
+      ],
+      "occurrenceCount": 320,
+      "totalRecords": 10,
+      "minLength": 8,
+      "maxLength": 9
+    },
+    {
+      "path": "subcategories[].subcategories[].description",
+      "types": [
+        "string",
+        "null"
+      ],
+      "nullable": true,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        "Null"
+      ],
+      "occurrenceCount": 320,
+      "totalRecords": 10,
+      "minLength": 4,
+      "maxLength": 4
+    },
+    {
+      "path": "subcategories[].subcategories[].externalId",
+      "types": [
+        "null"
+      ],
+      "nullable": true,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [],
+      "occurrenceCount": 320,
+      "totalRecords": 10
+    },
+    {
+      "path": "subcategories[].subcategories[].hideInMobile",
+      "types": [
+        "boolean"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        false
+      ],
+      "occurrenceCount": 320,
+      "totalRecords": 10
+    },
+    {
+      "path": "subcategories[].subcategories[].id",
+      "types": [
+        "number"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        53515032,
+        53515277,
+        53285774,
+        53283171,
+        53283334
+      ],
+      "occurrenceCount": 320,
+      "totalRecords": 10,
+      "minValue": 4552,
+      "maxValue": 62812680
+    },
+    {
+      "path": "subcategories[].subcategories[].image",
+      "types": [
+        "string",
+        "null"
+      ],
+      "nullable": true,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        "Images/Category/3ec7f8e2-6790-4a67-acf7-6525a49be83c.jpg",
+        "Images/Category/27d0da95-d858-48ef-aee9-f5b79ec4ba64.jpg",
+        "Images/Category/8630fc40-a2d0-4a96-ab75-239eb9cf31a0.jpg",
+        "Images/Category/f3db813f-bd51-49ad-9cce-89112aa4c537.jpg",
+        "Images/Category/d77efd65-4552-4488-89e8-d8dffded51c9.jpg"
+      ],
+      "occurrenceCount": 320,
+      "totalRecords": 10,
+      "minLength": 56,
+      "maxLength": 56
+    },
+    {
+      "path": "subcategories[].subcategories[].name",
+      "types": [
+        "string"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        "Dispatch/Fee",
+        "Job Site",
+        "Flat Rate",
+        "< 1 Hour Labor (ELEC)",
+        "1 Hour Labor (ELEC)"
+      ],
+      "occurrenceCount": 320,
+      "totalRecords": 10,
+      "minLength": 2,
+      "maxLength": 30
+    },
+    {
+      "path": "subcategories[].subcategories[].parentId",
+      "types": [
+        "number"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        53091521,
+        24609,
+        53928710,
+        55675155,
+        55676942
+      ],
+      "occurrenceCount": 320,
+      "totalRecords": 10,
+      "minValue": 4543,
+      "maxValue": 62574096
+    },
+    {
+      "path": "subcategories[].subcategories[].position",
+      "types": [
+        "number"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "occurrenceCount": 320,
+      "totalRecords": 10,
+      "minValue": 1,
+      "maxValue": 24
+    },
+    {
+      "path": "subcategories[].subcategories[].skuImages",
+      "types": [
+        "array"
+      ],
+      "nullable": false,
+      "isArray": true,
+      "isObject": false,
+      "sampleValues": [],
+      "occurrenceCount": 320,
+      "totalRecords": 10
+    },
+    {
+      "path": "subcategories[].subcategories[].skuVideos",
+      "types": [
+        "array"
+      ],
+      "nullable": false,
+      "isArray": true,
+      "isObject": false,
+      "sampleValues": [],
+      "occurrenceCount": 320,
+      "totalRecords": 10
+    },
+    {
+      "path": "subcategories[].subcategories[].source",
+      "types": [
+        "null"
+      ],
+      "nullable": true,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [],
+      "occurrenceCount": 320,
+      "totalRecords": 10
+    },
+    {
+      "path": "subcategories[].subcategories[].subcategories",
+      "types": [
+        "array"
+      ],
+      "nullable": false,
+      "isArray": true,
+      "isObject": false,
+      "sampleValues": [],
+      "occurrenceCount": 320,
+      "totalRecords": 10
+    },
+    {
+      "path": "subcategories[].subcategories[].subcategories[].active",
+      "types": [
+        "boolean"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        true
+      ],
+      "occurrenceCount": 359,
+      "totalRecords": 10
+    },
+    {
+      "path": "subcategories[].subcategories[].subcategories[].businessUnitIds",
+      "types": [
+        "array"
+      ],
+      "nullable": false,
+      "isArray": true,
+      "isObject": false,
+      "sampleValues": [],
+      "occurrenceCount": 359,
+      "totalRecords": 10
+    },
+    {
+      "path": "subcategories[].subcategories[].subcategories[].categoryType",
+      "types": [
+        "string"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        "Services",
+        "Materials"
+      ],
+      "occurrenceCount": 359,
+      "totalRecords": 10,
+      "minLength": 8,
+      "maxLength": 9
+    },
+    {
+      "path": "subcategories[].subcategories[].subcategories[].description",
+      "types": [
+        "string",
+        "null"
+      ],
+      "nullable": true,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        "Null"
+      ],
+      "occurrenceCount": 359,
+      "totalRecords": 10,
+      "minLength": 4,
+      "maxLength": 4
+    },
+    {
+      "path": "subcategories[].subcategories[].subcategories[].externalId",
+      "types": [
+        "null"
+      ],
+      "nullable": true,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [],
+      "occurrenceCount": 359,
+      "totalRecords": 10
+    },
+    {
+      "path": "subcategories[].subcategories[].subcategories[].hideInMobile",
+      "types": [
+        "boolean"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        false
+      ],
+      "occurrenceCount": 359,
+      "totalRecords": 10
+    },
+    {
+      "path": "subcategories[].subcategories[].subcategories[].id",
+      "types": [
+        "number"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        55722246,
+        55722374,
+        53278462,
+        53283191,
+        53283428
+      ],
+      "occurrenceCount": 359,
+      "totalRecords": 10,
+      "minValue": 5914071,
+      "maxValue": 62812434
+    },
+    {
+      "path": "subcategories[].subcategories[].subcategories[].image",
+      "types": [
+        "null",
+        "string"
+      ],
+      "nullable": true,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        "Images/Category/72c39a64-9380-4a97-87a4-102eb1f935f5.jpg",
+        "Images/Category/9f38e6e9-5d4f-4554-acd1-f09d0f3bcc47.jpg",
+        "Images/Category/d405b3f3-01b5-4bf0-9741-21711a3054d5.jpg",
+        "Images/Category/9ace1ee8-9bed-4c0d-beb0-4308b02d97ef.jpg",
+        "Images/Category/220e0f37-f9a5-4af4-8a44-7d4879553b9d.jpg"
+      ],
+      "occurrenceCount": 359,
+      "totalRecords": 10,
+      "minLength": 56,
+      "maxLength": 56
+    },
+    {
+      "path": "subcategories[].subcategories[].subcategories[].name",
+      "types": [
+        "string"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        "Under 4 Hours",
+        "Over 4 Hours",
+        "No Labor",
+        "15 Minutes Labor",
+        "30 Minutes Labor"
+      ],
+      "occurrenceCount": 359,
+      "totalRecords": 10,
+      "minLength": 2,
+      "maxLength": 37
+    },
+    {
+      "path": "subcategories[].subcategories[].subcategories[].parentId",
+      "types": [
+        "number"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        53285774,
+        53283171,
+        53283334,
+        53278489,
+        53283001
+      ],
+      "occurrenceCount": 359,
+      "totalRecords": 10,
+      "minValue": 53172873,
+      "maxValue": 62812680
+    },
+    {
+      "path": "subcategories[].subcategories[].subcategories[].position",
+      "types": [
+        "number"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        1,
+        2,
+        3,
+        4,
+        6
+      ],
+      "occurrenceCount": 359,
+      "totalRecords": 10,
+      "minValue": 1,
+      "maxValue": 11
+    },
+    {
+      "path": "subcategories[].subcategories[].subcategories[].skuImages",
+      "types": [
+        "array"
+      ],
+      "nullable": false,
+      "isArray": true,
+      "isObject": false,
+      "sampleValues": [],
+      "occurrenceCount": 359,
+      "totalRecords": 10
+    },
+    {
+      "path": "subcategories[].subcategories[].subcategories[].skuVideos",
+      "types": [
+        "array"
+      ],
+      "nullable": false,
+      "isArray": true,
+      "isObject": false,
+      "sampleValues": [],
+      "occurrenceCount": 359,
+      "totalRecords": 10
+    },
+    {
+      "path": "subcategories[].subcategories[].subcategories[].source",
+      "types": [
+        "null"
+      ],
+      "nullable": true,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [],
+      "occurrenceCount": 359,
+      "totalRecords": 10
+    },
+    {
+      "path": "subcategories[].subcategories[].subcategories[].subcategories",
+      "types": [
+        "array"
+      ],
+      "nullable": false,
+      "isArray": true,
+      "isObject": false,
+      "sampleValues": [],
+      "occurrenceCount": 359,
+      "totalRecords": 10
+    },
+    {
+      "path": "subcategories[].subcategories[].subcategories[].subcategories[].active",
+      "types": [
+        "boolean"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        true
+      ],
+      "occurrenceCount": 180,
+      "totalRecords": 10
+    },
+    {
+      "path": "subcategories[].subcategories[].subcategories[].subcategories[].businessUnitIds",
+      "types": [
+        "array"
+      ],
+      "nullable": false,
+      "isArray": true,
+      "isObject": false,
+      "sampleValues": [],
+      "occurrenceCount": 180,
+      "totalRecords": 10
+    },
+    {
+      "path": "subcategories[].subcategories[].subcategories[].subcategories[].categoryType",
+      "types": [
+        "string"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        "Materials",
+        "Services"
+      ],
+      "occurrenceCount": 180,
+      "totalRecords": 10,
+      "minLength": 8,
+      "maxLength": 9
+    },
+    {
+      "path": "subcategories[].subcategories[].subcategories[].subcategories[].description",
+      "types": [
+        "string",
+        "null"
+      ],
+      "nullable": true,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        "Null"
+      ],
+      "occurrenceCount": 180,
+      "totalRecords": 10,
+      "minLength": 4,
+      "maxLength": 4
+    },
+    {
+      "path": "subcategories[].subcategories[].subcategories[].subcategories[].externalId",
+      "types": [
+        "null"
+      ],
+      "nullable": true,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [],
+      "occurrenceCount": 180,
+      "totalRecords": 10
+    },
+    {
+      "path": "subcategories[].subcategories[].subcategories[].subcategories[].hideInMobile",
+      "types": [
+        "boolean"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        false
+      ],
+      "occurrenceCount": 180,
+      "totalRecords": 10
+    },
+    {
+      "path": "subcategories[].subcategories[].subcategories[].subcategories[].id",
+      "types": [
+        "number"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        55290502,
+        55290119,
+        55290630,
+        55290758,
+        55290886
+      ],
+      "occurrenceCount": 180,
+      "totalRecords": 10,
+      "minValue": 55290119,
+      "maxValue": 62579099
+    },
+    {
+      "path": "subcategories[].subcategories[].subcategories[].subcategories[].image",
+      "types": [
+        "null",
+        "string"
+      ],
+      "nullable": true,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        "Images/Category/7c947c72-9285-4b45-8dc9-ae29b43febd8.jpg",
+        "Images/Category/d3c87419-246b-4396-a418-6aea638dbb1c.jpg",
+        "Images/Category/3d6adff0-6660-460d-a46e-9ea1d1b0ff44.jpg",
+        "Images/Category/789df798-4a89-48c5-86c2-60bcb227f9b9.jpg",
+        "Images/Category/62ec8ba7-ee94-44a2-a0c5-fb1e6f2b58bd.jpg"
+      ],
+      "occurrenceCount": 180,
+      "totalRecords": 10,
+      "minLength": 56,
+      "maxLength": 56
+    },
+    {
+      "path": "subcategories[].subcategories[].subcategories[].subcategories[].name",
+      "types": [
+        "string"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        "Elbow",
+        "Cap",
+        "Coupling",
+        "Nipple",
+        "Tee"
+      ],
+      "occurrenceCount": 180,
+      "totalRecords": 10,
+      "minLength": 3,
+      "maxLength": 25
+    },
+    {
+      "path": "subcategories[].subcategories[].subcategories[].subcategories[].parentId",
+      "types": [
+        "number"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        53173382,
+        55307039,
+        55301417,
+        62575501,
+        61878207
+      ],
+      "occurrenceCount": 180,
+      "totalRecords": 10,
+      "minValue": 53173382,
+      "maxValue": 62575501
+    },
+    {
+      "path": "subcategories[].subcategories[].subcategories[].subcategories[].position",
+      "types": [
+        "number"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "occurrenceCount": 180,
+      "totalRecords": 10,
+      "minValue": 1,
+      "maxValue": 6
+    },
+    {
+      "path": "subcategories[].subcategories[].subcategories[].subcategories[].skuImages",
+      "types": [
+        "array"
+      ],
+      "nullable": false,
+      "isArray": true,
+      "isObject": false,
+      "sampleValues": [],
+      "occurrenceCount": 180,
+      "totalRecords": 10
+    },
+    {
+      "path": "subcategories[].subcategories[].subcategories[].subcategories[].skuVideos",
+      "types": [
+        "array"
+      ],
+      "nullable": false,
+      "isArray": true,
+      "isObject": false,
+      "sampleValues": [],
+      "occurrenceCount": 180,
+      "totalRecords": 10
+    },
+    {
+      "path": "subcategories[].subcategories[].subcategories[].subcategories[].source",
+      "types": [
+        "null"
+      ],
+      "nullable": true,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [],
+      "occurrenceCount": 180,
+      "totalRecords": 10
+    },
+    {
+      "path": "subcategories[].subcategories[].subcategories[].subcategories[].subcategories",
+      "types": [
+        "array"
+      ],
+      "nullable": false,
+      "isArray": true,
+      "isObject": false,
+      "sampleValues": [],
+      "occurrenceCount": 180,
+      "totalRecords": 10
+    },
+    {
+      "path": "subcategories[].subcategories[].subcategories[].subcategories[].subcategories[].active",
+      "types": [
+        "boolean"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        true
+      ],
+      "occurrenceCount": 71,
+      "totalRecords": 10
+    },
+    {
+      "path": "subcategories[].subcategories[].subcategories[].subcategories[].subcategories[].businessUnitIds",
+      "types": [
+        "array"
+      ],
+      "nullable": false,
+      "isArray": true,
+      "isObject": false,
+      "sampleValues": [],
+      "occurrenceCount": 71,
+      "totalRecords": 10
+    },
+    {
+      "path": "subcategories[].subcategories[].subcategories[].subcategories[].subcategories[].categoryType",
+      "types": [
+        "string"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        "Materials",
+        "Services"
+      ],
+      "occurrenceCount": 71,
+      "totalRecords": 10,
+      "minLength": 8,
+      "maxLength": 9
+    },
+    {
+      "path": "subcategories[].subcategories[].subcategories[].subcategories[].subcategories[].description",
+      "types": [
+        "string"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        "Null"
+      ],
+      "occurrenceCount": 71,
+      "totalRecords": 10,
+      "minLength": 4,
+      "maxLength": 4
+    },
+    {
+      "path": "subcategories[].subcategories[].subcategories[].subcategories[].subcategories[].externalId",
+      "types": [
+        "null"
+      ],
+      "nullable": true,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [],
+      "occurrenceCount": 71,
+      "totalRecords": 10
+    },
+    {
+      "path": "subcategories[].subcategories[].subcategories[].subcategories[].subcategories[].hideInMobile",
+      "types": [
+        "boolean"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        false
+      ],
+      "occurrenceCount": 71,
+      "totalRecords": 10
+    },
+    {
+      "path": "subcategories[].subcategories[].subcategories[].subcategories[].subcategories[].id",
+      "types": [
+        "number"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        55289904,
+        55290788,
+        55295238,
+        55289494,
+        55305313
+      ],
+      "occurrenceCount": 71,
+      "totalRecords": 10,
+      "minValue": 55289494,
+      "maxValue": 62547590
+    },
+    {
+      "path": "subcategories[].subcategories[].subcategories[].subcategories[].subcategories[].image",
+      "types": [
+        "null",
+        "string"
+      ],
+      "nullable": true,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        "Images/Category/43246b32-9071-41f8-bccd-ff0e3743acf6.jpg",
+        "Images/Category/db4cfbd1-9c47-40d7-b07b-e73302c1c0b2.jpg",
+        "Images/Category/81733816-7e96-4ea0-a2e8-37c5a65966e4.jpg",
+        "Images/Category/706326c5-9fca-44d2-a0e7-0502cb2fa0c1.jpg",
+        "Images/Category/2a543bf9-2a6a-4851-99f6-2a72d1ead969.jpg"
+      ],
+      "occurrenceCount": 71,
+      "totalRecords": 10,
+      "minLength": 56,
+      "maxLength": 56
+    },
+    {
+      "path": "subcategories[].subcategories[].subcategories[].subcategories[].subcategories[].name",
+      "types": [
+        "string"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        "1/2\"",
+        "3/4\"",
+        "1\"",
+        "1 1/4\"",
+        "Poly Tools"
+      ],
+      "occurrenceCount": 71,
+      "totalRecords": 10,
+      "minLength": 2,
+      "maxLength": 12
+    },
+    {
+      "path": "subcategories[].subcategories[].subcategories[].subcategories[].subcategories[].parentId",
+      "types": [
+        "number"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        55290758,
+        55300104,
+        61878458,
+        61877829,
+        61878461
+      ],
+      "occurrenceCount": 71,
+      "totalRecords": 10,
+      "minValue": 55290758,
+      "maxValue": 61879346
+    },
+    {
+      "path": "subcategories[].subcategories[].subcategories[].subcategories[].subcategories[].position",
+      "types": [
+        "number"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "occurrenceCount": 71,
+      "totalRecords": 10,
+      "minValue": 1,
+      "maxValue": 4
+    },
+    {
+      "path": "subcategories[].subcategories[].subcategories[].subcategories[].subcategories[].skuImages",
+      "types": [
+        "array"
+      ],
+      "nullable": false,
+      "isArray": true,
+      "isObject": false,
+      "sampleValues": [],
+      "occurrenceCount": 71,
+      "totalRecords": 10
+    },
+    {
+      "path": "subcategories[].subcategories[].subcategories[].subcategories[].subcategories[].skuVideos",
+      "types": [
+        "array"
+      ],
+      "nullable": false,
+      "isArray": true,
+      "isObject": false,
+      "sampleValues": [],
+      "occurrenceCount": 71,
+      "totalRecords": 10
+    },
+    {
+      "path": "subcategories[].subcategories[].subcategories[].subcategories[].subcategories[].source",
+      "types": [
+        "null"
+      ],
+      "nullable": true,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [],
+      "occurrenceCount": 71,
+      "totalRecords": 10
+    },
+    {
+      "path": "subcategories[].subcategories[].subcategories[].subcategories[].subcategories[].subcategories",
+      "types": [
+        "array"
+      ],
+      "nullable": false,
+      "isArray": true,
+      "isObject": false,
+      "sampleValues": [],
+      "occurrenceCount": 71,
+      "totalRecords": 10
+    }
+  ],
+  "rootStructure": "paginated",
+  "paginationFields": [
+    "page",
+    "pageSize",
+    "hasMore",
+    "totalCount"
+  ],
+  "idField": "id",
+  "timestampFields": [],
+  "relationshipFields": [
+    "externalId",
+    "parentId"
+  ],
+  "analyzedAt": "2026-01-21T14:16:43.003Z"
+}

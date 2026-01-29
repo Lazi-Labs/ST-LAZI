@@ -1,0 +1,110 @@
+{
+  "endpointName": "user_roles",
+  "recordCount": 20,
+  "fields": [
+    {
+      "path": "active",
+      "types": [
+        "boolean"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        true
+      ],
+      "occurrenceCount": 20,
+      "totalRecords": 20
+    },
+    {
+      "path": "createdOn",
+      "types": [
+        "string"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        "2024-05-21T21:05:19.1059294Z",
+        "2024-05-21T21:05:19.1076233Z",
+        "2024-05-21T21:05:19.1077874Z",
+        "2024-05-21T21:05:19.1079362Z",
+        "2024-05-21T21:05:19.1081938Z"
+      ],
+      "occurrenceCount": 20,
+      "totalRecords": 20,
+      "minLength": 26,
+      "maxLength": 28
+    },
+    {
+      "path": "employeeType",
+      "types": [
+        "string"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        "Technician",
+        "Employee"
+      ],
+      "occurrenceCount": 20,
+      "totalRecords": 20,
+      "minLength": 8,
+      "maxLength": 10
+    },
+    {
+      "path": "id",
+      "types": [
+        "number"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "occurrenceCount": 20,
+      "totalRecords": 20,
+      "minValue": 7,
+      "maxValue": 1500
+    },
+    {
+      "path": "name",
+      "types": [
+        "string"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        "Technician",
+        "Dispatch",
+        "Accounting",
+        "Field Manager",
+        "Display User"
+      ],
+      "occurrenceCount": 20,
+      "totalRecords": 20,
+      "minLength": 3,
+      "maxLength": 24
+    }
+  ],
+  "rootStructure": "paginated",
+  "paginationFields": [
+    "page",
+    "pageSize",
+    "hasMore",
+    "totalCount"
+  ],
+  "idField": "id",
+  "timestampFields": [
+    "createdOn"
+  ],
+  "relationshipFields": [],
+  "analyzedAt": "2026-01-21T14:16:43.050Z"
+}

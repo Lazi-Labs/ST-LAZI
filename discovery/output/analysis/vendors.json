@@ -1,0 +1,459 @@
+{
+  "endpointName": "vendors",
+  "recordCount": 43,
+  "fields": [
+    {
+      "path": "active",
+      "types": [
+        "boolean"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        true
+      ],
+      "occurrenceCount": 43,
+      "totalRecords": 43
+    },
+    {
+      "path": "address",
+      "types": [
+        "object"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": true,
+      "sampleValues": [],
+      "occurrenceCount": 43,
+      "totalRecords": 43
+    },
+    {
+      "path": "address.city",
+      "types": [
+        "string",
+        "null"
+      ],
+      "nullable": true,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        "LARGO",
+        "Largo",
+        "Lutz",
+        "Clearwater ",
+        "Online"
+      ],
+      "occurrenceCount": 43,
+      "totalRecords": 43,
+      "minLength": 1,
+      "maxLength": 15
+    },
+    {
+      "path": "address.country",
+      "types": [
+        "string",
+        "null"
+      ],
+      "nullable": true,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        "United States",
+        "USA",
+        "online",
+        "USA ",
+        "-"
+      ],
+      "occurrenceCount": 43,
+      "totalRecords": 43,
+      "minLength": 1,
+      "maxLength": 13
+    },
+    {
+      "path": "address.state",
+      "types": [
+        "string",
+        "null"
+      ],
+      "nullable": true,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        "FL",
+        "Online",
+        "NC",
+        "FL ",
+        "-"
+      ],
+      "occurrenceCount": 43,
+      "totalRecords": 43,
+      "minLength": 1,
+      "maxLength": 7
+    },
+    {
+      "path": "address.street",
+      "types": [
+        "string",
+        "null"
+      ],
+      "nullable": true,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        "9205 128TH AVE N",
+        "2128 Coronet Drive",
+        "15486 N. Nebraska Ave",
+        "21415 US Hwy 19 N",
+        "9205 128th Avenue North"
+      ],
+      "occurrenceCount": 43,
+      "totalRecords": 43,
+      "minLength": 1,
+      "maxLength": 29
+    },
+    {
+      "path": "address.unit",
+      "types": [
+        "string",
+        "null"
+      ],
+      "nullable": true,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        "UNIT 1409",
+        "",
+        "BLDG 1409",
+        "Suite A ",
+        "2"
+      ],
+      "occurrenceCount": 43,
+      "totalRecords": 43,
+      "minLength": 0,
+      "maxLength": 9
+    },
+    {
+      "path": "address.zip",
+      "types": [
+        "string",
+        "null"
+      ],
+      "nullable": true,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        "33773",
+        "33770",
+        "33549",
+        "33765",
+        "Online"
+      ],
+      "occurrenceCount": 43,
+      "totalRecords": 43,
+      "minLength": 1,
+      "maxLength": 6
+    },
+    {
+      "path": "contactInfo",
+      "types": [
+        "object"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": true,
+      "sampleValues": [],
+      "occurrenceCount": 43,
+      "totalRecords": 43
+    },
+    {
+      "path": "contactInfo.email",
+      "types": [
+        "string",
+        "null"
+      ],
+      "nullable": true,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        "",
+        "justinb@amplighting.com",
+        "Corey@bluehornwholesale.com",
+        "services@boatliftwarehouse.com",
+        "devin.ortega@cedclearwater.com"
+      ],
+      "occurrenceCount": 43,
+      "totalRecords": 43,
+      "minLength": 0,
+      "maxLength": 30
+    },
+    {
+      "path": "contactInfo.fax",
+      "types": [
+        "null"
+      ],
+      "nullable": true,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [],
+      "occurrenceCount": 43,
+      "totalRecords": 43
+    },
+    {
+      "path": "contactInfo.firstName",
+      "types": [
+        "string",
+        "null"
+      ],
+      "nullable": true,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        "",
+        "Justin",
+        "Corey ",
+        "Devin ",
+        "Kevin "
+      ],
+      "occurrenceCount": 43,
+      "totalRecords": 43,
+      "minLength": 0,
+      "maxLength": 11
+    },
+    {
+      "path": "contactInfo.lastName",
+      "types": [
+        "string",
+        "null"
+      ],
+      "nullable": true,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        "",
+        "Belz",
+        "Braten",
+        "Ortega ",
+        "Fennelly"
+      ],
+      "occurrenceCount": 43,
+      "totalRecords": 43,
+      "minLength": 0,
+      "maxLength": 10
+    },
+    {
+      "path": "contactInfo.phone",
+      "types": [
+        "null",
+        "string"
+      ],
+      "nullable": true,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        "8139783900",
+        "8774685438",
+        "7274460541",
+        "7274085105",
+        "5407215501"
+      ],
+      "occurrenceCount": 43,
+      "totalRecords": 43,
+      "minLength": 10,
+      "maxLength": 10
+    },
+    {
+      "path": "createdOn",
+      "types": [
+        "string"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        "2024-09-24T14:01:01.679369Z",
+        "2024-05-24T01:36:17.1932918Z",
+        "2025-09-18T17:11:06.2613814Z",
+        "2024-07-12T15:43:05.6444053Z",
+        "2024-05-22T17:44:29.5957135Z"
+      ],
+      "occurrenceCount": 43,
+      "totalRecords": 43,
+      "minLength": 26,
+      "maxLength": 28
+    },
+    {
+      "path": "defaultTaxRate",
+      "types": [
+        "number"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        7,
+        0
+      ],
+      "occurrenceCount": 43,
+      "totalRecords": 43,
+      "minValue": 0,
+      "maxValue": 7
+    },
+    {
+      "path": "deliveryOption",
+      "types": [
+        "string"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        "MarkAsSent",
+        "EmailAsPdf",
+        "EmailAsPdfRollupView",
+        "Manual"
+      ],
+      "occurrenceCount": 43,
+      "totalRecords": 43,
+      "minLength": 6,
+      "maxLength": 20
+    },
+    {
+      "path": "externalData",
+      "types": [
+        "null"
+      ],
+      "nullable": true,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [],
+      "occurrenceCount": 43,
+      "totalRecords": 43
+    },
+    {
+      "path": "id",
+      "types": [
+        "number"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        53731520,
+        10124,
+        60611334,
+        52973330,
+        6793
+      ],
+      "occurrenceCount": 43,
+      "totalRecords": 43,
+      "minValue": 578,
+      "maxValue": 61916806
+    },
+    {
+      "path": "isMobileCreationRestricted",
+      "types": [
+        "boolean"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        false,
+        true
+      ],
+      "occurrenceCount": 43,
+      "totalRecords": 43
+    },
+    {
+      "path": "isTruckReplenishment",
+      "types": [
+        "boolean"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        true,
+        false
+      ],
+      "occurrenceCount": 43,
+      "totalRecords": 43
+    },
+    {
+      "path": "memo",
+      "types": [
+        "string",
+        "null"
+      ],
+      "nullable": true,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        "",
+        "Billing Cycle Starts & Ends on 25th of every month then rolls forward. ",
+        "25th is cut off for invoices rolling over into next billing cycle ",
+        "COD Account \nAccount Number 1906592\n",
+        "INVOICES PAID WITH AMEX-22033"
+      ],
+      "occurrenceCount": 43,
+      "totalRecords": 43,
+      "minLength": 0,
+      "maxLength": 71
+    },
+    {
+      "path": "modifiedOn",
+      "types": [
+        "string"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        "2026-01-20T02:08:57.9787539Z",
+        "2025-01-19T22:50:25.9938627Z",
+        "2024-05-21T21:05:42.299054Z",
+        "2024-05-21T21:05:42.2952414Z",
+        "2025-01-20T22:15:19.9295576Z"
+      ],
+      "occurrenceCount": 43,
+      "totalRecords": 43,
+      "minLength": 27,
+      "maxLength": 28
+    },
+    {
+      "path": "name",
+      "types": [
+        "string"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        "ACE HARDWARE ",
+        "Amazon",
+        "AMP",
+        "Best Buy ",
+        "Big Horn Supply"
+      ],
+      "occurrenceCount": 43,
+      "totalRecords": 43,
+      "minLength": 3,
+      "maxLength": 37
+    }
+  ],
+  "rootStructure": "paginated",
+  "paginationFields": [
+    "page",
+    "pageSize",
+    "hasMore",
+    "totalCount"
+  ],
+  "idField": "id",
+  "timestampFields": [
+    "createdOn",
+    "modifiedOn"
+  ],
+  "relationshipFields": [],
+  "analyzedAt": "2026-01-21T14:16:43.051Z"
+}

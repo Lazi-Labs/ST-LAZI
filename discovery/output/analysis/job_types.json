@@ -1,0 +1,314 @@
+{
+  "endpointName": "job_types",
+  "recordCount": 38,
+  "fields": [
+    {
+      "path": "active",
+      "types": [
+        "boolean"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        true
+      ],
+      "occurrenceCount": 38,
+      "totalRecords": 38
+    },
+    {
+      "path": "businessUnitIds",
+      "types": [
+        "array"
+      ],
+      "nullable": false,
+      "isArray": true,
+      "isObject": false,
+      "sampleValues": [],
+      "occurrenceCount": 38,
+      "totalRecords": 38
+    },
+    {
+      "path": "class",
+      "types": [
+        "null",
+        "string"
+      ],
+      "nullable": true,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        "Install",
+        "Estimates",
+        "Service"
+      ],
+      "occurrenceCount": 38,
+      "totalRecords": 38,
+      "minLength": 7,
+      "maxLength": 9
+    },
+    {
+      "path": "createdOn",
+      "types": [
+        "string"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        "2024-05-21T21:05:46.9042857Z",
+        "2024-05-21T21:05:46.9278766Z",
+        "2024-06-14T02:10:09.1178696Z",
+        "2024-06-15T22:57:29.4838797Z",
+        "2024-06-15T23:16:58.7874853Z"
+      ],
+      "occurrenceCount": 38,
+      "totalRecords": 38,
+      "minLength": 26,
+      "maxLength": 28
+    },
+    {
+      "path": "duration",
+      "types": [
+        "number"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        7200,
+        25200,
+        10800,
+        9000,
+        21600
+      ],
+      "occurrenceCount": 38,
+      "totalRecords": 38,
+      "minValue": 0,
+      "maxValue": 28800
+    },
+    {
+      "path": "enforceRecurringServiceEventSelection",
+      "types": [
+        "null"
+      ],
+      "nullable": true,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [],
+      "occurrenceCount": 38,
+      "totalRecords": 38
+    },
+    {
+      "path": "externalData",
+      "types": [
+        "null"
+      ],
+      "nullable": true,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [],
+      "occurrenceCount": 38,
+      "totalRecords": 38
+    },
+    {
+      "path": "id",
+      "types": [
+        "number"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        1317,
+        1321,
+        39682,
+        41094,
+        41731
+      ],
+      "occurrenceCount": 38,
+      "totalRecords": 38,
+      "minValue": 1317,
+      "maxValue": 62663561
+    },
+    {
+      "path": "invoiceSignaturesRequired",
+      "types": [
+        "boolean"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        true,
+        false
+      ],
+      "occurrenceCount": 38,
+      "totalRecords": 38
+    },
+    {
+      "path": "isSmartDispatched",
+      "types": [
+        "boolean"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        false
+      ],
+      "occurrenceCount": 38,
+      "totalRecords": 38
+    },
+    {
+      "path": "modifiedOn",
+      "types": [
+        "string"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        "2025-10-27T23:22:50.6384288Z",
+        "2025-10-27T23:20:30.149899Z",
+        "2026-01-21T02:31:52.5226194Z",
+        "2026-01-21T02:27:31.221271Z",
+        "2025-01-22T02:36:21.8966483Z"
+      ],
+      "occurrenceCount": 38,
+      "totalRecords": 38,
+      "minLength": 27,
+      "maxLength": 28
+    },
+    {
+      "path": "name",
+      "types": [
+        "string"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        "Electrical - Service: Breaker/Panel Diagnosis",
+        "Electrical - Service: Diagnostic Call",
+        "Pool - Builder Electrical Install",
+        "Pool - Sales: Estimate",
+        "Pool - Install Bond & Pipe Lights"
+      ],
+      "occurrenceCount": 38,
+      "totalRecords": 38,
+      "minLength": 16,
+      "maxLength": 51
+    },
+    {
+      "path": "noCharge",
+      "types": [
+        "boolean"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        false,
+        true
+      ],
+      "occurrenceCount": 38,
+      "totalRecords": 38
+    },
+    {
+      "path": "priority",
+      "types": [
+        "string"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        "Normal",
+        "Low"
+      ],
+      "occurrenceCount": 38,
+      "totalRecords": 38,
+      "minLength": 3,
+      "maxLength": 6
+    },
+    {
+      "path": "skills",
+      "types": [
+        "array"
+      ],
+      "nullable": false,
+      "isArray": true,
+      "isObject": false,
+      "sampleValues": [],
+      "occurrenceCount": 38,
+      "totalRecords": 38
+    },
+    {
+      "path": "soldThreshold",
+      "types": [
+        "number"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        36,
+        1000,
+        0,
+        96,
+        200
+      ],
+      "occurrenceCount": 38,
+      "totalRecords": 38,
+      "minValue": 0,
+      "maxValue": 1000
+    },
+    {
+      "path": "summary",
+      "types": [
+        "string"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        "CSR/PM Checklist:\n- Are breakers tripping randomly or under load?\n- Has the panel been recently serviced?\n- Are there signs of heat, damage, or corrosion?\n- Indoor or outdoor panel?\n- Is a replacement being considered?\n",
+        "CSR/PM Checklist:\n- What is the issue reported (no power, tripping breaker, etc.)?\n- What devices or areas are affected?\n- Has this issue occurred before?\n- Is this residential or commercial?\n- Any previous work related to this issue?\n",
+        "Golf - Automation or Intermatic Panel: GulfStream Pools (FULL) & Sekas Custom Pools (SEPERATE) \n- Additional Pumps:\n- Chlorinator\n- Heat Pump\n- Gas Heater\n- Blower\n- QTY Lights\n*Same Day*\n- Trenching & Pipping Lights (This is generally under a typical install with instructions to stretch to full day if trenching and bonding are included or a break down of them individually if that is an option) A tag is preferable for the line item so that you can pull the correct permits and or tool rental/coordination lists)\n- Full pool bond",
+        "CSR/PM Checklist:\n- Is the estimate for a new pool (builder) or existing pool (homeowner)?\n- What is the customer's role? (Homeowner / Builder / General Contractor)\n- What is the scope of work? (Bonding, conduit, lighting, equipment upgrade, full install)\n- Will we be installing new equipment or upgrading existing components?\n- Is the pool currently under construction, or already operational?\n- Are we coordinating with a builder or other trades?\n- What specific systems are included? (Pump, filter, heater, automation, lighting)\n- Are permits or inspections needed?\n- Is there trenching or pad preparation involved?\n- Are there any known access issues or site limitations?\n- Preferred timeline or deadline?\n- Is the customer the final decision-maker?\n",
+        "QTY Lights- (Adjust Invoice for # of light conduits installing)\n-Lights on site?\n-Pool Only or Pool & Spa:\n-Plans uploaded for Service Tech:"
+      ],
+      "occurrenceCount": 38,
+      "totalRecords": 38,
+      "minLength": 0,
+      "maxLength": 755
+    },
+    {
+      "path": "tagTypeIds",
+      "types": [
+        "array"
+      ],
+      "nullable": false,
+      "isArray": true,
+      "isObject": false,
+      "sampleValues": [],
+      "occurrenceCount": 38,
+      "totalRecords": 38
+    }
+  ],
+  "rootStructure": "paginated",
+  "paginationFields": [
+    "page",
+    "pageSize",
+    "hasMore",
+    "totalCount"
+  ],
+  "idField": "id",
+  "timestampFields": [
+    "createdOn",
+    "modifiedOn"
+  ],
+  "relationshipFields": [],
+  "analyzedAt": "2026-01-21T14:16:42.990Z"
+}

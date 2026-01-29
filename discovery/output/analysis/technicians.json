@@ -1,0 +1,623 @@
+{
+  "endpointName": "technicians",
+  "recordCount": 9,
+  "fields": [
+    {
+      "path": "aadUserId",
+      "types": [
+        "null"
+      ],
+      "nullable": true,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [],
+      "occurrenceCount": 9,
+      "totalRecords": 9
+    },
+    {
+      "path": "accountLocked",
+      "types": [
+        "boolean"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        false
+      ],
+      "occurrenceCount": 9,
+      "totalRecords": 9
+    },
+    {
+      "path": "active",
+      "types": [
+        "boolean"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        true
+      ],
+      "occurrenceCount": 9,
+      "totalRecords": 9
+    },
+    {
+      "path": "burdenRate",
+      "types": [
+        "number"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        28,
+        5,
+        0,
+        5.95
+      ],
+      "occurrenceCount": 9,
+      "totalRecords": 9,
+      "minValue": 0,
+      "maxValue": 28
+    },
+    {
+      "path": "businessUnitId",
+      "types": [
+        "number",
+        "null"
+      ],
+      "nullable": true,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        1310,
+        1308,
+        4622,
+        54670601,
+        4623
+      ],
+      "occurrenceCount": 9,
+      "totalRecords": 9,
+      "minValue": 1308,
+      "maxValue": 54670601
+    },
+    {
+      "path": "createdOn",
+      "types": [
+        "string"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        "2024-05-25T22:59:14.6758977Z",
+        "2024-06-25T16:51:39.8937673Z",
+        "2024-07-01T00:32:58.9996348Z",
+        "2025-01-23T12:37:48.9597858Z",
+        "2025-06-30T17:16:10.5360589Z"
+      ],
+      "occurrenceCount": 9,
+      "totalRecords": 9,
+      "minLength": 27,
+      "maxLength": 28
+    },
+    {
+      "path": "customFields",
+      "types": [
+        "array"
+      ],
+      "nullable": false,
+      "isArray": true,
+      "isObject": false,
+      "sampleValues": [],
+      "occurrenceCount": 9,
+      "totalRecords": 9
+    },
+    {
+      "path": "dailyGoal",
+      "types": [
+        "number"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        3500,
+        1000,
+        2500,
+        0
+      ],
+      "occurrenceCount": 9,
+      "totalRecords": 9,
+      "minValue": 0,
+      "maxValue": 3500
+    },
+    {
+      "path": "email",
+      "types": [
+        "string",
+        "null"
+      ],
+      "nullable": true,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        "Jade@callperfectcatch.com",
+        "Yanni@livpools.com",
+        "dylanradams07@gmail.com",
+        "tyler@callperfectcatch.com",
+        "Jayden@callperfectcatch.com"
+      ],
+      "occurrenceCount": 9,
+      "totalRecords": 9,
+      "minLength": 18,
+      "maxLength": 27
+    },
+    {
+      "path": "home",
+      "types": [
+        "object"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": true,
+      "sampleValues": [],
+      "occurrenceCount": 9,
+      "totalRecords": 9
+    },
+    {
+      "path": "home.city",
+      "types": [
+        "string",
+        "null"
+      ],
+      "nullable": true,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        "Palm Harbor",
+        "Valrico",
+        "Largo",
+        "Dunedin",
+        "Tampa"
+      ],
+      "occurrenceCount": 9,
+      "totalRecords": 9,
+      "minLength": 5,
+      "maxLength": 11
+    },
+    {
+      "path": "home.country",
+      "types": [
+        "string",
+        "null"
+      ],
+      "nullable": true,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        "USA"
+      ],
+      "occurrenceCount": 9,
+      "totalRecords": 9,
+      "minLength": 3,
+      "maxLength": 3
+    },
+    {
+      "path": "home.latitude",
+      "types": [
+        "number",
+        "null"
+      ],
+      "nullable": true,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        28.0722954,
+        27.921404,
+        27.9089229,
+        28.032679
+      ],
+      "occurrenceCount": 9,
+      "totalRecords": 9,
+      "minValue": 27.9089229,
+      "maxValue": 28.0722954
+    },
+    {
+      "path": "home.longitude",
+      "types": [
+        "number",
+        "null"
+      ],
+      "nullable": true,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        -82.7616154,
+        -82.2216885,
+        -82.81054619999999,
+        -82.7745528
+      ],
+      "occurrenceCount": 9,
+      "totalRecords": 9,
+      "minValue": -82.81054619999999,
+      "maxValue": -82.2216885
+    },
+    {
+      "path": "home.state",
+      "types": [
+        "string",
+        "null"
+      ],
+      "nullable": true,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        "FL"
+      ],
+      "occurrenceCount": 9,
+      "totalRecords": 9,
+      "minLength": 2,
+      "maxLength": 2
+    },
+    {
+      "path": "home.street",
+      "types": [
+        "string",
+        "null"
+      ],
+      "nullable": true,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        "424 14th Street",
+        "4620 Newbourne Way",
+        "2128 Coronet Drive",
+        "1083 Mary Jane Lane",
+        "7519 Dolonita Dr."
+      ],
+      "occurrenceCount": 9,
+      "totalRecords": 9,
+      "minLength": 15,
+      "maxLength": 19
+    },
+    {
+      "path": "home.streetAddress",
+      "types": [
+        "string",
+        "null"
+      ],
+      "nullable": true,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        "424 14th Street",
+        "4620 Newbourne Way",
+        "2128 Coronet Drive",
+        "1083 Mary Jane Lane",
+        "7519 Dolonita Dr."
+      ],
+      "occurrenceCount": 9,
+      "totalRecords": 9,
+      "minLength": 15,
+      "maxLength": 19
+    },
+    {
+      "path": "home.unit",
+      "types": [
+        "null"
+      ],
+      "nullable": true,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [],
+      "occurrenceCount": 9,
+      "totalRecords": 9
+    },
+    {
+      "path": "home.zip",
+      "types": [
+        "string",
+        "null"
+      ],
+      "nullable": true,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        "34683",
+        "33594",
+        "33770",
+        "34698",
+        "33615"
+      ],
+      "occurrenceCount": 9,
+      "totalRecords": 9,
+      "minLength": 5,
+      "maxLength": 5
+    },
+    {
+      "path": "id",
+      "types": [
+        "number"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        12417,
+        55810,
+        59011,
+        55459334,
+        58944518
+      ],
+      "occurrenceCount": 9,
+      "totalRecords": 9,
+      "minValue": 12417,
+      "maxValue": 62521863
+    },
+    {
+      "path": "isManagedTech",
+      "types": [
+        "boolean"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        true,
+        false
+      ],
+      "occurrenceCount": 9,
+      "totalRecords": 9
+    },
+    {
+      "path": "jobFilter",
+      "types": [
+        "string"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        "AllScheduledDispatchedWorking",
+        "AllScheduledDispatchedWorkingTodayTomorrow"
+      ],
+      "occurrenceCount": 9,
+      "totalRecords": 9,
+      "minLength": 29,
+      "maxLength": 42
+    },
+    {
+      "path": "loginName",
+      "types": [
+        "string"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        "YRJade",
+        "KurtYr",
+        "yrbuild24",
+        "danielcatch",
+        "Dylanadams25"
+      ],
+      "occurrenceCount": 9,
+      "totalRecords": 9,
+      "minLength": 6,
+      "maxLength": 17
+    },
+    {
+      "path": "mainZoneId",
+      "types": [
+        "number",
+        "null"
+      ],
+      "nullable": true,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        54978696
+      ],
+      "occurrenceCount": 9,
+      "totalRecords": 9,
+      "minValue": 54978696,
+      "maxValue": 54978696
+    },
+    {
+      "path": "modifiedOn",
+      "types": [
+        "string"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        "2026-01-20T19:48:42.6369301Z",
+        "2026-01-21T13:36:07.2966822Z",
+        "2026-01-08T14:25:36.8128911Z",
+        "2026-01-21T12:53:06.0769286Z",
+        "2026-01-21T11:40:45.7126107Z"
+      ],
+      "occurrenceCount": 9,
+      "totalRecords": 9,
+      "minLength": 27,
+      "maxLength": 28
+    },
+    {
+      "path": "name",
+      "types": [
+        "string"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        "Jade Schweiberger",
+        "Kurt R",
+        "Yanni Ramos",
+        "Daniel Detomaso",
+        "Dylan Adams"
+      ],
+      "occurrenceCount": 9,
+      "totalRecords": 9,
+      "minLength": 6,
+      "maxLength": 17
+    },
+    {
+      "path": "permissions",
+      "types": [
+        "array"
+      ],
+      "nullable": false,
+      "isArray": true,
+      "isObject": false,
+      "sampleValues": [],
+      "occurrenceCount": 9,
+      "totalRecords": 9
+    },
+    {
+      "path": "permissions[].id",
+      "types": [
+        "number"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        27,
+        263,
+        279,
+        289,
+        290
+      ],
+      "occurrenceCount": 180,
+      "totalRecords": 9,
+      "minValue": 27,
+      "maxValue": 1106
+    },
+    {
+      "path": "permissions[].value",
+      "types": [
+        "string"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        "Edit Purchase Order in Pending Status",
+        "Edit Tax",
+        "Calculate Prices",
+        "View Item Prices",
+        "Edit Service Price"
+      ],
+      "occurrenceCount": 180,
+      "totalRecords": 9,
+      "minLength": 6,
+      "maxLength": 65
+    },
+    {
+      "path": "phoneNumber",
+      "types": [
+        "string",
+        "null"
+      ],
+      "nullable": true,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        "8135416921",
+        "8135579962",
+        "7274304710",
+        "7279478588",
+        "7274951128"
+      ],
+      "occurrenceCount": 9,
+      "totalRecords": 9,
+      "minLength": 10,
+      "maxLength": 10
+    },
+    {
+      "path": "roleIds",
+      "types": [
+        "array"
+      ],
+      "nullable": false,
+      "isArray": true,
+      "isObject": false,
+      "sampleValues": [],
+      "occurrenceCount": 9,
+      "totalRecords": 9
+    },
+    {
+      "path": "team",
+      "types": [
+        "string"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        "SALES",
+        "POOL- INSTALL",
+        "ELECTRICAL - SERVICE/ DIAGNOSTIC"
+      ],
+      "occurrenceCount": 9,
+      "totalRecords": 9,
+      "minLength": 5,
+      "maxLength": 32
+    },
+    {
+      "path": "userId",
+      "types": [
+        "number"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        12417,
+        55810,
+        59011,
+        55459334,
+        58944518
+      ],
+      "occurrenceCount": 9,
+      "totalRecords": 9,
+      "minValue": 12417,
+      "maxValue": 62521863
+    },
+    {
+      "path": "zoneIds",
+      "types": [
+        "array"
+      ],
+      "nullable": false,
+      "isArray": true,
+      "isObject": false,
+      "sampleValues": [],
+      "occurrenceCount": 9,
+      "totalRecords": 9
+    }
+  ],
+  "rootStructure": "paginated",
+  "paginationFields": [
+    "page",
+    "pageSize",
+    "hasMore",
+    "totalCount"
+  ],
+  "idField": "id",
+  "timestampFields": [
+    "createdOn",
+    "modifiedOn"
+  ],
+  "relationshipFields": [
+    "aadUserId",
+    "businessUnitId",
+    "mainZoneId",
+    "userId"
+  ],
+  "analyzedAt": "2026-01-21T14:16:43.047Z"
+}

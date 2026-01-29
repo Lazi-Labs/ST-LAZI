@@ -1,0 +1,817 @@
+{
+  "endpointName": "pricebook_services",
+  "recordCount": 100,
+  "fields": [
+    {
+      "path": "account",
+      "types": [
+        "string"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        "Services income",
+        "INCOME-Sales"
+      ],
+      "occurrenceCount": 100,
+      "totalRecords": 100,
+      "minLength": 12,
+      "maxLength": 15
+    },
+    {
+      "path": "active",
+      "types": [
+        "boolean"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        true
+      ],
+      "occurrenceCount": 100,
+      "totalRecords": 100
+    },
+    {
+      "path": "addOnMemberPrice",
+      "types": [
+        "number"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        200,
+        0,
+        825,
+        158,
+        600
+      ],
+      "occurrenceCount": 100,
+      "totalRecords": 100,
+      "minValue": 0,
+      "maxValue": 1870
+    },
+    {
+      "path": "addOnPrice",
+      "types": [
+        "number"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        194,
+        0,
+        764,
+        175,
+        243
+      ],
+      "occurrenceCount": 100,
+      "totalRecords": 100,
+      "minValue": 0,
+      "maxValue": 1870
+    },
+    {
+      "path": "assets",
+      "types": [
+        "array"
+      ],
+      "nullable": false,
+      "isArray": true,
+      "isObject": false,
+      "sampleValues": [],
+      "occurrenceCount": 100,
+      "totalRecords": 100
+    },
+    {
+      "path": "assets[].alias",
+      "types": [
+        "string",
+        "null"
+      ],
+      "nullable": true,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        "B8C4B13E-8625-4DAD-AAC5-A87F08F08B71",
+        "2560A0C2-D834-4F13-AF26-A7A72A00711D",
+        "87B758C3-118E-4A1A-B621-DDB75C8ACF70",
+        "F1EB854B-1C9E-4506-AF70-335F92419520",
+        "AA23DFB1-ED8A-4F25-9E9D-695E8AC053A7"
+      ],
+      "occurrenceCount": 83,
+      "totalRecords": 100,
+      "minLength": 36,
+      "maxLength": 36
+    },
+    {
+      "path": "assets[].fileName",
+      "types": [
+        "string"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        "26872862-1c77-4a3a-b45e-d05a591b14f4.jpg",
+        "598545b8-7dcc-459a-80a0-9a9d5ec32189.jpg",
+        "0f047c60-d0f1-4340-b411-0b94838cd1f9.jpg",
+        "53f19e9d-cc18-4c39-a339-d8423853c0f3.jpg",
+        "bd2bb0e3-a414-471c-be8d-cf4475480a7d.jpg"
+      ],
+      "occurrenceCount": 83,
+      "totalRecords": 100,
+      "minLength": 40,
+      "maxLength": 40
+    },
+    {
+      "path": "assets[].isDefault",
+      "types": [
+        "boolean"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        true,
+        false
+      ],
+      "occurrenceCount": 83,
+      "totalRecords": 100
+    },
+    {
+      "path": "assets[].type",
+      "types": [
+        "string"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        "Image",
+        "Attachment"
+      ],
+      "occurrenceCount": 83,
+      "totalRecords": 100,
+      "minLength": 5,
+      "maxLength": 10
+    },
+    {
+      "path": "assets[].url",
+      "types": [
+        "string"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        "Images/Service/26872862-1c77-4a3a-b45e-d05a591b14f4.jpg",
+        "Images/Service/598545b8-7dcc-459a-80a0-9a9d5ec32189.jpg",
+        "Images/Service/0f047c60-d0f1-4340-b411-0b94838cd1f9.jpg",
+        "Images/Service/53f19e9d-cc18-4c39-a339-d8423853c0f3.jpg",
+        "Images/Service/bd2bb0e3-a414-471c-be8d-cf4475480a7d.jpg"
+      ],
+      "occurrenceCount": 83,
+      "totalRecords": 100,
+      "minLength": 55,
+      "maxLength": 70
+    },
+    {
+      "path": "bonus",
+      "types": [
+        "number"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        0,
+        5.73
+      ],
+      "occurrenceCount": 100,
+      "totalRecords": 100,
+      "minValue": 0,
+      "maxValue": 5.73
+    },
+    {
+      "path": "budgetCostCode",
+      "types": [
+        "null"
+      ],
+      "nullable": true,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [],
+      "occurrenceCount": 100,
+      "totalRecords": 100
+    },
+    {
+      "path": "budgetCostType",
+      "types": [
+        "null"
+      ],
+      "nullable": true,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [],
+      "occurrenceCount": 100,
+      "totalRecords": 100
+    },
+    {
+      "path": "businessUnitId",
+      "types": [
+        "number",
+        "null"
+      ],
+      "nullable": true,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        4623,
+        1308
+      ],
+      "occurrenceCount": 100,
+      "totalRecords": 100,
+      "minValue": 1308,
+      "maxValue": 4623
+    },
+    {
+      "path": "calculatedPrice",
+      "types": [
+        "null"
+      ],
+      "nullable": true,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [],
+      "occurrenceCount": 100,
+      "totalRecords": 100
+    },
+    {
+      "path": "categories",
+      "types": [
+        "array"
+      ],
+      "nullable": false,
+      "isArray": true,
+      "isObject": false,
+      "sampleValues": [],
+      "occurrenceCount": 100,
+      "totalRecords": 100
+    },
+    {
+      "path": "categories[].active",
+      "types": [
+        "boolean"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        true,
+        false
+      ],
+      "occurrenceCount": 99,
+      "totalRecords": 100
+    },
+    {
+      "path": "categories[].id",
+      "types": [
+        "number"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        6799,
+        6800,
+        6924,
+        7297,
+        57717648
+      ],
+      "occurrenceCount": 99,
+      "totalRecords": 100,
+      "minValue": 6131,
+      "maxValue": 57876103
+    },
+    {
+      "path": "categories[].name",
+      "types": [
+        "string"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        "Breakers",
+        "Equipment Panels",
+        "Equipment Hook Up",
+        "Home Runs",
+        "Surge Protector"
+      ],
+      "occurrenceCount": 99,
+      "totalRecords": 100,
+      "minLength": 6,
+      "maxLength": 30
+    },
+    {
+      "path": "code",
+      "types": [
+        "string"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        "PB-PUMP-20A-GFCI",
+        "POL-MEMBER",
+        "PB-INTMT-PKG-1PUMP",
+        "PB-CHLOR-ELE-HU",
+        "PB-GASHTR-ELE-HU"
+      ],
+      "occurrenceCount": 100,
+      "totalRecords": 100,
+      "minLength": 5,
+      "maxLength": 25
+    },
+    {
+      "path": "commissionBonus",
+      "types": [
+        "number"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        0
+      ],
+      "occurrenceCount": 100,
+      "totalRecords": 100,
+      "minValue": 0,
+      "maxValue": 0
+    },
+    {
+      "path": "cost",
+      "types": [
+        "number"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        0,
+        50,
+        49,
+        115,
+        42
+      ],
+      "occurrenceCount": 100,
+      "totalRecords": 100,
+      "minValue": 0,
+      "maxValue": 1300
+    },
+    {
+      "path": "createdOn",
+      "types": [
+        "string"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        "2024-05-26T00:47:22.5118392Z",
+        "2024-05-26T19:13:55.9003709Z",
+        "2024-05-27T00:20:56.5172553Z",
+        "2024-05-26T17:12:15.5743302Z",
+        "2024-05-26T17:12:20.1888104Z"
+      ],
+      "occurrenceCount": 100,
+      "totalRecords": 100,
+      "minLength": 26,
+      "maxLength": 28
+    },
+    {
+      "path": "crossSaleGroup",
+      "types": [
+        "null"
+      ],
+      "nullable": true,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [],
+      "occurrenceCount": 100,
+      "totalRecords": 100
+    },
+    {
+      "path": "defaultAssetUrl",
+      "types": [
+        "string",
+        "null"
+      ],
+      "nullable": true,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        "Images/Service/26872862-1c77-4a3a-b45e-d05a591b14f4.jpg",
+        "Images/Service/598545b8-7dcc-459a-80a0-9a9d5ec32189.jpg",
+        "Images/Service/53f19e9d-cc18-4c39-a339-d8423853c0f3.jpg",
+        "Images/Service/bd2bb0e3-a414-471c-be8d-cf4475480a7d.jpg",
+        "Images/Service/b9727483-5454-45e4-a51c-14de608c0140.jpg"
+      ],
+      "occurrenceCount": 100,
+      "totalRecords": 100,
+      "minLength": 55,
+      "maxLength": 55
+    },
+    {
+      "path": "description",
+      "types": [
+        "string"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        "Siemens 2POL20 GFCI Breaker",
+        "<ul><li>Testing & Balancing the Chemicals</li><li>Monitoring the Equipment</li><li>Brushing the Walls, Steps & Benches</li><li>Emptying the Pump Basket</li><li>Cleaning the Skimmer</li><li>Emptying the Inline Leaf Catcher</li><li>Single Cartridge Cleaning</li><li>DE/ Sand Filter Backwash</li><li>Brushing the Tile</li></ul>",
+        "Intermatic Panel - 300W Transformer & Timer Mech<br/><ul><li>Includes Standard Pump Hook Up</li></ul>",
+        "Wire Up Chlorinator",
+        "Wire Up Gas Heater"
+      ],
+      "occurrenceCount": 100,
+      "totalRecords": 100,
+      "minLength": 1,
+      "maxLength": 1228
+    },
+    {
+      "path": "displayName",
+      "types": [
+        "string"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        "PUMP - 20A GFCI Breaker (PB)",
+        "No Vac Weekly Service",
+        "INTERMATIC PANEL - Package w/ 1 Pump Hook Up (PB)",
+        "CHLORINATOR - Electrical Hook Up (PB)",
+        "GAS HEATER - Electrical Hook Up (PB)"
+      ],
+      "occurrenceCount": 100,
+      "totalRecords": 100,
+      "minLength": 8,
+      "maxLength": 89
+    },
+    {
+      "path": "externalData",
+      "types": [
+        "array"
+      ],
+      "nullable": false,
+      "isArray": true,
+      "isObject": false,
+      "sampleValues": [],
+      "occurrenceCount": 100,
+      "totalRecords": 100
+    },
+    {
+      "path": "externalId",
+      "types": [
+        "null"
+      ],
+      "nullable": true,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [],
+      "occurrenceCount": 100,
+      "totalRecords": 100
+    },
+    {
+      "path": "hours",
+      "types": [
+        "number"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        0.15,
+        0,
+        1,
+        0.5,
+        2
+      ],
+      "occurrenceCount": 100,
+      "totalRecords": 100,
+      "minValue": 0,
+      "maxValue": 24
+    },
+    {
+      "path": "id",
+      "types": [
+        "number"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        12175,
+        12193,
+        12258,
+        12461,
+        12466
+      ],
+      "occurrenceCount": 100,
+      "totalRecords": 100,
+      "minValue": 12175,
+      "maxValue": 53282905
+    },
+    {
+      "path": "isLabor",
+      "types": [
+        "boolean"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        false
+      ],
+      "occurrenceCount": 100,
+      "totalRecords": 100
+    },
+    {
+      "path": "memberPrice",
+      "types": [
+        "number"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        200,
+        0,
+        825,
+        175,
+        600
+      ],
+      "occurrenceCount": 100,
+      "totalRecords": 100,
+      "minValue": 0,
+      "maxValue": 2078
+    },
+    {
+      "path": "modifiedOn",
+      "types": [
+        "string"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        "2026-01-14T03:40:08.244719Z",
+        "2025-12-31T03:27:03.0778202Z",
+        "2026-01-14T03:40:10.1743281Z",
+        "2026-01-14T03:40:10.2161102Z",
+        "2026-01-14T03:40:10.2195811Z"
+      ],
+      "occurrenceCount": 100,
+      "totalRecords": 100,
+      "minLength": 27,
+      "maxLength": 28
+    },
+    {
+      "path": "paysCommission",
+      "types": [
+        "boolean"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        false
+      ],
+      "occurrenceCount": 100,
+      "totalRecords": 100
+    },
+    {
+      "path": "price",
+      "types": [
+        "number"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        216,
+        0,
+        849,
+        269,
+        279
+      ],
+      "occurrenceCount": 100,
+      "totalRecords": 100,
+      "minValue": 0,
+      "maxValue": 5891
+    },
+    {
+      "path": "recommendations",
+      "types": [
+        "array"
+      ],
+      "nullable": false,
+      "isArray": true,
+      "isObject": false,
+      "sampleValues": [],
+      "occurrenceCount": 100,
+      "totalRecords": 100
+    },
+    {
+      "path": "serviceEquipment",
+      "types": [
+        "array"
+      ],
+      "nullable": false,
+      "isArray": true,
+      "isObject": false,
+      "sampleValues": [],
+      "occurrenceCount": 100,
+      "totalRecords": 100
+    },
+    {
+      "path": "serviceMaterials",
+      "types": [
+        "array"
+      ],
+      "nullable": false,
+      "isArray": true,
+      "isObject": false,
+      "sampleValues": [],
+      "occurrenceCount": 100,
+      "totalRecords": 100
+    },
+    {
+      "path": "serviceMaterials[].quantity",
+      "types": [
+        "number"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        1
+      ],
+      "occurrenceCount": 17,
+      "totalRecords": 100,
+      "minValue": 1,
+      "maxValue": 1
+    },
+    {
+      "path": "serviceMaterials[].skuId",
+      "types": [
+        "number"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        57272343,
+        57366666,
+        53544198,
+        57359029,
+        53278155
+      ],
+      "occurrenceCount": 17,
+      "totalRecords": 100,
+      "minValue": 53277365,
+      "maxValue": 61082411
+    },
+    {
+      "path": "soldByCommission",
+      "types": [
+        "number"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        0
+      ],
+      "occurrenceCount": 100,
+      "totalRecords": 100,
+      "minValue": 0,
+      "maxValue": 0
+    },
+    {
+      "path": "source",
+      "types": [
+        "null"
+      ],
+      "nullable": true,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [],
+      "occurrenceCount": 100,
+      "totalRecords": 100
+    },
+    {
+      "path": "taxable",
+      "types": [
+        "boolean"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        false,
+        true
+      ],
+      "occurrenceCount": 100,
+      "totalRecords": 100
+    },
+    {
+      "path": "upgrades",
+      "types": [
+        "array"
+      ],
+      "nullable": false,
+      "isArray": true,
+      "isObject": false,
+      "sampleValues": [],
+      "occurrenceCount": 100,
+      "totalRecords": 100
+    },
+    {
+      "path": "useStaticPrices",
+      "types": [
+        "null"
+      ],
+      "nullable": true,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [],
+      "occurrenceCount": 100,
+      "totalRecords": 100
+    },
+    {
+      "path": "warranty",
+      "types": [
+        "object"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": true,
+      "sampleValues": [],
+      "occurrenceCount": 100,
+      "totalRecords": 100
+    },
+    {
+      "path": "warranty.description",
+      "types": [
+        "null"
+      ],
+      "nullable": true,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [],
+      "occurrenceCount": 100,
+      "totalRecords": 100
+    },
+    {
+      "path": "warranty.duration",
+      "types": [
+        "number"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        0
+      ],
+      "occurrenceCount": 100,
+      "totalRecords": 100,
+      "minValue": 0,
+      "maxValue": 0
+    }
+  ],
+  "rootStructure": "paginated",
+  "paginationFields": [
+    "page",
+    "pageSize",
+    "hasMore",
+    "totalCount"
+  ],
+  "idField": "id",
+  "timestampFields": [
+    "createdOn",
+    "modifiedOn"
+  ],
+  "relationshipFields": [
+    "businessUnitId",
+    "externalId"
+  ],
+  "analyzedAt": "2026-01-21T14:16:43.029Z"
+}

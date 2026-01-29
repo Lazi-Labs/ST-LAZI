@@ -1,0 +1,479 @@
+{
+  "endpointName": "timesheet_activity_types",
+  "recordCount": 27,
+  "fields": [
+    {
+      "path": "active",
+      "types": [
+        "boolean"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        true
+      ],
+      "occurrenceCount": 27,
+      "totalRecords": 27
+    },
+    {
+      "path": "budgetCodeAssociation",
+      "types": [
+        "string"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        "DoNotAllow",
+        "Allow"
+      ],
+      "occurrenceCount": 27,
+      "totalRecords": 27,
+      "minLength": 5,
+      "maxLength": 10
+    },
+    {
+      "path": "businessUnitId",
+      "types": [
+        "null"
+      ],
+      "nullable": true,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [],
+      "occurrenceCount": 27,
+      "totalRecords": 27
+    },
+    {
+      "path": "categoryId",
+      "types": [
+        "number"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        54629799,
+        54629801,
+        54629797,
+        54629802,
+        54629800
+      ],
+      "occurrenceCount": 27,
+      "totalRecords": 27,
+      "minValue": 54629797,
+      "maxValue": 55222418
+    },
+    {
+      "path": "code",
+      "types": [
+        "string"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        "Meal",
+        "Onsite",
+        "Meeting",
+        "Office",
+        "Shop Time"
+      ],
+      "occurrenceCount": 27,
+      "totalRecords": 27,
+      "minLength": 3,
+      "maxLength": 17
+    },
+    {
+      "path": "createdOn",
+      "types": [
+        "string"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        "2024-11-04T13:35:44.7573623Z",
+        "2024-11-04T13:35:44.9232323Z",
+        "2024-11-04T13:35:45.0558812Z",
+        "2024-11-04T13:35:45.1862859Z",
+        "2024-11-04T13:35:45.2114606Z"
+      ],
+      "occurrenceCount": 27,
+      "totalRecords": 27,
+      "minLength": 27,
+      "maxLength": 28
+    },
+    {
+      "path": "defaultMemo",
+      "types": [
+        "string",
+        "null"
+      ],
+      "nullable": true,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        ""
+      ],
+      "occurrenceCount": 27,
+      "totalRecords": 27,
+      "minLength": 0,
+      "maxLength": 0
+    },
+    {
+      "path": "defaultTagTypeIds",
+      "types": [
+        "array"
+      ],
+      "nullable": false,
+      "isArray": true,
+      "isObject": false,
+      "sampleValues": [],
+      "occurrenceCount": 27,
+      "totalRecords": 27
+    },
+    {
+      "path": "description",
+      "types": [
+        "string",
+        "null"
+      ],
+      "nullable": true,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        "Use this timesheet activity to track meal break.",
+        "Use this timesheet activity to track time onsite.",
+        "Use this timesheet activity to track meeting time.",
+        "Use this timesheet activity to track office time.",
+        "Use this timesheet activity to track shop time."
+      ],
+      "occurrenceCount": 27,
+      "totalRecords": 27,
+      "minLength": 35,
+      "maxLength": 79
+    },
+    {
+      "path": "dontAllowToChangeMemo",
+      "types": [
+        "boolean"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        false
+      ],
+      "occurrenceCount": 27,
+      "totalRecords": 27
+    },
+    {
+      "path": "dontAllowToChangeTag",
+      "types": [
+        "boolean"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        false
+      ],
+      "occurrenceCount": 27,
+      "totalRecords": 27
+    },
+    {
+      "path": "icon",
+      "types": [
+        "string"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        "restaurant",
+        "build",
+        "group",
+        "business",
+        "business_center"
+      ],
+      "occurrenceCount": 27,
+      "totalRecords": 27,
+      "minLength": 5,
+      "maxLength": 15
+    },
+    {
+      "path": "id",
+      "types": [
+        "number"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        54629804,
+        54629806,
+        54629809,
+        54629812,
+        54629815
+      ],
+      "occurrenceCount": 27,
+      "totalRecords": 27,
+      "minValue": 54629804,
+      "maxValue": 55368582
+    },
+    {
+      "path": "isArchived",
+      "types": [
+        "boolean"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        false,
+        true
+      ],
+      "occurrenceCount": 27,
+      "totalRecords": 27
+    },
+    {
+      "path": "isDefault",
+      "types": [
+        "boolean"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        true,
+        false
+      ],
+      "occurrenceCount": 27,
+      "totalRecords": 27
+    },
+    {
+      "path": "isDraft",
+      "types": [
+        "boolean"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        false
+      ],
+      "occurrenceCount": 27,
+      "totalRecords": 27
+    },
+    {
+      "path": "isInUse",
+      "types": [
+        "boolean"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        false
+      ],
+      "occurrenceCount": 27,
+      "totalRecords": 27
+    },
+    {
+      "path": "isTechnicianProfileLaborType",
+      "types": [
+        "boolean"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        false,
+        true
+      ],
+      "occurrenceCount": 27,
+      "totalRecords": 27
+    },
+    {
+      "path": "isUsersHomeBusinessUnit",
+      "types": [
+        "boolean"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        true
+      ],
+      "occurrenceCount": 27,
+      "totalRecords": 27
+    },
+    {
+      "path": "jobAssociation",
+      "types": [
+        "string"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        "Allow",
+        "Require",
+        "DoNotAllow"
+      ],
+      "occurrenceCount": 27,
+      "totalRecords": 27,
+      "minLength": 5,
+      "maxLength": 10
+    },
+    {
+      "path": "laborTypeAssociation",
+      "types": [
+        "string"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        "DoNotAllow",
+        "Allow"
+      ],
+      "occurrenceCount": 27,
+      "totalRecords": 27,
+      "minLength": 5,
+      "maxLength": 10
+    },
+    {
+      "path": "laborTypeId",
+      "types": [
+        "null"
+      ],
+      "nullable": true,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [],
+      "occurrenceCount": 27,
+      "totalRecords": 27
+    },
+    {
+      "path": "memoAssociation",
+      "types": [
+        "string"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        "Allow",
+        "DoNotAllow"
+      ],
+      "occurrenceCount": 27,
+      "totalRecords": 27,
+      "minLength": 5,
+      "maxLength": 10
+    },
+    {
+      "path": "modifiedOn",
+      "types": [
+        "string"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        "2025-05-05T07:25:55.2846978Z",
+        "2025-05-20T04:11:04.2159871Z",
+        "2025-05-20T04:11:04.2160003Z",
+        "2025-05-20T04:11:04.2160036Z",
+        "2025-05-20T04:11:04.2160078Z"
+      ],
+      "occurrenceCount": 27,
+      "totalRecords": 27,
+      "minLength": 27,
+      "maxLength": 28
+    },
+    {
+      "path": "projectAssociation",
+      "types": [
+        "string"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        "Allow",
+        "DoNotAllow"
+      ],
+      "occurrenceCount": 27,
+      "totalRecords": 27,
+      "minLength": 5,
+      "maxLength": 10
+    },
+    {
+      "path": "projectLabelAssociation",
+      "types": [
+        "string"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        "DoNotAllow",
+        "Allow"
+      ],
+      "occurrenceCount": 27,
+      "totalRecords": 27,
+      "minLength": 5,
+      "maxLength": 10
+    },
+    {
+      "path": "tagAssociation",
+      "types": [
+        "string"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        "Allow",
+        "DoNotAllow"
+      ],
+      "occurrenceCount": 27,
+      "totalRecords": 27,
+      "minLength": 5,
+      "maxLength": 10
+    },
+    {
+      "path": "visibleToRoles",
+      "types": [
+        "array"
+      ],
+      "nullable": false,
+      "isArray": true,
+      "isObject": false,
+      "sampleValues": [],
+      "occurrenceCount": 27,
+      "totalRecords": 27
+    }
+  ],
+  "rootStructure": "paginated",
+  "paginationFields": [
+    "page",
+    "pageSize",
+    "hasMore",
+    "totalCount"
+  ],
+  "idField": "id",
+  "timestampFields": [
+    "createdOn",
+    "modifiedOn"
+  ],
+  "relationshipFields": [
+    "businessUnitId",
+    "categoryId",
+    "laborTypeId"
+  ],
+  "analyzedAt": "2026-01-21T14:16:43.049Z"
+}

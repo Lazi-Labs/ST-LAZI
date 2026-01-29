@@ -1,0 +1,823 @@
+{
+  "endpointName": "gross_pay_items",
+  "recordCount": 100,
+  "fields": [
+    {
+      "path": "activity",
+      "types": [
+        "string"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        "Working",
+        "Idle",
+        "Driving",
+        "Training"
+      ],
+      "occurrenceCount": 100,
+      "totalRecords": 100,
+      "minLength": 4,
+      "maxLength": 8
+    },
+    {
+      "path": "activityCode",
+      "types": [
+        "null",
+        "string"
+      ],
+      "nullable": true,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        "HR-ST"
+      ],
+      "occurrenceCount": 100,
+      "totalRecords": 100,
+      "minLength": 5,
+      "maxLength": 5
+    },
+    {
+      "path": "activityCodeId",
+      "types": [
+        "null",
+        "number"
+      ],
+      "nullable": true,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        32647
+      ],
+      "occurrenceCount": 100,
+      "totalRecords": 100,
+      "minValue": 32647,
+      "maxValue": 32647
+    },
+    {
+      "path": "amount",
+      "types": [
+        "number"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        13.53,
+        2.8,
+        3.73,
+        115.27,
+        39.2
+      ],
+      "occurrenceCount": 100,
+      "totalRecords": 100,
+      "minValue": 0.47,
+      "maxValue": 238
+    },
+    {
+      "path": "amountAdjustment",
+      "types": [
+        "number"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        0
+      ],
+      "occurrenceCount": 100,
+      "totalRecords": 100,
+      "minValue": 0,
+      "maxValue": 0
+    },
+    {
+      "path": "budgetCodeId",
+      "types": [
+        "null"
+      ],
+      "nullable": true,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [],
+      "occurrenceCount": 100,
+      "totalRecords": 100
+    },
+    {
+      "path": "businessUnitName",
+      "types": [
+        "null",
+        "string"
+      ],
+      "nullable": true,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        "Pool - Service",
+        "Pool - Install",
+        "Electrical - Install",
+        "Electrical - Service/Install",
+        "Pool - Service/Install"
+      ],
+      "occurrenceCount": 100,
+      "totalRecords": 100,
+      "minLength": 14,
+      "maxLength": 28
+    },
+    {
+      "path": "createdOn",
+      "types": [
+        "string"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        "2024-07-08T18:39:45.0432157Z",
+        "2024-07-08T19:11:16.3365671Z",
+        "2024-07-09T13:21:40.6264424Z",
+        "2024-07-09T17:39:07.6576171Z",
+        "2024-07-09T17:39:07.6648999Z"
+      ],
+      "occurrenceCount": 100,
+      "totalRecords": 100,
+      "minLength": 27,
+      "maxLength": 28
+    },
+    {
+      "path": "customerId",
+      "types": [
+        "number",
+        "null"
+      ],
+      "nullable": true,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        1185115,
+        1184966,
+        5911620,
+        2024188,
+        1185158
+      ],
+      "occurrenceCount": 100,
+      "totalRecords": 100,
+      "minValue": 1184558,
+      "maxValue": 7869608
+    },
+    {
+      "path": "customerName",
+      "types": [
+        "string",
+        "null"
+      ],
+      "nullable": true,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        "Yanni",
+        "Pool Perfection",
+        "La Costa Brava - Bob Morin",
+        "Shawn markussen",
+        "Gulfstream Pools & Spas : Klingman"
+      ],
+      "occurrenceCount": 100,
+      "totalRecords": 100,
+      "minLength": 5,
+      "maxLength": 35
+    },
+    {
+      "path": "date",
+      "types": [
+        "string"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        "2024-07-08T00:00:00Z",
+        "2024-07-09T00:00:00Z",
+        "2024-07-10T00:00:00Z",
+        "2024-07-11T00:00:00Z",
+        "2024-07-12T00:00:00Z"
+      ],
+      "occurrenceCount": 100,
+      "totalRecords": 100,
+      "minLength": 20,
+      "maxLength": 20
+    },
+    {
+      "path": "employeeId",
+      "types": [
+        "number"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        4482,
+        55810,
+        14721,
+        14469,
+        14465
+      ],
+      "occurrenceCount": 100,
+      "totalRecords": 100,
+      "minValue": 4482,
+      "maxValue": 2024197
+    },
+    {
+      "path": "employeePayrollId",
+      "types": [
+        "string"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        "HUNTER",
+        "KURT",
+        "RYAN",
+        "TRISTAN",
+        "ODEN"
+      ],
+      "occurrenceCount": 100,
+      "totalRecords": 100,
+      "minLength": 4,
+      "maxLength": 7
+    },
+    {
+      "path": "employeeType",
+      "types": [
+        "string"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        "Technician"
+      ],
+      "occurrenceCount": 100,
+      "totalRecords": 100,
+      "minLength": 10,
+      "maxLength": 10
+    },
+    {
+      "path": "endedOn",
+      "types": [
+        "string"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        "2024-07-08T19:01:00Z",
+        "2024-07-08T19:07:00Z",
+        "2024-07-09T13:28:00Z",
+        "2024-07-09T17:35:00Z",
+        "2024-07-09T18:59:00Z"
+      ],
+      "occurrenceCount": 100,
+      "totalRecords": 100,
+      "minLength": 20,
+      "maxLength": 20
+    },
+    {
+      "path": "grossPayItemType",
+      "types": [
+        "string"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        "TimesheetTime"
+      ],
+      "occurrenceCount": 100,
+      "totalRecords": 100,
+      "minLength": 13,
+      "maxLength": 13
+    },
+    {
+      "path": "id",
+      "types": [
+        "null"
+      ],
+      "nullable": true,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [],
+      "occurrenceCount": 100,
+      "totalRecords": 100
+    },
+    {
+      "path": "invoiceId",
+      "types": [
+        "number",
+        "null"
+      ],
+      "nullable": true,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        2023556,
+        2024176,
+        2028111,
+        5912468,
+        5919799
+      ],
+      "occurrenceCount": 100,
+      "totalRecords": 100,
+      "minValue": 2023556,
+      "maxValue": 52999586
+    },
+    {
+      "path": "invoiceItemId",
+      "types": [
+        "null"
+      ],
+      "nullable": true,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [],
+      "occurrenceCount": 100,
+      "totalRecords": 100
+    },
+    {
+      "path": "invoiceNumber",
+      "types": [
+        "string",
+        "null"
+      ],
+      "nullable": true,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        "2023553",
+        "2024173",
+        "2028108",
+        "5912465",
+        "5919796"
+      ],
+      "occurrenceCount": 100,
+      "totalRecords": 100,
+      "minLength": 7,
+      "maxLength": 8
+    },
+    {
+      "path": "isPrevailingWageJob",
+      "types": [
+        "boolean"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        false,
+        true
+      ],
+      "occurrenceCount": 100,
+      "totalRecords": 100
+    },
+    {
+      "path": "jobId",
+      "types": [
+        "number"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        2023553,
+        0,
+        2024173,
+        2028108,
+        5912465
+      ],
+      "occurrenceCount": 100,
+      "totalRecords": 100,
+      "minValue": 0,
+      "maxValue": 52999583
+    },
+    {
+      "path": "jobNumber",
+      "types": [
+        "string",
+        "null"
+      ],
+      "nullable": true,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        "2023553",
+        "2024173",
+        "2028108",
+        "5912465",
+        "5919796"
+      ],
+      "occurrenceCount": 100,
+      "totalRecords": 100,
+      "minLength": 7,
+      "maxLength": 8
+    },
+    {
+      "path": "jobTypeName",
+      "types": [
+        "string",
+        "null"
+      ],
+      "nullable": true,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        "Estimate - Electrical Service",
+        "Estimate - Pool Electrical",
+        "Bond & Pipe Pool Lights",
+        "POOL: INT-HALF DAY",
+        "Electrical Service"
+      ],
+      "occurrenceCount": 100,
+      "totalRecords": 100,
+      "minLength": 8,
+      "maxLength": 37
+    },
+    {
+      "path": "laborTypeCode",
+      "types": [
+        "null",
+        "string"
+      ],
+      "nullable": true,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        "LEAD-ELECTRICAN",
+        "POOL-ELECTRICAN",
+        "HELPER-LABOR"
+      ],
+      "occurrenceCount": 100,
+      "totalRecords": 100,
+      "minLength": 12,
+      "maxLength": 15
+    },
+    {
+      "path": "laborTypeId",
+      "types": [
+        "null",
+        "number"
+      ],
+      "nullable": true,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        71025,
+        2024208,
+        71024
+      ],
+      "occurrenceCount": 100,
+      "totalRecords": 100,
+      "minValue": 71024,
+      "maxValue": 2024208
+    },
+    {
+      "path": "locationAddress",
+      "types": [
+        "string",
+        "null"
+      ],
+      "nullable": true,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        "2128 Coronet Dr, Largo, FL 33770-4317 United States",
+        "2385 Hawthorne Drive, Clearwater, FL 33763 USA",
+        "560 Plaza Seville Court, Treasure Island, FL 33706 USA",
+        "4403 Mount Bandon Drive, Land O' Lakes, FL 34638 USA",
+        "512 Crystal Drive, Madeira Beach, FL 33708 USA"
+      ],
+      "occurrenceCount": 100,
+      "totalRecords": 100,
+      "minLength": 37,
+      "maxLength": 64
+    },
+    {
+      "path": "locationId",
+      "types": [
+        "number",
+        "null"
+      ],
+      "nullable": true,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        1185965,
+        2023610,
+        5911625,
+        2024193,
+        1186007
+      ],
+      "occurrenceCount": 100,
+      "totalRecords": 100,
+      "minValue": 1185408,
+      "maxValue": 52977417
+    },
+    {
+      "path": "locationName",
+      "types": [
+        "string",
+        "null"
+      ],
+      "nullable": true,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        "Yanni",
+        "Shawn Markussen",
+        "La Costa Brava - Bob Morin",
+        "Shawn markussen",
+        "Gulfstream Pools & Spas : Klingman"
+      ],
+      "occurrenceCount": 100,
+      "totalRecords": 100,
+      "minLength": 5,
+      "maxLength": 35
+    },
+    {
+      "path": "locationZip",
+      "types": [
+        "string",
+        "null"
+      ],
+      "nullable": true,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        "33770-4317",
+        "33763",
+        "33706",
+        "34638",
+        "33708"
+      ],
+      "occurrenceCount": 100,
+      "totalRecords": 100,
+      "minLength": 5,
+      "maxLength": 10
+    },
+    {
+      "path": "memo",
+      "types": [
+        "null",
+        "string"
+      ],
+      "nullable": true,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        "Training"
+      ],
+      "occurrenceCount": 100,
+      "totalRecords": 100,
+      "minLength": 8,
+      "maxLength": 8
+    },
+    {
+      "path": "modifiedOn",
+      "types": [
+        "string"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        "2024-07-20T04:29:33.366886Z",
+        "2024-07-27T04:29:59.9849439Z"
+      ],
+      "occurrenceCount": 100,
+      "totalRecords": 100,
+      "minLength": 27,
+      "maxLength": 28
+    },
+    {
+      "path": "paidDurationHours",
+      "types": [
+        "number"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        0.483333,
+        0.1,
+        0.133333,
+        4.116667,
+        1.4
+      ],
+      "occurrenceCount": 100,
+      "totalRecords": 100,
+      "minValue": 0.016667,
+      "maxValue": 7.933333
+    },
+    {
+      "path": "paidTimeType",
+      "types": [
+        "string"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        "Regular"
+      ],
+      "occurrenceCount": 100,
+      "totalRecords": 100,
+      "minLength": 7,
+      "maxLength": 7
+    },
+    {
+      "path": "payoutBusinessUnitName",
+      "types": [
+        "string",
+        "null"
+      ],
+      "nullable": true,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        "Electrical - Sales",
+        "Pool - Sales",
+        "Pool - Service",
+        "Pool - Install",
+        "Electrical - Service"
+      ],
+      "occurrenceCount": 100,
+      "totalRecords": 100,
+      "minLength": 12,
+      "maxLength": 28
+    },
+    {
+      "path": "payrollId",
+      "types": [
+        "number"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        2023360,
+        2027456,
+        2023368,
+        2023366,
+        2023364
+      ],
+      "occurrenceCount": 100,
+      "totalRecords": 100,
+      "minValue": 2023360,
+      "maxValue": 52980502
+    },
+    {
+      "path": "projectId",
+      "types": [
+        "null",
+        "number"
+      ],
+      "nullable": true,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        52967103,
+        7865802,
+        52967225,
+        7872290,
+        7873777
+      ],
+      "occurrenceCount": 100,
+      "totalRecords": 100,
+      "minValue": 7865802,
+      "maxValue": 53008953
+    },
+    {
+      "path": "projectNumber",
+      "types": [
+        "null",
+        "string"
+      ],
+      "nullable": true,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        "52967103",
+        "7865802",
+        "52967225",
+        "7872290",
+        "7873777"
+      ],
+      "occurrenceCount": 100,
+      "totalRecords": 100,
+      "minLength": 7,
+      "maxLength": 8
+    },
+    {
+      "path": "sourceEntityId",
+      "types": [
+        "number",
+        "null"
+      ],
+      "nullable": true,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        73739,
+        2028224,
+        5912116,
+        5912343,
+        5916273
+      ],
+      "occurrenceCount": 100,
+      "totalRecords": 100,
+      "minValue": 73739,
+      "maxValue": 53004200
+    },
+    {
+      "path": "startedOn",
+      "types": [
+        "string"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        "2024-07-08T18:32:00Z",
+        "2024-07-08T19:01:00Z",
+        "2024-07-09T13:20:00Z",
+        "2024-07-09T13:28:00Z",
+        "2024-07-09T17:35:00Z"
+      ],
+      "occurrenceCount": 100,
+      "totalRecords": 100,
+      "minLength": 20,
+      "maxLength": 20
+    },
+    {
+      "path": "taxZoneName",
+      "types": [
+        "null"
+      ],
+      "nullable": true,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [],
+      "occurrenceCount": 100,
+      "totalRecords": 100
+    },
+    {
+      "path": "zoneName",
+      "types": [
+        "string",
+        "null"
+      ],
+      "nullable": true,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        "Sales zone 1 (Pinellas)",
+        "Sales zone 2 (Pasco & Hills)"
+      ],
+      "occurrenceCount": 100,
+      "totalRecords": 100,
+      "minLength": 23,
+      "maxLength": 28
+    }
+  ],
+  "rootStructure": "paginated",
+  "paginationFields": [
+    "page",
+    "pageSize",
+    "hasMore",
+    "totalCount"
+  ],
+  "idField": "id",
+  "timestampFields": [
+    "createdOn",
+    "date",
+    "endedOn",
+    "modifiedOn",
+    "paidTimeType",
+    "startedOn"
+  ],
+  "relationshipFields": [
+    "activityCodeId",
+    "budgetCodeId",
+    "customerId",
+    "employeeId",
+    "employeePayrollId",
+    "invoiceId",
+    "invoiceItemId",
+    "jobId",
+    "laborTypeId",
+    "locationId",
+    "payrollId",
+    "projectId",
+    "sourceEntityId"
+  ],
+  "analyzedAt": "2026-01-21T14:16:42.969Z"
+}

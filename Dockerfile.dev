@@ -1,0 +1,22 @@
+# ===========================================
+# LAZI ST Ingestion Service - Development Dockerfile
+# ===========================================
+
+FROM node:20-alpine
+
+WORKDIR /app
+
+# Install dependencies for native modules
+RUN apk add --no-cache python3 make g++
+
+# Install dependencies
+COPY package*.json ./
+RUN npm install
+
+# Copy source (will be overwritten by volume mount)
+COPY . .
+
+ENV NODE_ENV=development
+
+# Default command - can be overridden in docker-compose
+CMD ["npm", "run", "dev"]

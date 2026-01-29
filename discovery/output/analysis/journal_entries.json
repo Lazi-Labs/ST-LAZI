@@ -1,0 +1,315 @@
+{
+  "endpointName": "journal_entries",
+  "recordCount": 100,
+  "fields": [
+    {
+      "path": "createdOn",
+      "types": [
+        "string"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        "2026-01-21T12:03:48.122912Z",
+        "2026-01-20T21:30:57.186397Z",
+        "2026-01-20T18:05:37.575242Z",
+        "2026-01-20T12:05:07.547061Z",
+        "2026-01-19T22:07:37.153457Z"
+      ],
+      "occurrenceCount": 100,
+      "totalRecords": 100,
+      "minLength": 25,
+      "maxLength": 27
+    },
+    {
+      "path": "customFields",
+      "types": [
+        "array"
+      ],
+      "nullable": false,
+      "isArray": true,
+      "isObject": false,
+      "sampleValues": [],
+      "occurrenceCount": 100,
+      "totalRecords": 100
+    },
+    {
+      "path": "exportedBy",
+      "types": [
+        "null"
+      ],
+      "nullable": true,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [],
+      "occurrenceCount": 100,
+      "totalRecords": 100
+    },
+    {
+      "path": "exportedOn",
+      "types": [
+        "string",
+        "null"
+      ],
+      "nullable": true,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        "2026-01-21T12:04:01.196046Z",
+        "2026-01-20T21:33:16.122585Z",
+        "2026-01-20T12:06:22.031704Z",
+        "2026-01-19T22:09:01.843701Z",
+        "2026-01-19T20:57:16.545066Z"
+      ],
+      "occurrenceCount": 100,
+      "totalRecords": 100,
+      "minLength": 26,
+      "maxLength": 27
+    },
+    {
+      "path": "id",
+      "types": [
+        "string"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        "019be070-811a-9423-60bb-33f8c8f26200",
+        "019bdd51-6322-1442-303e-1b1cc51cedae",
+        "019bdc95-67a7-0369-778e-8be4516591bc",
+        "019bdb4b-5b5b-ebdc-bf76-6fc9e70ec400",
+        "019bd84c-98c1-907f-cb11-455186dfeeb1"
+      ],
+      "occurrenceCount": 100,
+      "totalRecords": 100,
+      "minLength": 36,
+      "maxLength": 36
+    },
+    {
+      "path": "isEmpty",
+      "types": [
+        "boolean"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        false
+      ],
+      "occurrenceCount": 100,
+      "totalRecords": 100
+    },
+    {
+      "path": "lastSyncVersionId",
+      "types": [
+        "number",
+        "null"
+      ],
+      "nullable": true,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "occurrenceCount": 100,
+      "totalRecords": 100,
+      "minValue": 1,
+      "maxValue": 4
+    },
+    {
+      "path": "message",
+      "types": [
+        "null",
+        "string"
+      ],
+      "nullable": true,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        "QboAccountNotFound:(4001,Services income),QboAccountNotFound:(90000,Inventorydeactivated)",
+        "QboAccountNotFound:(4001,Services income)"
+      ],
+      "occurrenceCount": 100,
+      "totalRecords": 100,
+      "minLength": 41,
+      "maxLength": 89
+    },
+    {
+      "path": "modifiedOn",
+      "types": [
+        "string"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        "2026-01-21T12:03:48.127942Z",
+        "2026-01-20T21:30:57.196342Z",
+        "2026-01-20T18:05:37.601008Z",
+        "2026-01-20T12:05:07.552349Z",
+        "2026-01-19T22:07:37.153915Z"
+      ],
+      "occurrenceCount": 100,
+      "totalRecords": 100,
+      "minLength": 26,
+      "maxLength": 27
+    },
+    {
+      "path": "name",
+      "types": [
+        "string"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        "Bank Deposit #62846982 - 01/21/2026",
+        "Payments - Visa - (Electrical - Install) - 01/20/2026",
+        "Invoices - (Pool - Sales) - 01/20/2026",
+        "Bank Deposit #62830342 - 01/20/2026",
+        "Applied Payments - Visa - (Electrical - Service) - 01/19/2026"
+      ],
+      "occurrenceCount": 100,
+      "totalRecords": 100,
+      "minLength": 35,
+      "maxLength": 72
+    },
+    {
+      "path": "number",
+      "types": [
+        "number"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        2447,
+        2444,
+        2442,
+        2441,
+        2440
+      ],
+      "occurrenceCount": 100,
+      "totalRecords": 100,
+      "minValue": 2335,
+      "maxValue": 2447
+    },
+    {
+      "path": "postDate",
+      "types": [
+        "string"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        "2026-01-21T00:00:00",
+        "2026-01-20T00:00:00",
+        "2026-01-19T00:00:00",
+        "2026-01-17T00:00:00",
+        "2026-01-16T00:00:00"
+      ],
+      "occurrenceCount": 100,
+      "totalRecords": 100,
+      "minLength": 19,
+      "maxLength": 19
+    },
+    {
+      "path": "status",
+      "types": [
+        "string"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        "Open"
+      ],
+      "occurrenceCount": 100,
+      "totalRecords": 100,
+      "minLength": 4,
+      "maxLength": 4
+    },
+    {
+      "path": "syncStatus",
+      "types": [
+        "string"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        "Synced",
+        "Error"
+      ],
+      "occurrenceCount": 100,
+      "totalRecords": 100,
+      "minLength": 5,
+      "maxLength": 6
+    },
+    {
+      "path": "url",
+      "types": [
+        "string"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        "https://go.servicetitan.com/#/new/accounting/journal-entries/entry/019be070-811a-9423-60bb-33f8c8f26200",
+        "https://go.servicetitan.com/#/new/accounting/journal-entries/entry/019bdd51-6322-1442-303e-1b1cc51cedae",
+        "https://go.servicetitan.com/#/new/accounting/journal-entries/entry/019bdc95-67a7-0369-778e-8be4516591bc",
+        "https://go.servicetitan.com/#/new/accounting/journal-entries/entry/019bdb4b-5b5b-ebdc-bf76-6fc9e70ec400",
+        "https://go.servicetitan.com/#/new/accounting/journal-entries/entry/019bd84c-98c1-907f-cb11-455186dfeeb1"
+      ],
+      "occurrenceCount": 100,
+      "totalRecords": 100,
+      "minLength": 103,
+      "maxLength": 103
+    },
+    {
+      "path": "versionId",
+      "types": [
+        "number"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        1,
+        22,
+        2,
+        11,
+        3
+      ],
+      "occurrenceCount": 100,
+      "totalRecords": 100,
+      "minValue": 1,
+      "maxValue": 22
+    }
+  ],
+  "rootStructure": "paginated",
+  "paginationFields": [
+    "pageSize",
+    "page",
+    "hasMore",
+    "totalCount"
+  ],
+  "idField": "id",
+  "timestampFields": [
+    "createdOn",
+    "exportedOn",
+    "modifiedOn",
+    "postDate"
+  ],
+  "relationshipFields": [
+    "lastSyncVersionId",
+    "versionId"
+  ],
+  "analyzedAt": "2026-01-21T14:16:42.991Z"
+}

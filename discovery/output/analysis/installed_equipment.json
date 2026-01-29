@@ -1,0 +1,683 @@
+{
+  "endpointName": "installed_equipment",
+  "recordCount": 100,
+  "fields": [
+    {
+      "path": "active",
+      "types": [
+        "boolean"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        true
+      ],
+      "occurrenceCount": 100,
+      "totalRecords": 100
+    },
+    {
+      "path": "actualReplacementDate",
+      "types": [
+        "null"
+      ],
+      "nullable": true,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [],
+      "occurrenceCount": 100,
+      "totalRecords": 100
+    },
+    {
+      "path": "barcodeId",
+      "types": [
+        "null"
+      ],
+      "nullable": true,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [],
+      "occurrenceCount": 100,
+      "totalRecords": 100
+    },
+    {
+      "path": "cost",
+      "types": [
+        "number"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        0,
+        795.78,
+        268.99,
+        3100,
+        487.97
+      ],
+      "occurrenceCount": 100,
+      "totalRecords": 100,
+      "minValue": 0,
+      "maxValue": 4528.81
+    },
+    {
+      "path": "createdOn",
+      "types": [
+        "string"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        "2024-08-02T12:45:08.9925216Z",
+        "2024-08-07T16:10:57.3936896Z",
+        "2024-08-07T16:10:57.791671Z",
+        "2024-08-19T09:37:24.5273314Z",
+        "2024-08-23T19:19:47.387834Z"
+      ],
+      "occurrenceCount": 100,
+      "totalRecords": 100,
+      "minLength": 27,
+      "maxLength": 28
+    },
+    {
+      "path": "customerId",
+      "types": [
+        "number"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        53177479,
+        53207468,
+        53297974,
+        53225606,
+        53506182
+      ],
+      "occurrenceCount": 100,
+      "totalRecords": 100,
+      "minValue": 1184534,
+      "maxValue": 61097478
+    },
+    {
+      "path": "equipmentId",
+      "types": [
+        "number",
+        "null"
+      ],
+      "nullable": true,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        68866,
+        9474,
+        53295377,
+        32174,
+        53203561
+      ],
+      "occurrenceCount": 100,
+      "totalRecords": 100,
+      "minValue": 9474,
+      "maxValue": 61137066
+    },
+    {
+      "path": "id",
+      "types": [
+        "number"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        53191452,
+        53233574,
+        53233579,
+        53366279,
+        53429921
+      ],
+      "occurrenceCount": 100,
+      "totalRecords": 100,
+      "minValue": 53191452,
+      "maxValue": 61153831
+    },
+    {
+      "path": "installedOn",
+      "types": [
+        "string",
+        "null"
+      ],
+      "nullable": true,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        "2024-08-02T00:00:00Z",
+        "2024-08-19T00:00:00Z",
+        "2024-08-16T00:00:00Z",
+        "2024-09-02T00:00:00Z",
+        "2024-09-10T00:00:00Z"
+      ],
+      "occurrenceCount": 100,
+      "totalRecords": 100,
+      "minLength": 20,
+      "maxLength": 28
+    },
+    {
+      "path": "invoiceItemId",
+      "types": [
+        "number",
+        "null"
+      ],
+      "nullable": true,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        53191451,
+        53233573,
+        53233578,
+        53366278,
+        53429920
+      ],
+      "occurrenceCount": 100,
+      "totalRecords": 100,
+      "minValue": 53191451,
+      "maxValue": 61153830
+    },
+    {
+      "path": "locationId",
+      "types": [
+        "number"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        53177483,
+        53207473,
+        53297979,
+        53225611,
+        53506187
+      ],
+      "occurrenceCount": 100,
+      "totalRecords": 100,
+      "minValue": 1185384,
+      "maxValue": 61097481
+    },
+    {
+      "path": "manufacturer",
+      "types": [
+        "string",
+        "null"
+      ],
+      "nullable": true,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        "Pentair",
+        "Hayward",
+        "Gulf Stream",
+        "Jandy",
+        ""
+      ],
+      "occurrenceCount": 100,
+      "totalRecords": 100,
+      "minLength": 0,
+      "maxLength": 11
+    },
+    {
+      "path": "manufacturerWarrantyEnd",
+      "types": [
+        "string",
+        "null"
+      ],
+      "nullable": true,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        "2027-08-02T00:00:00Z",
+        "2027-08-19T00:00:00Z",
+        "2027-09-10T00:00:00Z",
+        "2027-09-23T00:00:00Z",
+        "2027-09-27T00:00:00Z"
+      ],
+      "occurrenceCount": 100,
+      "totalRecords": 100,
+      "minLength": 20,
+      "maxLength": 20
+    },
+    {
+      "path": "manufacturerWarrantyStart",
+      "types": [
+        "string",
+        "null"
+      ],
+      "nullable": true,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        "2024-08-02T00:00:00Z",
+        "2024-08-19T00:00:00Z",
+        "2024-09-10T00:00:00Z",
+        "2024-09-23T00:00:00Z",
+        "2024-09-27T00:00:00Z"
+      ],
+      "occurrenceCount": 100,
+      "totalRecords": 100,
+      "minLength": 20,
+      "maxLength": 20
+    },
+    {
+      "path": "memo",
+      "types": [
+        "null",
+        "string"
+      ],
+      "nullable": true,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        "– OCR Data Capture –\n10014868 - 001\nCentury'\n*10014868-001-005*\nSerial Number:\n*S194240229837*\nLV v10.17\nenergyr\nENERGY STAF"
+      ],
+      "occurrenceCount": 100,
+      "totalRecords": 100,
+      "minLength": 124,
+      "maxLength": 124
+    },
+    {
+      "path": "model",
+      "types": [
+        "string",
+        "null"
+      ],
+      "nullable": true,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        "342002",
+        "Color Logic",
+        "HE125TA",
+        "HydroCool",
+        ""
+      ],
+      "occurrenceCount": 100,
+      "totalRecords": 100,
+      "minLength": 0,
+      "maxLength": 12
+    },
+    {
+      "path": "modifiedOn",
+      "types": [
+        "string"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        "2024-08-03T03:09:56.3505492Z",
+        "2024-08-19T19:42:21.5960474Z",
+        "2024-08-19T19:44:05.732486Z",
+        "2024-08-20T03:19:40.793556Z",
+        "2024-08-24T08:02:01.3624404Z"
+      ],
+      "occurrenceCount": 100,
+      "totalRecords": 100,
+      "minLength": 27,
+      "maxLength": 28
+    },
+    {
+      "path": "name",
+      "types": [
+        "string",
+        "null"
+      ],
+      "nullable": true,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        "PAC-10-2002",
+        "HAY-30-1013",
+        "8\" Spa Light Replacement",
+        "Gulf Stream 125k BTU Heater Chiller",
+        "JDY-30-0709"
+      ],
+      "occurrenceCount": 100,
+      "totalRecords": 100,
+      "minLength": 9,
+      "maxLength": 79
+    },
+    {
+      "path": "predictedReplacementDate",
+      "types": [
+        "string",
+        "null"
+      ],
+      "nullable": true,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        "2027-08-02T00:00:00",
+        "2034-08-19T00:00:00",
+        "2027-09-20T00:00:00",
+        "2027-10-19T00:00:00",
+        "2027-10-25T00:00:00"
+      ],
+      "occurrenceCount": 100,
+      "totalRecords": 100,
+      "minLength": 19,
+      "maxLength": 19
+    },
+    {
+      "path": "predictedReplacementMonths",
+      "types": [
+        "number",
+        "null"
+      ],
+      "nullable": true,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        36,
+        120
+      ],
+      "occurrenceCount": 100,
+      "totalRecords": 100,
+      "minValue": 36,
+      "maxValue": 120
+    },
+    {
+      "path": "serialNumber",
+      "types": [
+        "string",
+        "null"
+      ],
+      "nullable": true,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        "0332151240410h",
+        "1u24025-108134",
+        "1u24025-108135",
+        "Jlu4c12w100",
+        "0457211240014a"
+      ],
+      "occurrenceCount": 100,
+      "totalRecords": 100,
+      "minLength": 0,
+      "maxLength": 22
+    },
+    {
+      "path": "serviceProviderWarrantyEnd",
+      "types": [
+        "string",
+        "null"
+      ],
+      "nullable": true,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        "2025-08-02T00:00:00Z",
+        "2025-09-23T00:00:00Z",
+        "2025-09-27T00:00:00Z",
+        "2025-09-30T00:00:00Z",
+        "2025-10-17T00:00:00Z"
+      ],
+      "occurrenceCount": 100,
+      "totalRecords": 100,
+      "minLength": 20,
+      "maxLength": 20
+    },
+    {
+      "path": "serviceProviderWarrantyStart",
+      "types": [
+        "string",
+        "null"
+      ],
+      "nullable": true,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        "2024-08-02T00:00:00Z",
+        "2024-09-23T00:00:00Z",
+        "2024-09-27T00:00:00Z",
+        "2024-09-30T00:00:00Z",
+        "2024-10-17T00:00:00Z"
+      ],
+      "occurrenceCount": 100,
+      "totalRecords": 100,
+      "minLength": 20,
+      "maxLength": 20
+    },
+    {
+      "path": "status",
+      "types": [
+        "number"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        0
+      ],
+      "occurrenceCount": 100,
+      "totalRecords": 100,
+      "minValue": 0,
+      "maxValue": 0
+    },
+    {
+      "path": "tags",
+      "types": [
+        "array"
+      ],
+      "nullable": false,
+      "isArray": true,
+      "isObject": false,
+      "sampleValues": [],
+      "occurrenceCount": 100,
+      "totalRecords": 100
+    },
+    {
+      "path": "tags[].code",
+      "types": [
+        "string"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        "Possible Replacement"
+      ],
+      "occurrenceCount": 1,
+      "totalRecords": 100,
+      "minLength": 20,
+      "maxLength": 20
+    },
+    {
+      "path": "tags[].color",
+      "types": [
+        "string"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        "#FE0003"
+      ],
+      "occurrenceCount": 1,
+      "totalRecords": 100,
+      "minLength": 7,
+      "maxLength": 7
+    },
+    {
+      "path": "tags[].id",
+      "types": [
+        "number"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        61124777
+      ],
+      "occurrenceCount": 1,
+      "totalRecords": 100,
+      "minValue": 61124777,
+      "maxValue": 61124777
+    },
+    {
+      "path": "tags[].memo",
+      "types": [
+        "null"
+      ],
+      "nullable": true,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [],
+      "occurrenceCount": 1,
+      "totalRecords": 100
+    },
+    {
+      "path": "tags[].ownerId",
+      "types": [
+        "number"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        61114419
+      ],
+      "occurrenceCount": 1,
+      "totalRecords": 100,
+      "minValue": 61114419,
+      "maxValue": 61114419
+    },
+    {
+      "path": "tags[].textColor",
+      "types": [
+        "string"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        "#FFFFFF"
+      ],
+      "occurrenceCount": 1,
+      "totalRecords": 100,
+      "minLength": 7,
+      "maxLength": 7
+    },
+    {
+      "path": "tags[].typeId",
+      "types": [
+        "number"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        57252370
+      ],
+      "occurrenceCount": 1,
+      "totalRecords": 100,
+      "minValue": 57252370,
+      "maxValue": 57252370
+    },
+    {
+      "path": "tags[].typeName",
+      "types": [
+        "string"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        "Possible Replacement"
+      ],
+      "occurrenceCount": 1,
+      "totalRecords": 100,
+      "minLength": 20,
+      "maxLength": 20
+    },
+    {
+      "path": "type",
+      "types": [
+        "null",
+        "object"
+      ],
+      "nullable": true,
+      "isArray": false,
+      "isObject": true,
+      "sampleValues": [],
+      "occurrenceCount": 100,
+      "totalRecords": 100
+    },
+    {
+      "path": "type.id",
+      "types": [
+        "number"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        53204378,
+        12477,
+        69521,
+        69645,
+        53204537
+      ],
+      "occurrenceCount": 40,
+      "totalRecords": 100,
+      "minValue": 12477,
+      "maxValue": 53204537
+    },
+    {
+      "path": "type.name",
+      "types": [
+        "string"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        "Pool Lights",
+        "Heat Pumps",
+        "Gas Heater",
+        "Pumps",
+        "Chlorinators"
+      ],
+      "occurrenceCount": 40,
+      "totalRecords": 100,
+      "minLength": 5,
+      "maxLength": 17
+    }
+  ],
+  "rootStructure": "paginated",
+  "paginationFields": [
+    "page",
+    "pageSize",
+    "hasMore",
+    "totalCount"
+  ],
+  "idField": "id",
+  "timestampFields": [
+    "actualReplacementDate",
+    "createdOn",
+    "installedOn",
+    "manufacturerWarrantyEnd",
+    "manufacturerWarrantyStart",
+    "modifiedOn",
+    "predictedReplacementDate",
+    "serviceProviderWarrantyEnd",
+    "serviceProviderWarrantyStart"
+  ],
+  "relationshipFields": [
+    "barcodeId",
+    "customerId",
+    "equipmentId",
+    "invoiceItemId",
+    "locationId"
+  ],
+  "analyzedAt": "2026-01-21T14:16:42.970Z"
+}

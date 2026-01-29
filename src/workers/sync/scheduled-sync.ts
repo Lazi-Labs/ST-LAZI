@@ -162,6 +162,8 @@ class ScheduledSyncService {
 
     logger.info({ priority, endpoints: job.endpoints.length }, 'Starting scheduled sync');
 
+    let customersWereSynced = false;
+
     for (const endpoint of job.endpoints) {
       if (this.isShuttingDown) break;
 
@@ -173,6 +175,11 @@ class ScheduledSyncService {
           job.stats.successfulSyncs++;
           job.stats.totalRecords += result.recordsFetched;
           logger.info({ endpoint, records: result.recordsFetched }, 'Sync completed');
+          
+          // Track if customers were synced
+          if (endpoint === 'customers' && result.recordsFetched > 0) {
+            customersWereSynced = true;
+          }
         } else {
           job.stats.failedSyncs++;
           logger.error({ endpoint, errors: result.errors }, 'Sync failed');
@@ -186,13 +193,39 @@ class ScheduledSyncService {
       await this.sleep(1000);
     }
 
-    // Run sub-resource syncs for priority3 (hourly)
+    // Run contacts sync immediately after customers are synced (any priority)
+    if (customersWereSynced && !this.isShuttingDown) {
+      logger.info('Customers synced - triggering immediate contacts sync');
+      await this.syncCustomerContactsForRecentCustomers();
+      // Refresh CRM 360 view with new customer/contact data
+      try {
+        await this.db.query('SELECT crm.refresh_views()');
+        logger.info('CRM 360 view refreshed after customer sync');
+      } catch (error: any) {
+        logger.error({ error: error.message }, 'CRM 360 refresh failed after customer sync');
+      }
+    }
+
+    // Run full sub-resource syncs for priority3 (hourly)
     if (priority === 'priority3' && !this.isShuttingDown) {
       await this.runSubResourceSyncs();
     }
 
     job.isRunning = false;
     logger.info({ priority, stats: job.stats }, 'Scheduled sync completed');
+  }
+
+  /**
+   * Sync contacts for recently synced customers (event-driven)
+   */
+  private async syncCustomerContactsForRecentCustomers() {
+    try {
+      const contactsSync = new CustomerContactsSync(this.db);
+      const result = await contactsSync.sync(false);
+      logger.info({ fetched: result.fetched, processed: result.processed, errors: result.errors }, 'Immediate contacts sync completed');
+    } catch (error: any) {
+      logger.error({ error: error.message }, 'Immediate contacts sync failed');
+    }
   }
 
   private async runSubResourceSyncs() {
@@ -217,7 +250,7 @@ class ScheduledSyncService {
 
     // Refresh CRM 360 materialized view
     try {
-      await this.db.query('SELECT crm.refresh_customer_360()');
+      await this.db.query('SELECT crm.refresh_views()');
       logger.info('CRM 360 view refreshed');
     } catch (error: any) {
       logger.error({ error: error.message }, 'CRM 360 view refresh failed');

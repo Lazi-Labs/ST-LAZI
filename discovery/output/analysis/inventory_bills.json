@@ -1,0 +1,1245 @@
+{
+  "endpointName": "inventory_bills",
+  "recordCount": 100,
+  "fields": [
+    {
+      "path": "batch",
+      "types": [
+        "null",
+        "object"
+      ],
+      "nullable": true,
+      "isArray": false,
+      "isObject": true,
+      "sampleValues": [],
+      "occurrenceCount": 100,
+      "totalRecords": 100
+    },
+    {
+      "path": "batch.id",
+      "types": [
+        "number"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        61678471,
+        61652163
+      ],
+      "occurrenceCount": 99,
+      "totalRecords": 100,
+      "minValue": 61652163,
+      "maxValue": 61678471
+    },
+    {
+      "path": "batch.name",
+      "types": [
+        "string"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        "Bills",
+        "bypass"
+      ],
+      "occurrenceCount": 99,
+      "totalRecords": 100,
+      "minLength": 5,
+      "maxLength": 6
+    },
+    {
+      "path": "batch.number",
+      "types": [
+        "string"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        "844",
+        "817"
+      ],
+      "occurrenceCount": 99,
+      "totalRecords": 100,
+      "minLength": 3,
+      "maxLength": 3
+    },
+    {
+      "path": "billAmount",
+      "types": [
+        "string"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        "3508.13",
+        "1151.16",
+        "7.04",
+        "63.98",
+        "31.52"
+      ],
+      "occurrenceCount": 100,
+      "totalRecords": 100,
+      "minLength": 4,
+      "maxLength": 8
+    },
+    {
+      "path": "billDate",
+      "types": [
+        "string"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        "2025-11-03T00:00:00Z",
+        "2025-11-02T00:00:00Z",
+        "2025-10-22T00:00:00Z",
+        "2025-10-21T00:00:00Z",
+        "2025-10-20T00:00:00Z"
+      ],
+      "occurrenceCount": 100,
+      "totalRecords": 100,
+      "minLength": 20,
+      "maxLength": 20
+    },
+    {
+      "path": "budgetCodeId",
+      "types": [
+        "null"
+      ],
+      "nullable": true,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [],
+      "occurrenceCount": 100,
+      "totalRecords": 100
+    },
+    {
+      "path": "businessUnit",
+      "types": [
+        "object"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": true,
+      "sampleValues": [],
+      "occurrenceCount": 100,
+      "totalRecords": 100
+    },
+    {
+      "path": "businessUnit.id",
+      "types": [
+        "number"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        4623,
+        26143,
+        54670601,
+        1308
+      ],
+      "occurrenceCount": 100,
+      "totalRecords": 100,
+      "minValue": 1308,
+      "maxValue": 54670601
+    },
+    {
+      "path": "businessUnit.name",
+      "types": [
+        "string"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        "Pool - Install",
+        "Pool - Service",
+        "Electrical - Service",
+        "Electrical - Install"
+      ],
+      "occurrenceCount": 100,
+      "totalRecords": 100,
+      "minLength": 14,
+      "maxLength": 20
+    },
+    {
+      "path": "createdBy",
+      "types": [
+        "string"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        "Yanni Ramos",
+        "Corey Braten"
+      ],
+      "occurrenceCount": 100,
+      "totalRecords": 100,
+      "minLength": 11,
+      "maxLength": 12
+    },
+    {
+      "path": "createdOn",
+      "types": [
+        "string"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        "2025-11-04T01:33:18.076235Z",
+        "2025-11-03T02:53:13.860159Z",
+        "2025-10-22T15:39:27.8290005Z",
+        "2025-10-22T12:17:27.0540434Z",
+        "2025-10-22T12:15:35.2668145Z"
+      ],
+      "occurrenceCount": 100,
+      "totalRecords": 100,
+      "minLength": 26,
+      "maxLength": 28
+    },
+    {
+      "path": "customFields",
+      "types": [
+        "null"
+      ],
+      "nullable": true,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [],
+      "occurrenceCount": 100,
+      "totalRecords": 100
+    },
+    {
+      "path": "dueDate",
+      "types": [
+        "string"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        "2025-12-03T00:00:00Z",
+        "2025-12-02T00:00:00Z",
+        "2025-11-21T00:00:00Z",
+        "2025-10-21T00:00:00Z",
+        "2025-11-20T00:00:00Z"
+      ],
+      "occurrenceCount": 100,
+      "totalRecords": 100,
+      "minLength": 20,
+      "maxLength": 20
+    },
+    {
+      "path": "id",
+      "types": [
+        "number"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        61683078,
+        61657094,
+        61155979,
+        61153670,
+        61149706
+      ],
+      "occurrenceCount": 100,
+      "totalRecords": 100,
+      "minValue": 60203411,
+      "maxValue": 61683078
+    },
+    {
+      "path": "items",
+      "types": [
+        "array"
+      ],
+      "nullable": false,
+      "isArray": true,
+      "isObject": false,
+      "sampleValues": [],
+      "occurrenceCount": 100,
+      "totalRecords": 100
+    },
+    {
+      "path": "items[].assetAccount",
+      "types": [
+        "null",
+        "object"
+      ],
+      "nullable": true,
+      "isArray": false,
+      "isObject": true,
+      "sampleValues": [],
+      "occurrenceCount": 276,
+      "totalRecords": 100
+    },
+    {
+      "path": "items[].assetAccount.detailType",
+      "types": [
+        "string"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        "Asset"
+      ],
+      "occurrenceCount": 3,
+      "totalRecords": 100,
+      "minLength": 5,
+      "maxLength": 5
+    },
+    {
+      "path": "items[].assetAccount.id",
+      "types": [
+        "number"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        1380
+      ],
+      "occurrenceCount": 3,
+      "totalRecords": 100,
+      "minValue": 1380,
+      "maxValue": 1380
+    },
+    {
+      "path": "items[].assetAccount.name",
+      "types": [
+        "string"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        "Inventory – Materials & Equipment"
+      ],
+      "occurrenceCount": 3,
+      "totalRecords": 100,
+      "minLength": 33,
+      "maxLength": 33
+    },
+    {
+      "path": "items[].assetAccount.number",
+      "types": [
+        "string"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        "1300"
+      ],
+      "occurrenceCount": 3,
+      "totalRecords": 100,
+      "minLength": 4,
+      "maxLength": 4
+    },
+    {
+      "path": "items[].assetAccount.type",
+      "types": [
+        "string"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        "Other Current Asset"
+      ],
+      "occurrenceCount": 3,
+      "totalRecords": 100,
+      "minLength": 19,
+      "maxLength": 19
+    },
+    {
+      "path": "items[].budgetCodeId",
+      "types": [
+        "null"
+      ],
+      "nullable": true,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [],
+      "occurrenceCount": 276,
+      "totalRecords": 100
+    },
+    {
+      "path": "items[].cost",
+      "types": [
+        "string"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        "3278.6300000000",
+        "1075.8500000000",
+        "6.5800000000",
+        "58.1200000000",
+        "14.7300000000"
+      ],
+      "occurrenceCount": 276,
+      "totalRecords": 100,
+      "minLength": 12,
+      "maxLength": 16
+    },
+    {
+      "path": "items[].costOfSaleAccount",
+      "types": [
+        "object"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": true,
+      "sampleValues": [],
+      "occurrenceCount": 276,
+      "totalRecords": 100
+    },
+    {
+      "path": "items[].costOfSaleAccount.detailType",
+      "types": [
+        "string"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        "Expense"
+      ],
+      "occurrenceCount": 276,
+      "totalRecords": 100,
+      "minLength": 7,
+      "maxLength": 7
+    },
+    {
+      "path": "items[].costOfSaleAccount.id",
+      "types": [
+        "number"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        91,
+        89
+      ],
+      "occurrenceCount": 276,
+      "totalRecords": 100,
+      "minValue": 89,
+      "maxValue": 91
+    },
+    {
+      "path": "items[].costOfSaleAccount.name",
+      "types": [
+        "string"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        "SUPPLIES & MATERIALS – COGS:Installed Equipment (COGS)",
+        "SUPPLIES & MATERIALS – COGS:Materials & Parts (COGS)"
+      ],
+      "occurrenceCount": 276,
+      "totalRecords": 100,
+      "minLength": 52,
+      "maxLength": 54
+    },
+    {
+      "path": "items[].costOfSaleAccount.number",
+      "types": [
+        "string"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        "5110",
+        "5100"
+      ],
+      "occurrenceCount": 276,
+      "totalRecords": 100,
+      "minLength": 4,
+      "maxLength": 4
+    },
+    {
+      "path": "items[].costOfSaleAccount.type",
+      "types": [
+        "string"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        "Cost of Goods Sold"
+      ],
+      "occurrenceCount": 276,
+      "totalRecords": 100,
+      "minLength": 18,
+      "maxLength": 18
+    },
+    {
+      "path": "items[].description",
+      "types": [
+        "string"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        "Universal H-Series Low NOx heater has an industry-leading thermal efficiency and complies with all current California air quality emission standards.",
+        "Hayward ColorLogic® LPCUS22150 Universal \n3 Year Parts and Labor Warranty",
+        "Leviton Porcelain lamp Holder with Pull Chain",
+        "Pentair Gas Orifice",
+        "Light Wedge"
+      ],
+      "occurrenceCount": 276,
+      "totalRecords": 100,
+      "minLength": 4,
+      "maxLength": 295
+    },
+    {
+      "path": "items[].generalLedgerAccount",
+      "types": [
+        "object"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": true,
+      "sampleValues": [],
+      "occurrenceCount": 276,
+      "totalRecords": 100
+    },
+    {
+      "path": "items[].generalLedgerAccount.detailType",
+      "types": [
+        "string"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        "Income"
+      ],
+      "occurrenceCount": 276,
+      "totalRecords": 100,
+      "minLength": 6,
+      "maxLength": 6
+    },
+    {
+      "path": "items[].generalLedgerAccount.id",
+      "types": [
+        "number"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        41352
+      ],
+      "occurrenceCount": 276,
+      "totalRecords": 100,
+      "minValue": 41352,
+      "maxValue": 41352
+    },
+    {
+      "path": "items[].generalLedgerAccount.name",
+      "types": [
+        "string"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        "INCOME-Sales"
+      ],
+      "occurrenceCount": 276,
+      "totalRecords": 100,
+      "minLength": 12,
+      "maxLength": 12
+    },
+    {
+      "path": "items[].generalLedgerAccount.number",
+      "types": [
+        "string"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        "4000"
+      ],
+      "occurrenceCount": 276,
+      "totalRecords": 100,
+      "minLength": 4,
+      "maxLength": 4
+    },
+    {
+      "path": "items[].generalLedgerAccount.type",
+      "types": [
+        "string"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        "Income"
+      ],
+      "occurrenceCount": 276,
+      "totalRecords": 100,
+      "minLength": 6,
+      "maxLength": 6
+    },
+    {
+      "path": "items[].id",
+      "types": [
+        "number"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        61683081,
+        61657097,
+        61155982,
+        61153673,
+        61149709
+      ],
+      "occurrenceCount": 276,
+      "totalRecords": 100,
+      "minValue": 60203414,
+      "maxValue": 61683081
+    },
+    {
+      "path": "items[].inventoryLocation",
+      "types": [
+        "string"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        "Default Truck - Yanni Ramos",
+        "Shop",
+        "Transit #02 - Oden ",
+        "Transit #06 - Kurt",
+        "Default Truck - Jade Schweiberger"
+      ],
+      "occurrenceCount": 276,
+      "totalRecords": 100,
+      "minLength": 4,
+      "maxLength": 33
+    },
+    {
+      "path": "items[].name",
+      "types": [
+        "string"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        "Hayward Universal H-Series Natural Gas Heater 400K BTU 110/220V",
+        "Hayward Universal ColorLogic Multi-Color LED Pool Light 12V w/ 150' Cord",
+        "Misc Electrical Materials",
+        "Misc Gas Material",
+        "Misc Pool Material"
+      ],
+      "occurrenceCount": 276,
+      "totalRecords": 100,
+      "minLength": 4,
+      "maxLength": 83
+    },
+    {
+      "path": "items[].order",
+      "types": [
+        "number"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "occurrenceCount": 276,
+      "totalRecords": 100,
+      "minValue": 1,
+      "maxValue": 19
+    },
+    {
+      "path": "items[].quantity",
+      "types": [
+        "string"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        "1.0000000000000000000",
+        "2.0000000000000000000",
+        "4.0000000000000000000",
+        "8.0000000000000000000",
+        "50.0000000000000000000"
+      ],
+      "occurrenceCount": 276,
+      "totalRecords": 100,
+      "minLength": 21,
+      "maxLength": 26
+    },
+    {
+      "path": "items[].receiptItemId",
+      "types": [
+        "number"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        61682444,
+        61655833,
+        61153425,
+        61153543,
+        61153033
+      ],
+      "occurrenceCount": 276,
+      "totalRecords": 100,
+      "minValue": 60197136,
+      "maxValue": 61682444
+    },
+    {
+      "path": "items[].serialNumber",
+      "types": [
+        "null"
+      ],
+      "nullable": true,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [],
+      "occurrenceCount": 276,
+      "totalRecords": 100
+    },
+    {
+      "path": "items[].skuCode",
+      "types": [
+        "string"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        "HAY-HTR-H400NG-EQ",
+        "HAY-LGT-LPCUS22150-EQ",
+        "MISC-ELEC",
+        "MISC-GAS",
+        "MISC-POOLS"
+      ],
+      "occurrenceCount": 276,
+      "totalRecords": 100,
+      "minLength": 3,
+      "maxLength": 29
+    },
+    {
+      "path": "items[].skuId",
+      "types": [
+        "number"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        54061358,
+        58744901,
+        53793167,
+        54949766,
+        57530379
+      ],
+      "occurrenceCount": 276,
+      "totalRecords": 100,
+      "minValue": 9347,
+      "maxValue": 61078278
+    },
+    {
+      "path": "items[].skuType",
+      "types": [
+        "string"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        "Equipment",
+        "Material"
+      ],
+      "occurrenceCount": 276,
+      "totalRecords": 100,
+      "minLength": 8,
+      "maxLength": 9
+    },
+    {
+      "path": "jobId",
+      "types": [
+        "number",
+        "null"
+      ],
+      "nullable": true,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        61639944,
+        61075990,
+        60621958,
+        60975755,
+        60959239
+      ],
+      "occurrenceCount": 100,
+      "totalRecords": 100,
+      "minValue": 58634632,
+      "maxValue": 61639944
+    },
+    {
+      "path": "jobNumber",
+      "types": [
+        "string",
+        "null"
+      ],
+      "nullable": true,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        "61639944",
+        "61075990",
+        "60621958",
+        "60975755",
+        "60959239"
+      ],
+      "occurrenceCount": 100,
+      "totalRecords": 100,
+      "minLength": 8,
+      "maxLength": 8
+    },
+    {
+      "path": "modifiedOn",
+      "types": [
+        "string"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        "2025-11-04T01:34:47.0238761Z",
+        "2025-11-03T22:32:31.9637691Z",
+        "2025-11-02T01:37:16.1208933Z",
+        "2025-11-02T01:37:16.0707037Z",
+        "2025-11-02T01:37:16.0156169Z"
+      ],
+      "occurrenceCount": 100,
+      "totalRecords": 100,
+      "minLength": 26,
+      "maxLength": 28
+    },
+    {
+      "path": "postDate",
+      "types": [
+        "string"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        "2025-11-03T00:00:00Z",
+        "2025-11-02T00:00:00Z",
+        "2025-10-22T00:00:00Z",
+        "2025-10-21T00:00:00Z",
+        "2025-10-20T00:00:00Z"
+      ],
+      "occurrenceCount": 100,
+      "totalRecords": 100,
+      "minLength": 20,
+      "maxLength": 20
+    },
+    {
+      "path": "purchaseOrderId",
+      "types": [
+        "number"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        61656863,
+        61616390,
+        61161735,
+        61153414,
+        61151882
+      ],
+      "occurrenceCount": 100,
+      "totalRecords": 100,
+      "minValue": 59464070,
+      "maxValue": 61656863
+    },
+    {
+      "path": "referenceNumber",
+      "types": [
+        "string"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        "61639944-001-B1",
+        "61616390-B1",
+        "61075990-001-B1",
+        "60621958-001-B1",
+        "60975755-002-B1"
+      ],
+      "occurrenceCount": 100,
+      "totalRecords": 100,
+      "minLength": 11,
+      "maxLength": 15
+    },
+    {
+      "path": "shippingAmount",
+      "types": [
+        "string"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        "0.00",
+        "1.67",
+        "99.00",
+        "36.11",
+        "0.05"
+      ],
+      "occurrenceCount": 100,
+      "totalRecords": 100,
+      "minLength": 4,
+      "maxLength": 6
+    },
+    {
+      "path": "shipTo",
+      "types": [
+        "object"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": true,
+      "sampleValues": [],
+      "occurrenceCount": 100,
+      "totalRecords": 100
+    },
+    {
+      "path": "shipTo.city",
+      "types": [
+        "string",
+        "null"
+      ],
+      "nullable": true,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        "St. Petersburg",
+        "Largo",
+        "Tarpon Springs",
+        "Redington Shores",
+        "Tampa"
+      ],
+      "occurrenceCount": 100,
+      "totalRecords": 100,
+      "minLength": 5,
+      "maxLength": 16
+    },
+    {
+      "path": "shipTo.country",
+      "types": [
+        "string",
+        "null"
+      ],
+      "nullable": true,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        "USA"
+      ],
+      "occurrenceCount": 100,
+      "totalRecords": 100,
+      "minLength": 3,
+      "maxLength": 3
+    },
+    {
+      "path": "shipTo.state",
+      "types": [
+        "string",
+        "null"
+      ],
+      "nullable": true,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        "FL"
+      ],
+      "occurrenceCount": 100,
+      "totalRecords": 100,
+      "minLength": 2,
+      "maxLength": 2
+    },
+    {
+      "path": "shipTo.street",
+      "types": [
+        "string",
+        "null"
+      ],
+      "nullable": true,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        "1184 45th Avenue Northeast",
+        "13932 Walsingham Rd",
+        "1842 Briland Street",
+        "17551 2nd Street East",
+        "1108 West Peninsular Street"
+      ],
+      "occurrenceCount": 100,
+      "totalRecords": 100,
+      "minLength": 19,
+      "maxLength": 27
+    },
+    {
+      "path": "shipTo.unit",
+      "types": [
+        "null"
+      ],
+      "nullable": true,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [],
+      "occurrenceCount": 100,
+      "totalRecords": 100
+    },
+    {
+      "path": "shipTo.zip",
+      "types": [
+        "string",
+        "null"
+      ],
+      "nullable": true,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        "33703",
+        "33774",
+        "34689",
+        "33708",
+        "33603"
+      ],
+      "occurrenceCount": 100,
+      "totalRecords": 100,
+      "minLength": 5,
+      "maxLength": 5
+    },
+    {
+      "path": "shipToDescription",
+      "types": [
+        "string"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        "Scott Tran ",
+        "Shop",
+        "Vendor Counter Pickup",
+        "Brad Anderson ",
+        "Jose Fulgueiro"
+      ],
+      "occurrenceCount": 100,
+      "totalRecords": 100,
+      "minLength": 4,
+      "maxLength": 21
+    },
+    {
+      "path": "summary",
+      "types": [
+        "null"
+      ],
+      "nullable": true,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [],
+      "occurrenceCount": 100,
+      "totalRecords": 100
+    },
+    {
+      "path": "syncStatus",
+      "types": [
+        "string"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        "Pending",
+        "Posted",
+        "Exported"
+      ],
+      "occurrenceCount": 100,
+      "totalRecords": 100,
+      "minLength": 6,
+      "maxLength": 8
+    },
+    {
+      "path": "taxAmount",
+      "types": [
+        "string"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        "229.50",
+        "75.31",
+        "0.46",
+        "4.19",
+        "2.06"
+      ],
+      "occurrenceCount": 100,
+      "totalRecords": 100,
+      "minLength": 4,
+      "maxLength": 7
+    },
+    {
+      "path": "taxZone",
+      "types": [
+        "null"
+      ],
+      "nullable": true,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [],
+      "occurrenceCount": 100,
+      "totalRecords": 100
+    },
+    {
+      "path": "termName",
+      "types": [
+        "string"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        "NET30",
+        "Due Upon Receipt",
+        "Delete"
+      ],
+      "occurrenceCount": 100,
+      "totalRecords": 100,
+      "minLength": 5,
+      "maxLength": 16
+    },
+    {
+      "path": "vendor",
+      "types": [
+        "object"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": true,
+      "sampleValues": [],
+      "occurrenceCount": 100,
+      "totalRecords": 100
+    },
+    {
+      "path": "vendor.id",
+      "types": [
+        "number"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        9858,
+        578,
+        53063112,
+        8577,
+        32139
+      ],
+      "occurrenceCount": 100,
+      "totalRecords": 100,
+      "minValue": 578,
+      "maxValue": 60534790
+    },
+    {
+      "path": "vendor.name",
+      "types": [
+        "string"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        "SCP",
+        "Home Depot",
+        "LOWE'S",
+        "City Electric ",
+        "Gulf Stream Heat Pumps"
+      ],
+      "occurrenceCount": 100,
+      "totalRecords": 100,
+      "minLength": 3,
+      "maxLength": 22
+    },
+    {
+      "path": "vendorNumber",
+      "types": [
+        "string"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        "55965069",
+        "55006974",
+        "H6364-446604",
+        "55963530",
+        "55963459"
+      ],
+      "occurrenceCount": 100,
+      "totalRecords": 100,
+      "minLength": 4,
+      "maxLength": 15
+    }
+  ],
+  "rootStructure": "array",
+  "idField": "id",
+  "timestampFields": [
+    "billDate",
+    "createdBy",
+    "createdOn",
+    "dueDate",
+    "modifiedOn",
+    "postDate"
+  ],
+  "relationshipFields": [
+    "budgetCodeId",
+    "jobId",
+    "purchaseOrderId"
+  ],
+  "analyzedAt": "2026-01-21T14:16:42.976Z"
+}

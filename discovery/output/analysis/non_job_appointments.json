@@ -1,0 +1,312 @@
+{
+  "endpointName": "non_job_appointments",
+  "recordCount": 100,
+  "fields": [
+    {
+      "path": "active",
+      "types": [
+        "boolean"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        true,
+        false
+      ],
+      "occurrenceCount": 100,
+      "totalRecords": 100
+    },
+    {
+      "path": "allDay",
+      "types": [
+        "boolean"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        false
+      ],
+      "occurrenceCount": 100,
+      "totalRecords": 100
+    },
+    {
+      "path": "clearDispatchBoard",
+      "types": [
+        "boolean"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        false
+      ],
+      "occurrenceCount": 100,
+      "totalRecords": 100
+    },
+    {
+      "path": "clearTechnicianView",
+      "types": [
+        "boolean"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        true,
+        false
+      ],
+      "occurrenceCount": 100,
+      "totalRecords": 100
+    },
+    {
+      "path": "createdById",
+      "types": [
+        "number"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        4482,
+        55810,
+        14721,
+        26,
+        12161
+      ],
+      "occurrenceCount": 100,
+      "totalRecords": 100,
+      "minValue": 26,
+      "maxValue": 2024197
+    },
+    {
+      "path": "createdOn",
+      "types": [
+        "string"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        "2024-07-08T19:07:06.8707146Z",
+        "2024-07-10T11:55:57.9354382Z",
+        "2024-07-10T11:56:08.841368Z",
+        "2024-07-11T15:18:15.2180978Z",
+        "2024-07-12T17:28:30.8824068Z"
+      ],
+      "occurrenceCount": 100,
+      "totalRecords": 100,
+      "minLength": 26,
+      "maxLength": 28
+    },
+    {
+      "path": "duration",
+      "types": [
+        "string"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        "00:00:08.7480000",
+        "00:00:07.0070000",
+        "00:30:46.1610000",
+        "04:20:26.8150000",
+        "00:35:11.7650000"
+      ],
+      "occurrenceCount": 100,
+      "totalRecords": 100,
+      "minLength": 8,
+      "maxLength": 16
+    },
+    {
+      "path": "id",
+      "types": [
+        "number"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        2026816,
+        5920141,
+        5920149,
+        7872360,
+        52973981
+      ],
+      "occurrenceCount": 100,
+      "totalRecords": 100,
+      "minValue": 2026816,
+      "maxValue": 53043455
+    },
+    {
+      "path": "modifiedOn",
+      "types": [
+        "string"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        "2024-07-08T19:07:15.0451505Z",
+        "2024-07-10T11:56:04.9196897Z",
+        "2024-07-10T12:26:55.3588971Z",
+        "2024-07-11T19:38:42.3641883Z",
+        "2024-07-12T18:03:43.4325999Z"
+      ],
+      "occurrenceCount": 100,
+      "totalRecords": 100,
+      "minLength": 27,
+      "maxLength": 28
+    },
+    {
+      "path": "name",
+      "types": [
+        "string"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        "Meal",
+        "Training",
+        "Joe Kelly Check Pick up",
+        "ShopTime",
+        "DRIVE HOME"
+      ],
+      "occurrenceCount": 100,
+      "totalRecords": 100,
+      "minLength": 4,
+      "maxLength": 23
+    },
+    {
+      "path": "removeTechnicianFromCapacityPlanning",
+      "types": [
+        "boolean"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        false,
+        true
+      ],
+      "occurrenceCount": 100,
+      "totalRecords": 100
+    },
+    {
+      "path": "showOnTechnicianSchedule",
+      "types": [
+        "boolean"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        true,
+        false
+      ],
+      "occurrenceCount": 100,
+      "totalRecords": 100
+    },
+    {
+      "path": "start",
+      "types": [
+        "string"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        "2024-07-08T19:07:05.17Z",
+        "2024-07-10T11:55:56.749Z",
+        "2024-07-10T11:56:07.701Z",
+        "2024-07-11T15:18:13.8Z",
+        "2024-07-12T17:28:29.56Z"
+      ],
+      "occurrenceCount": 100,
+      "totalRecords": 100,
+      "minLength": 20,
+      "maxLength": 24
+    },
+    {
+      "path": "summary",
+      "types": [
+        "null",
+        "string"
+      ],
+      "nullable": true,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        "No Show"
+      ],
+      "occurrenceCount": 100,
+      "totalRecords": 100,
+      "minLength": 7,
+      "maxLength": 7
+    },
+    {
+      "path": "technicianId",
+      "types": [
+        "number"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        4482,
+        55810,
+        14721,
+        12417,
+        12161
+      ],
+      "occurrenceCount": 100,
+      "totalRecords": 100,
+      "minValue": 4482,
+      "maxValue": 2024197
+    },
+    {
+      "path": "timesheetCodeId",
+      "types": [
+        "number"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        254,
+        255,
+        0,
+        258,
+        52999335
+      ],
+      "occurrenceCount": 100,
+      "totalRecords": 100,
+      "minValue": 0,
+      "maxValue": 52999335
+    }
+  ],
+  "rootStructure": "paginated",
+  "paginationFields": [
+    "page",
+    "pageSize",
+    "hasMore",
+    "totalCount"
+  ],
+  "idField": "id",
+  "timestampFields": [
+    "createdById",
+    "createdOn",
+    "modifiedOn",
+    "start",
+    "timesheetCodeId"
+  ],
+  "relationshipFields": [
+    "createdById",
+    "technicianId",
+    "timesheetCodeId"
+  ],
+  "analyzedAt": "2026-01-21T14:16:42.992Z"
+}

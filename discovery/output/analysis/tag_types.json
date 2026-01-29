@@ -1,0 +1,218 @@
+{
+  "endpointName": "tag_types",
+  "recordCount": 95,
+  "fields": [
+    {
+      "path": "active",
+      "types": [
+        "boolean"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        true
+      ],
+      "occurrenceCount": 95,
+      "totalRecords": 95
+    },
+    {
+      "path": "allowToUseOnTimesheetActivity",
+      "types": [
+        "boolean"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        false
+      ],
+      "occurrenceCount": 95,
+      "totalRecords": 95
+    },
+    {
+      "path": "code",
+      "types": [
+        "string",
+        "null"
+      ],
+      "nullable": true,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        "DNS",
+        "🔥",
+        "🔎",
+        "MAIL",
+        "T.O."
+      ],
+      "occurrenceCount": 95,
+      "totalRecords": 95,
+      "minLength": 0,
+      "maxLength": 20
+    },
+    {
+      "path": "color",
+      "types": [
+        "string"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        "#F94D32",
+        "#E73030",
+        "#2270EE",
+        "#F58EDE",
+        "#3F47FC"
+      ],
+      "occurrenceCount": 95,
+      "totalRecords": 95,
+      "minLength": 7,
+      "maxLength": 7
+    },
+    {
+      "path": "createdOn",
+      "types": [
+        "string"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        "2024-05-21T21:05:42.3598177Z",
+        "2024-05-21T21:05:42.3983108Z",
+        "2024-05-21T21:05:42.3993957Z",
+        "2024-05-21T21:05:42.4107561Z",
+        "2024-05-21T21:05:42.4115409Z"
+      ],
+      "occurrenceCount": 95,
+      "totalRecords": 95,
+      "minLength": 27,
+      "maxLength": 28
+    },
+    {
+      "path": "id",
+      "types": [
+        "number"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        583,
+        587,
+        588,
+        601,
+        602
+      ],
+      "occurrenceCount": 95,
+      "totalRecords": 95,
+      "minValue": 583,
+      "maxValue": 62840326
+    },
+    {
+      "path": "importance",
+      "types": [
+        "string",
+        "null"
+      ],
+      "nullable": true,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        "High",
+        "Medium"
+      ],
+      "occurrenceCount": 95,
+      "totalRecords": 95,
+      "minLength": 4,
+      "maxLength": 6
+    },
+    {
+      "path": "isConversionOpportunity",
+      "types": [
+        "boolean"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        false,
+        true
+      ],
+      "occurrenceCount": 95,
+      "totalRecords": 95
+    },
+    {
+      "path": "isVisibleOnDispatchBoard",
+      "types": [
+        "boolean"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        true,
+        false
+      ],
+      "occurrenceCount": 95,
+      "totalRecords": 95
+    },
+    {
+      "path": "modifiedOn",
+      "types": [
+        "string"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        "2024-11-26T18:52:08.0977214Z",
+        "2025-08-15T14:10:45.2111553Z",
+        "2024-10-31T05:51:56.4180745Z",
+        "2025-08-26T15:37:01.0141489Z",
+        "2025-08-19T18:52:27.4840136Z"
+      ],
+      "occurrenceCount": 95,
+      "totalRecords": 95,
+      "minLength": 28,
+      "maxLength": 28
+    },
+    {
+      "path": "name",
+      "types": [
+        "string"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        "Do Not Service",
+        "High Value Job 🔥",
+        "Inspection 🔎",
+        "Mail Invoice",
+        "Training Opportunity"
+      ],
+      "occurrenceCount": 95,
+      "totalRecords": 95,
+      "minLength": 2,
+      "maxLength": 33
+    }
+  ],
+  "rootStructure": "paginated",
+  "paginationFields": [
+    "page",
+    "pageSize",
+    "hasMore",
+    "totalCount"
+  ],
+  "idField": "id",
+  "timestampFields": [
+    "allowToUseOnTimesheetActivity",
+    "createdOn",
+    "modifiedOn"
+  ],
+  "relationshipFields": [],
+  "analyzedAt": "2026-01-21T14:16:43.044Z"
+}

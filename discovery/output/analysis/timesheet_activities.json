@@ -1,0 +1,431 @@
+{
+  "endpointName": "timesheet_activities",
+  "recordCount": 100,
+  "fields": [
+    {
+      "path": "active",
+      "types": [
+        "boolean"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        true
+      ],
+      "occurrenceCount": 100,
+      "totalRecords": 100
+    },
+    {
+      "path": "activityTypeId",
+      "types": [
+        "number"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        54635935,
+        54635932,
+        54629815,
+        54629833,
+        54629806
+      ],
+      "occurrenceCount": 100,
+      "totalRecords": 100,
+      "minValue": 54629804,
+      "maxValue": 54635935
+    },
+    {
+      "path": "appointmentId",
+      "types": [
+        "number",
+        "null"
+      ],
+      "nullable": true,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        54167082,
+        54160836,
+        54167055,
+        54131854,
+        54639947
+      ],
+      "occurrenceCount": 100,
+      "totalRecords": 100,
+      "minValue": 53695549,
+      "maxValue": 55256967
+    },
+    {
+      "path": "budgetCodeId",
+      "types": [
+        "null"
+      ],
+      "nullable": true,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [],
+      "occurrenceCount": 100,
+      "totalRecords": 100
+    },
+    {
+      "path": "createdOn",
+      "types": [
+        "string"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        "2024-11-04T15:39:38.0029931Z",
+        "2024-11-04T18:34:06.5383584Z",
+        "2024-11-05T14:25:20.8974902Z",
+        "2024-11-04T13:52:16.8805615Z",
+        "2024-11-04T15:31:47.0421956Z"
+      ],
+      "occurrenceCount": 100,
+      "totalRecords": 100,
+      "minLength": 26,
+      "maxLength": 28
+    },
+    {
+      "path": "employeeId",
+      "types": [
+        "number"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        53840526,
+        14721,
+        15105,
+        55810,
+        14465
+      ],
+      "occurrenceCount": 100,
+      "totalRecords": 100,
+      "minValue": 4482,
+      "maxValue": 54804174
+    },
+    {
+      "path": "employeeType",
+      "types": [
+        "string"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        "Technician"
+      ],
+      "occurrenceCount": 100,
+      "totalRecords": 100,
+      "minLength": 10,
+      "maxLength": 10
+    },
+    {
+      "path": "endCoordinate",
+      "types": [
+        "object"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": true,
+      "sampleValues": [],
+      "occurrenceCount": 100,
+      "totalRecords": 100
+    },
+    {
+      "path": "endCoordinate.latitude",
+      "types": [
+        "null"
+      ],
+      "nullable": true,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [],
+      "occurrenceCount": 100,
+      "totalRecords": 100
+    },
+    {
+      "path": "endCoordinate.longitude",
+      "types": [
+        "null"
+      ],
+      "nullable": true,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [],
+      "occurrenceCount": 100,
+      "totalRecords": 100
+    },
+    {
+      "path": "endTime",
+      "types": [
+        "string"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        "2024-11-04T17:09:00Z",
+        "2024-11-04T22:06:00Z",
+        "2024-11-05T15:14:00Z",
+        "2024-11-04T13:52:00Z",
+        "2024-11-04T15:39:00Z"
+      ],
+      "occurrenceCount": 100,
+      "totalRecords": 100,
+      "minLength": 20,
+      "maxLength": 20
+    },
+    {
+      "path": "id",
+      "types": [
+        "number"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        54622757,
+        54622771,
+        54624432,
+        54625056,
+        54625062
+      ],
+      "occurrenceCount": 100,
+      "totalRecords": 100,
+      "minValue": 54622757,
+      "maxValue": 55232291
+    },
+    {
+      "path": "jobId",
+      "types": [
+        "number",
+        "null"
+      ],
+      "nullable": true,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        54156813,
+        54160835,
+        54167054,
+        54131853,
+        53841072
+      ],
+      "occurrenceCount": 100,
+      "totalRecords": 100,
+      "minValue": 53656658,
+      "maxValue": 55251341
+    },
+    {
+      "path": "laborTypeId",
+      "types": [
+        "null",
+        "number"
+      ],
+      "nullable": true,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        2024208,
+        71025,
+        53042293,
+        71024
+      ],
+      "occurrenceCount": 100,
+      "totalRecords": 100,
+      "minValue": 71024,
+      "maxValue": 53042293
+    },
+    {
+      "path": "memo",
+      "types": [
+        "null",
+        "string"
+      ],
+      "nullable": true,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        ""
+      ],
+      "occurrenceCount": 100,
+      "totalRecords": 100,
+      "minLength": 0,
+      "maxLength": 0
+    },
+    {
+      "path": "modifiedById",
+      "types": [
+        "number",
+        "null"
+      ],
+      "nullable": true,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        53840526,
+        14721,
+        55810,
+        14465,
+        12417
+      ],
+      "occurrenceCount": 100,
+      "totalRecords": 100,
+      "minValue": 26,
+      "maxValue": 54804174
+    },
+    {
+      "path": "modifiedOn",
+      "types": [
+        "string"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        "2024-11-04T17:09:48.7533005Z",
+        "2024-11-04T22:06:43.31675Z",
+        "2024-11-05T15:14:13.8656682Z",
+        "2024-11-04T13:52:20.4239258Z",
+        "2024-11-04T15:39:38.1192351Z"
+      ],
+      "occurrenceCount": 100,
+      "totalRecords": 100,
+      "minLength": 26,
+      "maxLength": 28
+    },
+    {
+      "path": "projectId",
+      "types": [
+        "number",
+        "null"
+      ],
+      "nullable": true,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        54055137,
+        53841106,
+        54166943,
+        54164584,
+        55063100
+      ],
+      "occurrenceCount": 100,
+      "totalRecords": 100,
+      "minValue": 53656677,
+      "maxValue": 55174442
+    },
+    {
+      "path": "projectLabel",
+      "types": [
+        "null"
+      ],
+      "nullable": true,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [],
+      "occurrenceCount": 100,
+      "totalRecords": 100
+    },
+    {
+      "path": "startCoordinate",
+      "types": [
+        "object"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": true,
+      "sampleValues": [],
+      "occurrenceCount": 100,
+      "totalRecords": 100
+    },
+    {
+      "path": "startCoordinate.latitude",
+      "types": [
+        "null"
+      ],
+      "nullable": true,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [],
+      "occurrenceCount": 100,
+      "totalRecords": 100
+    },
+    {
+      "path": "startCoordinate.longitude",
+      "types": [
+        "null"
+      ],
+      "nullable": true,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [],
+      "occurrenceCount": 100,
+      "totalRecords": 100
+    },
+    {
+      "path": "startTime",
+      "types": [
+        "string"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        "2024-11-04T15:39:00Z",
+        "2024-11-04T18:34:00Z",
+        "2024-11-05T14:25:00Z",
+        "2024-11-04T13:52:00Z",
+        "2024-11-04T15:31:00Z"
+      ],
+      "occurrenceCount": 100,
+      "totalRecords": 100,
+      "minLength": 20,
+      "maxLength": 20
+    },
+    {
+      "path": "tagTypes",
+      "types": [
+        "array"
+      ],
+      "nullable": false,
+      "isArray": true,
+      "isObject": false,
+      "sampleValues": [],
+      "occurrenceCount": 100,
+      "totalRecords": 100
+    }
+  ],
+  "rootStructure": "paginated",
+  "paginationFields": [
+    "page",
+    "pageSize",
+    "hasMore",
+    "totalCount"
+  ],
+  "idField": "id",
+  "timestampFields": [
+    "createdOn",
+    "endTime",
+    "modifiedById",
+    "modifiedOn",
+    "startTime"
+  ],
+  "relationshipFields": [
+    "activityTypeId",
+    "appointmentId",
+    "budgetCodeId",
+    "employeeId",
+    "jobId",
+    "laborTypeId",
+    "modifiedById",
+    "projectId"
+  ],
+  "analyzedAt": "2026-01-21T14:16:43.048Z"
+}

@@ -1,0 +1,219 @@
+{
+  "endpointName": "payment_terms",
+  "recordCount": 5,
+  "fields": [
+    {
+      "path": "active",
+      "types": [
+        "boolean"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        true
+      ],
+      "occurrenceCount": 5,
+      "totalRecords": 5
+    },
+    {
+      "path": "createdOn",
+      "types": [
+        "string"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        "2024-05-21T21:05:29.250741Z",
+        "2024-06-24T17:50:36.7013845Z",
+        "2024-07-26T16:16:27.5294667Z",
+        "2024-07-26T16:16:02.605263Z",
+        "2025-01-22T01:51:38.0836111Z"
+      ],
+      "occurrenceCount": 5,
+      "totalRecords": 5,
+      "minLength": 27,
+      "maxLength": 28
+    },
+    {
+      "path": "dueDay",
+      "types": [
+        "number"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        0,
+        7,
+        30,
+        25
+      ],
+      "occurrenceCount": 5,
+      "totalRecords": 5,
+      "minValue": 0,
+      "maxValue": 30
+    },
+    {
+      "path": "dueDayType",
+      "types": [
+        "string"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        "NumberOfDays",
+        "CertainDayOfFollowingMonth"
+      ],
+      "occurrenceCount": 5,
+      "totalRecords": 5,
+      "minLength": 12,
+      "maxLength": 26
+    },
+    {
+      "path": "id",
+      "types": [
+        "number"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        153,
+        55298,
+        53114657,
+        53117349,
+        55440404
+      ],
+      "occurrenceCount": 5,
+      "totalRecords": 5,
+      "minValue": 153,
+      "maxValue": 55440404
+    },
+    {
+      "path": "interestSettings",
+      "types": [
+        "null"
+      ],
+      "nullable": true,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [],
+      "occurrenceCount": 5,
+      "totalRecords": 5
+    },
+    {
+      "path": "inUse",
+      "types": [
+        "boolean"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        true,
+        false
+      ],
+      "occurrenceCount": 5,
+      "totalRecords": 5
+    },
+    {
+      "path": "isCustomerDefault",
+      "types": [
+        "boolean"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        false,
+        true
+      ],
+      "occurrenceCount": 5,
+      "totalRecords": 5
+    },
+    {
+      "path": "isVendorDefault",
+      "types": [
+        "boolean"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        false,
+        true
+      ],
+      "occurrenceCount": 5,
+      "totalRecords": 5
+    },
+    {
+      "path": "modifiedOn",
+      "types": [
+        "string"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        "2026-01-20T19:02:55.1160828Z",
+        "2025-09-05T13:41:41.6691925Z",
+        "2024-10-01T14:31:41.6829984Z",
+        "2024-08-09T00:11:43.8296594Z",
+        "2026-01-20T19:02:55.1155946Z"
+      ],
+      "occurrenceCount": 5,
+      "totalRecords": 5,
+      "minLength": 28,
+      "maxLength": 28
+    },
+    {
+      "path": "name",
+      "types": [
+        "string"
+      ],
+      "nullable": false,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [
+        "Due Upon Receipt",
+        "NET 7",
+        "NET30",
+        "City Electric ",
+        "NET 14"
+      ],
+      "occurrenceCount": 5,
+      "totalRecords": 5,
+      "minLength": 5,
+      "maxLength": 16
+    },
+    {
+      "path": "paymentTermDiscountModel",
+      "types": [
+        "null"
+      ],
+      "nullable": true,
+      "isArray": false,
+      "isObject": false,
+      "sampleValues": [],
+      "occurrenceCount": 5,
+      "totalRecords": 5
+    }
+  ],
+  "rootStructure": "paginated",
+  "paginationFields": [
+    "page",
+    "pageSize",
+    "hasMore",
+    "totalCount"
+  ],
+  "idField": "id",
+  "timestampFields": [
+    "createdOn",
+    "modifiedOn"
+  ],
+  "relationshipFields": [],
+  "analyzedAt": "2026-01-21T14:16:42.992Z"
+}
